@@ -1,0 +1,103 @@
+{
+  "finite_modular": {
+    "bounded_coefficient_triples_tested": 125,
+    "bounded_kernel": [
+      [
+        -2,
+        -2,
+        2
+      ],
+      [
+        -1,
+        -1,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        -1
+      ],
+      [
+        2,
+        2,
+        -2
+      ]
+    ],
+    "digit_quadruples_tested": 2401,
+    "digit_second_difference_solutions": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        7,
+        7,
+        7,
+        7
+      ],
+      [
+        8,
+        8,
+        8,
+        8
+      ],
+      [
+        9,
+        9,
+        9,
+        9
+      ],
+      [
+        15,
+        15,
+        15,
+        15
+      ],
+      [
+        16,
+        16,
+        16,
+        16
+      ]
+    ],
+    "modular_ap_parameters_tested": 342,
+    "nonconstant_modular_aps": 0
+  },
+  "lifting_and_deletion": {
+    "diagonal_counts_through_m10": {
+      "1": 1,
+      "2": 5,
+      "3": 19,
+      "4": 65,
+      "5": 211,
+      "6": 665,
+      "7": 2059,
+      "8": 6305,
+      "9": 19171,
+      "10": 58025
+    },
+    "exact_deletion_choices": 75,
+    "lifted_language_sizes": {
+      "1": 7,
+      "2": 49,
+      "3": 343,
+      "4": 2401
+    }
+  },
+  "schema": "ep817-certificate-v1",
+  "status": "PASS",
+  "validator_sha256": "d7ce584c36e5b0dbe8545aa7383b1964a76050f05b6f7d8630a62f152b1cff19"
+}

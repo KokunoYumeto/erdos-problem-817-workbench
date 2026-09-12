@@ -1,0 +1,32 @@
+{
+  "schema": "ep817-public-lean-receipt-v1",
+  "status": "PASS",
+  "checked_source": "formal/lean/ErdosProblem817/Core.lean",
+  "checked_source_sha256": "459a73bed78cebd93526da3a684932262c55f674b9a0dd986dbe6e2a404493bd",
+  "project_directory": "formal/lean",
+  "command": ["lake", "env", "lean", "ErdosProblem817/Core.lean"],
+  "lean_toolchain": "leanprover/lean4:v4.32.0",
+  "mathlib_input_revision": "v4.32.0",
+  "mathlib_commit": "81a5d257c8e410db227a6665ed08f64fea08e997",
+  "run_class": "non-critical",
+  "whole_process_tree_limit_bytes": 5000000000,
+  "single_lean_worker": true,
+  "overlap_preflight": "PASS_NO_ACTIVE_LEAN_LAKE_ELAN_PROCESS",
+  "memory_limit_triggered": false,
+  "peak_lean_worker_count": 1,
+  "peak_process_tree_working_set_bytes_observed": 3843567616,
+  "peak_individual_process_working_set_bytes_observed": 3372814336,
+  "exit_code": 0,
+  "started_utc": "2026-09-12T22:25:45.6861663Z",
+  "finished_utc": "2026-09-12T22:27:28.9364165Z",
+  "axiom_report": {
+    "sorryAx_present": false,
+    "native_decide_runtime_axiom_present": false,
+    "bounded_kernel_mod19": ["propext"],
+    "digit_second_difference_rigidity": ["propext"],
+    "language_four_ap_constant": ["propext", "Classical.choice", "Quot.sound"],
+    "evaluated_blocks_four_ap_constant": ["propext", "Classical.choice", "Quot.sound"],
+    "relation_splitting": ["propext", "Classical.choice", "Quot.sound"]
+  },
+  "private_raw_receipt_sha256": "9c4a919e807686d8b256949dd7bb35a7d4dda5a6994403661c69c250acda0f2c"
+}

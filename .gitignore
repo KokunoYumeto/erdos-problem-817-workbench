@@ -1,0 +1,13 @@
+formal/lean/.lake/
+formal/lean/.olean/
+tmp/
+receipts/
+paper/*.pdf
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz

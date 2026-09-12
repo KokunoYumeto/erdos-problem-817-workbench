@@ -1,0 +1,11 @@
+{
+  "schema": "mathematics-commons-problem-v1",
+  "id": "MC-ERDOS-817-PROBLEM-001-v1.0.0",
+  "canonical_locator": "https://www.erdosproblems.com/817",
+  "objects": {
+    "subset_sum_set": "H(A)={sum_{a in A} epsilon_a a : epsilon_a in {0,1}}",
+    "extremal_function": "g_k(n)=least N admitting an n-element A subset [N] whose H(A) has no nonconstant k-term arithmetic progression"
+  },
+  "workbench_subproblem": "Determine lim_{n->infinity} g_4(n)^(1/n).",
+  "excluded_endpoint": "The highlighted k=3 question and the full family of finite/asymptotic estimates for every k are not claimed solved."
+}

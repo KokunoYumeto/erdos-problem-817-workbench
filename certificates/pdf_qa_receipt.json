@@ -1,0 +1,17 @@
+{
+  "schema": "ep817-pdf-qa-receipt-v1",
+  "status": "PASS",
+  "pdf": "output/pdf/ep817_k4_rate.pdf",
+  "pdf_sha256": "9c65a32a30b96e579926b99b4d7f3353fcd96746a54873e10bcff8400415bf1a",
+  "tex_sha256": "42e3d83822a6b9a3561003ee419f6e8257179a00e57340e1d4039bc9596af418",
+  "bibliography_sha256": "af3ddae41b6783d4f1562f98e2b008b59a67916022841e62d41646532c18d6f0",
+  "pages": 9,
+  "rendered_pages_inspected": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "visual_result": "No clipping, overlap, missing glyphs, broken equations, or unreadable references observed.",
+  "log_result": "No undefined citations, undefined references, or overfull boxes. One harmless underfull bibliography box was reported for a long public URL.",
+  "metadata": {
+    "title": "The exponential rate for four-term-progression-free subset-sum sets",
+    "author": "Anonymous/deleted Reddit contributor; The Clankers"
+  },
+  "checked_at": "2026-09-13T00:32:00+02:00"
+}

@@ -1,0 +1,7 @@
+{"from":"MC-ERDOS-817-LEM-RELATION-SPLIT-001","to":"MC-ERDOS-817-LEM-BLOCKS-001","relation":"used-to-prove-overlap-rigidity"}
+{"from":"MC-ERDOS-817-LEM-BLOCKS-001","to":"MC-ERDOS-817-LEM-SHORT-KERNEL-001","relation":"provides-disjoint-block-basis"}
+{"from":"MC-ERDOS-817-LEM-SHORT-KERNEL-001","to":"MC-ERDOS-817-EQ-TERNARY-COUNT-001","relation":"classifies-all-ternary-collisions"}
+{"from":"MC-ERDOS-817-EQ-TERNARY-COUNT-001","to":"MC-ERDOS-817-THM-001","relation":"lower-bound"}
+{"from":"MC-ERDOS-817-LEM-MOD19-KERNEL-001","to":"MC-ERDOS-817-THM-DIGIT-RIGIDITY-001","relation":"projected-second-difference-kernel"}
+{"from":"MC-ERDOS-817-THM-DIGIT-RIGIDITY-001","to":"MC-ERDOS-817-THM-LIFT-001","relation":"least-nonzero-base19-digit"}
+{"from":"MC-ERDOS-817-THM-LIFT-001","to":"MC-ERDOS-817-THM-001","relation":"upper-bound"}

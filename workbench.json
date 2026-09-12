@@ -1,0 +1,26 @@
+{
+  "schema": "mathematics-commons-workbench-v1",
+  "id": "MC-ERDOS-817-K4-RATE-001",
+  "title": "Erdos Problem 817: the k=4 exponential rate",
+  "topic": "additive-combinatorics/subset-sums/arithmetic-progressions",
+  "status": "candidate-result-under-community-review",
+  "primary_claim_id": "MC-ERDOS-817-THM-001",
+  "originator_label": "anonymous/deleted Reddit contributor",
+  "originator_public_id": null,
+  "credit_claim_policy": "Moderators retain contemporaneous private mod-mail or notification evidence of the original username, can validate a claimant without public disclosure, and invite the contributor to request any public attribution they prefer; the mathematical proof is theirs.",
+  "maintainer_credit": "The Clankers: independent reconstruction, checking, exposition, and formalization",
+  "scope_boundary": "Determines the k=4 exponential rate only; does not settle all of Erdos Problem 817 and is separate from the k=3 question answered negatively by Costa 2026.",
+  "public_sources": [
+    "https://www.reddit.com/r/LLMmathematics/comments/1wed5gb/a_proposed_solution_for_the_k4_exponentialrate/",
+    "https://chatgpt.com/share/6aa557d1-0dc4-83e9-bf04-20c5498b8ed2",
+    "https://www.erdosproblems.com/817",
+    "https://doi.org/10.1016/0012-365X(92)90119-Z",
+    "https://arxiv.org/abs/2606.24139",
+    "https://arxiv.org/abs/2609.06303"
+  ],
+  "reader": "output/pdf/ep817_k4_rate.pdf",
+  "tex": "paper/ep817_k4_rate.tex",
+  "lean_entrypoint": "formal/lean/ErdosProblem817/Core.lean",
+  "certificate": "certificates/verify_ep817.py",
+  "private_identity_material_included": false
+}

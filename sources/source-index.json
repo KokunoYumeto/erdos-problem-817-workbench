@@ -1,0 +1,54 @@
+{
+  "schema": "ep817-public-source-index-v1",
+  "privacy": {
+    "deleted_username_published": false,
+    "private_search_trace_published": false,
+    "claim_validation": "Moderators retain contemporaneous private mod-mail or notification evidence of the original username, can validate a claimant without public disclosure, and invite the contributor to request any public attribution they prefer; the mathematical proof is theirs."
+  },
+  "sources": [
+    {
+      "id": "MC-ERDOS-817-SOURCE-REDDIT-001",
+      "type": "public-post",
+      "creator": "anonymous/deleted Reddit contributor",
+      "role": "proof construction and proof route",
+      "url": "https://www.reddit.com/r/LLMmathematics/comments/1wed5gb/a_proposed_solution_for_the_k4_exponentialrate/",
+      "intake_capture_sha256": "a55965fbe17305cf7a11ff02135df4d5739cbb238e61b332c651a3dbdaa24f58"
+    },
+    {
+      "id": "MC-ERDOS-817-SOURCE-CHATGPT-001",
+      "type": "public-chat-share",
+      "creator": "anonymous/deleted Reddit contributor and ChatGPT",
+      "role": "conversation provenance linked by the contributor",
+      "url": "https://chatgpt.com/share/6aa557d1-0dc4-83e9-bf04-20c5498b8ed2",
+      "retrieval_status": "inaccessible at recheck on 2026-09-13"
+    },
+    {
+      "id": "MC-ERDOS-817-SOURCE-ERDOS-SARKOZY-1992",
+      "type": "published-literature",
+      "creator": "Paul Erdos and Andras Sarkozy",
+      "role": "problem lineage",
+      "doi": "10.1016/0012-365X(92)90119-Z"
+    },
+    {
+      "id": "MC-ERDOS-817-SOURCE-KORSKY-2026",
+      "type": "preprint",
+      "creator": "Samuel Korsky",
+      "role": "current general lower and upper bounds and notation crosswalk",
+      "arxiv": "2606.24139v1"
+    },
+    {
+      "id": "MC-ERDOS-817-SOURCE-COSTA-2026",
+      "type": "preprint",
+      "creator": "Simone Costa",
+      "role": "separate k=3 scope context; no proof dependency",
+      "arxiv": "2609.06303v1"
+    },
+    {
+      "id": "MC-ERDOS-817-SOURCE-CATALOGUE-001",
+      "type": "living-problem-catalogue",
+      "creator": "Thomas F. Bloom",
+      "role": "problem statement and current public status",
+      "url": "https://www.erdosproblems.com/817"
+    }
+  ]
+}
