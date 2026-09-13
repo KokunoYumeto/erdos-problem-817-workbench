@@ -9,3 +9,4 @@ rev = "v4.32.0"
 
 [[lean_lib]]
 name = "ErdosProblem817"
+globs = ["ErdosProblem817.+"]
