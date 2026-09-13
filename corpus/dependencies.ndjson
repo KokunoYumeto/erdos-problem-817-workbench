@@ -4,4 +4,5 @@
 {"from":"MC-ERDOS-817-EQ-TERNARY-COUNT-001","to":"MC-ERDOS-817-THM-001","relation":"lower-bound"}
 {"from":"MC-ERDOS-817-LEM-MOD19-KERNEL-001","to":"MC-ERDOS-817-THM-DIGIT-RIGIDITY-001","relation":"projected-second-difference-kernel"}
 {"from":"MC-ERDOS-817-THM-DIGIT-RIGIDITY-001","to":"MC-ERDOS-817-THM-LIFT-001","relation":"least-nonzero-base19-digit"}
-{"from":"MC-ERDOS-817-THM-LIFT-001","to":"MC-ERDOS-817-THM-001","relation":"upper-bound"}
+{"from":"MC-ERDOS-817-THM-LIFT-001","to":"MC-ERDOS-817-THM-FINITE-UPPER-001","relation":"generator-cardinality-positivity-bound-and-subset-heredity"}
+{"from":"MC-ERDOS-817-THM-FINITE-UPPER-001","to":"MC-ERDOS-817-THM-001","relation":"upper-bound"}

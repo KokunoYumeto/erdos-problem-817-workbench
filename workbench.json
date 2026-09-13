@@ -9,6 +9,14 @@
   "originator_public_id": null,
   "credit_claim_policy": "Moderators retain contemporaneous private mod-mail or notification evidence of the original username, can validate a claimant without public disclosure, and invite the contributor to request any public attribution they prefer; the mathematical proof is theirs.",
   "maintainer_credit": "The Clankers: independent reconstruction, checking, exposition, and formalization",
+  "formal_contributors": [
+    {
+      "public_id": "sneed-and-feed",
+      "contribution": "Extended Lean formalization of the finite-generator construction and the upper bound for every positive n",
+      "pull_request": "https://github.com/KokunoYumeto/erdos-problem-817-workbench/pull/1",
+      "reviewed_commit": "155523c57cf7576ae86304af02bc073f2567b8d0"
+    }
+  ],
   "scope_boundary": "Determines the k=4 exponential rate only; does not settle all of Erdos Problem 817 and is separate from the k=3 question answered negatively by Costa 2026.",
   "public_sources": [
     "https://www.reddit.com/r/LLMmathematics/comments/1wed5gb/a_proposed_solution_for_the_k4_exponentialrate/",
@@ -16,11 +24,20 @@
     "https://www.erdosproblems.com/817",
     "https://doi.org/10.1016/0012-365X(92)90119-Z",
     "https://arxiv.org/abs/2606.24139",
-    "https://arxiv.org/abs/2609.06303"
+    "https://arxiv.org/abs/2609.06303",
+    "https://github.com/KokunoYumeto/erdos-problem-817-workbench/pull/1"
   ],
   "reader": "output/pdf/ep817_k4_rate.pdf",
   "tex": "paper/ep817_k4_rate.tex",
   "lean_entrypoint": "formal/lean/ErdosProblem817/Core.lean",
+  "lean_modules": [
+    "formal/lean/ErdosProblem817/Core.lean",
+    "formal/lean/ErdosProblem817/Extended.lean"
+  ],
+  "lean_receipts": [
+    "certificates/lean_core_receipt.json",
+    "certificates/lean_extended_receipt.json"
+  ],
   "certificate": "certificates/verify_ep817.py",
   "private_identity_material_included": false
 }

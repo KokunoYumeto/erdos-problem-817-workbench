@@ -32,7 +32,7 @@
   \small proof construction\\[3pt]
   The Clankers\\
   \small independent reconstruction, verification, and formalization}
-\date{12 September 2026}
+\date{13 September 2026}
 
 \begin{document}
 \maketitle
@@ -523,7 +523,7 @@ nineteen ternary classes requires the ambient four-progression-free hypothesis
 and the complete short-kernel classification.  It is not a statement about an
 arbitrary triple with one visible signed relation.
 
-The accompanying Lean 4 module certifies, without `sorry`, the following exact
+The accompanying Lean 4 modules certify, without \texttt{sorry}, the following exact
 claims:
 \begin{enumerate}[label=(\roman*)]
   \item the bounded kernel in Lemma~\ref{lem:mod-kernel};
@@ -531,9 +531,23 @@ claims:
   \item the recursive base-19 lift for every word length;
   \item the identification of each binary block choice with one of the seven
         digits;
-  \item the relation-splitting algebra in Lemma~\ref{lem:split}.
+  \item the relation-splitting algebra in Lemma~\ref{lem:split};
+  \item the distinctness and positivity of the $3m$ generators, their exact
+        subset-sum representation by binary block choices, and the bound
+        $\max A_m\le8\,19^{m-1}$ for $m\ge1$;
+  \item the passage to an $n$-element subcollection, proving the finite upper
+        bound \eqref{eq:upper} for every positive integer $n$.
 \end{enumerate}
-The Lean module does not yet certify the full minimal-block decomposition, the
+The extension from the digit language to the finite-generator upper bound was
+formalized by \href{https://github.com/sneed-and-feed}{\texttt{sneed-and-feed}}
+in \href{https://github.com/KokunoYumeto/erdos-problem-817-workbench/pull/1}{pull request~1}.
+The construction and mathematical proof remain those of the original
+anonymous contributor.  Both modules were independently elaborated with
+Lean~4.32.0 and the pinned Mathlib dependency; the axiom audit of all $44$
+theorem declarations in the extension reports only \texttt{propext},
+\texttt{Classical.choice}, and \texttt{Quot.sound}, or subsets thereof.
+
+The Lean modules do not yet certify the full minimal-block decomposition, the
 global product cardinality in \eqref{eq:ternary-count}, or the real-asymptotic
 squeeze.  Those parts are proved in ordinary mathematics in this note and are
 not mislabeled as Lean-complete.

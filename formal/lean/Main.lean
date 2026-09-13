@@ -1,1 +1,1 @@
-import ErdosProblem817.Core
+import ErdosProblem817.Extended

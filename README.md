@@ -18,6 +18,16 @@ central algebraic and base-19 components in Lean. This is a result about the
 `k = 4` exponential-rate subproblem, not a solution of every part of Erdős
 Problem 817 and not an Erdős-Straus artifact.
 
+The Lean contribution by [sneed-and-feed](https://github.com/sneed-and-feed)
+in [pull request #1](https://github.com/KokunoYumeto/erdos-problem-817-workbench/pull/1)
+extends the formalization from the digit language to the actual finite set of
+distinct positive generators. Its main theorem states the upper bound for
+every positive integer `n`, including the passage from complete three-generator
+blocks to an `n`-element subcollection. This is a formalization of the existing
+construction; the original mathematical attribution is unchanged. The
+independent build and all 44 theorem axiom checks passed; see
+[verification status](STATUS.md).
+
 ## Read first
 
 - [Complete human-readable proof](output/pdf/ep817_k4_rate.pdf).
@@ -25,6 +35,8 @@ Problem 817 and not an Erdős-Straus artifact.
 - [Verification status](STATUS.md) - exact ordinary-proof, Lean, computation, literature, and
   novelty status.
 - [Checked Lean core](formal/lean/ErdosProblem817/Core.lean).
+- [Finite-generator construction and upper-bound formalization](formal/lean/ErdosProblem817/Extended.lean).
+- [Pull request review](reviews/pr1-integration.md).
 - [Deterministic finite checks](certificates/verify_ep817.py).
 - [Public provenance records](sources/) - no private identity material.
 
@@ -55,8 +67,19 @@ checks that Python assertions are enabled. Lean is pinned in
 ```console
 cd formal/lean
 lake exe cache get
-lake env lean ErdosProblem817/Core.lean
+lake build ErdosProblem817.Core
+lake build ErdosProblem817.Extended
+lake env lean Main.lean
+lake env lean Audit.lean
 ```
+
+Run the two build commands sequentially. `Audit.lean` imports the extension and
+prints the axiom dependencies of every theorem in Extended. The Core and
+Extended checks have separate content-addressed records in
+`certificates/lean_core_receipt.json` and
+`certificates/lean_extended_receipt.json`; the state validator checks both.
+The written lower-bound argument and real asymptotic squeeze are not covered
+by the finite-upper-bound formalization.
 
 To rebuild the paper with a TeX distribution containing `latexmk`:
 
@@ -76,7 +99,7 @@ python scripts/validate_workbench_state.py
 ## Review posture
 
 The ordinary proof is complete and has been independently reconstructed and
-adversarially rechecked; the checkable evidence is the paper, formal module,
+adversarially rechecked; the checkable evidence is the paper, formal modules,
 and certificates above. Simone Costa's arXiv:2609.06303v1 separately answers
 the historical `k = 3` lower-bound question negatively. This `k = 4` workbench
 makes no novelty or priority claim. Community review, provenance corrections,

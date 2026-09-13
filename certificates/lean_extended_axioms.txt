@@ -1,0 +1,50 @@
+'ErdosProblem817.relation_splitting_golfed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.relation_splitting_eq₂' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.relation_splitting_eq₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.FourAPFree.subset' does not depend on any axioms
+'ErdosProblem817.fourAPFree_mono' does not depend on any axioms
+'ErdosProblem817.fourAPFree_empty' does not depend on any axioms
+'ErdosProblem817.fourAPFree_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.fourAPFree_image_add_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.fourAPFree_image_const_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.fourAPFree_preimage_add_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.fourAPFree_iff_fourTermProgression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.fourAPFree_iff_not_exists' does not depend on any axioms
+'ErdosProblem817.language_fourAPFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.evaluatedBlocksSet_fourAPFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.evaluatedBlocks_subset_fourAPFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.finsetToBlock_blockToFinset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockToFinset_finsetToBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.card_blockChoice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockValue_surjective_digits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockValue_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockValue_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockValue_finsetToBlock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.subsetSums_mono' depends on axioms: [propext, Quot.sound]
+'ErdosProblem817.fourAPFree_subsetSums_of_subset' depends on axioms: [propext, Quot.sound]
+'ErdosProblem817.blockWeights_pos' depends on axioms: [propext]
+'ErdosProblem817.blockWeights_le_eight' depends on axioms: [propext]
+'ErdosProblem817.blockWeights_injective' depends on axioms: [propext]
+'ErdosProblem817.one_le_pow_nineteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.pow_nineteen_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockGenerator_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.generators_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.generators_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockGenerator_ne_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.blockGenerator_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.generators_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.card_generators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.evaluateBlocks_ofFn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.generators_preimage_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.sum_generators_eq_sum_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.sum_filter_eq_double_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.mul_blockValue_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.subsetSums_generators_subset_evaluatedBlocksSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ErdosProblem817.generators_fourAPFree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem817.erdos_problem_817_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ErdosProblem817.erdos_problem_817_upper_bound (n : ℕ) (hn : 0 < n) :
+  ∃ B,
+    B.card = n ∧
+      (∀ b ∈ B, 1 ≤ b ∧ b ≤ 8 * 19 ^ ((n + 2) / 3 - 1)) ∧ ErdosProblem817.FourAPFree (ErdosProblem817.subsetSums B)

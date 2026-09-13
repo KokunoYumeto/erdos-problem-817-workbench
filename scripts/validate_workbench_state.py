@@ -12,8 +12,11 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
+import re
 import sys
 import tomllib
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -114,13 +117,13 @@ def load_toml(path: Path) -> dict[str, Any]:
 
 def public_structured_files(root: Path) -> list[Path]:
     files: list[Path] = []
-    for path in root.rglob("*"):
-        if not path.is_file() or path.suffix.lower() not in STRUCTURED_SUFFIXES:
-            continue
-        relative_parts = path.relative_to(root).parts
-        if any(part in EXCLUDED_DIRECTORY_NAMES for part in relative_parts[:-1]):
-            continue
-        files.append(path)
+    # Prune caches before traversing them, not after a repository-wide walk.
+    for directory, dirs, names in os.walk(root, followlinks=False):
+        dirs[:] = sorted(name for name in dirs if name not in EXCLUDED_DIRECTORY_NAMES)
+        for name in names:
+            path = Path(directory) / name
+            if path.suffix.lower() in STRUCTURED_SUFFIXES:
+                files.append(path)
     return sorted(files, key=lambda item: relative_name(root, item))
 
 
@@ -266,6 +269,81 @@ def validate(root: Path) -> dict[str, Any]:
             f"actual={actual_lean_digest}"
         )
 
+    # The historical Core receipt remains immutable. A second receipt covers
+    # Extended, its exact imports/configuration, and the full printed axiom audit.
+    modules = workbench.get("lean_modules")
+    receipts = workbench.get("lean_receipts")
+    require(modules == ["formal/lean/ErdosProblem817/Core.lean",
+                        "formal/lean/ErdosProblem817/Extended.lean"],
+            "lean_modules must declare both reviewed modules")
+    require(receipts == [LEAN_RECEIPT_FILE, "certificates/lean_extended_receipt.json"],
+            "lean_receipts must declare both verification receipts")
+    extended_receipt = parsed_value(parsed, root / receipts[1])
+    require(isinstance(extended_receipt, dict), "Extended receipt root is not an object")
+    require(extended_receipt.get("status") == "PASS", "Extended receipt did not pass")
+    require(extended_receipt.get("checked_source") == modules[1], "Extended source mismatch")
+    audited_files = extended_receipt.get("source_sha256", {})
+    required_audited = set(modules + ["formal/lean/Audit.lean", "formal/lean/Main.lean",
+                                    "formal/lean/lean-toolchain", "formal/lean/lakefile.toml",
+                                    "formal/lean/lake-manifest.json"])
+    require(set(audited_files) == required_audited, "Extended receipt input inventory mismatch")
+    for name, recorded in audited_files.items():
+        actual = sha256(resolve_declared_file(root, name, "audited Lean input"))
+        require(actual == recorded, f"Extended receipt hash mismatch: {name}")
+    runs = extended_receipt.get("runs", [])
+    require([run.get("target") for run in runs] == ["Core", "Extended", "Main", "Audit"],
+            "Extended receipt must record all four serial checks")
+    previous_finish = None
+    for run in runs:
+        require(run.get("exit_code") == 0 and run.get("reason") == "process_exited"
+                and run.get("source_unchanged") is True,
+                f"Unsuccessful Lean run: {run.get('target')}")
+        require(run.get("single_worker") is True and run.get("overlap_preflight") == "clear",
+                "Lean run lacks a clear single-worker preflight")
+        expected_source = ("ErdosProblem817/" if run["target"] in {"Core", "Extended"}
+                           else "") + run["target"] + ".lean"
+        require(run.get("checked_source") == expected_source
+                and run.get("source_sha256", "").lower()
+                    == audited_files["formal/lean/" + expected_source],
+                "Lean run source does not match the audited input")
+        try:
+            start = datetime.fromisoformat(run["started_utc"].replace("Z", "+00:00"))
+            finish = datetime.fromisoformat(run["finished_utc"].replace("Z", "+00:00"))
+            require(start.utcoffset() is not None and finish.utcoffset() is not None,
+                    "Lean timestamps must have timezones")
+            require(start < finish and (finish - start).total_seconds() <= 610,
+                    "Invalid or out-of-scope Lean duration")
+            require(previous_finish is None or start >= previous_finish,
+                    "Lean runs overlap")
+            previous_finish = finish
+        except (KeyError, TypeError, ValueError) as exc:
+            raise ValidationFailure("Invalid Lean run timestamps") from exc
+        require(0 < run.get("peak_working_set_bytes", 0) < run.get("limit_bytes", 0)
+                <= 5000000000, "Lean run exceeded declared memory scope")
+    axiom_map = extended_receipt.get("axiom_report", {})
+    audit_text = (root / "formal/lean/Audit.lean").read_text(encoding="utf-8")
+    expected_names = re.findall(r"^#print axioms (\S+)$", audit_text, re.MULTILINE)
+    extended_text = (root / modules[1]).read_text(encoding="utf-8")
+    declarations = re.findall(r"^(?:theorem|lemma)\s+(\S+)", extended_text, re.MULTILINE)
+    require(len(expected_names) == len(set(expected_names)) == 44
+            and set(expected_names) == {"ErdosProblem817." + name for name in declarations},
+            "Audit must print each of the 44 Extended theorem declarations exactly once")
+    require(set(axiom_map) == set(expected_names), "Axiom report theorem inventory mismatch")
+    axiom_log = resolve_declared_file(root, extended_receipt.get("axiom_log"), "axiom log")
+    require(sha256(axiom_log) == extended_receipt.get("axiom_log_sha256"),
+            "Axiom output hash mismatch")
+    log_reports = re.findall(r"'([^']+)' (?:depends on axioms:\s*\[([^]]*)\]|does not depend on any axioms)",
+                             axiom_log.read_text(encoding="utf-8"))
+    parsed_axioms = {name: [a.strip() for a in items.split(",") if a.strip()]
+                     for name, items in log_reports}
+    require(len(log_reports) == len(parsed_axioms) == 44 and parsed_axioms == axiom_map,
+            "Recorded axiom dependencies differ from the full Lean output")
+    allowed_axioms = {"propext", "Classical.choice", "Quot.sound"}
+    for theorem, axioms in axiom_map.items():
+        require(set(axioms) <= allowed_axioms, f"Unexpected axiom in {theorem}")
+    require("ErdosProblem817.erdos_problem_817_upper_bound" in axiom_map,
+            "Missing finite upper bound axiom report")
+
     pdf_path = resolved_declared["reader"]
     require(pdf_path.suffix.lower() == ".pdf", "reader path is not a PDF")
     pdf_size = pdf_path.stat().st_size
@@ -284,6 +362,8 @@ def validate(root: Path) -> dict[str, Any]:
             "source_ids_unique": len(source_ids),
             "finite_validator_sha256": validator_digest,
             "lean_source_sha256": actual_lean_digest,
+            "lean_modules_verified": modules,
+            "extended_axiom_reports": len(axiom_map),
             "pdf": {
                 "path": relative_name(root, pdf_path),
                 "size_bytes": pdf_size,

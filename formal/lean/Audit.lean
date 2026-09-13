@@ -1,0 +1,51 @@
+import ErdosProblem817.Extended
+
+/-! Reproducible transitive axiom inventory for every theorem introduced by PR #1. -/
+
+#print axioms ErdosProblem817.relation_splitting_golfed
+#print axioms ErdosProblem817.relation_splitting_eq₂
+#print axioms ErdosProblem817.relation_splitting_eq₁
+#print axioms ErdosProblem817.FourAPFree.subset
+#print axioms ErdosProblem817.fourAPFree_mono
+#print axioms ErdosProblem817.fourAPFree_empty
+#print axioms ErdosProblem817.fourAPFree_singleton
+#print axioms ErdosProblem817.fourAPFree_image_add_const
+#print axioms ErdosProblem817.fourAPFree_image_const_add
+#print axioms ErdosProblem817.fourAPFree_preimage_add_const
+#print axioms ErdosProblem817.fourAPFree_iff_fourTermProgression
+#print axioms ErdosProblem817.fourAPFree_iff_not_exists
+#print axioms ErdosProblem817.language_fourAPFree
+#print axioms ErdosProblem817.evaluatedBlocksSet_fourAPFree
+#print axioms ErdosProblem817.evaluatedBlocks_subset_fourAPFree
+#print axioms ErdosProblem817.finsetToBlock_blockToFinset
+#print axioms ErdosProblem817.blockToFinset_finsetToBlock
+#print axioms ErdosProblem817.card_blockChoice
+#print axioms ErdosProblem817.blockValue_surjective_digits
+#print axioms ErdosProblem817.blockValue_collision
+#print axioms ErdosProblem817.blockValue_eq_sum
+#print axioms ErdosProblem817.blockValue_finsetToBlock
+#print axioms ErdosProblem817.subsetSums_mono
+#print axioms ErdosProblem817.fourAPFree_subsetSums_of_subset
+#print axioms ErdosProblem817.blockWeights_pos
+#print axioms ErdosProblem817.blockWeights_le_eight
+#print axioms ErdosProblem817.blockWeights_injective
+#print axioms ErdosProblem817.one_le_pow_nineteen
+#print axioms ErdosProblem817.pow_nineteen_mono
+#print axioms ErdosProblem817.blockGenerator_pos
+#print axioms ErdosProblem817.generators_pos
+#print axioms ErdosProblem817.generators_le
+#print axioms ErdosProblem817.blockGenerator_ne_of_lt
+#print axioms ErdosProblem817.blockGenerator_injective
+#print axioms ErdosProblem817.generators_injective
+#print axioms ErdosProblem817.card_generators
+#print axioms ErdosProblem817.evaluateBlocks_ofFn
+#print axioms ErdosProblem817.generators_preimage_image
+#print axioms ErdosProblem817.sum_generators_eq_sum_filter
+#print axioms ErdosProblem817.sum_filter_eq_double_sum
+#print axioms ErdosProblem817.mul_blockValue_eq_sum
+#print axioms ErdosProblem817.subsetSums_generators_subset_evaluatedBlocksSet
+#print axioms ErdosProblem817.generators_fourAPFree
+#print axioms ErdosProblem817.erdos_problem_817_upper_bound
+
+#check ErdosProblem817.erdos_problem_817_upper_bound
+

@@ -1,0 +1,311 @@
+{
+  "schema": "ep817-public-lean-extension-receipt-v1",
+  "status": "PASS",
+  "checked_source": "formal/lean/ErdosProblem817/Extended.lean",
+  "reviewed_pr": "https://github.com/KokunoYumeto/erdos-problem-817-workbench/pull/1",
+  "reviewed_commit": "155523c57cf7576ae86304af02bc073f2567b8d0",
+  "toolchain": "leanprover/lean4:v4.32.0",
+  "dependency_heads": {
+    "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94"
+  },
+  "source_sha256": {
+    "formal/lean/ErdosProblem817/Core.lean": "459a73bed78cebd93526da3a684932262c55f674b9a0dd986dbe6e2a404493bd",
+    "formal/lean/ErdosProblem817/Extended.lean": "3415786cf942e93b84689380ea229fb095f00780f1ff79267980e1fafddcdffb",
+    "formal/lean/Audit.lean": "180026fe927a812bffcd0ec71557809de3aab1349ab6793f51d23fe0296099ad",
+    "formal/lean/Main.lean": "aeec0ba4e5e3447e349c614bea3af2f6e4f19abb6a0e10a428db235000db751d",
+    "formal/lean/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+    "formal/lean/lakefile.toml": "d7c6d0e730983f48f836f2cc00a709f6cd0ef99adb035deda3e2a24bdd5076b4",
+    "formal/lean/lake-manifest.json": "93f8df869a372d2689f43ee86773acb56f058eaea7ebf77d9c9179b8c10ff720"
+  },
+  "method": "Fresh direct Lean elaboration, serially Core, Extended, Main, Audit; fresh local Core/Extended olean files precede the pinned cached dependency library paths in LEAN_PATH.",
+  "command_template": "lean -j1 -M4000 -o <fresh-local-lib>/<module>.olean <module>.lean",
+  "dependency_scope": "All dependency checkout HEADs match lake-manifest.json; cached dependency oleans were reused, not rebuilt.",
+  "runs": [
+    {
+      "target": "Core",
+      "checked_source": "ErdosProblem817/Core.lean",
+      "source_sha256": "459A73BED78CEBD93526DA3A684932262C55F674B9A0DD986DBE6E2A404493BD",
+      "source_unchanged": true,
+      "exit_code": 0,
+      "reason": "process_exited",
+      "limit_bytes": 5000000000,
+      "trigger_bytes": 4700000000,
+      "peak_working_set_bytes": 3475734528,
+      "peak_private_bytes": 8267292672,
+      "single_worker": true,
+      "overlap_preflight": "clear",
+      "started_utc": "2026-09-13T19:59:15.1572806Z",
+      "finished_utc": "2026-09-13T20:00:35.8258861Z",
+      "lean_internal_limit_mb": 4000,
+      "timeout_seconds": 600,
+      "watcher": "sampled process-tree working set with early preemption; not a kernel-enforced hard ceiling"
+    },
+    {
+      "target": "Extended",
+      "checked_source": "ErdosProblem817/Extended.lean",
+      "source_sha256": "3415786CF942E93B84689380EA229FB095F00780F1FF79267980E1FAFDDCDFFB",
+      "source_unchanged": true,
+      "exit_code": 0,
+      "reason": "process_exited",
+      "limit_bytes": 5000000000,
+      "trigger_bytes": 4700000000,
+      "peak_working_set_bytes": 3342389248,
+      "peak_private_bytes": 8243261440,
+      "single_worker": true,
+      "overlap_preflight": "clear",
+      "started_utc": "2026-09-13T20:03:47.8555370Z",
+      "finished_utc": "2026-09-13T20:04:03.8574429Z",
+      "lean_internal_limit_mb": 4000,
+      "timeout_seconds": 600,
+      "watcher": "sampled process-tree working set with early preemption; not a kernel-enforced hard ceiling"
+    },
+    {
+      "target": "Main",
+      "checked_source": "Main.lean",
+      "source_sha256": "AEEC0BA4E5E3447E349C614BEA3AF2F6E4F19ABB6A0E10A428DB235000DB751D",
+      "source_unchanged": true,
+      "exit_code": 0,
+      "reason": "process_exited",
+      "limit_bytes": 5000000000,
+      "trigger_bytes": 4700000000,
+      "peak_working_set_bytes": 3274440704,
+      "peak_private_bytes": 8224972800,
+      "single_worker": true,
+      "overlap_preflight": "clear",
+      "started_utc": "2026-09-13T20:08:58.4224912Z",
+      "finished_utc": "2026-09-13T20:09:11.5366729Z",
+      "lean_internal_limit_mb": 4000,
+      "timeout_seconds": 600,
+      "watcher": "sampled process-tree working set with early preemption; not a kernel-enforced hard ceiling"
+    },
+    {
+      "target": "Audit",
+      "checked_source": "Audit.lean",
+      "source_sha256": "180026FE927A812BFFCD0EC71557809DE3AAB1349AB6793F51D23FE0296099AD",
+      "source_unchanged": true,
+      "exit_code": 0,
+      "reason": "process_exited",
+      "limit_bytes": 5000000000,
+      "trigger_bytes": 4700000000,
+      "peak_working_set_bytes": 3279908864,
+      "peak_private_bytes": 8224026624,
+      "single_worker": true,
+      "overlap_preflight": "clear",
+      "started_utc": "2026-09-13T20:09:35.2404433Z",
+      "finished_utc": "2026-09-13T20:09:48.5844775Z",
+      "lean_internal_limit_mb": 4000,
+      "timeout_seconds": 600,
+      "watcher": "sampled process-tree working set with early preemption; not a kernel-enforced hard ceiling"
+    }
+  ],
+  "axiom_report": {
+    "ErdosProblem817.relation_splitting_golfed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.relation_splitting_eq₂": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.relation_splitting_eq₁": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.FourAPFree.subset": [],
+    "ErdosProblem817.fourAPFree_mono": [],
+    "ErdosProblem817.fourAPFree_empty": [],
+    "ErdosProblem817.fourAPFree_singleton": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.fourAPFree_image_add_const": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.fourAPFree_image_const_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.fourAPFree_preimage_add_const": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.fourAPFree_iff_fourTermProgression": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.fourAPFree_iff_not_exists": [],
+    "ErdosProblem817.language_fourAPFree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.evaluatedBlocksSet_fourAPFree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.evaluatedBlocks_subset_fourAPFree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.finsetToBlock_blockToFinset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockToFinset_finsetToBlock": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.card_blockChoice": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockValue_surjective_digits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockValue_collision": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockValue_eq_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockValue_finsetToBlock": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.subsetSums_mono": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.fourAPFree_subsetSums_of_subset": [
+      "propext",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockWeights_pos": [
+      "propext"
+    ],
+    "ErdosProblem817.blockWeights_le_eight": [
+      "propext"
+    ],
+    "ErdosProblem817.blockWeights_injective": [
+      "propext"
+    ],
+    "ErdosProblem817.one_le_pow_nineteen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.pow_nineteen_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockGenerator_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.generators_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.generators_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockGenerator_ne_of_lt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.blockGenerator_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.generators_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.card_generators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.evaluateBlocks_ofFn": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.generators_preimage_image": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.sum_generators_eq_sum_filter": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.sum_filter_eq_double_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.mul_blockValue_eq_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.subsetSums_generators_subset_evaluatedBlocksSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.generators_fourAPFree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "ErdosProblem817.erdos_problem_817_upper_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "axiom_log": "certificates/lean_extended_axioms.txt",
+  "axiom_log_sha256": "3441a7d1332955c3bdb5952d2a18e2210415ede813b657c9c120d46b102776c5",
+  "resource_scope": "Sampled physical process-tree working set, five billion bytes ceiling with 4.7 billion early preemption. Single worker, 600 second timeout. Not a kernel-enforced ceiling. Private-byte diagnostics are not physical working-set measurements.",
+  "scope": "Full finite positive-generator upper bound and all 44 extension theorem declarations. Does not certify the written lower bound or real asymptotic squeeze."
+}
