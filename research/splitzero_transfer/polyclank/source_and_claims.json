@@ -1,0 +1,205 @@
+{
+  "claims": [
+    {
+      "boundary": "No uniform extremal packing inequality is inferred",
+      "domain": "Every integer radix sequence >=2; every finite-dimensional given coefficient metric",
+      "finite_evidence": "matrix identities, primitive checks, telescoping budget",
+      "id": "SX1",
+      "proof_location": "Sections 2 and 4",
+      "statement": "All mixed-radix relation operators have the dimension-uniform Hilbert inverse and weighted-sup inverse"
+    },
+    {
+      "boundary": "The old raw completion and the graph completion have different comparison kernels",
+      "domain": "Complexified finite-support source; actual evaluation included in graph norm",
+      "finite_evidence": "finite homotopy and Gram identities, escape sequence, section secants",
+      "id": "SX2",
+      "proof_location": "Section 5",
+      "statement": "The graph completion retains the original arithmetic endpoint and has the displayed contraction"
+    },
+    {
+      "boundary": "No finite controller bound on the outer class of all blocks is claimed",
+      "domain": "Every fixed nonempty finite set of distinct positive integers; every k>=3",
+      "finite_evidence": "complete fixed-block controller, independently enumerated transition profiles, potential and cycle certificates",
+      "id": "SX3",
+      "proof_location": "Sections 7 and 8",
+      "statement": "All infinite canonical radix schedules for a fixed block have a finite computable periodic optimum"
+    },
+    {
+      "boundary": "Augmented systems use inverse truncation; original systems use padding",
+      "domain": "Every finite mixed-radix prefix; integer coefficients",
+      "finite_evidence": "basis identities, augmented padding defect, terminal carries, socles",
+      "id": "SX4",
+      "proof_location": "Section 2",
+      "statement": "Original and augmented integral quotient sequences with explicit primitives and terminal defect"
+    },
+    {
+      "boundary": "The digit section is a set map with a retained cocycle",
+      "domain": "Every infinite integer radix sequence >=2",
+      "finite_evidence": "30940 finite addition pairs, 1260 cocycle triples, 32 nonterminating prefixes",
+      "id": "SX5",
+      "proof_location": "Section 3",
+      "statement": "Integral inverse-limit quotient and its continuous digit section with bounded additive cocycle"
+    },
+    {
+      "boundary": "The full Zeta observation kernel remains in the residual complex",
+      "domain": "Specified finite coefficient quotient and its original Gram",
+      "finite_evidence": "395 radix sequences,128 monic polynomial examples",
+      "id": "SX6",
+      "proof_location": "Sections 5 and 6",
+      "statement": "Full graph completion, original metric return and monic-presentation homotopy comparison"
+    },
+    {
+      "boundary": "The all-base conclusion follows from the literal second-difference bound",
+      "domain": "Fixed A and its actual digit set; full canonical carry cube",
+      "finite_evidence": "486 complete transition-profile comparisons in the applied block",
+      "id": "SX7",
+      "proof_location": "Section 8",
+      "statement": "All bases at least 2S(A)+2 have identical labeled canonical carry transfers"
+    },
+    {
+      "boundary": "The optimal rates are within this fixed-block family",
+      "domain": "A*={1,4,5,17,21,22}; every infinite sequence of radices >70",
+      "finite_evidence": "27 and81 total returning sections; safe lists;57 and52 actual failure witnesses",
+      "id": "SX8",
+      "proof_location": "Section 9",
+      "statement": "Exact all-radix classification for A* at k=5 and k=6"
+    },
+    {
+      "boundary": "Not a new best global k=5 upper bound",
+      "domain": "All infinite canonical mixed-radix schedules for this block",
+      "finite_evidence": "4states,30edges,25cycles,integer potential(7,10),period(14,20)",
+      "id": "SX9",
+      "proof_location": "Section 8.1",
+      "statement": "Strictly improved periodic optimum gamma_5({1,4,8})=280^(1/6)"
+    },
+    {
+      "boundary": "The unbounded outer infimum is not evaluated",
+      "domain": "All distinct positive finite generator blocks and fixed k>=3",
+      "finite_evidence": "Original exact composition proof recalled; general maps proved in note",
+      "id": "SX10",
+      "proof_location": "Section 10",
+      "statement": "Global rate equals infimum of the exactly computed fixed-block capacities"
+    }
+  ],
+  "ep817_base_commit": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+  "excluded_claims": [
+    "Full resolution of Erd\u0151s Problem 817",
+    "A proof of RH",
+    "Uniform arithmetic weight estimates imported from Zeta",
+    "A global improvement from the 280-base example",
+    "New Lean verification"
+  ],
+  "prior_contributions": [
+    {
+      "credit": "Anonymous/deleted Reddit contributor",
+      "name": "Original k=4 construction and signed-block argument",
+      "role": "Credit retained; not a premise of the new relation/capacity theorems"
+    },
+    {
+      "credit": "sneed-and-feed",
+      "name": "Finite upper-bound Lean extension",
+      "pr": 1,
+      "role": "Existing verification scope unchanged"
+    },
+    {
+      "head": "612020848e4bbec5f5a723a64c5fdc85636b5e83",
+      "name": "Variance refinement",
+      "pr": 2,
+      "role": "Separate contribution, no dependency"
+    },
+    {
+      "head": "a4ac40a60a91a45ab364f882904e07039b7ede27",
+      "name": "General-k capacity and original full-carry contribution",
+      "pr": 3,
+      "role": "Earlier sources preserved; this note reproves its necessary outer-rate interface"
+    }
+  ],
+  "proof_status": "Written proofs submitted for independent review; exact finite replays completed; not Lean-checked",
+  "schema": "ep817-splitzero-source-claims-v1",
+  "sources": [
+    {
+      "blob": "fe05d32ccd314daac7c59d225c9cac3d4c1bf3d3",
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "Z-SUPPORT",
+      "inspected": "Sections 1-7; complete algebraic interface description",
+      "not_claimed": "No replay of its Lean workflow in this session",
+      "path": "formal/splitzero/DERIVED_MATHEMATICS.md",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "Original G(R), support reconstruction, internal relation quotients, homology comparison kernels"
+    },
+    {
+      "blob": "dcedf4050f0ea18aa7e5aa975d6e767a91006edf",
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "Z-KERNEL",
+      "inspected": "Complete note, equations I1-I13",
+      "path": "workbenches/tau-split-integration/RESEARCH_NOTE.md",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "Original boundary versus further observation kernel; sections and original-boundary defects"
+    },
+    {
+      "blob": "46f39f79cba608c551462e8a905f76f874f586e3",
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "Z-METRIC",
+      "inspected": "Complete note; source-metric secants and signed return",
+      "not_claimed": "No arithmetic moment estimate imported",
+      "path": "workbenches/tau-arithmetic-metric-transfer/RESEARCH_NOTE.md",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "Retaining full metrics and relation-valued section differences"
+    },
+    {
+      "blob": "a8360763a065c8122814fc9e79fc1e3b8580ac58",
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "Z-PGS",
+      "inspected": "Lines 1-220, including PGS.3-PGS.10",
+      "path": "workbenches/splitzero-tandem/continuations/20260914-cumulative-graph/tex/phase_graph_v2/PGS.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "Literal finite monic presentation, graph correction, original relation and Gram interface"
+    },
+    {
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "Z-RETRACTION",
+      "inspected": "Space definitions, inverse, section and quotient splitting",
+      "not_claimed": "The radix estimates are newly proved here, not imported theta estimates",
+      "path": "workbenches/tau-global-retraction/RESEARCH_NOTE.md",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "Research motivation for an explicit inverse, retraction and retained comparison kernel"
+    },
+    {
+      "id": "Z-SOCLE",
+      "inspected": "PR description and stated BoundarySocle formula",
+      "not_claimed": "Neither a merge into main nor a replay of its formal checks",
+      "observed_head": "aa6473075928b0316c49d50c163697c4ab98d004",
+      "observed_state": "open draft",
+      "pr": 30,
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "The integer instance is independently proved in note equation 2.8"
+    },
+    {
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "Z-CURRENT",
+      "inspected": "Lines 1-200 and linked original source guides",
+      "path": "CURRENT_RESEARCH.md",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "used": "Current programme scope and the separate remaining arithmetic estimate"
+    },
+    {
+      "author": "Samuel Korsky",
+      "id": "KORSKY",
+      "inspected": "General definitions, Theorems 1.2 and 1.3, concluding regime",
+      "title": "Arithmetic Progression-Free Subset-Sum Sets",
+      "url": "https://arxiv.org/html/2606.24139v1",
+      "used": "Original problem and known general benchmarks",
+      "year": 2026
+    },
+    {
+      "author": "Richard M. Karp",
+      "id": "KARP",
+      "inspected": "Publisher metadata and abstract",
+      "title": "A characterization of the minimum cycle mean in a digraph",
+      "url": "https://doi.org/10.1016/0012-365X(78)90011-0",
+      "used": "Classical finite graph optimization context; complete specialized proof supplied here",
+      "year": 1978
+    }
+  ],
+  "zeta_commit": "42df8a2de002d5fc7090641fac46ea11be05fa71"
+}

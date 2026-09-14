@@ -1,0 +1,45 @@
+{
+  "byte_compilation_passed": true,
+  "commands": [
+    "python research/splitzero_transfer/certificates/verify_splitzero_transfer.py --output research/splitzero_transfer/certificates/splitzero_transfer_receipt.json",
+    "python -O research/splitzero_transfer/certificates/verify_splitzero_transfer.py --output optimized_receipt.json",
+    "python -m py_compile research/splitzero_transfer/certificates/verify_splitzero_transfer.py"
+  ],
+  "compressed_full_receipt_sha256": "ad11eb84b853e22b3224a729e532f9e2f4228e5fb7499636b272b8a3844c5352",
+  "counts": {
+    "addition_pairs": 30940,
+    "basis_identities": 1833,
+    "cocycle_triples": 1260,
+    "dictionary_words": 510,
+    "edge_profiles": 486,
+    "false_formulas_rejected": 8,
+    "periodic_controller_edges": 30,
+    "periodic_controller_states": 4,
+    "periodic_cycles": 25,
+    "polynomial_examples": 128,
+    "radix_sequences": 395,
+    "return_section_rows": 108,
+    "section_secants": 389,
+    "socle_instances": 160,
+    "unsafe_base_witnesses": 109
+  },
+  "external_python_dependencies": [],
+  "files": {
+    "research/splitzero_transfer/README.md": "0812dd8b48ffd43c6197c12a64b82f478f7f7c91c665365f10b3dd8bc0199c89",
+    "research/splitzero_transfer/certificates/finite_proof_data.json": "9951e787c320a888fe53eb4ec11710aa00dda08f15738875cf8f06ced01af015",
+    "research/splitzero_transfer/certificates/verify_splitzero_transfer.py": "591364ce84f4f3e910062ef3ad7f599a72c16db8c5a9df143032c6f1d5cd46e7",
+    "research/splitzero_transfer/notes/splitzero-infinite-carry-control.md": "8db0ad69f32f7949117df92203d7aeebc3689a53b3bbc3984fa0ac72e4ba4aac",
+    "research/splitzero_transfer/polyclank/source_and_claims.json": "80d99283ec34f2f5f38b6f085d3d089e2380e35b8e4626cc683976fa2870af40"
+  },
+  "full_receipt_sha256": "eb033940e57017ddab6e4806f787ae723c8ecc91647b32fd88a744e236b9369c",
+  "lean_checked": false,
+  "lean_environment_observation": "No lean or lake executable found by command -v in this session.",
+  "optimized_output_byte_identical": true,
+  "platform": "Linux",
+  "python": "3.13.5",
+  "schema": "ep817-splitzero-check-record-v1",
+  "scope": "Finite exact replays support the written infinite proofs; they are not themselves infinite-domain enumeration.",
+  "session_date": "2026-09-14",
+  "status": "PASS",
+  "validator_sha256": "591364ce84f4f3e910062ef3ad7f599a72c16db8c5a9df143032c6f1d5cd46e7"
+}
