@@ -1,0 +1,51 @@
+name: Replay and publish outer-control certificates
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'research/splitzero_outer/**'
+      - '.github/workflows/ep817-outer-publication.yml'
+permissions:
+  contents: read
+concurrency:
+  group: ep817-outer-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+jobs:
+  replay:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.head_ref == 'research/splitzero-outer-control-20260914'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    permissions:
+      contents: write
+    env:
+      CHECKED_COMMIT: ${{ github.event.pull_request.head.sha }}
+      PUBLICATION_BRANCH: research/splitzero-outer-control-20260914
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13.5'
+      - name: Byte compilation and complete producer/auditor replay
+        run: |
+          set -euo pipefail
+          python -m py_compile research/splitzero_outer/certificates/*.py
+          python research/splitzero_outer/certificates/publication_replay.py --jobs 2
+      - name: Commit only hash-checked complete proof records to the reviewed branch
+        run: |
+          set -euo pipefail
+          current=$(git ls-remote --heads origin "refs/heads/$PUBLICATION_BRANCH" | cut -f1)
+          test "$current" = "$CHECKED_COMMIT"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/splitzero_outer/certificates/outer_control_receipt.json.gz
+          git add research/splitzero_outer/certificates/rank_five_k5_receipt.json.gz
+          git add research/splitzero_outer/certificates/rank_five_k6_receipt.json.gz
+          git add research/splitzero_outer/certificates/publication_replay_receipt.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish regenerated outer-control proof records after independent exact audits'
+            git push origin "HEAD:refs/heads/$PUBLICATION_BRANCH"
+          fi
