@@ -1,0 +1,175 @@
+{
+  "abstract_checks": {
+    "canonical_cubes": [
+      {
+        "canonical_vectors": 19,
+        "dimension": 3
+      },
+      {
+        "canonical_vectors": 65,
+        "dimension": 4
+      },
+      {
+        "canonical_vectors": 211,
+        "dimension": 5
+      },
+      {
+        "canonical_vectors": 665,
+        "dimension": 6
+      },
+      {
+        "canonical_vectors": 2059,
+        "dimension": 7
+      },
+      {
+        "canonical_vectors": 6305,
+        "dimension": 8
+      }
+    ],
+    "coefficient_cap_through_m": 256,
+    "partition_optimizer_through_n": 200,
+    "regressions_passed": 6
+  },
+  "base_commit": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+  "exhaustive_domain": {
+    "admissible_sets": 2551,
+    "block_shapes": {
+      "[3]": 823,
+      "[4]": 179,
+      "[]": 1549
+    },
+    "candidate_sets": 55454,
+    "counts_by_size": {
+      "1": 24,
+      "2": 264,
+      "3": 1344,
+      "4": 919,
+      "5": 0
+    },
+    "max_size": 5,
+    "transcript_sha256": "ae37d6a8f3a9dd34dd5eeb7370c7002ce7775f47370f11dd9c6f56d5fe4af5a8",
+    "universe": [
+      1,
+      24
+    ]
+  },
+  "finite_lower_table": {
+    "1": 1,
+    "12": 11841,
+    "2": 3,
+    "3": 5,
+    "30": 352128817514,
+    "4": 11,
+    "5": 27,
+    "6": 49,
+    "9": 724
+  },
+  "lean_checked": false,
+  "schema": "ep817-ternary-variance-certificate-v1",
+  "scope": "Exact bounded computations; general proof is in the companion note.",
+  "status": "PASS",
+  "targeted_cases": [
+    {
+      "block_sizes": [
+        3,
+        3
+      ],
+      "classes": 361,
+      "generators": [
+        1,
+        7,
+        8,
+        19,
+        133,
+        152
+      ],
+      "variance": "34752"
+    },
+    {
+      "block_sizes": [
+        3
+      ],
+      "classes": 171,
+      "generators": [
+        1,
+        7,
+        8,
+        19,
+        57
+      ],
+      "variance": "7508/3"
+    },
+    {
+      "block_sizes": [
+        3,
+        4
+      ],
+      "classes": 1235,
+      "generators": [
+        1,
+        4,
+        5,
+        41,
+        205,
+        1025,
+        1271
+      ],
+      "variance": "39605032/19"
+    },
+    {
+      "block_sizes": [
+        3
+      ],
+      "classes": 19,
+      "generators": [
+        1,
+        5,
+        6
+      ],
+      "variance": "992/19"
+    },
+    {
+      "block_sizes": [
+        4
+      ],
+      "classes": 65,
+      "generators": [
+        1,
+        5,
+        25,
+        31
+      ],
+      "variance": "1240"
+    },
+    {
+      "block_sizes": [
+        5
+      ],
+      "classes": 211,
+      "generators": [
+        1,
+        5,
+        25,
+        125,
+        156
+      ],
+      "variance": "6254248/211"
+    },
+    {
+      "block_sizes": [
+        6
+      ],
+      "classes": 665,
+      "generators": [
+        1,
+        5,
+        25,
+        125,
+        625,
+        781
+      ],
+      "variance": "13655004/19"
+    }
+  ],
+  "validator_sha256": "0dc30dd50e6040d0fc257df10cb28fd0aa43175d7d8391504d182a0263bc04d7"
+}
