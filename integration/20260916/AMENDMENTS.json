@@ -60,5 +60,21 @@
       ]
     }
   ],
-  "separation_justification": "For P subset [0,Q], the two components of P union(L-P) are separated by at least L-2Q. To exclude a crossing pattern of width at most Q, require L-2Q>Q, i.e. L>3Q. The former L>2Q fails for Q=3,P={0,3},L=7, where {3,4} crosses the gap. Taking L larger leaves the intended existence/linear-independence argument intact."
+  "separation_justification": "For P subset [0,Q], the two components of P union(L-P) are separated by at least L-2Q. To exclude a crossing pattern of width at most Q, require L-2Q>Q, i.e. L>3Q. The former L>2Q fails for Q=3,P={0,3},L=7, where {3,4} crosses the gap. Taking L larger leaves the intended existence/linear-independence argument intact.",
+  "manifest_rebindings": [
+    {
+      "manifest": "research/seven_observable/polyclank/artifacts.json",
+      "original_manifest": "integration/20260916/history/research/seven_observable/polyclank/artifacts.original.json",
+      "note": "research/seven_observable/notes/seven-observable-capacity.md",
+      "original_note_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+      "published_note_sha256": "418542101ce199b925bee927e23af9a939174d45975d3275e4b9c7165bae4cfe"
+    },
+    {
+      "manifest": "interfaces/zeta/workbenches/ep817-seven-observable/polyclank/artifacts.json",
+      "original_manifest": "integration/20260916/history/interfaces/zeta/workbenches/ep817-seven-observable/polyclank/artifacts.original.json",
+      "note": "interfaces/zeta/workbenches/ep817-seven-observable/notes/seven-observable-capacity.md",
+      "original_note_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+      "published_note_sha256": "418542101ce199b925bee927e23af9a939174d45975d3275e4b9c7165bae4cfe"
+    }
+  ]
 }

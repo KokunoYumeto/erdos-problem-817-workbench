@@ -6,7 +6,12 @@
     "certificates/independent_audit.json": "79602c343646aaee733c162f9c5f23b8720371736454a6132cb4445eb070c550",
     "certificates/seven_observable_receipt.json": "ef122c1eb9171312631997c8a310c6ce7c704834c0e4e9bba70ef749172fb04a",
     "certificates/verify_seven_observable.py": "6afb60035c7c9c849c197204cde776684190e086288b4f9eee8b26f6f243a51e",
-    "notes/seven-observable-capacity.md": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+    "notes/seven-observable-capacity.md": "418542101ce199b925bee927e23af9a939174d45975d3275e4b9c7165bae4cfe",
     "tools/image_carrier.py": "018434127effd193b72ef637a17d0d4ee65db97ef3948ed6eeb403ccec6853f0"
+  },
+  "publication_revision": {
+    "date": "2026-09-16",
+    "reason": "Reviewed separated-reflection threshold and display-tag correction; exact amendments in integration/20260916/AMENDMENTS.json",
+    "original_manifest_repository_path": "integration/20260916/history/research/seven_observable/polyclank/artifacts.original.json"
   }
 }

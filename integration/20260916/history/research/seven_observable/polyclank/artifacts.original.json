@@ -1,0 +1,12 @@
+{
+  "schema": "ep817-seven-observable-artifacts-v1",
+  "scope": "Exact files, not a mathematical truth or new Lean certificate",
+  "sha256": {
+    "certificates/audit_seven_observable.py": "bcb8382aea4ee42c10abb7b002863f2eb0cc6ea0cd0ea33f6a3b82cf1aa3a4a1",
+    "certificates/independent_audit.json": "79602c343646aaee733c162f9c5f23b8720371736454a6132cb4445eb070c550",
+    "certificates/seven_observable_receipt.json": "ef122c1eb9171312631997c8a310c6ce7c704834c0e4e9bba70ef749172fb04a",
+    "certificates/verify_seven_observable.py": "6afb60035c7c9c849c197204cde776684190e086288b4f9eee8b26f6f243a51e",
+    "notes/seven-observable-capacity.md": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+    "tools/image_carrier.py": "018434127effd193b72ef637a17d0d4ee65db97ef3948ed6eeb403ccec6853f0"
+  }
+}

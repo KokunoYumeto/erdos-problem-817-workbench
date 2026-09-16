@@ -7,8 +7,8 @@
       "bytes": 4647
     },
     "integration/20260916/AMENDMENTS.json": {
-      "sha256": "0a7251510ffaa8ba29abe75ca0edaf4f2060db8cc967726c3f8810845c90aaa6",
-      "bytes": 3214
+      "sha256": "a0cb18df5bcf711f539dd85160d7f236b37723b1bc06a608abbefa513baf8faf",
+      "bytes": 4292
     },
     "integration/20260916/README.md": {
       "sha256": "209273dfc5c8e5866bc30b1bc3eab7e1e0140e8f0255dbbefc15d615d36dace3",
@@ -17,6 +17,14 @@
     "integration/20260916/REPLAY_PLATFORM.md": {
       "sha256": "c4ce31de5a16dff50128f25928a357409103ab19c59b07f698c070c181d748cb",
       "bytes": 645
+    },
+    "integration/20260916/history/interfaces/zeta/workbenches/ep817-seven-observable/polyclank/artifacts.original.json": {
+      "sha256": "6f16aa66930153ee562c14b6abc18e7796002bf2125d5fa5399133e5c53f162a",
+      "bytes": 922
+    },
+    "integration/20260916/history/research/seven_observable/polyclank/artifacts.original.json": {
+      "sha256": "ace3f327156088fea8fc4e25f9c8688ccad0a850c0b15771963b1a1e233c0d11",
+      "bytes": 814
     },
     "integration/20260916/history/splitzero_outer_delivery_README.md": {
       "sha256": "34ba7df43c3b852fb1b784728c2fdcb66175b5138ed6b7bb9fcb9016c2b344ae",
@@ -455,8 +463,8 @@
       "bytes": 11389
     },
     "interfaces/zeta/workbenches/ep817-seven-observable/polyclank/artifacts.json": {
-      "sha256": "6f16aa66930153ee562c14b6abc18e7796002bf2125d5fa5399133e5c53f162a",
-      "bytes": 922
+      "sha256": "f74cb355d3b32daa7703d32a63e687d5d0a1ca7e121ca41aa6dbf9a40486585b",
+      "bytes": 1298
     },
     "interfaces/zeta/workbenches/ep817-seven-observable/polyclank/source_and_claims.json": {
       "sha256": "bdd179a4df5534508a9776889a0660bb0f128c6f37ef672bbcc12061282b5712",
@@ -1007,8 +1015,8 @@
       "bytes": 43373
     },
     "research/seven_observable/polyclank/artifacts.json": {
-      "sha256": "ace3f327156088fea8fc4e25f9c8688ccad0a850c0b15771963b1a1e233c0d11",
-      "bytes": 814
+      "sha256": "b821a5df5d544ef8a70f3aa0b2351b1e3f0361ea91276c27be7f5e2be0ad0423",
+      "bytes": 1164
     },
     "research/seven_observable/polyclank/source_and_claims.json": {
       "sha256": "bdd179a4df5534508a9776889a0660bb0f128c6f37ef672bbcc12061282b5712",
