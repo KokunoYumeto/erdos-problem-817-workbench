@@ -18,6 +18,18 @@
     "privacy_substitution": false
   },
   {
+    "path": "integration/20260916/reviews/ep817_prs/pr4/PUBLIC_RUN_CLARIFICATION.md",
+    "original_sha256": "059e32e2459031398374822eb917c56cd2e8e0c32a214126d5486abf60933935",
+    "public_sha256": "059e32e2459031398374822eb917c56cd2e8e0c32a214126d5486abf60933935",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817_prs/pr4/failed_self_trigger_evidence.json",
+    "original_sha256": "6b1abcc044393f87e99ed2ba966151698f0ddf0d2687a13908d70bc2263ccc65",
+    "public_sha256": "6b1abcc044393f87e99ed2ba966151698f0ddf0d2687a13908d70bc2263ccc65",
+    "privacy_substitution": false
+  },
+  {
     "path": "integration/20260916/reviews/ep817_prs/pr5/AUDIT.md",
     "original_sha256": "ec4520e5d0406f393a0f57b18c62db8012ef12032198ce23f2710cdd712afb6a",
     "public_sha256": "91f44366d86409171f2666e682f5cfe2c88a0af72fb2137702887cf2a08afc15",

@@ -59,3 +59,7 @@ Read the [continuation review](reviews/ep817/REVIEW.md),
 [record of the three amended notes](AMENDMENTS.json). The supplementary
 [separation and switching-stability check](reviews/ep817/supplemental/certificates/check_separation_stability.py)
 has a [fresh exact-arithmetic receipt](reviews/ep817/supplemental_checks/receipt.json).
+
+The [outer-control workflow clarification](reviews/ep817_prs/pr4/PUBLIC_RUN_CLARIFICATION.md)
+distinguishes the successful full certificate replay from its later self-triggered
+run, which expired awaiting approval before any verification job executed.

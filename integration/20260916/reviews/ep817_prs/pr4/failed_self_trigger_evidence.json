@@ -1,0 +1,56 @@
+{
+  "observed_utc": "2026-09-16T20:27:10Z",
+  "repository": "KokunoYumeto/erdos-problem-817-workbench",
+  "failed_run": {
+    "id": 34892226947,
+    "url": "https://github.com/KokunoYumeto/erdos-problem-817-workbench/actions/runs/34892226947",
+    "head_sha": "74ba7dcc4bd623b3555046feb6d45ccac38417a3",
+    "event": "pull_request",
+    "action": "synchronize",
+    "actor": "github-actions[bot]",
+    "triggering_actor": "github-actions[bot]",
+    "created_at": "2026-09-14T20:19:35Z",
+    "updated_at": "2026-09-16T20:11:43Z",
+    "conclusion": "failure",
+    "run_attempt": 1,
+    "check_suite_id": 94488359520,
+    "jobs_response": {"total_count": 0, "jobs": []},
+    "head_check_runs_response": {"total_count": 0, "check_runs": []},
+    "run_page_annotation": "This workflow run required approval but was not approved before it expired.",
+    "log_query_result": "failed to get run log: log not found"
+  },
+  "successful_predecessor": {
+    "id": 34891977899,
+    "url": "https://github.com/KokunoYumeto/erdos-problem-817-workbench/actions/runs/34891977899",
+    "input_sha": "68d64ed4fe050d51e4247cecae79e419a48bad63",
+    "job_id": 104136647167,
+    "job_name": "replay",
+    "conclusion": "success",
+    "started_at": "2026-09-14T20:17:11Z",
+    "completed_at": "2026-09-14T20:19:59Z",
+    "replay_step": {"conclusion": "success", "started_at": "2026-09-14T20:17:23Z", "completed_at": "2026-09-14T20:19:27Z"},
+    "publication_step": {"conclusion": "success", "started_at": "2026-09-14T20:19:27Z", "completed_at": "2026-09-14T20:19:30Z"}
+  },
+  "publication_commit": {
+    "sha": "74ba7dcc4bd623b3555046feb6d45ccac38417a3",
+    "committer": "github-actions[bot]",
+    "committed_at": "2026-09-14T20:19:28Z",
+    "changed_files": [
+      "research/splitzero_outer/certificates/outer_control_receipt.json.gz",
+      "research/splitzero_outer/certificates/publication_replay_receipt.json",
+      "research/splitzero_outer/certificates/rank_five_k5_receipt.json.gz",
+      "research/splitzero_outer/certificates/rank_five_k6_receipt.json.gz"
+    ],
+    "workflow_or_verifier_source_changed": false
+  },
+  "current_main_observation": {
+    "sha": "e199deedfbaf9622634057aa3eeb17f6cdf1adf2",
+    "workflow_path": ".github/workflows/ep817-outer-publication.yml",
+    "workflow_blob_sha": "6ec92c359104953d6f4e616130ef434a56ae58ee",
+    "workflow_state": "active"
+  },
+  "conclusion": "Approval-expired self-trigger with no executed verification job; not a mathematical replay failure. No source correction or expensive rerun is required by this failed run.",
+  "remote_mutations_performed": false,
+  "new_calculations_performed": false,
+  "workflow_changes_performed": false
+}

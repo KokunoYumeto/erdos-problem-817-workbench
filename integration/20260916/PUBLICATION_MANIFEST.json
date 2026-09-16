@@ -11,8 +11,8 @@
       "bytes": 4292
     },
     "integration/20260916/README.md": {
-      "sha256": "209273dfc5c8e5866bc30b1bc3eab7e1e0140e8f0255dbbefc15d615d36dace3",
-      "bytes": 3537
+      "sha256": "38b6051d99d3f237ab4f42756806c40ed201899d0d4b9cf35b394c41477f27ad",
+      "bytes": 3790
     },
     "integration/20260916/REPLAY_PLATFORM.md": {
       "sha256": "c4ce31de5a16dff50128f25928a357409103ab19c59b07f698c070c181d748cb",
@@ -31,8 +31,8 @@
       "bytes": 4634
     },
     "integration/20260916/review_manifest.json": {
-      "sha256": "2f8dd453c65acfe043001dc84ef046ab6a9d90e90a717e6ce9dc23539300de34",
-      "bytes": 4525
+      "sha256": "a37984a968d525698f2a9f065d06cd2471fd9c156b805ae40e8c6c91bfd897d3",
+      "bytes": 5149
     },
     "integration/20260916/reviews/ep817/REVIEW.md": {
       "sha256": "7aac5c92aee79eddcfcfc4487240c11edc9ccb137fb002ca7db9708d3c483a1f",
@@ -89,6 +89,14 @@
     "integration/20260916/reviews/ep817_prs/pr4/AUDIT.md": {
       "sha256": "043b8737f26578d488bd0545cb0425a41c638192541325fcbbaf392150fb4ad7",
       "bytes": 7079
+    },
+    "integration/20260916/reviews/ep817_prs/pr4/PUBLIC_RUN_CLARIFICATION.md": {
+      "sha256": "059e32e2459031398374822eb917c56cd2e8e0c32a214126d5486abf60933935",
+      "bytes": 1220
+    },
+    "integration/20260916/reviews/ep817_prs/pr4/failed_self_trigger_evidence.json": {
+      "sha256": "6b1abcc044393f87e99ed2ba966151698f0ddf0d2687a13908d70bc2263ccc65",
+      "bytes": 2678
     },
     "integration/20260916/reviews/ep817_prs/pr5/AUDIT.md": {
       "sha256": "91f44366d86409171f2666e682f5cfe2c88a0af72fb2137702887cf2a08afc15",
