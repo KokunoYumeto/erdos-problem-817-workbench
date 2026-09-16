@@ -1,0 +1,41 @@
+{
+  "false_formulas_rejected": 6,
+  "finite_sources": {
+    "balanced_flows": 1089,
+    "orbit_coordinate_range": [
+      0,
+      2
+    ],
+    "sources": 2044,
+    "transcript_sha256": "f2bd8e26d633229c319a6f771e3f138a6d1968c7539d65ff2e7b830a759db101",
+    "widths": [
+      1,
+      18
+    ]
+  },
+  "lean_checked": false,
+  "matrix_checks": {
+    "arbitrary_symmetric_digits": 1012,
+    "block_transcript_sha256": "6ed32b6c0dd95987da4daedf5a30993a0717ccba9e0b89bf1b512055ea24d43c",
+    "cocycle_triples": 64,
+    "composition_pairs": 36,
+    "integral_lifts": 11,
+    "nonzero_composition_defects": 2,
+    "original_blocks": 1191,
+    "original_transfer_comparisons": 3573
+  },
+  "proof_sha256": "751f89b55161ef32b19c148628e46e100255c2a58ffebaf71cb5e11e905aa1c8",
+  "schema": "ep817-cone-dual-v1",
+  "scope": "Exact finite certificates and replays; unbounded statements have the accompanying ordinary proofs.",
+  "source_sha256": {
+    "exact_cone.py": "90da7fddd14a8035b9ad1b572fe787b3aa1cb0ac9d6d76ea169de2cbaa2ad24f",
+    "verify_cone_dual.py": "d1b712f9e9a7f29f2d0416f1b841707f3c2e7812160eb498538f2e51dc27b8f7"
+  },
+  "status": "PASS",
+  "switching": {
+    "direct_original_words": 14,
+    "horizon": 13,
+    "transcript_sha256": "ff6583f6fafb6485a638fd28e3350270e4d53a6568f994e2666d7d97401bc66d",
+    "words": 16383
+  }
+}

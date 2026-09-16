@@ -1,0 +1,115 @@
+{
+  "attribution": {
+    "finite_upper_bound_lean": "sneed-and-feed",
+    "new_continuation": "The Clankers; no global literature-priority claim",
+    "original_k4_mathematics": "Anonymous/deleted Reddit contributor"
+  },
+  "claims": [
+    {
+      "evidence": "ordinary proof and complete exact cone certificate",
+      "id": "C1",
+      "location": "Sections 2-3",
+      "statement": "Exact seven-observation cone: nine original-frequency facets, ten extreme rays, integral Hilbert basis"
+    },
+    {
+      "evidence": "ordinary proof and exact selected-matrix replays",
+      "id": "C2",
+      "location": "Section 4",
+      "statement": "Positive integral ten-coordinate lifts, rank-three kernel and composition cocycle"
+    },
+    {
+      "evidence": "ordinary proof; finite grid calibrations are not all-rank arithmetic verification",
+      "id": "C3",
+      "location": "Sections 5-6",
+      "statement": "Every strict subcritical global threshold has one finite rational piecewise-linear certificate; explicit grid bound"
+    },
+    {
+      "evidence": "ordinary proof and exact full cone/potential/Farkas certificates",
+      "id": "C4",
+      "location": "Section 7",
+      "statement": "Exact switching optimum sqrt(285) per two-generator level for the two specified letters; linear obstruction at 84/5"
+    },
+    {
+      "evidence": "complete direct original coefficient and modular checks",
+      "id": "C5",
+      "location": "Section 8",
+      "statement": "Same seven-matrix and generator reward can have different binary admissibility and original word masses"
+    },
+    {
+      "evidence": "ordinary identities; their finite matrices and inverse identities are in the complete certificate",
+      "id": "Z1",
+      "location": "Zeta receiving note Sections 2-4",
+      "statement": "Original zero-loop contraction, strict cycle lift and retained padding defect"
+    }
+  ],
+  "date": "2026-09-16",
+  "lean_checked": false,
+  "review": "Independent mathematical review pending; no external reviewer claimed.",
+  "schema": "ep817-cone-dual-source-claims-v1",
+  "sources": [
+    {
+      "id": "ep817-main",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "revision": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+      "scope": "Current main and branch list inspected through connector; no earlier local archive is assumed merged."
+    },
+    {
+      "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "id": "zeta-interface",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "revision": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "scope": "Read equations D6-D8; original quotient and observation-kernel interfaces only."
+    },
+    {
+      "id": "zeta-publish-base",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "revision": "1efd53337561d8f67cf0ac1d119acdaa222644c3",
+      "scope": "Observed current main; not an assertion of reading every intervening source."
+    },
+    {
+      "file": "EP817_SEVEN_OBSERVABLE_20260916.zip",
+      "id": "seven-predecessor",
+      "scope": "Read complete inherited seven-coordinate/capacity interface; reused no predecessor executable in the new producer or auditor. Archive retained unchanged.",
+      "sha256": "11e2080a0135b04016723ea6929a93479d0540e519c5458d22728531d68019dd"
+    },
+    {
+      "author": "Krystyna Ziemian",
+      "date": "1995",
+      "doi": "10.4064/fm-146-2-189-201",
+      "id": "ziemian1995",
+      "inspection": "Publisher record and abstract; year follows primary publisher, not conflicting secondary 1994 metadata.",
+      "role": "Classical finite-type polyhedral-rotation context; no new cone result attributed to this paper.",
+      "title": "Rotation sets for subshifts of finite type",
+      "url": "https://doi.org/10.4064/fm-146-2-189-201"
+    },
+    {
+      "author": "Vladimir Yu. Protasov",
+      "date": "2021-09-24",
+      "id": "protasov2021",
+      "inspection": "Source entry and abstract.",
+      "role": "Antinorm terminology and lower-spectral-radius context.",
+      "title": "Antinorms on cones: duality and applications",
+      "url": "https://arxiv.org/abs/2109.11882"
+    },
+    {
+      "author": "Samuel Korsky",
+      "date": "2026-06-23",
+      "id": "korsky2026",
+      "inspection": "Source entry and abstract rechecked.",
+      "role": "Original problem and general literature benchmarks; no priority claim.",
+      "title": "Arithmetic Progression-Free Subset-Sum Sets",
+      "url": "https://arxiv.org/abs/2606.24139"
+    }
+  ],
+  "unresolved": [
+    "Universal arithmetic verification of a useful finite-facet potential over all admissible blocks.",
+    "Exact global rates and sharp large-k lower law.",
+    "Rank cutoff or effective endpoint convergence modulus."
+  ],
+  "verification_files": [
+    "certificates/cone_proof.json",
+    "certificates/cone_receipt.json",
+    "certificates/independent_audit.json"
+  ]
+}
