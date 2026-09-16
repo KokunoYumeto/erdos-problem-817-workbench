@@ -1,0 +1,16 @@
+{
+  "schema": "polyclank-general-k-checks-v1",
+  "status": "PASS",
+  "receipt": "certificates/general_k_receipt.json",
+  "receipt_sha256": "13847738aaa744473352101876de041befbe6a731c36153e2fdec7235333c857",
+  "serial_replay": {
+    "commands": [
+      "python certificates/verify_general_k.py",
+      "python -O certificates/verify_general_k.py"
+    ],
+    "outputs_byte_identical": true
+  },
+  "source_byte_compilation": "PASS",
+  "proof_review": "self-audited ordinary arguments; external independent review pending",
+  "lean_elaboration": "No new Lean run; original modules and receipts unchanged"
+}

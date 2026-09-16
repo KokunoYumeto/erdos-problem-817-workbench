@@ -1,0 +1,537 @@
+% Original Markdown SHA-256: 08a1e01d182e1062f119d0ca3c78cc69d2067d04e2bfbf71372e038f49053443
+\chapter{Defect closure, synchronized witnesses, and isolated graphical cores}
+\label{chapter:16_closure-and-core-isolation}
+{\small\noindent\textbf{Source:} \nolinkurl{history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md}\
+\textbf{Identity:} \nolinkurl{08a1e01d182e1062f119d0ca3c78cc69d2067d04e2bfbf71372e038f49053443}}
+\medskip
+15 September 2026. The Clankers. Ordinary mathematical arguments and exact finite proof certificates; independent mathematical review pending. No new Lean elaboration or literature-priority claim.
+
+\section{1. Original problem and substantive continuation}\label{n16-original-problem-and-substantive-continuation}
+
+For a finite set A of distinct positive integers, retain the original binary source, its numerical image, and its multiplicities:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Omega_A=\{0,1\}^{A},\quad
+\Phi_A(\epsilon)=\sum_{a\in A}a\epsilon_a,\quad
+H(A)=\Phi_A(\Omega_A),\quad
+\mu_A(y)=|\Phi_A^{-1}(y)|.$
+\end{adjustbox}
+\]
+
+An ordered k-term progression has the form (x,x+d,...,x+(k-1)d), and is nonconstant when d is nonzero. The original extremal function is g\_k(n)=min max A over n-element positive distinct A with H(A) k-AP-free. The empty choice and the numerical value zero are retained.
+
+This continuation makes three advances. First, it constructs the least relation closure forced by progression-freeness and proves its exact universal property, including a positive-integer realization criterion. Second, it certifies a new local source, the complete bipartite graph K\_\{3,3\}, using \emph{binary-switch} defect witnesses rather than only the former single terminal defect. Third, those witnesses synchronize through an arbitrary additional finite source. Consequently a five-admissible A has no binary-value coupling between a disjoint collection of K\_4/K\_\{3,3\} distance cores and any remaining generators. The number of cores and the size of the remainder are unrestricted.
+
+The resulting value-product bijection supplies exact cardinality, representation and metric identities. It also gives a finite second-moment lower bound for arbitrarily many K\_\{3,3\} cores in their original integer coordinates. This contribution does not improve the previously constructed global upper bound lambda\_6 \textless= 1651\^{}(1/10), evaluate the unrestricted lambda\_5 or lambda\_6, or close the large-k lower-bound gap.
+
+The original k=4 construction remains attributed to the anonymous/deleted Reddit contributor; sneed-and-feed retains the separate finite-upper-bound Lean credit. The predecessor \nolinkurl{EP817_SUPPORTED_DEFECT_20260915.zip} is retained unchanged. The directly inspected Zeta interface is \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex}, (D6)-\/-(D8), at commit \nolinkurl{58626a62cd5648e8ae7450fb54d4a4aab2330981} and blob \nolinkurl{d3493f891291ee6e94dbf2c77649f7d85d240df2.} Its source/receiving quotient distinction is used below; no analytic arithmetic-weight estimate is imported.
+
+\section{2. Finite-source relation closure with an exact universal property}\label{n16-finite-source-relation-closure-with-an-exact-universal-property}
+
+Let E be a finite-dimensional rational vector space, S a finite subset, W\_0 a specified rational subspace, and k\textgreater=3. For x=(x\_0,...,x\_\{k-1\}) in S\^{}k, set
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Delta_i x=x_i-2x_{i+1}+x_{i+2},\qquad v(x)=x_1-x_0.$
+\end{adjustbox}
+\]
+
+Define the following increasing sequence on the \emph{same} ambient E:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle W_{j+1}=W_j+
+\operatorname{span}_{\mathbb Q}\{v(x): x\in S^k,
+                   \Delta_i x\in W_j\text{ for every }i\}.$
+\end{adjustbox}
+\tag{2.1}
+\]
+
+Each strict increase raises dimension. Thus the sequence stabilizes after at most dim(E)-dim(W\_0) strict increases. Write Cl\_k(S,W\_0) for its final value W\_*.
+
+\textbf{Theorem 2.1 (exact universal closure).}
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{W_*=
+\bigcap_{\substack{\ell:E\to\mathbb Q\text{ linear}\\
+\ell(W_0)=0;\ \ell(S)\text{ k-AP-free}}}\ker\ell.}$
+\end{adjustbox}
+\tag{2.2}
+\]
+
+The zero observation is allowed in this intersection. The quotient image of S in E/W\_* is k-AP-free as a vector-valued set. The construction is extensive, monotone and idempotent. For a specified linear f:E-\textgreater E\textquotesingle{} with f(S) subset S\textquotesingle{} and f(W\_0) subset W\textquotesingle\_0, it satisfies
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle f(\operatorname{Cl}_k(S,W_0))
+\subseteq\operatorname{Cl}_k(S',W'_0).$
+\end{adjustbox}
+\tag{2.3}
+\]
+
+\textbf{Proof.} If ell kills W\_j, a tuple admitted in (2.1) becomes a scalar arithmetic progression. Admissibility makes its first difference zero. Thus ell kills W\_\{j+1\}; induction proves that the left side of (2.2) is contained in the right side.
+
+Let q:E-\textgreater E/W\_* be the displayed quotient. If a tuple in q(S) is a progression, choose actual lifts x\_i in S. Its defects lie in \(W_*\). By the fixed-point identity its first difference belongs to \(W_*\), so the quotient tuple is constant.
+
+For the reverse inclusion fix z outside \(W_*\). On \(E/W_*\) avoid the following finite collection of nonzero linear-observation hyperplanes: those defined by q(z), all nonzero q(x-y), and all nonzero q(x-2y+w), with x,y,w in S. A rational linear functional outside their union exists. To verify this constructively, use a rational basis b\_1,...,b\_d of the dual and the curve ell\_t=sum\_\{j=1\}\^{}d t\^{}j b\_j. Every forbidden nonzero vector gives a nonzero polynomial of degree at most d. If there are M vectors, one of the integers 1,...,dM+1 avoids all roots. The resulting ell detects z, is injective on q(S), and preserves and reflects every second-difference equation on that finite set. Its image is k-AP-free. Pullback through q gives an observer in (2.2) detecting z. This proves equality.
+
+Monotonicity follows by induction in (2.1); extensiveness is immediate; a fixed point stays fixed. Equation (2.3) follows at each stage from f(Delta\_i x)=Delta\_i(fx) and f(v(x))=v(fx). These equations also prove the stated functoriality. QED.
+
+The iteration is implemented by finding vector progressions in the finite quotient image, without enumerating arbitrary coefficient magnitudes. A new step records the original tuple and an exact rational expression for each of its defects in the old retained basis. Gaussian elimination only calculates that expression; the original tuples, basis rows and all rational coefficients remain in the certificate.
+
+\subsection{2.1 What an unsuccessful proposed observation returns}\label{n16-what-an-unsuccessful-proposed-observation-returns}
+
+Every derived vector comes with an implication: if an observation kills all earlier relation vectors but does not kill this step, its recorded tuple is an actual forbidden progression. Therefore a certificate ending in a vector that a proposed observation must detect produces a concrete witness by taking the first nonvanishing derived step. This is a finite witness algorithm with at most dim(E)-dim(W\_0) strict derivation steps. It does not infer a numerical progression merely from a dimension count.
+
+\subsection{2.2 Exact positive distinct integer realization criterion}\label{n16-exact-positive-distinct-integer-realization-criterion}
+
+Specialize to E=Q\^{}n and S=\{0,1\}\^{}n. Let W\_* be (2.1). There exists a positive integer vector a with pairwise distinct coordinates such that
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle a\cdot W_0=0,\qquad H(a)\text{ is k-AP-free}$
+\end{adjustbox}
+\]
+
+exactly when
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{W_*\cap\mathbb R_{\ge0}^n=\{0\},
+\qquad e_i-e_j\notin W_*\quad(i\ne j).}$
+\end{adjustbox}
+\tag{2.4}
+\]
+
+Here W\_* in the real intersection means its scalar extension, with its original rational lattice retained.
+
+\textbf{Proof.} Necessity follows from (2.2): a positive vector cannot annihilate a nonzero nonnegative vector, and distinct coordinates cannot annihilate e\_i-e\_j.
+
+For sufficiency, the simplex Delta=\{x\textgreater=0:sum x\_i=1\} is disjoint from the real space \(W_*\). Project it orthogonally to \(W_*^\perp\) in the specified ordinary coordinate space. The compact convex image excludes zero. If v is its least-norm point, then v dot q(x)\textgreater=\textbar\textbar v\textbar\textbar\^{}2 for all x in Delta, by taking the one-sided derivative along the segment to q(x). Since v belongs to W\_*\^{}perp, this implies v\_i\textgreater=\textbar\textbar v\textbar\textbar\^{}2\textgreater0 for every i. A nearby rational vector in that rational subspace remains positive; multiply by an explicit denominator to obtain a positive integral a\_0.
+
+Choose an integral basis b\_1,...,b\_d of the rational annihilator. Form all nonzero quotient vectors from S-S and S-2S+S, and also all coordinate differences e\_i-e\_j. Let their number be M, put T=max(1,dM+1), and retain
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle C=1+\sum_{j=1}^dT^j\|b_j\|_\infty,
+\quad a(t)=Ca_0+\sum_{j=1}^d t^j b_j.$
+\end{adjustbox}
+\tag{2.5}
+\]
+
+Every coordinate is positive for 1\textless=t\textless=T. Each forbidden vector gives a nonzero polynomial in t of degree at most d. One admitted t avoids all zero sets. Its a(t) has distinct coordinates and preserves the relevant finite-value and second-difference kernels of E/W\_*. The fixed-point conclusion of Theorem 2.1 gives k-AP-freeness. All parameters in (2.5) are part of the realization. QED.
+
+Formula (2.5) is an effective existence construction, not an optimized height bound. Its large integer coordinates are not asserted to improve g\_k(n). The supplied 592 small-source cases include 140 actual positive-distinct realizations and 452 explicit obstructions. Every rejected case has either a displayed coordinate-equality vector or a displayed nonzero nonnegative relation, with rational coefficients in the retained closure basis.
+
+\section{3. The original quotient and the additional forced-observation kernel}\label{n16-the-original-quotient-and-the-additional-forced-observation-kernel}
+
+For an integral original relation lattice L\_0 subset Z\^{}d, set W\_0=Q L\_0. Its saturation is L\_0\^{}sat=W\_0 intersect Z\^{}d. The original map
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathbb Z^d/L_0\longrightarrow\mathbb Z^d/L_0^{\rm sat}$
+\end{adjustbox}
+\]
+
+has the explicitly retained torsion kernel L\_0\^{}sat/L\_0. An integer-valued observation kills this kernel because D ell(x)=0 implies ell(x)=0 for every nonzero integer D. No source relation is divided without recording this receiving-kernel map.
+
+At the rational closure level the relevant exact sequence is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{0\to W_*/W_0\to E/W_0\to E/W_*\to0.}$
+\end{adjustbox}
+\tag{3.1}
+\]
+
+The first term is the additional kernel forced on \emph{admissible observations}. It is not redeclared to be an original boundary. Each of its generators comes with the progression implication in Section 2.1. On integral data, multiplying a recorded rational span identity by its common denominator gives the actual integral identity and the same torsion-free receiving implication.
+
+For nested finite admitted point supports S subset T, (2.3) gives \(W_*(S)\subset W_*(T)\). Identity on E and the corresponding quotient maps form a natural diagram. The original SplitZero reconstruction therefore applies: a relation at support S maps to that support\textquotesingle s coefficient zero. The map to external absence is a separate bottom-support map. Exact sequence (3.1) is retained at each support.
+
+This is a transfer of the inspected algebraic quotient interface. It makes no identification between this finite arithmetic closure and the complete analytic theta quotient. Nor does finite-dimensional stabilization in E claim a bound uniform in an unbounded number of original generator coordinates. The uniform-rank result below instead uses synchronized \emph{finite local witnesses}, not a suppressed dimension parameter.
+
+\section{4. Literal graphical sources and binary-switch packets}\label{n16-literal-graphical-sources-and-binary-switch-packets}
+
+For a finite graph G=(V,E), let Sigma(G) consist of the actual orientation score vectors: each edge contributes one to exactly one endpoint. An edge-head mask supplies a source representative. For integer marks T=(t\_v), let
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle A_G(T)=\{|t_v-t_u|:uv\in E\},\quad
+C_T=\sum_{uv\in E}\max(t_u,t_v),\quad
+L_T(s)=\sum_vt_vs_v.$
+\end{adjustbox}
+\]
+
+When the edge distances are nonzero and distinct, orientations correspond bijectively to the binary subsets of this generator set: select an edge exactly when its chosen head has the smaller mark. The original numerical equality is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\Phi_A(\text{subset mask})=C_T-L_T(s).}$
+\end{adjustbox}
+\tag{4.1}
+\]
+
+An orientation-score fibre may have several masks; all are retained. In particular K\_4 has 64 masks and 38 scores, and K\_\{3,3\} has 512 masks and 328 scores.
+
+Fix a score difference r=t-s. A binary-switch packet consists of a in Sigma(G), a vector v, and a five-entry word sigma in \{0,1\}\^{}5 with sigma\_0=0, such that
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{x_i=a+i v+\sigma_i r\in\Sigma(G)\quad(0\le i\le4).}$
+\end{adjustbox}
+\tag{4.2}
+\]
+
+It obeys
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Delta_i x=(\sigma_i-2\sigma_{i+1}+\sigma_{i+2})r.$
+\end{adjustbox}
+\tag{4.3}
+\]
+
+Thus any observation killing r maps the packet to a five-term progression of difference ell(v). Multiple actual defect positions, including their signs, are kept. A zero value of one ell(v) can be compared with another packet rather than being interpreted as the absence of the original r.
+
+The binary restriction on sigma is the essential additional information: it lets the packet synchronize with \emph{any} other source pair, as shown in Section 6.
+
+\section{5. Complete local certificates for K\_4 and K\_\{3,3\}}\label{n16-complete-local-certificates-for-k_4-and-k_33}
+
+\subsection{5.1 K\_4}\label{n16-k_4}
+
+For each of the 200 nonzero differences of its 38 score vectors, the certificate supplies a packet with
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \sigma=(0,0,0,0,1),\qquad v=e_j-e_i.$
+\end{adjustbox}
+\]
+
+The original tuple is found by taking a root string of four scores and an actual final score. This is the previously developed single-final-defect mechanism, independently replayed here on its complete finite domain. No older all-rank theorem is needed for this local input.
+
+\subsection{5.2 K\_\{3,3\}: complete domain and symmetries}\label{n16-k_33-complete-domain-and-symmetries}
+
+Label the two parts \{0,1,2\} and \{3,4,5\}. Direct enumeration of the original 512 head masks gives 328 scores and 5,299 distinct differences including zero. Permutations within parts, exchange of the parts, and global sign give 99 nonzero difference orbits.
+
+The source transformations are explicit. A graph automorphism permutes score coordinates and transports each edge head. Global sign on differences is induced by the score involution s -\textgreater{} 3*1-s, reversing every head. These maps preserve the actual source and all packet identities. Each orbit representative, full orbit cardinality and masks for every packet row are retained in \texttt{proof\_data.json.gz}. The auditor reconstructs all 5,298 nonzero differences and verifies that the 99 disjoint orbits cover them exactly.
+
+For 91 orbits the single-final-defect root packet works. There are seven two-switch cases and one retained local-division case. Write 00001 and 00011 for the literal binary switch words. Each pair in the following table specifies (anchor a, step v, switch sigma); its five source rows are exactly a+i v+sigma\_i r.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Difference r
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+First packet (a; v; sigma)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Second packet (a; v; sigma)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+(-3,-3,-3,3,3,3) & (0,0,0,3,3,3); (1,1,1,-1,-1,-1); 00001 & (1,1,3,0,2,2); (1,1,0,0,-1,-1); 00011 \\
+(-3,-3,-2,2,3,3) & (0,0,0,3,3,3); (1,1,1,-1,-1,-1); 00001 & (0,1,2,1,2,3); (1,1,0,0,-1,-1); 00011 \\
+(-3,-3,-1,1,3,3) & (0,0,0,3,3,3); (1,1,1,-1,-1,-1); 00001 & (0,0,1,2,3,3); (1,1,0,0,-1,-1); 00011 \\
+(-3,-3,-1,2,2,3) & (0,0,0,3,3,3); (1,1,1,-1,-1,-1); 00001 & (0,1,1,1,3,3); (1,1,0,0,-1,-1); 00011 \\
+(-3,-3,0,1,2,3) & (0,0,1,2,3,3); (1,1,0,0,-1,-1); 00011 & (0,1,1,3,1,3); (1,1,0,-1,0,-1); 00011 \\
+(-3,-3,0,2,2,2) & (0,1,1,1,3,3); (1,1,0,0,-1,-1); 00011 & (0,1,1,3,1,3); (1,1,0,-1,0,-1); 00011 \\
+(-3,-3,1,1,1,3) & (0,0,3,2,2,2); (1,1,-1,0,0,-1); 00011 & (0,1,0,2,3,3); (1,1,0,0,-1,-1); 00011 \\
+\end{longtable}
+
+In each row the difference of the two displayed steps is a root, up to sign. With distinct vertex marks, both step observations cannot vanish. The packet membership checks are finite integer equalities and actual orientation-mask checks; this table does not appeal to a relaxation of the score source.
+
+The remaining representative is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r=(-2,-2,-2,2,2,2),\quad
+v=(1,1,1,-1,-1,-1),\quad a=(0,0,0,3,3,3),\quad\sigma=00001.$
+\end{adjustbox}
+\tag{5.1}
+\]
+
+It is a valid binary-switch packet and r=-2v. If ell(v) is nonzero it already provides the progression. If ell(v)=0, retain the original identity r=2h with h=(-1,-1,-1,1,1,1). This h is an actual score difference and has a certified single-final-defect root packet. Since ell(h)=0, that local packet has a nonzero step under distinct marks. Both r and h, the factor two, and the auxiliary original masks are in the record. No global tensor collision is divided componentwise.
+
+\textbf{Proposition 5.1.} For either graph, every integer mark assignment with nonzero pairwise distinct edge distances and five-AP-free H(A\_G(T)) is injective on the original orientation-score image.
+
+\textbf{Proof.} Distinct edge distances imply distinct vertex marks for these graphs. For K\_4 every vertex pair is an edge. For K\_\{3,3\}, equal marks across parts give a zero edge, while equal marks within one part give two equal edges to any vertex of the other part. An observed collision gives a nonzero source difference r with L\_T(r)=0. A root packet, a two-switch pair or the two alternatives in (5.1) supplies a nonconstant five-term numerical progression. Equation (4.1) converts it into an actual subset-sum progression. QED.
+
+As a concrete distributed-defect example, take
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T=(0,60,4,7,13,52),\qquad r=(-3,-3,1,1,1,3),\qquad L_T(r)=0.$
+\end{adjustbox}
+\]
+
+The nine distinct edge distances are \{3,7,8,9,13,47,48,52,53\}. The last row of the table gives numerical progressions 152,156,160,164,168 and 55,60,65,70,75, after reversing the first tuple. These are witnesses of the same original collision, not claims that this marked graph is admissible.
+
+\section{6. Synchronization with arbitrary other sources}\label{n16-synchronization-with-arbitrary-other-sources}
+
+Suppose a finite source product X\_1 times ... times X\_h times Y has observation
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \ell(x_1,...,x_h,y)=\sum_j\ell_j(x_j)+\ell_Y(y).$
+\end{adjustbox}
+\]
+
+Every X\_j is one of the two graphical score sources with its actual mark observation, and Y is any finite subset of any rational vector space with its stated linear observation. In the generator application Y=H(B) subset Z and ell\_Y is identity.
+
+Take two product source points whose observed values agree. Write their difference as
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r=(r_1,...,r_h,r_Y),\qquad\ell(r)=0.$
+\end{adjustbox}
+\]
+
+Select any j with r\_j nonzero. A binary-switch packet a+i v+sigma\_i r\_j in that factor produces the following actual product points:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle X_i^{(j)}=a+i v+\sigma_i r_j,
+\quad X_i^{(l)}=x_l+\sigma_i r_l\ (l\ne j),
+\quad Y_i=y+\sigma_i r_Y.$
+\end{adjustbox}
+\tag{6.1}
+\]
+
+Because sigma\_i is zero or one, every other coordinate is literally one of the original two source points. Numerical evaluation gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\ell(X_i,Y_i)=C+i\ell_j(v)+\sigma_i\ell(r)=C+i\ell_j(v).}$
+\end{adjustbox}
+\tag{6.2}
+\]
+
+A root packet or two-switch row guarantees a nonzero ell\_j(v), so it supplies a forbidden progression.
+
+For (5.1), if ell\_j(v) is nonzero, use (6.1). Otherwise ell\_j(h)=0 and the recorded auxiliary root packet gives a progression entirely inside X\_j; fix all the other factors at their original points. This branch is local and uses no claim that each individual component r\_l of a global collision has observed value zero.
+
+\textbf{Theorem 6.1 (core isolation at every rank).} Let A be any five-admissible set of distinct positive integers. Choose any disjoint collection of generator subcollections which are the actual edge-distance sets of K\_4 or K\_\{3,3\}. Each K\_4 core has exactly six edge labels and six distinct positive edge weights; each K\_\{3,3\} core has exactly nine edge labels and nine distinct positive edge weights. Let B consist of the remaining generators, and let there be a K\_4 cores and b K\_\{3,3\} cores. Then the literal addition map is a bijection
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\prod_{j=1}^{a+b}H(A_j)\times H(B)\overset\sim\longrightarrow H(A),
+\quad(y_1,...,y_{a+b},z)\mapsto z+\sum_jy_j.
+}$
+\end{adjustbox}
+\tag{6.3}
+\]
+
+No spacing, radix, scale ordering, or separation hypothesis is imposed on these original integer generators.
+
+\textbf{Proof.} Surjectivity comes from the disjoint generator labels. For injectivity, lift each core value to its unique score, using Proposition 5.1; alternatively apply (6.1) directly to any unequal score components. If a collision differs at a core, (6.2) supplies a five-AP in H(A), a contradiction. If every core coordinate agrees, the two actual numbers in H(B) agree as well. Thus the tuples are equal. QED.
+
+The proof handles an arbitrary finite number of cores and an arbitrary finite reservoir. The number of product points need not be enumerated. The local finite certificates are used once, and (6.1) is the uniform proof for all product sizes.
+
+For every value under (6.3),
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mu_A\left(z+\sum_jy_j\right)=\mu_B(z)\prod_j\mu_{A_j}(y_j),
+\quad
+\boxed{|H(A)|=38^a328^b|H(B)|.}$
+\end{adjustbox}
+\tag{6.4}
+\]
+
+The inverse of (6.3) is the unique finite-source lookup determined by the literal generators. It is not asserted to be Euclidean digit division when the generators were not separated.
+
+The unweighted numerical generating polynomial factors with coefficients exactly zero or one:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \sum_{x\in H(A)}z^x=
+\left(\sum_{x\in H(B)}z^x\right)
+\prod_j\left(\sum_{x\in H(A_j)}z^x\right).$
+\end{adjustbox}
+\tag{6.5}
+\]
+
+This isolation result is stronger than injectivity within each individual core. It prohibits any new binary-value coupling to the unrestricted reservoir. It does not prohibit all higher-coefficient scalar relations.
+
+\section{7. Exact moments, finite bounds, and metric return}\label{n16-exact-moments-finite-bounds-and-metric-return}
+
+For uniform measure on the \emph{distinct} K\_\{3,3\} score image, symmetry and direct full enumeration give mean (3/2)*1 and covariance
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\operatorname{Cov}(s)
+=\frac{25}{82}\mathcal L_{K_{3,3}}-\frac1{164}uu^T,
+\qquad u=(1,1,1,-1,-1,-1).}$
+\end{adjustbox}
+\tag{7.1}
+\]
+
+Here the graph Laplacian is in the original six vertex coordinates. Its diagonal is three, same-part off-diagonal entries are zero, and cross-part entries are minus one. The covariance diagonal is 149/164, same-part off-diagonal is -1/164, and cross-part off-diagonal is -49/164. All entries are checked from the 328 actual scores.
+
+Writing Q\_j=sum\_\{e in A\_j\}e\^{}2 and D\_j=sum\_\{left\}t\_i-sum\_\{right\}t\_i, (7.1) gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \operatorname{Var}(\text{uniform }H(A_j))
+=\frac{25}{82}Q_j-\frac{D_j^2}{164}$
+\end{adjustbox}
+\tag{7.2}
+\]
+
+for a K\_\{3,3\} core. For K\_4 the corresponding exact formula is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \operatorname{Cov}(s)=\frac{25}{76}\mathcal L_{K_4},
+\qquad\operatorname{Var}(\text{uniform }H(A_j))=\frac{25}{76}Q_j.$
+\end{adjustbox}
+\tag{7.3}
+\]
+
+Theorem 6.1 transports product uniform measure to uniform measure on H(A). Therefore variances add with the \emph{actual} unweighted reservoir variance:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \operatorname{Var}(H(A))=
+\operatorname{Var}(H(B))+
+\frac{25}{76}\sum_{K_4}Q_j+
+\sum_{K_{3,3}}\left(\frac{25}{82}Q_j-\frac{D_j^2}{164}\right).$
+\end{adjustbox}
+\tag{7.4}
+\]
+
+For M distinct integers x\_1\textless...\textless x\_M, the pair-difference identity gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle M^2\operatorname{Var}(x)=\sum_{i<j}(x_j-x_i)^2
+\ge\sum_{i<j}(j-i)^2=\frac{M^2(M^2-1)}{12}.$
+\end{adjustbox}
+\tag{7.5}
+\]
+
+In particular, if A is entirely partitioned into h K\_\{3,3\} cores, let Q=sum\_\{a in A\}a\^{}2 and D\_j retain the actual marked imbalances. Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{41(328^{2h}-1)\le150Q-3\sum_jD_j^2.}$
+\end{adjustbox}
+\tag{7.6}
+\]
+
+With N=max A, Q\textless=9hN\^{}2, hence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{N\ge
+\left\lceil\sqrt{\frac{41(328^{2h}-1)}{1350h}}\right\rceil.}$
+\end{adjustbox}
+\tag{7.7}
+\]
+
+For h=1,2,3 this yields N\textgreater=58, 13,258 and 3,550,471. Distinctness permits the further exact bound Q\textless=nN\^{}2-n(n-1)N+n(n-1)(2n-1)/6 with n=9h. The source imbalances in (7.6) are retained when this refinement is evaluated.
+
+The exponential lower base within this arbitrarily coupled pure-core family is 328\^{}(1/9), approximately 1.9034502848. Inclusion of the family into the unrestricted admissible sets gives the upper comparison direction for their extremal minima; this family lower bound does not give that lower bound for unrestricted lambda\_5.
+
+For a reservoir of u positive generators, the elementary one-shift chain argument gives \textbar H(B)\textbar\textgreater=(4/3)\^{}u: before adding a remaining generator, every chain in its direction has length at most three, and adjoining the generator adds one new point per chain. Thus (6.4) gives the exact structural lower estimate
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |H(A)|\ge38^a328^b(4/3)^u,
+\quad n=6a+9b+u,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{N\ge
+\left\lceil\frac{38^a328^b(4/3)^u+n(n-1)/2-1}{n}\right\rceil.}$
+\end{adjustbox}
+\tag{7.8}
+\]
+
+The one-shift ingredient is also present in Korsky\textquotesingle s Theorem 1.2 context; it is not a new claimed general exponent. The new factorization makes its combination with arbitrarily many actual cores exact.
+
+\subsection{7.1 Original representation metric}\label{n16-original-representation-metric}
+
+The K\_\{3,3\} multiplicity histogram is
+
+\begin{longtable}[]{@{}rrrrrr@{}}
+\toprule\noalign{}
+representations & 1 & 2 & 3 & 5 & 6 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+distinct scores & 230 & 54 & 24 & 18 & 2 \\
+\end{longtable}
+
+It sums to 328 values and 512 original masks. For K\_4 the histogram is 24 values of multiplicity one, eight of multiplicity two, and six of multiplicity four.
+
+The original quotient metric on value basis e\_y remains diag(1/mu\_A(y)). Equation (6.4) proves its tensor-product formula, including the reservoir. The identity to the unit value metric has norm
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{4^{a/2}6^{b/2}\sqrt{\max_z\mu_B(z)}.}$
+\end{adjustbox}
+\tag{7.9}
+\]
+
+The same 328-point uniform score covariance is not the covariance of 512 uniformly weighted orientations. The former is required in (7.1); the latter has covariance one quarter of the graph Laplacian. This distinction and all cross terms are independently checked.
+
+\section{8. Original supported quotient maps for all core counts}\label{n16-original-supported-quotient-maps-for-all-core-counts}
+
+At a fixed set of admitted core labels, take the original free word module, the free module on the product of core score images and reservoir values, and the free module on H(A). The word-to-score map records graph orientation fibres and reservoir subset fibres. The second map is induced by (6.3), with (4.1)\textquotesingle s exact affine constants. It is an isomorphism on the displayed finite value bases.
+
+Consequently the kernel of the composite numerical-\emph{value-basis} map equals the original word-to-product relation kernel. That kernel is the sum of the lifted local relation modules. An explicit primitive for a difference of two words in one fibre changes one core coordinate at a time; the differences telescope. This proves the tensor relation claim over Z as well as Q, without a flatness assumption on an unspecified module.
+
+Support extension appends the actual empty subset in a new core; in score coordinates it appends the orientation that chooses the larger marked endpoint of every edge. The affine constant in (4.1) then makes its numerical contribution exactly zero. These embeddings commute with the word, score and value maps. Applying the original SplitZero reconstruction preserves each active support label and its fibre zero.
+
+A further amplitude observation e\_y -\textgreater{} y has its own kernel. Neither (6.3) nor the equality of value-basis relation kernels sets that additional amplitude kernel to zero. Likewise, the exact closure extension (3.1) remains an added receiving kernel, rather than being silently relabelled an original graph boundary.
+
+\section{9. What the result changes, and what it does not determine}\label{n16-what-the-result-changes-and-what-it-does-not-determine}
+
+The first failed extension of the complete-graph method was informative. Its single final defect did not cover 196 of the K\_\{3,3\} score differences. The binary-switch packets cover those differences while retaining multiple defect positions. Their switch coefficients, not just their spans, are what permit synchronization with an arbitrary reservoir. The all-core theorem therefore follows from the actual packet forms rather than from a slogan about tensoring finite obstructions.
+
+The closure theorem provides a complete implication and realization calculus at every specified finite source. The core-isolation theorem gives a genuine uniform conclusion as the number of such cores and the reservoir size increase without bound. Together they restrict how an efficient general construction can use these relations: it cannot gain binary-image compression by coupling K\_4 or K\_\{3,3\} cores to the rest of a five-admissible set.
+
+This does not show that every five-admissible set has such a core packing. It does not classify all closure fixed points as n grows, bound their arithmetic height at the optimal exponential scale, or replace the universal block inequalities in the preceding compact dual with finitely many verified inequalities. Those remain the precise missing global controls. The new positive-integer realization criterion proves that a surviving finite relation pattern is genuinely realizable; it does not bound that realization by the current best g\_k(n).
+
+The original global problem is pursued here through arithmetic consequences of the source relations, not by treating a finite quotient dimension as a universal lower bound.
+
+\section{10. Executed checks and reproduction}\label{n16-executed-checks-and-reproduction}
+
+From this directory\textquotesingle s \texttt{certificates/}, run:
+
+\begin{Verbatim}[breaklines=true,breakanywhere=true,fontsize=\footnotesize]
+python build_certificate.py
+python audit_certificate.py
+python verify_reservoir.py
+\end{Verbatim}
+
+All programs use the standard library only. The producer replays all 512 K\_\{3,3\} orientations, 99 disjoint difference orbits covering all 5,298 nonzero differences, all 200 K\_4 differences, and 35 actual integer tensor-collision cases with two, three or five K\_\{3,3\} cores. The arbitrary number of factors in Theorem 6.1 is proved by (6.1), not by those 35 examples.
+
+The general closure domain consists of every nonzero initial relation in {[}-2,2{]}\^{}n for n=2,3 and every k=3,4,5,6: 592 cases. There are 140 positive-distinct integer realizations, 232 forced-equality certificates and 220 positive-relation obstructions. Every derivation coefficient and each original AP tuple is retained. The separate audit reconstructs finite sources and tests quotient fixed points using coset reduction, a different map from the producer\textquotesingle s annihilator projection. It imports neither \texttt{exact\_closure.py} nor \texttt{build\_certificate.py}.
+
+The separate direct reservoir replay checks 294 distinct singleton extensions of the K\_4 block \{1,4,5,17,21,22\} through added weight 300, and 4,991 extensions of the K\_\{3,3\} block from marks (0,1,5,25,125,625) through weight 5,000. Respectively 201 and 1,884 extensions are admissible; every admissible one has the proved image-product cardinality. Two specified two-generator reservoirs check exact multiplicities and unweighted variance addition. The singleton scan records a deterministic transcript hash; the full local proof certificates, not all exploratory searches, are included in the compressed proof file.
+
+Eight mutations reject a wrong orientation mask, a missing orbit, a discarded step relation, an incorrect local saturation factor, a removed covariance term, a false numerical progression, an unsupported closure premise, and a nonpositive claimed realization.
+
+The generation and independent arithmetic audits have their own scopes. No result here is described as Lean-checked or as externally reviewed. Source hashes and actual run outcomes are bound in the delivery\textquotesingle s integration record.
+
+\section{References and source roles}\label{n16-references-and-source-roles}
+
+Korsky, S. (2026). \emph{Arithmetic progression-free subset-sum sets} (arXiv:2606.24139v1). \url{https://arxiv.org/html/2606.24139v1} . Inspected Sections 1-\/-4 for exact problem conventions, general exponential bounds, and the three-term source-injectivity comparison. No new upper-rate record is claimed against that source in this continuation.
+
+KokunoYumeto. (2026). \emph{Reconstruction with changes of support index} {[}Original TeX source{]}. \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex} at commit \nolinkurl{58626a62cd5648e8ae7450fb54d4a4aab2330981,} especially (D6)-\/-(D8). Used for the original internal quotient and its additional receiving kernel. Fetched in this session; no whole-repository analytic re-audit is claimed.
+
+The Clankers. (2026, September 15). \emph{Graphical obstruction propagation and a stronger six-term construction} {[}Predecessor note{]}. Supplied \nolinkurl{EP817_OBSTRUCTION_GRAPH_20260915.zip}. Used as motivation for the single-final-defect test. The finite K\_4 instance needed here is replayed directly.
+
+The Clankers. (2026, September 15). \emph{Supported zero actions, exact defect transport, and all-rank deformations} {[}Predecessor note{]}. Supplied \nolinkurl{EP817_SUPPORTED_DEFECT_20260915.zip}. The source-preserving treatment of relation observations and the original representation metrics is retained.

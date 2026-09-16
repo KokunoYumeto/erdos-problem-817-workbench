@@ -1,0 +1,35 @@
+{
+  "schema": "ep817-finite-period-claims-v1",
+  "date": "2026-09-16",
+  "status": "written proofs and exact finite checks; independent mathematical review pending",
+  "lean_checked": false,
+  "claims": [
+    {
+      "id": "FP1",
+      "name": "Uniform finite-dictionary horizon",
+      "scope": "Every finite nonempty canonical dictionary with positive rewards and q>=2",
+      "formula": "L_m <= delta <= U_m; log(U_m/delta)<=log(q-1)/(m*n_min)",
+      "proof": "notes/finite-period-control.md, Sections 2-3"
+    },
+    {
+      "id": "FP2",
+      "name": "Finite-controller closing cost",
+      "scope": "Finite strongly connected controller with at least one directed cycle and strictly positive edge rewards",
+      "formula": "log U_m-log C/(m*n_min) <= log delta_G <= log U_m+(s-1)log T/(m*n_min)",
+      "proof": "notes/finite-period-control.md, Section 4"
+    },
+    {
+      "id": "FP3",
+      "name": "All-length radix-ten finite minima",
+      "scope": "Every word length m in the exact two-level dictionary",
+      "formula": "a_(3r)=893^r; a_(3r+1)=93^2*893^(r-1) (r>=1); a_(3r+2)=93*893^r; a_0=1,a_1=13",
+      "proof": "notes/finite-period-control.md, Section 6"
+    },
+    {
+      "id": "FP4",
+      "name": "Inverse-count pressure enclosure",
+      "scope": "Finite equal-reward dictionary; positive pressure parameter",
+      "proof": "notes/finite-period-control.md, Section 5"
+    }
+  ]
+}

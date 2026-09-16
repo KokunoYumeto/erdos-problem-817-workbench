@@ -1,0 +1,1529 @@
+{
+  "base_commit": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+  "canonical_graph": {
+    "bases": [
+      2,
+      8
+    ],
+    "canonical_full_comparison_bases": [
+      2,
+      6
+    ],
+    "canonical_full_comparison_k": [
+      3,
+      5
+    ],
+    "cases": 1016,
+    "digit_domain": "every subset of [0,b) containing zero",
+    "direct_closed_edges": 1433,
+    "direct_languages_checked": 3048,
+    "k_range": [
+      3,
+      6
+    ],
+    "negative": 601,
+    "positive": 415,
+    "transcript_sha256": "7bcaa6ac207dc98d60dd4df70f23d7db37cad874e53665436be9ee372e9adeb6"
+  },
+  "composition": {
+    "AP_comparisons_k3_to_k6": 1024,
+    "associativity_triples": 4096,
+    "input_domain": "empty, singleton, and two-element subsets of [1,5]",
+    "input_sets": 16,
+    "pairs": 256
+  },
+  "full_graph": {
+    "bases": [
+      2,
+      4
+    ],
+    "cases": 384,
+    "digit_domain": "every subset of [0,6] containing zero",
+    "direct_closed_edges": 122,
+    "direct_languages_checked": 1152,
+    "k_range": [
+      3,
+      4
+    ],
+    "negative": 354,
+    "noncanonical_positive": {
+      "base": 19,
+      "certificate": {
+        "carry_bound": 4,
+        "closed_states": [
+          [
+            [
+              -2,
+              1
+            ],
+            1,
+            false
+          ],
+          [
+            [
+              -2,
+              2
+            ],
+            1,
+            false
+          ],
+          [
+            [
+              -1,
+              -1
+            ],
+            1,
+            false
+          ],
+          [
+            [
+              -1,
+              0
+            ],
+            1,
+            false
+          ],
+          [
+            [
+              -1,
+              1
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              -1,
+              2
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              0,
+              -1
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              1,
+              -2
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              1,
+              -1
+            ],
+            0,
+            false
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            -1,
+            false
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            -1,
+            false
+          ],
+          [
+            [
+              2,
+              -2
+            ],
+            -1,
+            false
+          ],
+          [
+            [
+              2,
+              -1
+            ],
+            -1,
+            false
+          ]
+        ],
+        "edges_examined": 288,
+        "safe": true,
+        "slope_bound": 2,
+        "states_seen": 15
+      },
+      "digits": [
+        0,
+        7,
+        8,
+        15,
+        19,
+        26,
+        27,
+        34
+      ],
+      "generators": [
+        7,
+        8,
+        19
+      ],
+      "independent_closed_edges": 288,
+      "k": 4
+    },
+    "positive": 30,
+    "power_alias_regression": {
+      "actual_counts_m1_to_m4": [
+        4,
+        7,
+        10,
+        13
+      ],
+      "base": 19,
+      "generators": [
+        1,
+        7,
+        8,
+        19
+      ]
+    },
+    "transcript_sha256": "b530e2f711b42913a0fc2420deebb1ac32f68c8969350a2df638ac96e14c84f9"
+  },
+  "lean_checked": false,
+  "noncanonical_probe": {
+    "all_witness_lengths": 2,
+    "bases": [
+      23,
+      70
+    ],
+    "cases": 96,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "k": [
+      5,
+      6
+    ],
+    "source_sha256": "aca78d6c38220433207403ca7198427d303e7a0019c7a4a5ad0f9945496b8c34"
+  },
+  "primary": [
+    {
+      "base": 19,
+      "canonical_certificate": {
+        "closed_states": [
+          [
+            [
+              0,
+              0
+            ],
+            false
+          ]
+        ],
+        "edges_examined": 7,
+        "safe": true,
+        "states_seen": 1
+      },
+      "deletions_tested": 6,
+      "digits": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        15,
+        16
+      ],
+      "distinct_digit_count": 7,
+      "generator_sum": 16,
+      "generators": [
+        1,
+        7,
+        8
+      ],
+      "k": 4,
+      "max_runs_by_nonzero_step": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "modular_start_step_pairs": 342,
+      "two_level_generator_count": 6,
+      "two_level_subset_sum_count": 49
+    },
+    {
+      "base": 23,
+      "canonical_certificate": {
+        "closed_states": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            false
+          ]
+        ],
+        "edges_examined": 12,
+        "safe": true,
+        "states_seen": 1
+      },
+      "deletions_tested": 8,
+      "digits": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "distinct_digit_count": 12,
+      "generator_sum": 15,
+      "generators": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "k": 5,
+      "max_runs_by_nonzero_step": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        2,
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "modular_start_step_pairs": 506,
+      "two_level_generator_count": 8,
+      "two_level_subset_sum_count": 144
+    },
+    {
+      "base": 47,
+      "canonical_certificate": {
+        "closed_states": [
+          [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            false
+          ]
+        ],
+        "edges_examined": 23,
+        "safe": true,
+        "states_seen": 1
+      },
+      "deletions_tested": 10,
+      "digits": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        30
+      ],
+      "distinct_digit_count": 23,
+      "generator_sum": 30,
+      "generators": [
+        1,
+        2,
+        6,
+        7,
+        14
+      ],
+      "k": 6,
+      "max_runs_by_nonzero_step": [
+        5,
+        3,
+        4,
+        4,
+        3,
+        5,
+        5,
+        4,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        4,
+        2,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        2,
+        4,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        5,
+        5,
+        3,
+        4,
+        4,
+        3,
+        5
+      ],
+      "modular_start_step_pairs": 2162,
+      "two_level_generator_count": 10,
+      "two_level_subset_sum_count": 529
+    },
+    {
+      "base": 97,
+      "canonical_certificate": {
+        "closed_states": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            false
+          ]
+        ],
+        "edges_examined": 38,
+        "safe": true,
+        "states_seen": 1
+      },
+      "deletions_tested": 12,
+      "digits": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        9,
+        10,
+        17,
+        18,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        52,
+        53,
+        60,
+        61,
+        64,
+        65,
+        66,
+        69,
+        70
+      ],
+      "distinct_digit_count": 38,
+      "generator_sum": 70,
+      "generators": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ],
+      "k": 5,
+      "max_runs_by_nonzero_step": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        2,
+        3,
+        2,
+        3,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3,
+        4,
+        2,
+        4,
+        4,
+        2,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        2,
+        3,
+        2,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "modular_start_step_pairs": 9312,
+      "two_level_generator_count": 12,
+      "two_level_subset_sum_count": 1444
+    },
+    {
+      "base": 93,
+      "canonical_certificate": {
+        "closed_states": [
+          [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            false
+          ]
+        ],
+        "edges_examined": 38,
+        "safe": true,
+        "states_seen": 1
+      },
+      "deletions_tested": 12,
+      "digits": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        9,
+        10,
+        17,
+        18,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49,
+        52,
+        53,
+        60,
+        61,
+        64,
+        65,
+        66,
+        69,
+        70
+      ],
+      "distinct_digit_count": 38,
+      "generator_sum": 70,
+      "generators": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ],
+      "k": 6,
+      "max_runs_by_nonzero_step": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        4,
+        2,
+        4,
+        4,
+        4,
+        2,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        3,
+        3,
+        4,
+        4,
+        3,
+        4,
+        2,
+        4,
+        4,
+        4,
+        2,
+        4,
+        3,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "modular_start_step_pairs": 8556,
+      "two_level_generator_count": 12,
+      "two_level_subset_sum_count": 1444
+    }
+  ],
+  "proof_status": "Ordinary mathematical proofs in the companion note; bounded exact checks here.",
+  "regressions": {
+    "explicit_negative_witnesses": [
+      {
+        "base": 16,
+        "certificate": {
+          "carry_bound": 2,
+          "columns": [
+            [
+              0,
+              4,
+              8,
+              12,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "edges_examined": 69,
+          "length": 2,
+          "safe": false,
+          "slope_bound": 1,
+          "states_seen": 12,
+          "witness": [
+            0,
+            4,
+            8,
+            12,
+            16
+          ]
+        },
+        "generators": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "k": 5
+      },
+      {
+        "base": 18,
+        "certificate": {
+          "carry_bound": 2,
+          "columns": [
+            [
+              0,
+              9,
+              0,
+              9
+            ],
+            [
+              0,
+              0,
+              1,
+              1
+            ]
+          ],
+          "edges_examined": 12,
+          "length": 2,
+          "safe": false,
+          "slope_bound": 1,
+          "states_seen": 4,
+          "witness": [
+            0,
+            9,
+            18,
+            27
+          ]
+        },
+        "generators": [
+          1,
+          7,
+          8
+        ],
+        "k": 4
+      },
+      {
+        "base": 60,
+        "certificate": {
+          "carry_bound": 3,
+          "columns": [
+            [
+              0,
+              0,
+              0,
+              0,
+              60
+            ],
+            [
+              1,
+              9,
+              17,
+              25,
+              32
+            ]
+          ],
+          "edges_examined": 532,
+          "length": 2,
+          "safe": false,
+          "slope_bound": 2,
+          "states_seen": 50,
+          "witness": [
+            60,
+            540,
+            1020,
+            1500,
+            1980
+          ]
+        },
+        "generators": [
+          1,
+          4,
+          5,
+          17,
+          21,
+          22
+        ],
+        "k": 5
+      },
+      {
+        "base": 93,
+        "certificate": {
+          "carry_bound": 2,
+          "columns": [
+            [
+              9,
+              60,
+              18,
+              69,
+              27
+            ],
+            [
+              0,
+              10,
+              21,
+              31,
+              42
+            ]
+          ],
+          "edges_examined": 43,
+          "length": 2,
+          "safe": false,
+          "slope_bound": 1,
+          "states_seen": 4,
+          "witness": [
+            9,
+            990,
+            1971,
+            2952,
+            3933
+          ]
+        },
+        "generators": [
+          1,
+          4,
+          5,
+          17,
+          21,
+          22
+        ],
+        "k": 5
+      },
+      {
+        "base": 97,
+        "certificate": {
+          "carry_bound": 2,
+          "columns": [
+            [
+              0,
+              9,
+              18,
+              27
+            ]
+          ],
+          "edges_examined": 2,
+          "length": 1,
+          "safe": false,
+          "slope_bound": 1,
+          "states_seen": 2,
+          "witness": [
+            0,
+            9,
+            18,
+            27
+          ]
+        },
+        "generators": [
+          1,
+          4,
+          5,
+          17,
+          21,
+          22
+        ],
+        "k": 4
+      }
+    ],
+    "invalid_inputs_and_mutations_rejected": 9,
+    "positive_bridges": [
+      {
+        "base": 4,
+        "certificate": {
+          "closed_states": [
+            [
+              [
+                -1
+              ],
+              true
+            ],
+            [
+              [
+                0
+              ],
+              false
+            ],
+            [
+              [
+                1
+              ],
+              true
+            ]
+          ],
+          "edges_examined": 4,
+          "safe": true,
+          "states_seen": 3
+        },
+        "digits": [
+          0,
+          2
+        ],
+        "k": 3
+      },
+      {
+        "base": 8,
+        "certificate": {
+          "closed_states": [
+            [
+              [
+                -1,
+                1,
+                -1
+              ],
+              true
+            ],
+            [
+              [
+                0,
+                0,
+                0
+              ],
+              false
+            ],
+            [
+              [
+                1,
+                -1,
+                1
+              ],
+              true
+            ]
+          ],
+          "edges_examined": 6,
+          "safe": true,
+          "states_seen": 3
+        },
+        "digits": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "k": 5
+      }
+    ]
+  },
+  "schema": "ep817-general-k-carry-capacity-v1",
+  "search_records": {
+    "best_recorded_certificates": {
+      "10": {
+        "base": 77,
+        "generators": [
+          1,
+          2,
+          3,
+          10,
+          11,
+          12,
+          22
+        ]
+      },
+      "11": {
+        "base": 67,
+        "generators": [
+          1,
+          4,
+          5,
+          8,
+          9,
+          13,
+          17
+        ]
+      },
+      "12": {
+        "base": 65,
+        "generators": [
+          1,
+          4,
+          5,
+          6,
+          10,
+          11,
+          16
+        ]
+      },
+      "5": {
+        "base": 97,
+        "generators": [
+          1,
+          4,
+          5,
+          17,
+          21,
+          22
+        ]
+      },
+      "6": {
+        "base": 93,
+        "generators": [
+          1,
+          4,
+          5,
+          17,
+          21,
+          22
+        ]
+      },
+      "7": {
+        "base": 49,
+        "generators": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          14
+        ]
+      },
+      "8": {
+        "base": 49,
+        "generators": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          14
+        ]
+      },
+      "9": {
+        "base": 77,
+        "generators": [
+          1,
+          6,
+          7,
+          8,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    "records_rechecked": 784,
+    "scope": "Stored witnesses replayed. Search maximality additionally depends on search_carry.py and its complete bounded runs.",
+    "source_sha256": {
+      "search_carry_5_6_160.json": "6f70e53469ddd1bbff93be64da6ba3d67de8481c8cd415ed42e7ee7f8470f602",
+      "search_carry_5_6_80.json": "a3b4e6038f40c8c6659632ed2287e0b00deaa887fa8c341b741a7f3abbd9bac1",
+      "search_modular_7_12_80.json": "551598c4944b64cb0fa45b9601201c5a723c649be38c34931f996d4e11ec15ec"
+    }
+  },
+  "source_sha256": {
+    "carry_tools.py": "320042d00fc1e2e2fb15eeefee55e77824997041ae146cf08b663aa8815036ee",
+    "verify_general_k.py": "7805ccd5d9e944dd2ba5f34c57cc4b584ff44db3611a8c8b9cc9ba8392bc5ed4"
+  },
+  "status": "PASS",
+  "structural": {
+    "correlated_cube": {
+      "columns": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "image_count": 38,
+      "projected_second_image_count": 139,
+      "second_image_count": 201,
+      "second_image_fiber_sizes": {
+        "0": 1,
+        "1": 1,
+        "10": 1,
+        "100": 2,
+        "101": 2,
+        "102": 2,
+        "103": 1,
+        "104": 2,
+        "105": 2,
+        "106": 3,
+        "107": 1,
+        "108": 1,
+        "109": 1,
+        "11": 1,
+        "110": 1,
+        "111": 2,
+        "112": 1,
+        "113": 1,
+        "114": 1,
+        "115": 1,
+        "116": 1,
+        "117": 1,
+        "118": 1,
+        "119": 1,
+        "12": 1,
+        "120": 1,
+        "121": 2,
+        "122": 2,
+        "123": 1,
+        "124": 1,
+        "125": 1,
+        "126": 1,
+        "127": 1,
+        "128": 1,
+        "129": 1,
+        "13": 1,
+        "130": 1,
+        "131": 1,
+        "132": 1,
+        "133": 1,
+        "134": 1,
+        "135": 1,
+        "136": 1,
+        "138": 1,
+        "139": 1,
+        "14": 1,
+        "140": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 2,
+        "19": 2,
+        "2": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 2,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 3,
+        "35": 2,
+        "36": 2,
+        "37": 1,
+        "38": 2,
+        "39": 2,
+        "4": 1,
+        "40": 2,
+        "41": 2,
+        "42": 2,
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 2,
+        "47": 1,
+        "48": 1,
+        "49": 1,
+        "5": 1,
+        "50": 2,
+        "51": 2,
+        "52": 1,
+        "53": 1,
+        "54": 1,
+        "55": 3,
+        "56": 3,
+        "57": 2,
+        "58": 2,
+        "59": 2,
+        "6": 1,
+        "60": 3,
+        "61": 2,
+        "62": 2,
+        "63": 3,
+        "64": 2,
+        "65": 1,
+        "66": 1,
+        "67": 2,
+        "68": 2,
+        "69": 1,
+        "7": 1,
+        "70": 1,
+        "71": 1,
+        "72": 2,
+        "73": 2,
+        "74": 1,
+        "75": 1,
+        "76": 2,
+        "77": 3,
+        "78": 2,
+        "79": 2,
+        "8": 1,
+        "80": 3,
+        "81": 2,
+        "82": 2,
+        "83": 2,
+        "84": 3,
+        "85": 3,
+        "86": 1,
+        "87": 1,
+        "88": 1,
+        "89": 2,
+        "9": 1,
+        "90": 2,
+        "91": 1,
+        "92": 1,
+        "93": 1,
+        "94": 2,
+        "95": 1,
+        "96": 1,
+        "97": 1,
+        "98": 2,
+        "99": 2
+      }
+    },
+    "path_family": [
+      {
+        "generators": [
+          1,
+          5,
+          6
+        ],
+        "minimal_relations": [
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "r": 2,
+        "subset_sum_count": 7
+      },
+      {
+        "generators": [
+          1,
+          5,
+          25,
+          6,
+          30
+        ],
+        "minimal_relations": [
+          [
+            1,
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            -1
+          ]
+        ],
+        "r": 3,
+        "subset_sum_count": 24
+      },
+      {
+        "generators": [
+          1,
+          5,
+          25,
+          125,
+          6,
+          30,
+          150
+        ],
+        "minimal_relations": [
+          [
+            1,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            -1
+          ]
+        ],
+        "r": 4,
+        "subset_sum_count": 82
+      },
+      {
+        "generators": [
+          1,
+          5,
+          25,
+          125,
+          625,
+          6,
+          30,
+          150,
+          750
+        ],
+        "minimal_relations": [
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            -1
+          ]
+        ],
+        "r": 5,
+        "subset_sum_count": 280
+      }
+    ]
+  }
+}

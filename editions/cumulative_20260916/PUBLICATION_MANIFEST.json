@@ -1,0 +1,362 @@
+{
+  "edition_repository_path": "editions/cumulative_20260916",
+  "scope": "Current GitHub edition, including publication overview and dated source records.",
+  "files": {
+    "NOTE_INDEX.md": {
+      "sha256": "bc773f3fad48f36f678dd9945b34442f4485535196023d4273bd2c5e8576036c",
+      "bytes": 7603
+    },
+    "PRESERVED_CURRENT_FILES.json": {
+      "sha256": "c4adeb7f4ebbcc3dbf1bb00d9db036d16d28261ff5011af1bc05830584e46a68",
+      "bytes": 1227
+    },
+    "PUBLICATION_NOTES.md": {
+      "sha256": "4f0d0e897f6193d3824cbe13fca6f7c52122f9b020a050653f7737a89fab2d48",
+      "bytes": 3228
+    },
+    "README.md": {
+      "sha256": "248cbaf721e1bbab6ce70a42b0b8b79403794e287d55e8d1172cca15876eb897",
+      "bytes": 3163
+    },
+    "latex/chapters/01_ternary-variance-lower-bound.tex": {
+      "sha256": "7752d0c08fd9aa9901ba10e73a03c2206518cdd69e18d375692ac8c6a263e6aa",
+      "bytes": 15089
+    },
+    "latex/chapters/02_general-k-capacity.tex": {
+      "sha256": "9f81d3a539274e2a20268df6cbee994cc216571dee2a88bfd147774ff3051eae",
+      "bytes": 38380
+    },
+    "latex/chapters/03_general-k-carry-capacity.tex": {
+      "sha256": "b2fd714870813a20e645f4ad4b714414ead53d7fbb13f2180f8cf47bea8ce49e",
+      "bytes": 49056
+    },
+    "latex/chapters/04_outer-support-control.tex": {
+      "sha256": "9eadefad822432f23b5548ac884f0db09632ea47ff3e112f875ff664cf6f6190",
+      "bytes": 48031
+    },
+    "latex/chapters/05_compact-global-dual.tex": {
+      "sha256": "3a660511422793b97d5346c729430a7e0f1c959ce0e1eea311ca6e21433e90f4",
+      "bytes": 10211
+    },
+    "latex/chapters/06_supported-reset-generalization.tex": {
+      "sha256": "920c37d2ae4939300d56bf195a36cd46962b1924ae0316b2e713cb332061eeae",
+      "bytes": 17224
+    },
+    "latex/chapters/07_variable-block-control.tex": {
+      "sha256": "be3e4d45cfdc73ca1ffbe17d57c9cb9f04e9625f848c85348c14d79c7f2a47a0",
+      "bytes": 26587
+    },
+    "latex/chapters/08_graphical-obstructions.tex": {
+      "sha256": "d716894ce0ac6685459a500e3ec16beb2814271d7eeaa94965125b952b283fbb",
+      "bytes": 41542
+    },
+    "latex/chapters/09_monotone-obstruction-dual.tex": {
+      "sha256": "815fcbbe815a85d22619d21a20b92b3d3fc3ffd6c7a98d8b8b9cb4322c0e1b96",
+      "bytes": 13550
+    },
+    "latex/chapters/10_splitzero-return.tex": {
+      "sha256": "498e9dafd758562b6ecbee8378db6b7412de9e4a75dd7985752d6e1b9d8b3317",
+      "bytes": 15165
+    },
+    "latex/chapters/11_graphic-visibility-filtration.tex": {
+      "sha256": "ab65ae9733f9471f0b385b5a4550c67cb20c1060145026e905404afdb34f05c8",
+      "bytes": 25328
+    },
+    "latex/chapters/12_supported-defect-universality.tex": {
+      "sha256": "0df7a128aeb57968495b062c8ec6129db1da7c572a5e4583d3529b5e274a5b18",
+      "bytes": 39931
+    },
+    "latex/chapters/13_splitzero-receiving-map.tex": {
+      "sha256": "2919dffcd3321c0484d159ad5ffcacaff28a787dbb614d4add2c83a9e57beda2",
+      "bytes": 11715
+    },
+    "latex/chapters/14_recurrence-control.tex": {
+      "sha256": "718a2506dd7781c5cf683a05f10249440a7fa181950ceb0a37d798a8cfd62562",
+      "bytes": 42971
+    },
+    "latex/chapters/15_splitzero-receiving-map.tex": {
+      "sha256": "a184c89e21bbc6dc6cb48ee7eb9a65d36d71253a4246bed365c77e709b75f595",
+      "bytes": 15902
+    },
+    "latex/chapters/16_closure-and-core-isolation.tex": {
+      "sha256": "56fb8dc40c74956eab27d54db21034b4fb1375ab3a1dfe5aa517d2ee41805e03",
+      "bytes": 36469
+    },
+    "latex/chapters/17_splitzero-receiving-map.tex": {
+      "sha256": "dfb073716311bde56b2caa50ccfe3322b41f704ad79ac3a258aafb990ae52cb5",
+      "bytes": 10315
+    },
+    "latex/chapters/18_canonical-isolation.tex": {
+      "sha256": "5127b4be9bf9a0e76150459f6a20dec3acd91b16db1d8254cfc38491b483a9fa",
+      "bytes": 45778
+    },
+    "latex/chapters/19_splitzero-receiving-map.tex": {
+      "sha256": "e16024222dad1efe66a5f7ac509de69a4146800cb05816c4ed96e1a34410dc12",
+      "bytes": 14643
+    },
+    "latex/chapters/20_arity-and-boundary.tex": {
+      "sha256": "a9d478537b9b48f0390e5f32d8d8a40e8c8ce4fdc21edbc8afba809f701bfc43",
+      "bytes": 44467
+    },
+    "latex/chapters/21_splitzero-receiving-map.tex": {
+      "sha256": "005971a9b7c657af8ec28789f31c668ec5e0ec8386bebc89455e84847fd2236f",
+      "bytes": 13093
+    },
+    "latex/chapters/22_all-block-image-capacity.tex": {
+      "sha256": "769d7774632d7572738ba77fd7427e0e6feffa48a0cdb1b73312cb5ab73a61c2",
+      "bytes": 41601
+    },
+    "latex/chapters/23_general-pattern-return.tex": {
+      "sha256": "b7ff5175241b962786fca36981252da3e2dbbd3d9e18cf676d78d013ba4d2afe",
+      "bytes": 14374
+    },
+    "latex/chapters/24_seven-observable-capacity.tex": {
+      "sha256": "1bc9c7429332b62dbba1e5d6900d7fe0f6b9177fa0d5f0097b940aaa90f2e566",
+      "bytes": 52838
+    },
+    "latex/chapters/25_splitzero-receiving-map.tex": {
+      "sha256": "63a850bc8b771a1655d61e45b0034529257795dd669ca14bd591ec5060fbd2f7",
+      "bytes": 13958
+    },
+    "latex/chapters/26_local-flow-and-switching.tex": {
+      "sha256": "11e335dc9fd22736d87796e4da2907d8170140468229c3262b3d8ebf1da220cf",
+      "bytes": 40480
+    },
+    "latex/chapters/27_splitzero-receiving-map.tex": {
+      "sha256": "d608deb8ba537933f9c1641cbdb3daff45c561f38b7e7f06ace178d126326b78",
+      "bytes": 16262
+    },
+    "latex/chapters/28_finite-period-control.tex": {
+      "sha256": "4dc28b75270b53fa1f63ec561bb7c9b1cafb406d41d918686c5d18347d838ffa",
+      "bytes": 28158
+    },
+    "latex/chapters/29_splitzero-receiving-map.tex": {
+      "sha256": "f3131beed81508c93008eda79afb26909d4488adfdf007d1936f7fc7ee01d3bd",
+      "bytes": 10253
+    },
+    "latex/collected_notes.pdf": {
+      "sha256": "c66bf0fd64de31b3328b759c9f16fbc521e0ce2e9b2cd529f18665541d6e513c",
+      "bytes": 1637431
+    },
+    "latex/collected_notes.tex": {
+      "sha256": "b849d6a3a3fc905b3075281d4345919bff655a3c6d6f921e41cf63a53566499f",
+      "bytes": 3386
+    },
+    "latex/individual/01_ternary-variance-lower-bound.tex": {
+      "sha256": "68bb3b75621f1fe1349e5a73dc8ea4fd42999be781232a3b675058f5fd363103",
+      "bytes": 155
+    },
+    "latex/individual/02_general-k-capacity.tex": {
+      "sha256": "794c0b24b60296fa35419210a8698fc538a277eb69cf1fdcf7ab0dee01842fef",
+      "bytes": 145
+    },
+    "latex/individual/03_general-k-carry-capacity.tex": {
+      "sha256": "3a52ababd03870e6a9ed107e90d3e75d455260aa9076c0372402ba6db2e68a35",
+      "bytes": 151
+    },
+    "latex/individual/04_outer-support-control.tex": {
+      "sha256": "445a62b3ea5314b192b58c372ca7f38c40561958dd0c5dbbe060f5e170819b1a",
+      "bytes": 148
+    },
+    "latex/individual/05_compact-global-dual.tex": {
+      "sha256": "58c5f368344b076fdaf3cff01935238849091151e51d1b602f5610bc80d92510",
+      "bytes": 146
+    },
+    "latex/individual/06_supported-reset-generalization.tex": {
+      "sha256": "7edea2c38e59a0bec1829fda9b7ef4ebbb41a5d8585b2cec948f27d8bba9713e",
+      "bytes": 157
+    },
+    "latex/individual/07_variable-block-control.tex": {
+      "sha256": "c5a842b843ac9e99fbbd41278b5a0c719d72ab58d1ea96e7f02ac32f37f3b6a2",
+      "bytes": 149
+    },
+    "latex/individual/08_graphical-obstructions.tex": {
+      "sha256": "9cba0b99487779c773b753c01dd097dc610e33f321412716aa3acf3675d0c5c6",
+      "bytes": 149
+    },
+    "latex/individual/09_monotone-obstruction-dual.tex": {
+      "sha256": "025fa746a77c378b93b9e8672865adadc097ebd71cc461f523ea540bbfc8efab",
+      "bytes": 152
+    },
+    "latex/individual/10_splitzero-return.tex": {
+      "sha256": "8aadf6c64a683065137c7bd0445b4e5b376a96aa7011b6265848adfbd1d64d06",
+      "bytes": 143
+    },
+    "latex/individual/11_graphic-visibility-filtration.tex": {
+      "sha256": "407c1e95f089ef849d4a03a8c863a1fc983549ca8f13acfd08489c7696da6f3d",
+      "bytes": 156
+    },
+    "latex/individual/12_supported-defect-universality.tex": {
+      "sha256": "3edbd184783a0433da1372cbad7eba977ee67523651fe5f2223ac019d8bfd0e4",
+      "bytes": 156
+    },
+    "latex/individual/13_splitzero-receiving-map.tex": {
+      "sha256": "36d62d0c0b1199ae45ab0a72fd48fd44be37f434edc05dbdbd203121258dc7d2",
+      "bytes": 150
+    },
+    "latex/individual/14_recurrence-control.tex": {
+      "sha256": "2bc3bb04ab77fae7c6dfa4d1b0b1d503a06a700ea11d2633b68298e06590c714",
+      "bytes": 145
+    },
+    "latex/individual/15_splitzero-receiving-map.tex": {
+      "sha256": "967a13a84278d4c576f17c0667f35051a098bae8fc3b29a4ba72ed5197bdf43c",
+      "bytes": 150
+    },
+    "latex/individual/16_closure-and-core-isolation.tex": {
+      "sha256": "1fe373c3c9807ff2e86dd2c0eddf22ef53b6bd5956eaa6048783718aaad3f224",
+      "bytes": 153
+    },
+    "latex/individual/17_splitzero-receiving-map.tex": {
+      "sha256": "4177e6f01615703df2ac1caa6e55da12d4dd5ca09b4fd1aa955161d5f876a679",
+      "bytes": 150
+    },
+    "latex/individual/18_canonical-isolation.tex": {
+      "sha256": "269bc2eed4fec73e8b99ad8d84ee4742cadf7730995236e0552b32bd3e071b93",
+      "bytes": 146
+    },
+    "latex/individual/19_splitzero-receiving-map.tex": {
+      "sha256": "b5dfbec1a88d332f56055dac2cf4b0340ea7555ac6500217db4bebdbf8462388",
+      "bytes": 150
+    },
+    "latex/individual/20_arity-and-boundary.tex": {
+      "sha256": "29ec5d8cd0a9e4d58c011959b0dca887e291b38f16a8e48db425ae2101d754ad",
+      "bytes": 145
+    },
+    "latex/individual/21_splitzero-receiving-map.tex": {
+      "sha256": "9aea9f6867a07a80bafa472a6a84d11c418c83821350cdae022147edb8607fdd",
+      "bytes": 150
+    },
+    "latex/individual/22_all-block-image-capacity.tex": {
+      "sha256": "28297b560b6a8beec60666b1ceb58482c19f94382a3f0eefd3cfc7d9d4db4dee",
+      "bytes": 151
+    },
+    "latex/individual/23_general-pattern-return.tex": {
+      "sha256": "21abbd0a256fc1e9259624dbb64b28e18b6e47d3f88a66ff7a7b9cc9dc1c4554",
+      "bytes": 149
+    },
+    "latex/individual/24_seven-observable-capacity.tex": {
+      "sha256": "710e72676146aa06819c82df92a0bad8b6fc12cb14a4bd3dc920601fb6849ed3",
+      "bytes": 152
+    },
+    "latex/individual/25_splitzero-receiving-map.tex": {
+      "sha256": "a583cf383bde63c98c2581dc27affecbbd11518b3f4285ad512e9971fe7c55ed",
+      "bytes": 150
+    },
+    "latex/individual/26_local-flow-and-switching.tex": {
+      "sha256": "141c9a60d3069ecbfd1b226fc107e2c1be93cd564f85521ec0ff10eb634e522f",
+      "bytes": 151
+    },
+    "latex/individual/27_splitzero-receiving-map.tex": {
+      "sha256": "0859103aa120eab1d8cc2f207d9eaf71568493ab58c374689aa114743ef463de",
+      "bytes": 150
+    },
+    "latex/individual/28_finite-period-control.pdf": {
+      "sha256": "508d4b18d87e89ae21c0d5176a69e555d8605c502cc50512c3cd2487d66dc70c",
+      "bytes": 397269
+    },
+    "latex/individual/28_finite-period-control.tex": {
+      "sha256": "6275a56cb10c419cc9455fe4ee91f68378c1e3e3ff45b11392ee4f41c630d537",
+      "bytes": 329
+    },
+    "latex/individual/29_splitzero-receiving-map.pdf": {
+      "sha256": "2893bd97ea47d20e30064aba89ef0dd0f2fccab848a96287c23ca64491ca572c",
+      "bytes": 276464
+    },
+    "latex/individual/29_splitzero-receiving-map.tex": {
+      "sha256": "c7891552566fc45b4c44d19f98b07b2b6eba4781e8f3816b9e88f6b8f859c6ad",
+      "bytes": 334
+    },
+    "latex/preamble.tex": {
+      "sha256": "7fa9c10d7b988ca7a73943129d7b79b97ef293a2329328d7c39d6bad2eb181a3",
+      "bytes": 1003
+    },
+    "original_delivery/MANIFEST.json": {
+      "sha256": "9689495e2d772036af081b0728a29eebc64a9b073f5b363d8b10ab9d7435f923",
+      "bytes": 204640
+    },
+    "original_delivery/NOTE_INDEX.md": {
+      "sha256": "f0107bb34da618ab1b86425d6256d0351d7d78cc280e6c0ac8269302ddc73362",
+      "bytes": 7376
+    },
+    "original_delivery/README.md": {
+      "sha256": "a92e6a69beeccbcaee3d45f5d895f20459940a60aa09002ed9cd589b3e66f3c3",
+      "bytes": 4463
+    },
+    "original_delivery/provenance/archive_members.json": {
+      "sha256": "17c5cbd03e0fd53bf5680e1698b0bcba9735039c8ec772d4e853d0d3237c4e1d",
+      "bytes": 389065
+    },
+    "original_delivery/provenance/input_archives.json": {
+      "sha256": "4bf94281705adbe4b3e60441f265060ab4036a720c6f5e08accd8f7c2fa222a6",
+      "bytes": 9676
+    },
+    "original_delivery/provenance/integration_check.json": {
+      "sha256": "6b955c3839dec5c55505516eec304b8ccd48ec511c0b47e60a9ce78515af780d",
+      "bytes": 4045
+    },
+    "original_delivery/provenance/math_conversion_inventory.json": {
+      "sha256": "436b52a8cf7fadd5fc8581ddb6e83dd07610ed9444dccfb079fefcf1404b1be1",
+      "bytes": 88753
+    },
+    "original_delivery/provenance/new_arithmetic_replay.json": {
+      "sha256": "d45bb28892aca68984cef5b79dc582e10e9c3259fac4da58fe66968c1c715b0d",
+      "bytes": 2121
+    },
+    "original_delivery/provenance/new_contribution.json": {
+      "sha256": "227c82acb384b3461154a20a0d8cbd8e897860b729b5ec892c8ddc0ab5045f52",
+      "bytes": 625
+    },
+    "original_delivery/provenance/notes_index.json": {
+      "sha256": "4a5376294eb95ef668545b57b61e2251d08f2d9fd9c515b9b9222f3fb25f285d",
+      "bytes": 21860
+    },
+    "original_delivery/provenance/pdf_check.json": {
+      "sha256": "5606e28ca840e36d1bebca2798dc9727e19b6d43f59a16330f78a5fe63a69b4d",
+      "bytes": 730
+    },
+    "original_delivery/provenance/repository_paths.json": {
+      "sha256": "6a9de2ddb90545b1923d989646ca0133baf181057a600edc2f5392292b30df88",
+      "bytes": 119988
+    },
+    "original_delivery/provenance/staging_checks.json": {
+      "sha256": "acb015cf629ef4a4cbbe57e5b27b6ff877614aab2ee71d1452c7d0ec19b726be",
+      "bytes": 362
+    },
+    "original_delivery/provenance/staging_exclusions.json": {
+      "sha256": "1e200db266d90fec76c738ba66345008392b062ec55606e742ebea1717a0a766",
+      "bytes": 354
+    },
+    "original_delivery/provenance/upstream_observation.json": {
+      "sha256": "a60578a2fb37bdc377e2fe36df58695100979e9d8e90a20cd041c00a2ea9e16e",
+      "bytes": 470
+    },
+    "provenance/AMENDMENTS.json": {
+      "sha256": "49ca8d776e8341fe9177eff3bd9054834fc3e3ba4cf2353a9116a1e6e2f539d4",
+      "bytes": 53550
+    },
+    "provenance/BUILD_RECEIPT.json": {
+      "sha256": "c1a612abb7b36d8da473e71eeacf473e97582c868df4a51d701d486a04c7adb7",
+      "bytes": 10584
+    },
+    "provenance/PDF_VISUAL_QA.json": {
+      "sha256": "8bd3558b97e490a2a7b9152716c39d3bed3208fc8a8ac7f44c5e4fe7f2c4521a",
+      "bytes": 6546
+    },
+    "provenance/current_note_map.json": {
+      "sha256": "a9b80582f172fc7bf3863201be6fbb6066971bed088929191825afee854f0444",
+      "bytes": 19918
+    },
+    "provenance/original_math_conversion_inventory.json": {
+      "sha256": "436b52a8cf7fadd5fc8581ddb6e83dd07610ed9444dccfb079fefcf1404b1be1",
+      "bytes": 88753
+    },
+    "provenance/original_notes_index.json": {
+      "sha256": "4a5376294eb95ef668545b57b61e2251d08f2d9fd9c515b9b9222f3fb25f285d",
+      "bytes": 21860
+    },
+    "provenance/original_tex_manifest.json": {
+      "sha256": "2bf5454327b14c5c3a43a34031a3f00f351fcbdb84acf2e941acd5cb281365cd",
+      "bytes": 9310
+    }
+  }
+}

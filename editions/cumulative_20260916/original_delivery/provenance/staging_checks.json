@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "ep817",
+    "files": 193,
+    "dry_run": "PASS",
+    "clean_apply": "PASS",
+    "idempotent": "PASS",
+    "conflict_retains_entire_destination": "PASS"
+  },
+  {
+    "repository": "zeta",
+    "files": 154,
+    "dry_run": "PASS",
+    "clean_apply": "PASS",
+    "idempotent": "PASS",
+    "conflict_retains_entire_destination": "PASS"
+  }
+]

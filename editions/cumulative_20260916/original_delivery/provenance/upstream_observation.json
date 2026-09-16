@@ -1,0 +1,12 @@
+{
+  "repository": "KokunoYumeto/erdos-problem-817-workbench",
+  "main": "578564a5f0c6e3348f5bdc33fd2022b674899c41",
+  "cone_dual_branch": "7641825de1bee9c57f5edef5d334abb7c21af663",
+  "comparison": "cone-dual is 11 commits behind inspected main; its note was inspected on main",
+  "read_files": [
+    "research/cone_dual/README.md",
+    "research/cone_dual/notes/cone-and-dual.md"
+  ],
+  "remote_write_performed": false,
+  "upstream_only_source_bytes_included": false
+}

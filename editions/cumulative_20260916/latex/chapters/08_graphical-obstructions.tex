@@ -1,0 +1,647 @@
+% Original Markdown SHA-256: 1e7dda55215faf90696066ab8690a6136518f343635fefa739e857e8ab933e7f
+\chapter{Graphical obstruction propagation and a stronger six-term construction}
+\label{chapter:08_graphical-obstructions}
+{\small\noindent\textbf{Source:} \nolinkurl{history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/graphical-obstructions.md}\
+\textbf{Identity:} \nolinkurl{1e7dda55215faf90696066ab8690a6136518f343635fefa739e857e8ab933e7f}}
+\medskip
+Research contribution, 15 September 2026. Ordinary mathematical proofs and exact finite certificates; independent mathematical review pending. No new Lean elaboration or global priority claim is made.
+
+\section{1. The original problem and the result obtained}\label{n08-the-original-problem-and-the-result-obtained}
+
+For a finite set A of distinct positive integers let
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H(A)=\left\{\sum_{a\in U}a:U\subseteq A\right\},\qquad S(A)=\sum_{a\in A}a.$
+\end{adjustbox}
+\]
+
+The empty subset is an actual source choice with numerical value zero. Let g\_k(n) be the least possible maximum of an n-element A for which H(A) has no nonconstant ordered k-term arithmetic progression. The preceding work proves existence of
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \lambda_k=\lim_{n\to\infty}g_k(n)^{1/n}
+=\inf_{A\ne\varnothing,\ k\text{-admissible}}(2S(A)+1)^{1/|A|}.$
+\end{adjustbox}
+\tag{1.1}
+\]
+
+This continuation obtains
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\lambda_6\le1651^{1/10}=2.0978513292766505\ldots.}$
+\end{adjustbox}
+\tag{1.2}
+\]
+
+The actual ten-generator block is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle A_\sharp=\{3,4,7,34,37,41,216,250,253,257\}.$
+\end{adjustbox}
+\tag{1.3}
+\]
+
+It is the set of pairwise distances of the five actual marks (0,4,7,41,257). Its 291 distinct subset sums are certified six-progression-free modulo 1651, including every nonzero step for this composite modulus, 1651=13*127. Writing n=10j+s with 1\textless=s\textless=10 and a\_s the s-th increasing member of (1.3),
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{g_6(n)\le a_s1651^j\le257\,1651^{\lceil n/10\rceil-1}.}$
+\end{adjustbox}
+\tag{1.4}
+\]
+
+The previous workbench bound was 93\^{}(1/6). The strict improvement is the integer inequality
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 1651^3=4,500,297,451<6,956,883,693=93^5.$
+\end{adjustbox}
+\]
+
+The modulus 1651 is also optimal over all infinite canonical mixed-radix schedules repeating this exact block. This fixed-block optimality is distinct from an assertion that (1.2) is the exact unrestricted lambda\_6.
+
+The structural results are stronger than the finite record. They give an all-rank collision-to-progression theorem for complete-graph sources, prove a sharp leading asymptotic within that entire source family, identify an infinite two-parameter family of failed extensions, and give a precise infinite family of successful replacements. The companion note constructs a canonical monotone Bellman form of the earlier compact dual.
+
+The original k=4 construction and signed-block proof remain credited to the anonymous/deleted Reddit contributor. sneed-and-feed retains separate credit for PR \#1\textquotesingle s Lean finite-upper-bound extension. The new bounds and proofs do not inherit that Lean verification status.
+
+\section{2. Recognizing the complete-graph source without changing its arithmetic}\label{n08-recognizing-the-complete-graph-source-without-changing-its-arithmetic}
+
+The old blocks have a common exact description:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \{1,7,8\}=\{t_j-t_i:i<j\},\quad T=(0,1,8),$
+\end{adjustbox}
+\] \[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \{1,4,5,17,21,22\}=\{t_j-t_i:i<j\},\quad T=(0,1,5,22).$
+\end{adjustbox}
+\]
+
+Let G=(V,E) be a finite simple graph and t\_v distinct integer marks. Order vertices by their marks and orient each edge i\textless j. Its positive generator is a\_ij=t\_j-t\_i. When these values are pairwise distinct, edge subsets are exactly subsets of the original generator set. In all applications asserting a cardinality for A, distinctness is checked rather than assumed from the number of edges.
+
+Retain the integral boundary and scalar observation
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \partial:\mathbb Z^E\longrightarrow\mathbb Z^V,
+\qquad e_{ij}\longmapsto e_j-e_i,$
+\end{adjustbox}
+\] \[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle L_T:\mathbb Z^V\longrightarrow\mathbb Z,
+\qquad x\longmapsto\sum_vt_vx_v.$
+\end{adjustbox}
+\]
+
+The subset-sum map factors exactly as
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\Phi_A=L_T\partial.}$
+\end{adjustbox}
+\tag{2.1}
+\]
+
+Translation of all marks by a specified integer t changes L\_T by t times the coordinate-sum functional. That functional vanishes on im(partial), so it leaves every actual edge generator unchanged. No rescaling of generators is used.
+
+The two relation spaces are compared by the exact sequence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 0\longrightarrow\ker\partial\longrightarrow\ker\Phi_A
+\xrightarrow{\partial}\ker(L_T|_{\operatorname{im}\partial})\longrightarrow0.$
+\end{adjustbox}
+\tag{2.2}
+\]
+
+Surjectivity means exactly that an element of im(partial) killed by L\_T has an original edge-chain lift. The kernel of that restriction is ker(partial). For a connected graph on m vertices with e edges, the corresponding rational dimensions are e-m+1, e-1, and m-2. For the new K\_5 example they are 6, 9, and 3. These full linear kernels are not identified with their intersections with the binary difference box.
+
+For each admitted edge support, use the free module on its actual binary choices, the free module on its boundary-image points, and then the free module on its numerical-image points. Their maps send each basis element to its actual image. Inclusions of admitted supports commute with both maps. These are diagrams to which the original SplitZero reconstruction and internal-quotient construction apply: a relation goes to the zero of its original support fiber, while external absence remains the bottom support. The second map retains its additional observation kernel separately, as in (2.2).
+
+\section{3. A general obstruction from disjoint lifts of one observed boundary}\label{n08-a-general-obstruction-from-disjoint-lifts-of-one-observed-boundary}
+
+\textbf{Theorem 3.1.} Let a finite free integral source have basis E, positive observed weights a\_e, a boundary map partial, and observation ell with Phi=ell partial. Suppose \(c^1,\ldots,c^r\) are vectors in \{-1,0,1\}\^{}E with pairwise disjoint supports and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \partial c^h=z\quad(1\le h\le r),\qquad d=\ell(z)\ne0.$
+\end{adjustbox}
+\]
+
+Then H(A) contains an (r+1)-term progression of difference d, with explicit actual subset representatives.
+
+\textbf{Proof.} Write \(c^h=c^h_{+}-c^h_{-}\) with disjoint positive and negative supports. For Q subset \{1,...,r\}, choose c\^{}h\_+ when h belongs to Q and c\^{}h\_- otherwise. Their union is an actual subset because the supports of the different c\^{}h are disjoint. Its value is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle X+|Q|d,\qquad X=\sum_h\Phi(c^h_-).$
+\end{adjustbox}
+\]
+
+The map Q to this union to its numerical value is the required typed source map. Choosing Q=\{1,...,j\} for 0\textless=j\textless=r gives the progression. Negative d is permitted; reversal gives a positive-step tuple. QED.
+
+For a graph, every oriented u-v path gives a signed edge chain of boundary e\_v-e\_u. Thus r edge-disjoint u-v paths force an (r+1)-term progression of difference t\_v-t\_u. On K\_m there are m-1 explicit paths: the direct edge and one path through each of the other vertices. Hence every distinct-distance K\_m source has an m-term progression.
+
+For example, the new K\_5 block has the five-term progression
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 0,257,514,771,1028.$
+\end{adjustbox}
+\]
+
+The four disjoint increments are the direct edge of length 257 and the three two-edge paths through marks 4,7,41. This proves that the same block cannot be used as a five-progression-free construction.
+
+A further graph consequence is \textbar E\textbar{} \textless= (k-2)(\textbar V\textbar-c(G)) for a k-admissible distinct-distance graph, where c(G) is its component count. Indeed each vertex pair has at most k-2 edge-disjoint paths. An integral unit-capacity flow either finds another path or exhibits a cut of size at most k-2: when no augmenting path remains, the vertices reachable from its source give such a cut. Split a connected component along that cut, apply induction to its two induced graphs, and add at most k-2 cut edges. Disconnected components are treated separately. Thus \textbar E\textbar{} \textless= (k-2) rank(partial). This is a bound on this specified graphical source, not a claim that arbitrary generator relations are graphical.
+
+The converse to Theorem 3.1 does not hold for an arbitrary scalar observation. For A=\{1,2\}, the map Phi\_(1,2):Z\^{}2-\textgreater Z sends the actual masks 00,10,01,11 to 0,1,2,3. Three disjoint nonzero lifts cannot fit on two basis supports. The numerical progression is instead retained by this explicit projection and its relation 2e\_1-e\_2. The theorem supplies a source obstruction, not an equivalence for arbitrary projections.
+
+\section{4. Tournament-score fibers of the complete graph}\label{n08-tournament-score-fibers-of-the-complete-graph}
+
+Write m=\textbar V\textbar{} and n\_m=m(m-1)/2. Begin with the tournament in which vertex i has score i. Choosing an edge reverses its orientation. The score of a binary edge vector epsilon is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s(\epsilon)=\rho-\partial\epsilon,
+\qquad\rho=(0,1,\ldots,m-1).$
+\end{adjustbox}
+\tag{4.1}
+\]
+
+Let Sigma\_m be the image of this map. It consists of the actual tournament-score vectors, with all orientation multiplicities retained in its fibers. Each coordinate lies in {[}0,m-1{]}, and the coordinate sum is n\_m. Consequently Sigma\_m contains no nonconstant (m+1)-term vector progression: any nonzero integral coordinate difference would span at least m, exceeding its width.
+
+The scalar square is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Phi_A(\epsilon)=C_T-L_T(s(\epsilon)),\qquad
+C_T=\sum_i i t_i.$
+\end{adjustbox}
+\tag{4.2}
+\]
+
+Every permutation of (0,1,...,m-1) is the score of exactly one transitive tournament, giving m! distinct source score points. Enumerating all original orientation masks gives \textbar Sigma\_m\textbar=2,7,38,291,2932 for m=2,3,4,5,6. These finite counts are independently computed here; no general forest-count formula is imported.
+
+Injection at the first value level alone does not certify progression preservation. For T=(0,1,5,22,257), (4.2) is bijective on all 291 score points, but the numerical image has a six-term progression. Section 7 gives the actual rows and the receiving-kernel defect. The next theorem proves the converse implication needed for a lower bound: a collision at the first level forces an additional progression.
+
+\section{5. All-rank collision rigidity, with its original integer correction}\label{n08-all-rank-collision-rigidity-with-its-original-integer-correction}
+
+\subsection{5.1 Integral orientation allocation}\label{n08-integral-orientation-allocation}
+
+The following criterion is the classical generalized Landau orientation theorem; see Kolesnik and Sanchez (2024, Corollary 4.2). The complete integral-flow proof is included to fix the source, capacities, and the actual allocation map used in the new prolongation. The criterion itself is not claimed as a new result.
+
+\textbf{Lemma 5.1.} For a finite loopless multigraph M, an integer vector d is the score vector of an orientation if and only if
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \sum_vd_v=|E(M)|,\qquad \sum_{v\in U}d_v\ge|E(M[U])|\quad(U\subseteq V).$
+\end{adjustbox}
+\tag{5.1}
+\]
+
+\textbf{Proof.} Every edge internal to U contributes one win in U, proving necessity. For sufficiency, make a network with source-to-edge-node capacity one, an edge-node-to-each-endpoint capacity \textbar E(M)\textbar+1, and vertex-to-sink capacity d\_v. Singleton inequalities make d\_v nonnegative. A cut of capacity below \textbar E(M)\textbar{} cannot separate an edge node from either endpoint. Optimizing its chosen edge nodes for a given vertex set U makes its capacity \textbar E(M)\textbar-\textbar E(M{[}U{]})\textbar+sum\_U d\_v, at least \textbar E(M)\textbar. Thus there is no smaller cut.
+
+Integral augmenting paths produce an integral flow. If they stop below \textbar E(M)\textbar, the reachable set in the residual network is a cut of that smaller value, a contradiction. Every original edge therefore sends its one unit to precisely one endpoint. These assigned endpoints are its winners, with scores d. This also gives the explicit construction. QED.
+
+\subsection{5.2 Root-budget prolongation}\label{n08-root-budget-prolongation}
+
+\textbf{Theorem 5.2.} Let m\textgreater=2 and let r in Z\^{}m be nonzero, have coordinate sum zero, and satisfy
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r(U):=\sum_{i\in U}r_i\le|U|(m-|U|)\quad(U\subseteq\{0,\ldots,m-1\}).$
+\end{adjustbox}
+\tag{5.2}
+\]
+
+Choose i where r is maximal and j where it is minimal, and put alpha=e\_j-e\_i. There are actual tournament-score vectors x\_0,...,x\_m with first difference alpha and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\Delta(x_0,\ldots,x_m)=(0,\ldots,0,r).}$
+\end{adjustbox}
+\tag{5.3}
+\]
+
+The construction uses integer endpoint allocations and actual edge reversals. In particular the defect r is retained rather than silently declared zero.
+
+\textbf{Proof.} Nonzero integrality and sum zero give r\_i\textgreater=1 and r\_j\textless=-1. Put w=r+alpha. Let F\_ij be the score face with s\_i=0 and s\_j=m-1; its remaining coordinates are one plus the scores of a tournament on the other m-2 vertices.
+
+Form the multigraph M by taking one K\_m and one additional K\_(m-2) on those other vertices. Put
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle b_i=0,\quad b_j=m-1,\quad b_h=m-2\ (h\ne i,j),\qquad d=w+b.$
+\end{adjustbox}
+\]
+
+The sum of d is \textbar E(M)\textbar. For a subset U of size a, the upper score cut bound on w is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle M(U)=|E(M)|-|E(M[V\setminus U])|-b(U).$
+\end{adjustbox}
+\]
+
+Counting the two complete graphs gives the following four exact values:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \begin{array}{c|c}
+\text{membership of }i,j\text{ in }U&M(U)\\\hline
+\text{neither}&a(m-a)-a\\
+i\text{ only}&a(m-a)\\
+j\text{ only}&a(m-a)-(m-1)\\
+\text{both}&a(m-a)-(m-a).
+\end{array}$
+\end{adjustbox}
+\tag{5.4}
+\]
+
+We prove w(U)\textless=M(U). Empty and full subsets are immediate. When neither endpoint belongs to U, maximality gives r\_i\textgreater=r(U)/a. Apply (5.2) to U union \{i\}:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r(U)+r_i\le(a+1)(m-a-1),$
+\end{adjustbox}
+\]
+
+so r(U)\textless=a(m-a-1). When both endpoints belong to U, apply the same argument to -r on the complement, whose maximum is at j. This gives r(U)\textless=(m-a)(a-1). When only i belongs to U, (5.2) and w(U)=r(U)-1 suffice.
+
+It remains to treat U containing j but not i. At a=1 or a=m-1, r\_j\textless=-1 or r\_i\textgreater=1 gives r(U)\textless=a(m-a)-m. For 2\textless=a\textless=m-2, let P\_a be the sum of the a largest coordinates, ordered with i first and j last. Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r(U)\le P_a-r_i+r_j,
+\quad r_i\ge P_a/a,
+\quad r_j\le-P_a/(m-a),
+\quad P_a\le a(m-a).$
+\end{adjustbox}
+\]
+
+Since 1-m/{[}a(m-a){]}\textgreater=0 in this range,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r(U)\le\left(1-\frac m{a(m-a)}\right)P_a
+\le a(m-a)-m.$
+\end{adjustbox}
+\]
+
+Adding the +1 from alpha proves (5.4) also in this last case. These four cases cover every original cut; no averaging of the relation coordinates changes r.
+
+Because w has total zero, the upper cuts for w are equivalent by complements to the lower cuts (5.1) for d. Lemma 5.1 constructs an orientation of M. Split its score as t+tau, where t is the score of the first K\_m and tau is the score of the internal K\_(m-2). Define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s_i=0,\quad s_j=m-1,\quad s_h=m-2-\tau_h\ (h\ne i,j).$
+\end{adjustbox}
+\]
+
+Reversing the internal tournament shows s belongs to F\_ij. The actual equality is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{t-s=r+\alpha.}$
+\end{adjustbox}
+\tag{5.5}
+\]
+
+In the tournament for s, j wins against every other vertex and i loses against every other vertex. The direct j-i path and the paths j-h-i are pairwise edge-disjoint. Reverse the first h such paths, for h=0,...,m-1. They yield actual scores s-h alpha. Order these scores as
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s-(m-1)\alpha,\ldots,s-\alpha,s,$
+\end{adjustbox}
+\]
+
+and append t. The first m rows have difference alpha, and their final second difference is t-s-alpha=r by (5.5). This proves (5.3), with actual orientation masks for every row. QED.
+
+\subsection{5.3 Arithmetic consequence and bounded-kernel equality}\label{n08-arithmetic-consequence-and-bounded-kernel-equality}
+
+For s,t in Sigma\_m, their difference r=t-s satisfies (5.2): for any a-vertex set U, a tournament has between binom(a,2) and binom(a,2)+a(m-a) wins in U. Hence the difference of two such scores is at most a(m-a).
+
+\textbf{Theorem 5.3 (collision rigidity).} Let T have distinct real marks, and let the binary edge-subset image of its complete graph contain no nonconstant (m+1)-AP. Then L\_T is injective on Sigma\_m.
+
+\textbf{Proof.} A collision gives distinct score vectors with r=t-s nonzero and L\_T r=0. Apply Theorem 5.2. The scalar image of its packet has zero second differences, while its common difference is L\_T alpha=t\_j-t\_i, nonzero because the marks are distinct. Equation (4.2) carries it to an actual progression of edge-subset sums, with the opposite nonzero difference. Reversal gives a positive difference when desired. This contradicts admissibility. QED.
+
+For an EP817 ruler, all edge weights are additionally distinct positive integers. Its first-level representation fibers are therefore exactly the tournament-score fibers. In particular H(A) has \textbar Sigma\_m\textbar{} values and the same full multiplicity distribution, independent of the admitted ruler.
+
+The precise bounded-relation assertion is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\ker\Phi_A\cap\{-1,0,1\}^{E}
+=\ker\partial\cap\{-1,0,1\}^{E}
+}$
+\end{adjustbox}
+\tag{5.6}
+\]
+
+for every such (m+1)-admissible ruler. To prove it, decompose c in the displayed box into its positive and negative binary vectors. Their score difference is partial c, and numerical equality forces it to vanish by Theorem 5.3. The reverse inclusion follows from (2.1). Full linear kernels keep their separate dimensions in (2.2); coefficients outside the stated box have not been removed.
+
+A complete finite calibration constructs (5.3) for every nonzero difference of score points at m=2,3,4,5: respectively 2,18,200,3080 literal directions. It retains all 3300 packets and their binary masks. Another 200 explicitly seeded cases cover m=6,...,10. The all-rank assertion follows from the cut proof above, not extrapolation of those tables.
+
+\section{6. A sharp all-rank asymptotic within the critical graphical family}\label{n08-a-sharp-all-rank-asymptotic-within-the-critical-graphical-family}
+
+For fixed m\textgreater=2, permit arbitrary canonical mixed-radix schedules whose levels are complete-graph distance blocks of m-mark integer rulers, with distinct positive edge weights, and require every prefix image to be (m+1)-AP-free. The ruler and radix may change at every level. Each level has n\_m=binom(m,2) generators. Let Xi\_m be the infimal exponential product cost per generator over this whole family.
+
+Every individual level is (m+1)-admissible, since its progression would survive with all other level choices zero. By Theorem 5.3 it has at least m! distinct subset sums. Its canonical radix therefore satisfies
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle b>S(A),\qquad b\ge S(A)+1\ge|H(A)|\ge m!.$
+\end{adjustbox}
+\]
+
+Multiplying over any schedule gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\Xi_m\ge(m!)^{2/[m(m-1)]}.}$
+\end{adjustbox}
+\tag{6.1}
+\]
+
+There is a corresponding explicit general upper construction. For a prime p\textgreater m, take
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T=(0,1,p,\ldots,p^{m-2}),\quad q=p^{m-1}.$
+\end{adjustbox}
+\tag{6.2}
+\]
+
+All pairwise distances are distinct. Edges from zero give powers of p; the other edges are \(p^a(p^d-1)\). Their p-adic valuations and residual factors distinguish them, since p\textgreater=3 and p\^{}d-1 differs from one. Moreover
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle S(A)\le C_T=\sum_{i=1}^{m-1} i p^{i-1}
+\le(m-1)\frac{q-1}{p-1}<q.$
+\end{adjustbox}
+\]
+
+Under (4.2), the reflected image C\_T-H(A) lies in the actual base-p digit box with every digit in \{0,...,m-1\}. A nonzero-step modular (m+1)-AP modulo q, examined at the least p-adic position where its difference is nonzero, would have m+1 distinct residues modulo p in a set of only m allowed residues. Common lower digits are removed by their exact residue-and-quotient maps. This contradiction proves modular safety, including all word lengths after base-q lifting. The map to the digit coordinates is injective; the omitted zero-mark score is recovered from the fixed score sum.
+
+The upper rate is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\Xi_m\le p^{2/m}.}$
+\end{adjustbox}
+\tag{6.3}
+\]
+
+Bertrand\textquotesingle s theorem supplies m\textless p\textless=2m for every m\textgreater=2. Its classical prime-existence statement is the only prime-distribution input here. The elementary integral estimate log(m!)\textgreater=m log m-m+1 now gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \frac{2(m\log m-m+1)}{m(m-1)}
+\le\log\Xi_m\le\frac{2\log(2m)}m.$
+\end{adjustbox}
+\]
+
+Consequently
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\lim_{m\to\infty}\frac{m\log\Xi_m}{\log m}=2.}$
+\end{adjustbox}
+\tag{6.4}
+\]
+
+This leading law covers all arithmetic choices and infinite canonical schedules in the critical complete-graph family, without an assumed score-injectivity hypothesis: admissibility itself forces that injection. It is not a lower bound for the unrestricted lambda\_(m+1), whose generators need not arise from this graph.
+
+For general k, choose m=min(p,k)-1 in (6.2); a forbidden (m+1)-AP is already excluded, so every longer k-AP is excluded. This independently rederives the prime upper bound p\^{}(2/(min(p,k)-1)) in Korsky\textquotesingle s inspected v1. That numerical bound is prior work, not a novelty claim. The new role of (6.4) is to identify a complete source family where its leading coefficient cannot be improved by changing rulers or radices.
+
+The implication for further work is specific. Finite constants can improve substantially inside this family, as Section 9 shows. A reduction of the leading coefficient below two for the full problem must use a different source family or a different relation structure; collapsing score classes in the critical complete graph creates a progression by Theorem 5.3. The next obstruction analysis therefore has to retain which parts of the complete-graph cut argument fail for a new source, rather than assuming all scalar collisions can be exploited safely.
+
+\section{7. An obstruction hyperplane that survives every appended mark}\label{n08-an-obstruction-hyperplane-that-survives-every-appended-mark}
+
+The old successful K\_4 ruler is T=(0,1,5,22). A direct extension to five marks looks natural but fails for every appended mark for which the ten distances are distinct.
+
+More generally, take integers
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 0<a<b,\quad b\ne2a,\quad c=5b-3a,\quad z>2c.$
+\end{adjustbox}
+\tag{7.1}
+\]
+
+The ten distances of (0,a,b,c,z) are distinct positive integers. Among the six old distances, the only possible collision under these inequalities is a=b-a, excluded by b!=2a; the other three large old distances exceed b. Every new distance exceeds c because z\textgreater2c, so it is distinct from every old one, and the new distances are mutually distinct.
+
+Their actual subset sums contain
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \begin{aligned}
+y_0&=z-c,\\
+y_1&=z-b,\\
+y_2&=z+c-2b,\\
+y_3&=z+2b+c-3a,\\
+y_4&=z+b+2c-3a,\\
+y_5&=z+3c-3a.
+\end{aligned}$
+\end{adjustbox}
+\tag{7.2}
+\]
+
+Each has an explicit edge-subset representation. The first two use a single new edge. The next uses (c-b)+(z-b). The last three use respectively
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle [b+(b-a)+(c-a)]+(z-a),$
+\end{adjustbox}
+\] \[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle [c+(b-a)+(c-a)]+(z-a),$
+\end{adjustbox}
+\] \[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle [c+(b-a)+(c-a)+(c-b)]+(z-a).$
+\end{adjustbox}
+\]
+
+All bracketed terms use distinct old edges. The consecutive differences are c-b except for the middle one, which is 4b-3a. Equation (7.1) makes that difference equal to c-b as well, and c-b\textgreater0. This proves a six-term progression for the entire integer family, not just sampled z.
+
+At a=1,b=5,c=22 the row is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle z-22,z-5,z+12,z+29,z+46,z+63,
+\quad d=17.$
+\end{adjustbox}
+\]
+
+The source kernel direction is visible independently of the appended z. The six tournament-score rows are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (0,1,2,4,3),\ (0,1,3,3,3),\ (0,1,4,2,3),$
+\end{adjustbox}
+\] \[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (1,4,0,2,3),\ (1,4,1,1,3),\ (1,4,2,0,3).$
+\end{adjustbox}
+\]
+
+Their four vector second defects are 0,r,-r,0, where
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r=(1,3,-5,1,0),\qquad L_T(r)=3a-5b+c.$
+\end{adjustbox}
+\tag{7.3}
+\]
+
+The last coordinate is zero, so changing z never repairs this relation. At z=257, scalar evaluation is still a bijection on all 291 first-level score values, but (7.3) creates the numerical progression 235,252,269,286,303,320. The second-difference comparison, rather than first-level injectivity alone, is the exact place where the obstruction survives.
+
+The comparison of coefficient levels is explicit. The map (x,y)-\textgreater(x,y,y) from Sigma\_5\^{}2 to Sigma\_5\^{}3 intertwines the pair difference x-y with the second-defect map x-2y+z. Every pair difference has each coordinate in {[}-4,4{]}, whereas the displayed r has a coordinate -5. The obstruction thus occurs at the larger, specified three-row source, while its scalar image still vanishes. This explains how first-level injectivity and the failed progression can coexist without equating their kernels.
+
+Thus the failed extension identifies an arithmetic hyperplane to exclude, and it explains why searching larger appended marks on the same prefix cannot help. The successful replacement changes the prefix itself.
+
+\section{8. Affine source fibers give a complete infinite tail test}\label{n08-affine-source-fibers-give-a-complete-infinite-tail-test}
+
+For fixed prefix T=(t\_0,...,t\_(m-1)), append z\textgreater max T. Write A\_T for the old distances. Selecting r of the m new edges contributes rz minus the sum of their r old endpoints. Hence the exact numerical image is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H(A_{T\cup\{z\}})=\bigcup_{r=0}^m(rz+F_r),$
+\end{adjustbox}
+\] \[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle F_r=H(A_T)-\left\{\sum_{i\in I}t_i:|I|=r\right\}.$
+\end{adjustbox}
+\tag{8.1}
+\]
+
+The original old subset and new-edge subset masks remain attached to every (r,v). The free value-source projection sends its basis vector to e\_(rz+v); its further scalar-amplitude map is a separate observation. Equality in a projection does not erase the underlying support.
+
+For a general finite packet C subset Z\^{}2, put W=max\_C v-min\_C v and E\_z(r,v)=rz+v. For every integer z\textgreater2W, E\_z is injective and preserves and reflects the k-AP relation, for every k\textgreater=3. To prove reflection, lift the numerical rows uniquely. Their second differences obey
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle z\Delta r_i+\Delta v_i=0,\qquad |\Delta v_i|\le2W<z,$
+\end{adjustbox}
+\]
+
+so both integer differences vanish. Nonconstant vector progressions stay nonconstant because injectivity holds. Injection follows from \textbar v-v\textquotesingle\textbar\textless=W\textless z. At smaller z, any scalar AP whose lift is not a vector AP satisfies the explicit equation z=-Delta v\_i/Delta r\_i for at least one nonzero Delta r\_i. The actual finite packet and its full kernels are retained on both sides.
+
+When k=m+2 and C is the packet in (8.1), its slopes lie in {[}0,m{]}, so a k-term vector progression has constant slope. Therefore the following gives the complete tail dichotomy: a k-AP in any F\_r persists under translation rz for every valid z; when all F\_r are k-AP-free, every z\textgreater2W is safe. Distinct generator weights are checked separately at finite z and hold automatically sufficiently far out.
+
+For the new prefix T=(0,4,7,41), S(A\_T)=126, sum T=52, and W=178 is a valid whole-packet width. All five F\_r are six-term-free by exact finite enumeration. Therefore every z\textgreater356 gives a distinct ten-generator, integer-six-term-free distance block. The remaining 315 integers z=42,...,356 were completely classified: 270 have an explicit six-AP, six have repeated generator weights, and 39 are integer-six-term-free. The full rows, original masks, and all successful parameter values are in the receipt. The record parameter z=257 belongs to the latter class.
+
+This proves an infinite construction family and a complete finite exceptional range. It does not assert that every such z has the same efficient modular base. The modulus is separately tested, as follows.
+
+\section{9. The base-1651 certificate and its exact canonical fixed-block optimum}\label{n08-the-base-1651-certificate-and-its-exact-canonical-fixed-block-optimum}
+
+For (1.3), the verifier reconstructs all 1024 binary masks and their 291 value fibers. It checks all 1651*1650=2,724,150 ordered start/nonzero-step modular parameter pairs. No six-term progression occurs. A separate implementation scans the 480,150 pairs whose first term is actually a digit; the other 2,244,000 pairs are excluded by that first-term condition. Both computations include all steps for the composite modulus.
+
+Canonical lifting is proved directly. A modular-safe digit set D subset {[}0,q-1{]} gives a safe language at every length. Reduce a proposed integer AP modulo q. Its step must vanish modulo q and its lowest digits must agree. Remove the common actual digit c by y -\textgreater{} (y-c)/q, with inverse x -\textgreater{} qx+c. Induction on the length forces the original progression to be constant. Generator distinctness follows because all base weights lie strictly between zero and q. Taking an initial n-generator subcollection proves (1.4).
+
+The certificate also constructs a returning section on all 81 carries:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r:\{-1,0,1\}^4\longrightarrow D^6,\qquad\Delta r(c)=-c.$
+\end{adjustbox}
+\tag{9.1}
+\]
+
+Every smaller canonical base q=1103,...,1650 has a stored nonconstant modular row d. Its carry c=Delta d/q belongs to \{-1,0,1\}\^{}4. The original integer row
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{y_i=d_i+q\,r(c)_i}$
+\end{adjustbox}
+\tag{9.2}
+\]
+
+has zero second differences. It is nonconstant: unequal low digits in {[}0,q-1{]} cannot be canceled by an integer multiple of q. Each value is checked against a mask of the actual twenty-generator set A\_sharp union q A\_sharp.
+
+At the next radix, whatever integer b\textgreater S(A\_sharp) is chosen, the carry equation is c+Delta r(c)=b*0. Thus no subsequent radix repairs the obstruction. If the bad q appears later in a schedule, prepend actual constant-zero columns; the same witness is multiplied by its original preceding radix product. All earlier representations and the empty-word choice are retained.
+
+An all-prefix-safe canonical schedule repeating A\_sharp consequently has no radix below 1651. Constant radix 1651 is certified. Hence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\gamma_6(A_\sharp)=1651^{1/10}.}$
+\end{adjustbox}
+\tag{9.3}
+\]
+
+The statement is quantified over all infinite canonical schedules for this fixed block. Radices \textless=S(A\_sharp), other blocks, and the unrestricted global lambda\_6 are not covered by its optimality assertion.
+
+\section{10. Original quotient metrics and the further additive kernel}\label{n08-original-quotient-metrics-and-the-further-additive-kernel}
+
+Let V=Q{[}\{0,1\}\^{}E{]} with its actual orthonormal mask basis, and let W=Q{[}H(A){]}. The map pi sends each basis mask to its numerical-value basis vector. For each value y let mu(y) be its number of masks. Its least-norm section is the average of those mu(y) masks, and the original quotient Gram is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle G=\operatorname{diag}_y(1/\mu(y)).$
+\end{adjustbox}
+\tag{10.1}
+\]
+
+For any source coefficients in one fiber, subtracting their mean proves the exact Pythagoras identity; no metric is declared Euclidean after quotienting. On the new ruler the multiplicity histogram is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \begin{array}{c|rrrrrr}
+\mu&1&2&4&8&14&24\\\hline
+\text{number of values}&120&60&60&30&20&1.
+\end{array}$
+\end{adjustbox}
+\]
+
+Its total source mass is 1024. The largest fiber has size 24, so the identity from quotient coordinates with Gram G to unit value coordinates has norm sqrt(24). For t canonical levels, the actual tensor quotient Gram is G\^{}(tensor t), and the corresponding return norm is 24\^{}(t/2). These costs remain separate from the unit-cost Boolean observation used only for existence of a path.
+
+At the next additive level, the map
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Sigma_5+\Sigma_5\longrightarrow H(A_\sharp)+H(A_\sharp)$
+\end{adjustbox}
+\]
+
+has 3081 source values and 2103 numerical values. Its free linearization is onto and has kernel dimension 978. The addition square from Q{[}Sigma\_5{]} tensor Q{[}Sigma\_5{]} commutes with the numerical addition square. This identifies the extra observation kernel at that level explicitly. The first-level rigidity theorem does not delete this second-level kernel, and the modular certificate is what controls its feasible six-row intersections.
+
+\section{11. Obstruction handling and the global objective}\label{n08-obstruction-handling-and-the-global-objective}
+
+The companion Bellman theorem distinguishes two consequences of a failed trial inequality. A particular coefficient potential may need correction even when its trial threshold is achievable in the corresponding restricted family. A closed cycle of actual levels with cost below its generator threshold gives an arithmetic construction and rules that threshold out. The new base-1651 empty-support self-edge is of the second type: it violates the old 93\^{}(1/6) target independently of every potential coefficient.
+
+The graphical progression mechanism makes other failures constructive. A nonzero scalar observation on disjoint lifts gives a progression by Theorem 3.1. A collapsed complete-graph score direction gives the original source packet (5.3). A bad append parameter is detected in the exact affine fibers (8.1); the hyperplane (7.3) proves that an entire attempted extension family fails. A bad smaller radix has the stored return primitive (9.2). These failures change the next construction instead of being treated as evidence that the general problem is impossible.
+
+The unbounded result (6.4) is a matching leading law for the critical complete-graph source class. The unrestricted block family remains broader. The present proof does not supply a comparison embedding every admissible block into that class with controlled generator reward and original metric; none is asserted. The full general problem therefore still requires control of the infinite arithmetic inequalities in the compact dual, beyond this source family.
+
+\section{12. Verification and source roles}\label{n08-verification-and-source-roles}
+
+The standalone producer is \nolinkurl{certificates/verify_graphical_obstructions.py}. The independent arithmetic auditor is \nolinkurl{certificates/audit_graphical_receipt.py}, which imports no producer module. The commands and delivered input hashes are in the contribution README. Their scopes include the complete new modular certificate, 81 original return rows, 548 bad-radix witnesses, the full 315-parameter exceptional range, all 3300 complete collision packets through five vertices, eight prior finite-rank Bellman systems, and mutation tests. The larger-rank collision cases are explicitly identified as samples. The general proofs are in this note.
+
+The graph calibration additionally checks 1098 simple graphs on two through five vertices, 10,650 terminal pairs, and 9044 nonempty disjoint path packings. The maximum flows are compared with all cuts in that finite domain. The affine-packet calibration checks 2730 parameter tests. Eight deliberately false formulas and eight corrupted proof-data records must be rejected. Exact integers or rational numbers are used in every proof check.
+
+The original workbench main was read at \nolinkurl{23c0110c95b5a2036bdc04a1f352b6e5e27742c8.} The observed outer-control branch is \nolinkurl{74ba7dcc4bd623b3555046feb6d45ccac38417a3.} The preceding variable-block/compact-dual package remains a distinct local source with its own hashes and prior audit scope. No new remote write or inherited Lean claim is implied by these references.
+
+\subsection{References}\label{n08-references}
+
+Anonymous/deleted Reddit contributor, \& The Clankers. (2026, September 13). \emph{The exponential rate for four-term-progression-free subset-sum sets} {[}Workbench manuscript{]}. Erdős Problem 817 Workbench, base commit above. Original construction and signed-block proof; separate reconstruction and formalization credits retained.
+
+Kolesnik, B., \& Sanchez, M. (2024). The geometry of random tournaments. \emph{Discrete \& Computational Geometry, 71}, 1343--1351. \url{https://doi.org/10.1007/s00454-023-00571-4} . Published online September 21, 2023. Sections 1--4, especially Corollary 4.2, inspected for the classical multigraph score criterion used in Lemma 5.1. The specific root-budget correction and scalar-obstruction construction are proved in this note.
+
+Korsky, S. (2026). \emph{Arithmetic progression-free subset-sum sets} (arXiv:2606.24139v1). \url{https://arxiv.org/html/2606.24139v1} . Inspected general bounds and graph construction; the prime upper benchmark is prior work. No theorem from an uninspected paper is substituted for the proofs here.
+
+Postnikov, A. (2009). Permutohedra, associahedra, and beyond. \emph{International Mathematics Research Notices, 2009}(6), 1026--1106. \url{https://doi.org/10.1093/imrn/rnn153} . Original preprint math/0507163. Abstract inspected for graphical/permutohedral context. The root-budget and orientation arguments above are proved explicitly; no forest-count identity is borrowed from an unread body.
+
+Erdős, P. (1932). Beweis eines Satzes von Tschebyschef. \emph{Acta Litterarum ac Scientiarum, Sectio Scientiarum Mathematicarum, 5}, 194--198. \url{https://acta.bibl.u-szeged.hu/13396/} . Archival metadata checked; historical source of the elementary Bertrand theorem. The precise prime-existence statement is also exposed in the official Mathlib documentation below.
+
+The mathlib community. (n.d.). \emph{Mathlib.NumberTheory.Bertrand} {[}Formal source documentation{]}. \url{https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/Bertrand.html} . Inspected declaration \nolinkurl{Nat.exists_prime_lt_and_le_two_mul}; used only for the standard theorem m\textless p\textless=2m. This citation does not certify any new result in this contribution in Lean.
+
+KokunoYumeto. (2026). \emph{Reconstruction with changes of support index} {[}TeX source{]}. \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex}, Zeta Function Research Reader, revision \nolinkurl{42df8a2de002d5fc7090641fac46ea11be05fa71.} Original diagram reconstruction, supported zeros, and internal quotient interfaces.
+
+The Clankers. (2026, September 14). \emph{A compact all-rank dual from the retained reset cost} {[}Prior research note{]}. \nolinkurl{EP817_ZETA_INTEGRATION_20260914}, \nolinkurl{research/variable_blocks/notes/compact-global-dual.md}. Exact predecessor; its accepted scope is not expanded by reference alone.

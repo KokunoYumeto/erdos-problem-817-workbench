@@ -1,0 +1,890 @@
+% Original Markdown SHA-256: 4848e628811d0e9775848e68f21a1237ba54b04826ca2e103ebd93633fe5673b
+\chapter{All-block image capacity and exact ternary transfer}
+\label{chapter:22_all-block-image-capacity}
+{\small\noindent\textbf{Source:} \nolinkurl{history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/all-block-image-capacity.md}\
+\textbf{Identity:} \nolinkurl{4848e628811d0e9775848e68f21a1237ba54b04826ca2e103ebd93633fe5673b}}
+\medskip
+The Clankers. 16 September 2026. Ordinary mathematical proofs submitted for independent review; no new Lean elaboration.
+
+This continuation concerns the unbounded family of generator blocks in Erdős Problem 817. The preceding arity-boundary contribution computed particular fixed blocks. Here the ternary transfer is computed for every block and every mixed-block schedule. A separate prime-selection and amplification argument removes maximum generator size from the exact variational formula for the global exponential rate.
+
+The original k=4 construction and signed-block proof remain credited to the anonymous/deleted Reddit contributor. The finite-upper-bound Lean extension remains separately credited to sneed-and-feed. Neither contribution is used as an unproved general-k premise below. No mathematical priority claim is made for the standard ingredients: finite-state positional arithmetic, submultiplicativity, elementary prime-product estimates, or the preservation of finite additive equations under an injective residue observation. The specific statements below are proved in full.
+
+\section{1. Original objects and results}\label{n22-original-objects-and-results}
+
+For a nonempty finite set A of distinct positive integers, put n=\textbar A\textbar, S=sum(A), and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H_q(A)=\left\{\sum_{a\in A}c_a a:0\le c_a<q\right\},\qquad q\ge2.$
+\end{adjustbox}
+\]
+
+The values are counted once; \(\mu_{A,q}(y)\) denotes the number of original coefficient words representing y. Write H(A)=H\_2(A). The empty word represents the present value zero. Call A k-admissible if H(A) has no nonconstant ordered k-term arithmetic progression, where k\textgreater=3. As usual g\_k(n) is the least possible max(A) among such n-element sets.
+
+Define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mu_{k,q}(n)=\min_{\substack{|A|=n\\A\ k\text{-admissible}}}|H_q(A)|,
+\qquad \mu_{k,q}(0)=1.$
+\end{adjustbox}
+\]
+
+This symbol \(\mu_{k,q}\) is the minimum image cardinality; its two subscripts distinguish it from the word multiplicity \(\mu_{A,q}\).
+
+\textbf{Theorem A (finite-arity global capacity).} Every limit
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \tau_{k,q}=\lim_{n\to\infty}\mu_{k,q}(n)^{1/n}$
+\end{adjustbox}
+\]
+
+exists, and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \tau_{k,2}\le\tau_{k,3}\le\tau_{k,4}\le
+\boxed{\lambda_k=\tau_{k,q}=\inf_{A\ k\text{-admissible}}|H_q(A)|^{1/|A|}}
+\quad(q\ge5),$
+\end{adjustbox}
+\]
+
+where \(\lambda_k=\lim_n g_k(n)^{1/n}\). In particular,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\lambda_k=\inf_{A\ k\text{-admissible}}|H_5(A)|^{1/|A|}.}$
+\end{adjustbox}
+\tag{1.1}
+\]
+
+Equivalently H\_5(A)=H(A)+H(A)+H(A)+H(A) as numerical sets. The specified map from four original binary coefficient words to their coordinatewise sum is onto \{0,1,2,3,4\}\^{}A; its fibre at c has cardinality \(\prod_{a\in A}\binom4{c_a}\). It commutes with numerical evaluation. The image-set equality therefore does not identify the two original representation measures.
+
+All A in these infima are literal finite positive distinct generator sets. No common factor is divided out. The claim does not say that a minimizing block exists. Section 8 gives a nonattainment example already at k=3.
+
+\textbf{Theorem B (two-state ternary transfer).} For every finite nonempty D contained in {[}0,2b-2{]}, define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle t=|D|,\quad \kappa=\#\{d\in D:d-1\notin D\},\quad
+U=D\bmod b,\quad v=|U|,\quad
+\eta=|U\cup(U+1)|-|U|,\quad \beta=t-v.$
+\end{adjustbox}
+\]
+
+The addition in U+1 is modulo b. For every nonempty finite Y of integers, set \(\kappa(Y)=\#\{y\in Y:y-1\notin Y\}\). Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\begin{pmatrix}|D+bY|\\\kappa(D+bY)\end{pmatrix}
+=
+T(D,b)\begin{pmatrix}|Y|\\\kappa(Y)\end{pmatrix},\qquad
+T(D,b)=\begin{pmatrix}v&\beta\\\eta&\kappa-\eta\end{pmatrix}.
+}$
+\end{adjustbox}
+\tag{1.2}
+\]
+
+This nonnegative integer matrix has dimension two regardless of \textbar D\textbar, b, or the number of original generators. When D=H\_3(A) and b\textgreater S(A), its range hypothesis is automatic. Products of the actual matrices therefore compute arbitrary changing-block ternary images exactly.
+
+\textbf{Theorem C (uniform collision horizon).} For every q\textgreater=2 and canonical block b\textgreater S(A), either evaluation of the distinct local values H\_q(A) is injective at all block lengths, or a collision occurs by length q-1. At q=2 it is always injective. At q=3 a collision occurs exactly when both 1 and b belong to the original signed image \(\sum_{a\in A}[-2,2]a\); it then occurs at two levels. When a fixed ternary block has any such collision, its loss relative to the product of local image cardinalities is exponential, with an explicit bound in Section 4.
+
+These statements concern actual numerical images, not uniform original word assignments. All observation kernels and representation metrics are specified below.
+
+\section{2. The two-column quotient and its original relations}\label{n22-the-two-column-quotient-and-its-original-relations}
+
+Let b\textgreater=2 and \(D\subseteq[0,2b-2]\). Each residue z in {[}0,b-1{]} has zero, one, or two representatives in D. A two-element fibre must be \(\{z,z+b\}\).
+
+For arbitrary finite Y, consider
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \pi:\mathbb Z[D\times Y]\longrightarrow\mathbb Z[D+bY],
+\qquad e_{(d,y)}\longmapsto e_{d+by}.$
+\end{adjustbox}
+\tag{2.1}
+\]
+
+This is a surjection of free integer modules with their original bases. Any equality d+by=d\textquotesingle+by\textquotesingle{} forces d,d\textquotesingle{} to be in the same residue fibre. Every non-singleton fibre of (2.1) therefore consists of precisely
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (d+b,y),\quad(d,y+1),
+\qquad d,d+b\in D,\quad y,y+1\in Y.$
+\end{adjustbox}
+\]
+
+These pairs have disjoint supports as (d,y) varies: a source pair with a high digit d+b cannot be a source pair with the low digit d in the same residue fibre, and its y coordinate fixes the pair. Define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathcal E_b(D)=\{d:d,d+b\in D\},\quad
+\mathcal E_1(Y)=\{y:y,y+1\in Y\}.$
+\end{adjustbox}
+\]
+
+There is the explicit exact sequence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+0\to\mathbb Z[\mathcal E_b(D)\times\mathcal E_1(Y)]
+\xrightarrow{\partial}\mathbb Z[D\times Y]
+\xrightarrow{\pi}\mathbb Z[D+bY]\to0,
+}$
+\end{adjustbox}
+\tag{2.2}
+\]
+
+with
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \partial e_{(d,y)}=e_{(d+b,y)}-e_{(d,y+1)}.$
+\end{adjustbox}
+\]
+
+The disjoint pairs prove injectivity. Subtracting the two coefficients in each two-element fibre shows that they generate the whole kernel. Singleton fibres contribute no relation. Thus
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \operatorname{rank}\ker\pi
+=|\mathcal E_b(D)|\,|\mathcal E_1(Y)|
+=\beta(|Y|-\kappa(Y)).$
+\end{adjustbox}
+\tag{2.3}
+\]
+
+No unsupported relation is inserted. In particular
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |D+bY|=t|Y|-\beta(|Y|-\kappa(Y))
+=v|Y|+\beta\kappa(Y).$
+\end{adjustbox}
+\tag{2.4}
+\]
+
+For any finite integer set Z,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |Z\cup(Z+1)|=|Z|+\kappa(Z).$
+\end{adjustbox}
+\tag{2.5}
+\]
+
+Apply (2.4) to \(E=D\cup(D+1)\). Its range is {[}0,2b-1{]}, so it too has at most two representatives of each residue; the preceding quotient proof still applies. Its size is t+\textbackslash kappa, and its residue count is v+\textbackslash eta. Subtracting the count for D gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \kappa(D+bY)=\eta|Y|+(\kappa-\eta)\kappa(Y).$
+\end{adjustbox}
+\]
+
+This proves (1.2). Every new residue in E\textbackslash bmod b is supplied by a new endpoint in E\textbackslash setminus D, of which there are \textbackslash kappa, so 0\textless=\textbackslash eta\textless=\textbackslash kappa. All matrix entries are nonnegative.
+
+\subsection{Original weighted source metric}\label{n22-original-weighted-source-metric}
+
+Give a source pair (d,y) a positive mass w(d,y), and the free pair basis the reciprocal Gram 1/w(d,y). For a numerical fibre F\_x, let W\_x=sum\_\{(d,y) in F\_x\}w(d,y). The section is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s(e_x)=\sum_{(d,y)\in F_x}\frac{w(d,y)}{W_x}e_{(d,y)}.$
+\end{adjustbox}
+\]
+
+It obeys \(\pi s=1\), is orthogonal to every displayed relation, and has quotient Gram 1/W\_x. Expanding any other lift as s plus its actual boundary proves the Pythagorean identity. When the two factors come from generator words, take
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle w(d,y)=\mu_{A,3}(d)\mu_{\mathrm{tail},3}(y).$
+\end{adjustbox}
+\]
+
+Those are the original word masses. Setting all pair masses equal to one is a different specified source, connected by its diagonal metric map. The unweighted distinct-image counts do not replace these masses.
+
+\subsection{Mixed blocks and exact order}\label{n22-mixed-blocks-and-exact-order}
+
+For levels \((b_j,A_j)\) with b\_j\textgreater S(A\_j), write D\_j=H\_3(A\_j), P\_0=1, P\_\{j+1\}=b\_jP\_j. Since every original generator at level j is smaller than P\_\{j+1\}, the actual scaled generator sets are disjoint. Their ternary image is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle L= D_0+b_0(D_1+b_1(\cdots+b_{m-2}D_{m-1})).$
+\end{adjustbox}
+\]
+
+Consequently
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\begin{pmatrix}|L|\\\kappa(L)\end{pmatrix}
+=T(D_0,b_0)\cdots T(D_{m-1},b_{m-1})\binom11.
+}$
+\end{adjustbox}
+\tag{2.6}
+\]
+
+The first matrix is the least significant level. Matrix order and every radix product remain in the formula. The final radix does not change the finite top-level generator image; its matrix acts on (1,1) to give (\textbar D\textbar,\textbackslash kappa(D)), independently of that radix. It still matters when the word is repeated.
+
+\section{3. Homogeneous spectra for every ternary block}\label{n22-homogeneous-spectra-for-every-ternary-block}
+
+For a fixed (D,b), put N\_m=\textbar L\_m(D;b)\textbar, R\_m=\textbackslash kappa(L\_m(D;b)), N\_0=R\_0=1. The matrix is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T=\begin{pmatrix}v&\beta\\\eta&\kappa-\eta\end{pmatrix},
+\quad a=v+\kappa-\eta,
+\quad d=v(\kappa-\eta)-\beta\eta.$
+\end{adjustbox}
+\]
+
+Cayley-\/-Hamilton gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle N_{m+2}=aN_{m+1}-dN_m,\quad N_1=t,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\sum_{m\ge0}N_mz^m=
+\frac{1+(t-a)z}{1-az+dz^2}.}$
+\end{adjustbox}
+\tag{3.1}
+\]
+
+Let
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \rho_\pm=\frac{a\pm\sqrt{(v-\kappa+\eta)^2+4\beta\eta}}2.$
+\end{adjustbox}
+\]
+
+The Perron root \textbackslash rho=\textbackslash rho\_+ is observed by this initial/terminal pair. If beta,eta\textgreater0 this follows directly from strict positivity of the Perron vectors. If beta=0, t=v and \textbackslash kappa-\textbackslash eta\textless=v, and N\_m=v\^{}m. If eta=0, nonempty U is invariant under addition of one, so U is the whole cyclic group, v=b; also \textbackslash kappa\textless=b. Thus the upper diagonal root b is observed. These cases prove
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\lim_{m\to\infty}N_m^{1/m}=\rho.}$
+\end{adjustbox}
+\tag{3.2}
+\]
+
+There is no nontrivial repeated-root polynomial correction in these ternary counts. Indeed a zero discriminant implies beta*eta=0 and v=\textbackslash kappa-\textbackslash eta. If beta=0 then \textbackslash kappa\textless=t=v forces eta=0 and \textbackslash kappa=t. If eta=0 then v=b, and \textbackslash kappa=b forces D to consist of the b isolated points 0,2,...,2b-2; therefore t=b and beta=0. In either case T=tI.
+
+Otherwise the exact formula is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+N_m=\frac{t-\rho_-}{\rho_+-\rho_-}\rho_+^m
++\frac{\rho_+-t}{\rho_+-\rho_-}\rho_-^m.
+}$
+\end{adjustbox}
+\tag{3.3}
+\]
+
+The preceding arity-boundary package contains a four-valued source with a genuine m3\^{}m term. The map here applies to its ternary source, not to that four-valued source. Equation (3.3) proves that the latter Jordan correction cannot already occur in the ternary two-column problem.
+
+\subsection{Full-base versus thin growth}\label{n22-full-base-versus-thin-growth}
+
+Let c=b-v and \(\tau=2b-t-\kappa\). Both are nonnegative, since D\textbackslash cup(D+1) has t+\textbackslash kappa elements in {[}0,2b-1{]}. Also 0\textless=eta\textless=c, and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \det(bI-T)=(c-\eta)(b-\kappa)+\eta\tau.$
+\end{adjustbox}
+\tag{3.4}
+\]
+
+The cardinality bound \(N_m\le2b^m\) proves \textbackslash rho\textless=b. If c=0, U is all residues and \textbackslash rho=b. If c\textgreater0, then eta\textgreater0. Vanishing of (3.4) forces tau=0; conversely tau=0 means D\textbackslash cup(D+1)={[}0,2b-1{]}, so eta=c and (3.4) vanishes. Consequently
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\rho=b\iff
+U=\mathbb Z/b\mathbb Z\quad\text{or}\quad
+D\cup(D+1)=[0,2b-1].}$
+\end{adjustbox}
+\tag{3.5}
+\]
+
+When neither condition holds, the positive integer det(bI-T) is at least one. Since \textbar rho\_-\textbar\textless=rho\textless=b,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle b-\rho=\frac{\det(bI-T)}{b-\rho_-}\ge\frac1{2b}.$
+\end{adjustbox}
+\tag{3.6}
+\]
+
+This retains the dependence on the actual radix. It does not assert one fixed gap as b grows.
+
+\section{4. Cross-level collisions: either absent or exponentially costly}\label{n22-cross-level-collisions-either-absent-or-exponentially-costly}
+
+The exact first defect is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{t^2-N_2=\beta(t-\kappa).}$
+\end{adjustbox}
+\tag{4.1}
+\]
+
+If beta=0, each residue has at most one local digit and the least differing digit proves injection at every length. If t=\textbackslash kappa, the initial vector (1,1) is an eigenvector of T with eigenvalue t, so N\_m=t\^{}m at every length. Conversely, a positive right side of (4.1) is already a two-level collision.
+
+For D=H\_3(A),
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle D-D=\left\{\sum_{a\in A}c_a a:c_a\in[-2,2]\cap\mathbb Z\right\}.$
+\end{adjustbox}
+\]
+
+Here beta\textgreater0 is equivalent to b in D-D, while t-\textbackslash kappa\textgreater0 is equivalent to 1 in D-D. This proves the ternary part of Theorem C, with the literal quotient columns in Section 2 as witnesses.
+
+Let \(\delta=\beta(t-\kappa)>0\). Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \det(tI-T)=\delta,
+\qquad
+\boxed{\rho\le t-\frac{\delta}{2t}<t.}$
+\end{adjustbox}
+\tag{4.2}
+\]
+
+Indeed \textbackslash rho\textless=t by the row-sum bound \textbackslash kappa\textless=t, and \(t-\rho_-\le2t\). In the nonscalar case the discriminant is a positive integer, hence its square root is at least one. Formula (3.3) has first coefficient at most 2t and absolute second coefficient at most 2t. It follows that
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{N_m\le4t\,t^m
+\left(1-\frac{\delta}{2t^2}\right)^m.}$
+\end{adjustbox}
+\tag{4.3}
+\]
+
+Thus every colliding fixed ternary block has exponential loss relative to t\^{}m. Within this homogeneous family there is no regime with a nonzero merely polynomial interlevel loss. Changing schedules have a different, explicit outcome in Section 9.1. Original word multiplicities are a further source and are not covered by this unweighted comparison.
+
+\subsection{A sharp uniform witness horizon at higher arity}\label{n22-a-sharp-uniform-witness-horizon-at-higher-arity}
+
+Let q\textgreater=2, D=H\_q(A), and b\textgreater S(A). Suppose two distinct D-words evaluate equally. Their exact difference carry obeys
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle bc_{j+1}=c_j+d_j-e_j,
+\qquad c_0=c_m=0.$
+\end{adjustbox}
+\]
+
+Every prefix satisfies
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |c_r|\le\frac{(q-1)S(A)}{b-1}(1-b^{-r})<q-1.$
+\end{adjustbox}
+\]
+
+Hence c\_r is one of -(q-2),...,(q-2). A nontrivial closed path may be taken with no intermediate zero, because such a zero separates a shorter nontrivial closed path. Quotient its nonzero carries by sign. There are q-2 possible absolute values. The transition relation is invariant under c-\textgreater-c by exchanging its actual digit labels d,e. Therefore every path in the absolute-carry graph lifts successively to a genuine signed carry path. A shortest nontrivial return through the absolute states has at most q-2 nonzero vertices, giving
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{m\le q-1.}$
+\end{adjustbox}
+\tag{4.4}
+\]
+
+The labels lift to actual local values, so they reconstruct the collision. This shortening theorem concerns a fixed block and fixed radix. It does not delete arbitrarily chosen levels from an externally prescribed nonhomogeneous schedule.
+
+At q=4 the three-level bound is attained by A=\{3,11\}, b=17. The first two local-value levels are injective, while
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 17+17\cdot33+17^2\cdot9=17^2\cdot11=3179.$
+\end{adjustbox}
+\]
+
+The digit differences are 17,33,-2 and the carries are 1,2,0. Both words use actual H\_4(A) values.
+
+\section{5. An explicit prime retaining the complete required finite observation}\label{n22-an-explicit-prime-retaining-the-complete-required-finite-observation}
+
+Fix an integer h\textgreater=1. The symmetric original bounded image is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Delta_h(A)=\left\{\sum_{a\in A}c_a a:-h\le c_a\le h\right\}
+=H_{2h+1}(A)-hS(A).$
+\end{adjustbox}
+\]
+
+Its positive part has
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle K=\frac{|H_{2h+1}(A)|-1}{2}$
+\end{adjustbox}
+\]
+
+elements, each at most hS(A). Let
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \ell=1+\lfloor\log_2(hS(A))\rfloor.$
+\end{adjustbox}
+\]
+
+\textbf{Prime-observation lemma.} There is a prime
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{p\le256+4K\ell}$
+\end{adjustbox}
+\tag{5.1}
+\]
+
+dividing none of the positive elements of \textbackslash Delta\_h(A). Consequently reduction modulo p is injective on the numerical value set H\_\{h+1\}(A). Every equality in that finite image is preserved and reflected; original duplicate representations remain duplicates.
+
+\textbf{Elementary proof of the prime budget.} Write \(\vartheta(N)=\sum_{p\le N}\log p\). The central binomial coefficient \(\binom{2m}{m}\), with m=floor(N/2), divides lcm(1,...,N): each term in its p-adic valuation sum is zero or one, and there are at most floor(log\_p N) terms. Since
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \binom{2m}{m}\ge\frac{2^{2m}}{2m+1},$
+\end{adjustbox}
+\]
+
+and the extra prime-power contribution to that least common multiple is at most \(\sqrt N\log N\),
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \vartheta(N)\ge (N-1)\log2-\log(N+1)-\sqrt N\log N.$
+\end{adjustbox}
+\]
+
+For N\textgreater=256, the functions log(N+1)/N and log(N)/sqrt(N) decrease. Using 2/3\textless log2\textless3/4, the right side divided by N is at least
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \frac{85}{128}-\frac{27}{1024}-\frac38
+=\frac{269}{1024}>\frac14.$
+\end{adjustbox}
+\]
+
+Thus \(\vartheta(N)>N/4\). The two elementary logarithm inequalities follow, for example, from \(\log2=2\sum_{j\ge0}((2j+1)3^{2j+1})^{-1}\).
+
+Let Q be the product of all positive values in \textbackslash Delta\_h(A). Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \log Q\le K\log(hS(A))<K\ell.$
+\end{adjustbox}
+\]
+
+If every prime at most N=256+4K\textbackslash ell divided Q, then \(\vartheta(N)\le\log Q\), contradicting the preceding bound. This proves (5.1). Finally x-y lies in \textbackslash Delta\_h(A) for x,y in H\_\{h+1\}(A), so equal residues imply equal actual values. QED.
+
+The procedure is executable: enumerate primes within the budget, and for every rejected prime retain one nonzero original difference divisible by it. The receipt includes these witnesses, not just the successful modulus.
+
+\section{6. Lifting with actual digits larger than the new radix}\label{n22-lifting-with-actual-digits-larger-than-the-new-radix}
+
+Take h=2 and a k-admissible A. Choose p as above. The residue map is injective on H\_3(A), hence on D=H(A).
+
+A k-AP in D modulo p has consecutive second-difference equalities
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle x_i+x_{i+2}\equiv2x_{i+1}\pmod p.$
+\end{adjustbox}
+\]
+
+Both sides belong to H\_3(A). Injectivity makes them actual integer equalities. The original k-admissibility then makes all x\_i equal. Thus the residue image of D is modular k-AP-free, with every nonzero modular step covered, even when its ordered tuple repeats residues.
+
+For every t define the unchanged-weight geometric lift
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle A^{[t]}_p=\bigcup_{j<t}p^jA.$
+\end{adjustbox}
+\]
+
+No a in A is divisible by p, since a is a nonzero bounded difference. Therefore p\^{}i a=p\^{}j a\textquotesingle{} forces i=j by p-divisibility, and then a=a\textquotesingle. The generator count is exactly t\textbar A\textbar.
+
+Its binary image is the evaluation of D\^{}t. This evaluation is injective: at the least differing position, equality of values would make two distinct D digits equal modulo p. Its inverse is constructive. Look up the unique d in D congruent to the current integer modulo p, subtract that actual d, and divide by p; repeat. No digit is replaced by its least residue.
+
+For an integer progression in this language, the lowest residues form a modular progression. They must be equal, and residue injection makes the lowest ACTUAL digits equal to one common d. The map y-\textgreater(y-d)/p sends the tuple to a progression in the preceding language; its inverse is z-\textgreater d+pz. Induction forces the original tuple constant.
+
+Thus every \(A_p^{[t]}\) is k-admissible, even when sum(A)\textgreater=p or max(A)\textgreater=p. The exact maxima and multiplicities are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \max A_p^{[t]}=p^{t-1}\max A,
+\qquad
+\mu_{A_p^{[t]},2}\left(\sum_jp^jd_j\right)=\prod_j\mu_{A,2}(d_j).$
+\end{adjustbox}
+\tag{6.1}
+\]
+
+For example A=\{1001,7007,8008\} has successful prime p=19. All original weights are retained and many actual digits exceed p. The original quotient identifies 19 distinct ternary values with distinct residues. The algorithm does not scale A down by 1001.
+
+\subsection{Original versus congruence kernels}\label{n22-original-versus-congruence-kernels}
+
+For \(\Phi:\mathbb Z^n\to\mathbb Z\), let K=ker(Phi) and \(K_p=\Phi^{-1}(p\mathbb Z)\). The added arithmetic kernel is displayed by
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 0\to K\to K_p\xrightarrow{\Phi}p\mathbb Z\cap\operatorname{im}\Phi\to0.$
+\end{adjustbox}
+\tag{6.2}
+\]
+
+It has no new vector with coefficients in {[}-2,2{]} beyond K, by the prime certificate. On the actual H\_3 word-to-value quotient, the further residue-value map is a bijection of value bases; its extra kernel there is zero. These are distinct specified maps, not an assertion that reduction is injective on all integers.
+
+\section{7. Amplification and the proof of the global capacity formula}\label{n22-amplification-and-the-proof-of-the-global-capacity-formula}
+
+First recall the rate existence proof. For k-admissible A,B, set R=2S(A)+1 and C=A\textbackslash cup RB. The map
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H(A)\times H(B)\to H(C),\quad(x,y)\mapsto x+Ry$
+\end{adjustbox}
+\]
+
+is a bijection with quotient/remainder inverse. In any progression, the first coordinate\textquotesingle s second differences lie in {[}-2S(A),2S(A){]} and are multiples of R, hence zero. The second coordinate\textquotesingle s differences then vanish. Therefore C is k-admissible and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 2S(C)+1=(2S(A)+1)(2S(B)+1).$
+\end{adjustbox}
+\]
+
+Let f\_k(n) minimize 2S(A)+1 at rank n, with f\_k(0)=1. Then f\_k(m+n)\textless=f\_k(m)f\_k(n). Writing n=t\textbackslash ell+r for fixed \textbackslash ell proves directly that log(f\_k(n))/n converges to its infimum. Since
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 2g_k(n)+1\le f_k(n)\le2n g_k(n)+1,$
+\end{adjustbox}
+\]
+
+the same limit gives \(\lambda_k\).
+
+For any q\textgreater=2, choose instead R=max(2,q-1)S(A)+1. It preserves admissibility and gives a unique q-valued digit product. Hence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mu_{k,q}(m+n)\le\mu_{k,q}(m)\mu_{k,q}(n).$
+\end{adjustbox}
+\]
+
+The same division-with-remainder argument proves existence of \textbackslash tau\_(k,q) and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \tau_{k,q}=\inf_{A\ k\text{-admissible}}|H_q(A)|^{1/|A|}.$
+\end{adjustbox}
+\tag{7.1}
+\]
+
+For a set attaining g\_k(n),
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |H_q(A)|\le(q-1)n g_k(n)+1.$
+\end{adjustbox}
+\]
+
+Therefore \(\tau_{k,q}\le\lambda_k\) for every fixed q.
+
+It remains to prove the reverse inequality at q=5. Fix ANY k-admissible A, and write n=\textbar A\textbar, h=\textbar H\_5(A)\textbar. Retain
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle R=4S(A)+1,\qquad
+B_t=\bigcup_{j<t}R^jA.$
+\end{adjustbox}
+\tag{7.2}
+\]
+
+The original sources satisfy
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |B_t|=tn,\quad \max B_t=R^{t-1}\max A,
+\quad S(B_t)=\frac{R^t-1}{4},
+\quad |H_5(B_t)|=h^t.$
+\end{adjustbox}
+\tag{7.3}
+\]
+
+Their H\_5 evaluation is a bijection of the literal local-value words, since their digits lie in {[}0,4S(A){]}={[}0,R-1{]}. Their binary images are k-admissible by the preceding composition argument.
+
+Put \(\ell_R=1+\lfloor\log_2R\rfloor\). Applying the prime lemma to B\_t gives a prime
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{p_t\le256+2(h^t-1)t\ell_R.}$
+\end{adjustbox}
+\tag{7.4}
+\]
+
+Section 6 supplies an infinite k-admissible lift of this entire unchanged B\_t in base p\_t. Thus
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \lambda_k\le p_t^{1/(tn)}
+\le h^{1/n}\left(2t\ell_R+\frac{256}{h^t}\right)^{1/(tn)}.$
+\end{adjustbox}
+\tag{7.5}
+\]
+
+The final factor tends to one for the fixed original A. Its dependence on S(A), t and n is fully displayed. Consequently \(\lambda_k\le h^{1/n}\). Taking the infimum over A gives \(\lambda_k\le\tau_{k,5}\), proving equality. For q\textgreater=5, monotonicity gives \textbackslash tau\_(k,q)\textgreater=\textbackslash tau\_(k,5), while the earlier upper inequality gives \textbackslash tau\_(k,q)\textless=\textbackslash lambda\_k. This proves Theorem A in full.
+
+There is an explicit finite-N construction for every chosen A,t and its certified p\_t:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+g_k(N)\le R^{t-1}\max A\;p_t^{\lceil N/(tn)\rceil-1}.
+}$
+\end{adjustbox}
+\tag{7.6}
+\]
+
+Choose the required number of generators from the first ceil(N/(tn)) levels. Deletion preserves admissibility and the displayed upper maximum. This finite formula retains the large original-block prefactor; only the proved limiting argument removes it from the exponential rate.
+
+\section{8. The remaining infinity and two precise limitations}\label{n22-the-remaining-infinity-and-two-precise-limitations}
+
+Equation (1.1) is an exact reformulation of the global lower-bound task:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\lambda_k\ge u\iff
+|H_5(A)|\ge u^{|A|}\text{ for every k-admissible A}.
+}$
+\end{adjustbox}
+\tag{8.1}
+\]
+
+A finite violating image becomes a strict rate improvement through (7.5). More explicitly, for a rational proposed threshold u=a/b\textgreater0 with \(h b^n<a^n\), enumerate t until
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \bigl(256+2(h^t-1)t\ell_R\bigr)b^{tn}<a^{tn}.$
+\end{adjustbox}
+\]
+
+The strict exponential gap guarantees termination. The prime in (7.4) then has p\_t\^{}(1/(tn))\textless u, and (7.6) gives the actual infinite family below that proposed threshold. All comparisons in this search are integer comparisons. No conjectural lower estimate was used to prove the conversion.
+
+The remaining rank is genuinely unbounded in this statement. Already at k=3 the infimum need not be attained. Three-admissibility makes H\_3(A) injective on its 3\^{}n words. Here is the witness argument, retaining all coefficient classes. A nonzero relation in {[}-2,2{]}\^{}n gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle P_1+2P_2=N_1+2N_2,$
+\end{adjustbox}
+\]
+
+where P\_j and N\_j are the sums on the disjoint coefficient classes +j and -j. The three actual subset sums
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle P_1+N_2,\quad P_1+P_2,\quad N_1+N_2$
+\end{adjustbox}
+\]
+
+have common difference P\_2-N\_2. If it is nonzero they are a forbidden progression. Otherwise P\_2=N\_2 and P\_1=N\_1. At least one layer is a nonzero signed relation. Positivity makes its two disjoint sides have the same positive sum s, and their original subset unions give 0,s,2s. Thus every nonzero ternary-word relation is excluded. Since H\_3(A) lies in {[}0,2n max(A){]}, the bound 3\^{}n\textless=2n max(A)+1 and the powers-of-three upper construction prove \textbackslash lambda\_3=3. For every nonempty three-admissible A,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |H_5(A)|>|H_3(A)|=3^n,$
+\end{adjustbox}
+\]
+
+because 4S(A) lies in the first image and exceeds the entire second one. But for \(A_n=\{1,3,\ldots,3^{n-1}\}\),
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H_5(A_n)=[0,2(3^n-1)]\cap\mathbb Z,
+\qquad |H_5(A_n)|=2\cdot3^n-1.$
+\end{adjustbox}
+\]
+
+The roots tend to 3 without equality at any finite n. This explicitly prevents replacing the infimum by an unproved minimum.
+
+Also a faithful prime for ONE fixed block cannot be bounded solely by its small image cardinality, even with gcd one. Let L be the product of all primes at most P, and take A=\{1,L\}, with L\textgreater4. Then A is three-admissible, \textbar H\_5(A)\textbar=25, and gcd(A)=1. Every prime at most P kills the nonzero original generator L, so it fails the required finite observation. The receipt uses L=200560490130 (primes through 31) and finds the first successful prime 37. The logarithmic height cost in (5.1) is retained; tensor amplification makes its per-generator exponential cost vanish in (7.5).
+
+No equality \textbackslash tau\_(k,3)=\textbackslash lambda\_k or \textbackslash tau\_(k,4)=\textbackslash lambda\_k is established for general k here. Binary cardinality alone cannot suffice: at k=3, every admissible binary image has 2\^{}n values, whereas \textbackslash lambda\_3=3. The two-state theorem quantifies the ternary losses rather than assuming they vanish.
+
+\section{9. Concrete all-block transfers and a changing-block example}\label{n22-concrete-all-block-transfers-and-a-changing-block-example}
+
+For B\_6=\{1,4,5,17,21,22\}, its ternary image has size 139 and three integer runs. The two matrices are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T_{97}=\begin{pmatrix}97&42\\0&3\end{pmatrix},\qquad
+T_{93}=\begin{pmatrix}93&46\\0&3\end{pmatrix}.$
+\end{adjustbox}
+\]
+
+For B\_10=\{3,4,7,34,37,41,216,250,253,257\}, its ternary image at base 1651 has size 2103, 89 runs, and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T_{1651}=\begin{pmatrix}1651&452\\0&89\end{pmatrix}.$
+\end{adjustbox}
+\]
+
+Equations (3.1)-\/-(3.3) reproduce the preceding complete formulas without their special hole hypotheses. Their two-level extra-kernel dimensions are 5712, 6256 and 910328, respectively.
+
+For A=\{3,8\}, b=13,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H_3(A)=\{0,3,6,8,11,14,16,19,22\},\quad
+T=\begin{pmatrix}7&2\\5&4\end{pmatrix}.$
+\end{adjustbox}
+\]
+
+There are repeated local residues but no adjacent local values. The exact count is 9\^{}m at every length. The least-digit modular injection is therefore sufficient, but its failure alone does not imply an integer collision. The kernel formula (4.1) supplies the exact comparison.
+
+For B\_6 at base 141,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T_{141}=\begin{pmatrix}139&0\\2&1\end{pmatrix}.$
+\end{adjustbox}
+\]
+
+Both bases 97 and 141 have actual modular five-term-free binary images, so alternating them gives an admissible five-term construction at every length. Its two-level ternary transfer is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T_{97}T_{141}=
+\begin{pmatrix}13567&42\\6&3\end{pmatrix},$
+\end{adjustbox}
+\]
+
+with trace 13570, determinant 40449 and radix product 13677. Its Perron root is strictly less than 13677. The reverse order has a different matrix. Its finite two-level image has 19321 values, compared with 13609 in the displayed order. These are literal different scaled generator sets; no commuting-matrix assumption or hidden scale identification is made.
+
+\subsection{9.1 Sparse admissible schedules give exactly polynomial collision loss}\label{n22-sparse-admissible-schedules-give-exactly-polynomial-collision-loss}
+
+The homogeneous result does not control the frequency of the collision-producing levels in a changing schedule. The following complete infinite example retains that frequency explicitly.
+
+Keep B\_6 at every level. At zero-based level j, use radix 97 if j=3*2\^{}l for some l\textgreater=0, and radix 141 otherwise. Both actual binary digit certificates are five-term-free, so every mixed-radix finite prefix is five-admissible. Let N\_m be its ternary image cardinality, and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \ell_m=\#\{l\ge0:3\,2^l<m\},\qquad
+c_* = \frac{2245}{3197}.$
+\end{adjustbox}
+\]
+
+Then for every m with \textbackslash ell\_m\textgreater=1,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\frac12 c_*^{\ell_m}
+\le\frac{N_m}{139^m}
+\le2c_*^{\ell_m-1}.
+}$
+\end{adjustbox}
+\tag{9.1}
+\]
+
+In particular, the exact logarithmic loss exponent is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\lim_{m\to\infty}
+\frac{\log(139^m/N_m)}{\log m}
+=\frac{\log(3197/2245)}{\log2}.
+}$
+\end{adjustbox}
+\tag{9.2}
+\]
+
+\textbf{Proof.} Build a finite prefix from its most significant end. For a nonempty tail with distinct-image cardinality N and run count R, retain the actual ratio r=R/N in {[}0,1{]}. An ordinary base-141 level multiplies N by 139 and changes the ratio by
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle f(r)=\frac{2+r}{139},\qquad r_* =\frac1{69},\qquad
+f^g(r)-r_*=139^{-g}(r-r_*).$
+\end{adjustbox}
+\]
+
+A special base-97 level instead multiplies N by 139 c(r), where
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle c(r)=\frac{97+42r}{139},\qquad
+c(r_*)=c_*,\qquad
+\frac{c(r)}{c_*}=1+\frac{966}{2245}(r-r_*).$
+\end{adjustbox}
+\]
+
+This ratio is only a defined observable of the original count vector; the scale 139\^{}m remains in (9.1). The terminal empty word has count vector (1,1), so its ratio is 1. At the highest special level in the finite prefix, all higher levels are ordinary, hence its entering ratio is in {[}r\_*,1{]}. Its factor c(r)/c\_* therefore lies between 1 and 1/c\_*.
+
+Between consecutive special levels numbered l and l+1 there are exactly
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle g_l=3\,2^l-1$
+\end{adjustbox}
+\]
+
+ordinary levels. The ratio after the higher special level is still in {[}0,1{]}. Thus the relative factor at the lower special level lies in {[}1-epsilon\_l,1+epsilon\_l{]}, with
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \epsilon_l=\frac{966}{2245}139^{-g_l},\qquad
+\sum_{l\ge0}\epsilon_l
+\le\frac{966}{2245}\sum_{l\ge0}139^{-(l+2)}
+=\frac{966}{2245\cdot139\cdot138}<\frac12.$
+\end{adjustbox}
+\]
+
+Here g\_l\textgreater=l+2. Every finite product of the lower factors is at least 1-sum epsilon\_l\textgreater1/2. Its upper bound is exp(sum epsilon\_l)\textless2; the latter follows already from sum epsilon\_l\textless1/2\textless log2. Multiplying also the highest factor proves (9.1), including prefixes ending directly on a special level. Finally \textbackslash ell\_m=(log m)/(log2)+O(1), and logarithms of the two fixed constants in (9.1) contribute O(1). This proves (9.2). QED.
+
+The comparison is an actual nonstationary family of positive distinct generator sets. No coordinate or modulus has been rescaled, and no original relation is discarded. The count loses an unbounded polynomial factor relative to the local product, whereas repeating the special radix at positive fixed frequency gives the exponential homogeneous loss in Section 4. Hence a uniform varying-family estimate has to retain schedule frequency, as well as the existence of a local receiving kernel.
+
+\section{10. Evidence and literature scope}\label{n22-evidence-and-literature-scope}
+
+The producer and independent auditor use only Python\textquotesingle s standard library. The auditor imports neither the producer nor image\_tools. It reconstructs the general image counts with a four-state residue-subset automaton instead of the two-state proof, and checks prime injections using independent coefficient-polynomial enumeration.
+
+The completed domains are:
+
+\begin{itemize}
+\tightlist
+\item
+  all 1364 D subsets of {[}0,2b-2{]} containing zero for b=2,...,6; 5456 direct joins and 5456 direct finite-length checks in the producer, with 9548 independent four-state length counts;
+\item
+  all nonempty positive subsets of {[}1,12{]} of size at most four at the distinct radices S+1,S+2,2S+1,2S+2: 3171 block/radix cases, including original ternary generator images and the short-kernel criterion;
+\item
+  160 specified mixed-block schedules through three levels; all 1024 prefixes of the sparse admissible schedule are checked against the exact rational enclosure, with eleven independently recomputed large-prefix values;
+\item
+  all nonempty subsets of {[}1,8{]} of size at most two, q=2,...,6, and b=S+1,...,S+4: 720 collision-horizon cases with 2160 direct comparisons; the separate sharp arity-four example is complete;
+\item
+  191 retained prime records, including 175 complete small inputs, unchanged noncanonical original weights, the primorial-height obstruction, eight explicit amplifications, and four generic coefficient-radius cases;
+\item
+  central-binomial/LCM checks through N=700 and the stated primorial inequality for 256\textless=N\textless=700; these are finite calibrations of the elementary general proof, not the proof of its infinite range;
+\item
+  eight deliberately corrupted records, all rejected.
+\end{itemize}
+
+The source hashes, exact domains and output hashes are retained. No exploratory D4 search is used as a premise. That separate bounded exploration returned no candidate in its tested domain and is not an impossibility theorem. The present contribution makes no new best upper-rate claim.
+
+The prior archive\textquotesingle s particular all-length formulas are inputs only to regression comparisons. The general two-state and capacity proofs above stand independently of them. No previous Lean receipt is extended to these statements.
+
+\subsection{References and roles}\label{n22-references-and-roles}
+
+Korsky, S. (2026). \emph{Arithmetic progression-free subset-sum sets} (arXiv:2606.24139v1). \url{https://arxiv.org/html/2606.24139v1} . Inspected for the definition of g\_k, finite-observation interpretation, and current general-bound benchmark. The all-block capacity formula above is proved here, not attributed to that paper.
+
+Green, B., \& Ruzsa, I. Z. (2006). Sets with small sumset and rectification. \emph{Bulletin of the London Mathematical Society, 38}(1), 43-\/-52. \url{https://doi.org/10.1112/S0024609305018102} . Abstract and source entry inspected for the classical finite-additive-model context. No unread rectification theorem is imported into the prime proof; the current construction retains every original generator, not a selected subset.
+
+KokunoYumeto. (2026). \emph{Reconstruction with changes of support index} {[}TeX source{]}. \nolinkurl{KokunoYumeto/zeta-function-research-reader}, commit \nolinkurl{58626a62cd5648e8ae7450fb54d4a4aab2330981}, \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex}, equations D6-\/-D8. Role: original supported quotient and additional receiving-kernel interface, with the actual integer maps retained.
+
+The Clankers. (2026, September 16). \emph{Exact higher-arity kernels, retained spectral multiplicities, and real boundary progressions} {[}Preceding workbench contribution{]}. Role: previous fixed-block formulas and input archive, not an assumed general estimate.

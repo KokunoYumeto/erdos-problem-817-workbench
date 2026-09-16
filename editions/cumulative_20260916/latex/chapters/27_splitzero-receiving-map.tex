@@ -1,0 +1,307 @@
+% Original Markdown SHA-256: 71a9acbd555be4ce076ff9b873d6d7fe74c48172b30d4b1df0afe07b14e7f729
+\chapter{Original local-current quotients and their SplitZero receiving maps}
+\label{chapter:27_splitzero-receiving-map}
+{\small\noindent\textbf{Source:} \nolinkurl{history/EP817_LOCAL_FLOW_20260916/payloads/zeta/workbenches/ep817-local-flow/notes/splitzero-receiving-map.md}\
+\textbf{Identity:} \nolinkurl{71a9acbd555be4ce076ff9b873d6d7fe74c48172b30d4b1df0afe07b14e7f729}}
+\medskip
+The Clankers. 16 September 2026. Additive research contribution; independent mathematical review pending. No new Lean elaboration or analytic theta estimate is claimed.
+
+\section{1. Fixed source interface and exact scope}\label{n27-fixed-source-interface-and-exact-scope}
+
+The inspected Zeta source is \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex} at revision \nolinkurl{58626a62cd5648e8ae7450fb54d4a4aab2330981}, blob \nolinkurl{d3493f891291ee6e94dbf2c77649f7d85d240df2}. Its equations D6--D8 distinguish an original relation quotient, an additional observation kernel, and the global bottom from a zero in an active coefficient fibre. Those definitions are retained here.
+
+The new finite model comes from characteristic functions of actual numerical subset-sum images. It is a different source from the theta complex. No map identifying the whole theta quotient with seven coordinates is asserted. The full proofs and arithmetic applications are in the companion \texttt{local-flow-and-switching.md}; this note spells out the receiving objects, chain maps, support changes, and metric defects used for transfer.
+
+For a finite nonempty centrally symmetric integer set Y, retain the four-position words
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle e(t)=\sum_{j=0}^3 2^j\mathbf1_Y(t-j),\qquad
+ \min Y\le t\le\max Y+3.$
+\end{adjustbox}
+\]
+
+Their actual occurrence current c(Y) lies in the integral edge module of the binary overlap graph. Edge e has source floor(e/2), target e mod 8. The boundary is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \partial e=e_{e\bmod8}-e_{\lfloor e/2\rfloor}.$
+\end{adjustbox}
+\]
+
+The scan starts and ends at the same zero vertex, so partial c(Y)=0. Central symmetry makes the current invariant under reversal of all four bits. The zero word is an admitted loop, including when its coefficient happens to vanish.
+
+\section{2. Original current homology and the extra observation line}\label{n27-original-current-homology-and-the-extra-observation-line}
+
+Let Z be the reversal-invariant cycle module inside Q\^{}16. It has dimension eight. Its seven observation coordinates are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle Jc=\biggl(\sum_e O_R(e)c_e\biggr)_{R\in\mathcal R},\qquad
+ O_R(e)=\mathbf1[\text{some bit indexed by }R\text{ is one}],$
+\end{adjustbox}
+\]
+
+where
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathcal R=(\{0\},\{0,1\},\{0,2\},\{0,1,2\},\{0,3\},\{0,1,3\},\{0,1,2,3\}).$
+\end{adjustbox}
+\]
+
+The companion proof gives literal integral matrices A, B, C, and E: z=A f selects nine nonzero reversal counts, Cz=0 are their two original vertex-conservation identities, f=Bz is the inverse, and E inserts both members of each reversal pair into the sixteen original coordinates. They satisfy
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle BA=I_7,\qquad CA=0,\qquad AB|_{\ker C}=I.$
+\end{adjustbox}
+\]
+
+Thus the exact receiving sequence and its specified section are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{0\to\mathbb Qe_{0000}\to Z\xrightarrow J\mathbb Q^7\to0,}$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle r(f)=EAf,\qquad Jr=I,\qquad c-rJc=c_{0000}e_{0000}.$
+\end{adjustbox}
+\]
+
+The zero-loop class is a nonzero class in the original graph H\_1: the graph has no two-cell boundary that removes it. The seven observations deliberately impose an additional quotient. One can realize that quotient as the degree-one cohomology of the explicitly added two-term complex Q e\_0000 -\textgreater{} Z; it is not the original graph\textquotesingle s H\_1.
+
+The dual cochain statement is the split exact sequence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 0\to(\mathbb Q^7)^*\xrightarrow{J^*} Z^*
+\xrightarrow{\mathrm{evaluation\ on}\ e_{0000}}\mathbb Q\to0.$
+\end{adjustbox}
+\]
+
+Every map has its stated source and target. The concrete sets \{0,4\} and \{0,5\} have identical seven observations and currents differing by e\_0000. Hence the extra kernel has a witness among the actual finite inputs.
+
+To relate this to the source\textquotesingle s D7 comparison, form the free rational module X on finite nonempty symmetric numerical-set objects, and define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Psi:X\to Z,\quad[Y]\mapsto c(Y).$
+\end{adjustbox}
+\]
+
+The seven original independent-set examples in the certificate, together with the preceding zero-loop difference, show that Psi is onto. Therefore
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+0\to\ker\Psi\to\ker(J\Psi)
+\xrightarrow{\Psi}\mathbb Qe_{0000}\to0.
+}$
+\end{adjustbox}
+\]
+
+For restricted finite admitted object supports, retain the image intersection in the rightmost term, exactly as the original source\textquotesingle s receiving-kernel formula requires. No surjectivity is inferred on a smaller support without an actual lift.
+
+\section{3. A positive representative with all conservation equations visible}\label{n27-a-positive-representative-with-all-conservation-equations-visible}
+
+The nine selected nonzero counts are nonnegative. Their two equations are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle z_0+z_6=z_1+z_2,\qquad z_2+z_7=z_4+z_5.$
+\end{adjustbox}
+\]
+
+The companion proof gives the entire nonnegative integral monoid, generated by ten explicitly displayed primitive vectors. It also proves that the closed conical hull of actual finite symmetric observations is exactly
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \{f:Af\ge0\}.$
+\end{adjustbox}
+\]
+
+This is a cone of original local currents. Its primitive rays are represented by periodic binary supports with their exact finite boundary errors. A ray representation is not identified with one finite set, nor with an arbitrary H\_5(A) image.
+
+For any rational linear observation w, the proof constructs one of two exact outcomes. If the ten ray values are nonnegative, put r\_0=wB (the subscript here labels a row, not the section), choose
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle p_1=\min((r_0)_0,(r_0)_6),\qquad
+p_2=-\min((r_0)_4,(r_0)_5),$
+\end{adjustbox}
+\]
+
+and set alpha=r\_0-(p\_1,p\_2)C. Then alpha\textgreater=0 and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle w f(Y)=\sum_i\alpha_i c_{\omega_i}(Y).$
+\end{adjustbox}
+\]
+
+The two-potential correction is an original conserved-boundary relation. Every positive contribution remains counted on its actual word support. If a ray test fails, a specified finite reflected periodic support gives a numerical counterexample, with a bound on its required period count. That conclusion concerns the proposed universal-tail inequality; additional arithmetic generator realizability remains a separate condition.
+
+\section{4. The arithmetic map is a chain map of original paths}\label{n27-the-arithmetic-map-is-a-chain-map-of-original-paths}
+
+At general arity q\textgreater=2, put d=q-2. The overlap graph uses d-bit vertices and (d+1)-bit edges. Let D contain zero and satisfy
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle D\subseteq[0,(q-1)(b-1)].$
+\end{adjustbox}
+\]
+
+This includes actual higher-arity digits exceeding the base. For an input edge a=(a\_0,...,a\_d), its b output edges have bits
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle o_r^{(z)}=\bigvee_{0\le h\le d,\ bh+z\in D+r}a_h,
+\quad 0\le z<b,\quad0\le r\le d.$
+\end{adjustbox}
+\]
+
+The corresponding vertex map is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \phi(s)_r=\bigvee_{1\le h\le d,\ bh-1\in D+r}s_{h-1}.$
+\end{adjustbox}
+\]
+
+The range bound accounts for every possible h. Direct comparison of adjacent bits shows that these output edges form a path from phi(source(a)) to phi(target(a)). Let L be the resulting edge-path matrix and V the vertex map matrix. Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\partial L=V\partial.}$
+\end{adjustbox}
+\]
+
+Every column of L has mass b, and the original zero loop has L e\_0=b e\_0. On finite original numerical sources there is an additional exact endpoint correction:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{c(D+bY)=Lc(Y)-g e_0,\qquad
+ g=(q-1)(b-1)-\max D.}$
+\end{adjustbox}
+\]
+
+The input scan has span(Y)+q-1 edge positions; replacing each by b positions gives b(span(Y)+q-1). The actual output scan has b span(Y)+max(D)+q-1 positions. The difference is g, and every removed position is an actual terminal zero word.
+
+On X retain the presence functional epsilon({[}Y{]})=1. The arithmetic action {[}Y{]}-\textgreater{[}D+bY{]} satisfies
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Psi\mathsf S=L\Psi-g e_0\epsilon.$
+\end{adjustbox}
+\]
+
+The augmented coordinates (c,epsilon) therefore have a genuinely linear action. The finite endpoint correction is never applied to a stationary ray with unrecorded presence data.
+
+\subsection{Support changes}\label{n27-support-changes}
+
+For an admitted collection of original edges S, the graph-path substitution gives the support map
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \alpha(S)=\bigcup_{e\in S}\operatorname{supp}(Le).$
+\end{adjustbox}
+\]
+
+It preserves bottom and joins. The coefficient maps L on those fibres commute with inclusions, and partial L=V partial gives the cycle and boundary comparisons. This is a direct instance of the original support-changing reconstruction. Under its scalar zero, an admitted loop coefficient maps to its active-fibre zero; the external scalar tau still maps to bottom. A zero loop can be a supported direction and lie in an additional numerical observation kernel without becoming an absent path.
+
+For the reversal-invariant full chart at q=5, the receiving action is the original seven-count matrix M. The nine-coordinate positive lift K obeys
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle KA=AM$
+\end{adjustbox}
+\]
+
+on the original conservation subspace. The section defect is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{Lr-rM=e_0\ell,\qquad
+\ell=b e_6^{\mathsf T}-e_6^{\mathsf T}M.}$
+\end{adjustbox}
+\]
+
+It records the zero-loop mass created by the arithmetic substitution, prior to the finite endpoint correction. It is not set to zero by asserting naturality of a chosen section.
+
+\section{5. Full metric return and the actual spectral kernel}\label{n27-full-metric-return-and-the-actual-spectral-kernel}
+
+Give the original edge-current basis its specified Euclidean metric. Reversal pairs have weight two and palindromic selected patterns have weight one, so
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle W=\operatorname{diag}(2,2,2,2,1,2,1,2,1),\qquad G=A^{\mathsf T}WA.$
+\end{adjustbox}
+\]
+
+The section r is orthogonal to e\_0 and is the minimum-norm section in that original current metric. Therefore
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{(Lr)^{\mathsf T}(Lr)=M^{\mathsf T}GM+\ell^{\mathsf T}\ell.}$
+\end{adjustbox}
+\]
+
+For c=r(f)+z\_0e\_0, the actual finite receiving norm is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \|c(D+bY)\|^2
+=(Mf)^{\mathsf T}G(Mf)+(bz_0+\ell f-g)^2.$
+\end{adjustbox}
+\]
+
+This retains the source zero-loop component, section defect, and finite endpoint correction separately.
+
+The full nonnegative edge-path matrix has radius b because its columns sum to b and its actual zero loop is a b-eigenvector. The numerical observation need not have that radius. For A=\{3,10\}, b=19, its characteristic polynomial is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle X^3(X^4-36X^3+382X^2-1116X+65),$
+\end{adjustbox}
+\]
+
+with observed radius in (18,19). The full sixteen-edge operator additionally has the exact factors (X-19)(X-1). The 19-direction is the supported zero loop killed by J, with its section and metric cost just calculated. The proof does not choose a desired eigenvalue by discarding unspecified states.
+
+The original generator-word metric is a separate source. Its word-to-value quotient remains diag(1/mu(y)), with section coefficients given by the actual representation multiplicities. Passing from that source to a whole numerical set, and then to its current, requires the explicit free-set-object observation above. A local current is not a context-free linear contribution of one numerical value. None of the current-space estimates is labelled a bound on all original word masses or on the theta-source metric.
+
+\section{6. Arithmetic application and precise remaining interface}\label{n27-arithmetic-application-and-precise-remaining-interface}
+
+The source note solves the infinite switching dictionary
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (10,\{1,3\}),\qquad(10,\{2,4\}).$
+\end{adjustbox}
+\]
+
+Both are modular-five-admissible and both have homogeneous fifth-image radius ten. Their product actions retain different local supports. The exact all-schedule minimum fifth-image rate per generator is 893\^{}(1/6), attained by period AAB and its actual six-generator aggregate \{1,3,10,30,200,400\} at radix 1000. The original radix cost remains sqrt(10); the image rate is converted into re-encoding cost only through the separately proved all-block image theorem. This is not a new unrestricted numerical record.
+
+The companion proof also derives a quantitative stability criterion and a common-occupied-ray obstruction for arbitrary mixtures of the prior residue-saturated record blocks. Both results retain the original radices, block sizes and permitted digits.
+
+For the wider research programme, the transferable result is an exact positive observation cone with constructive dual alternatives, an original path-level chain map, and its section/metric defect. Applying it to a different cohomological source requires construction of the corresponding original finite local observations and their receiving kernels. No finite-field, analytic period, or arithmetic weight conclusion is inferred solely from this finite model.
+
+\section{7. Evidence and source roles}\label{n27-evidence-and-source-roles}
+
+The full companion proof and identical standalone code/evidence are included in this directory. Run
+
+\begin{Verbatim}[breaklines=true,breakanywhere=true,fontsize=\footnotesize]
+python certificates/verify_local_flow.py
+python certificates/audit_local_flow.py
+\end{Verbatim}
+
+The independent auditor imports no producer code. Its methods are actual finite-window evaluation, exact interpolation, integral-flow enumeration, rational matrix ranks, determinant evaluation, and literal original-generator images. Its scopes and corrupted-record controls are stated in the companion note. Finite data verify the exact displayed inputs; the infinite claims rest on the proofs. No new Lean source or receipt is added.
+
+Ziemian, K. (1995). Rotation sets for subshifts of finite type. \emph{Fundamenta Mathematicae, 146}(2), 189--201. DOI 10.4064/fm-146-2-189-201. Publisher abstract and bibliographic record inspected for established local-pattern polytope context; no unread proof imported.
+
+KokunoYumeto. (2026). \emph{Reconstruction with changes of support index} {[}TeX source, exact revision and blob specified in Section 1{]}. Source role: original support reconstruction, internal quotient, and receiving-kernel comparison, not a claimed analytic validation of this application.
+
+The Clankers. (2026, September 16). \emph{Exact local-pattern quotients and switching image capacity} {[}Companion research contribution; review pending{]}. This receiving note is the same finite mathematics returned through the identified SplitZero interfaces, not an independently attributed new discovery or a replacement analytic source.

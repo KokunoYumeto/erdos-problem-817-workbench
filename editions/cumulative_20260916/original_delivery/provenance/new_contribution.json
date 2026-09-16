@@ -1,0 +1,23 @@
+{
+  "schema": "ep817-new-contribution-v1",
+  "name": "finite-period-control",
+  "source": "history/EP817_FINITE_PERIOD_20260916",
+  "received_prior_archive_count": 15,
+  "new_payloads": [
+    {
+      "repository": "ep817",
+      "patch": "patches/EP817_FINITE_PERIOD_20260916.patch",
+      "files": 9,
+      "clean_apply_and_byte_comparison": true
+    },
+    {
+      "repository": "zeta",
+      "patch": "patches/ZETA_FINITE_PERIOD_20260916.patch",
+      "files": 10,
+      "clean_apply_and_byte_comparison": true
+    }
+  ],
+  "independent_mathematical_review": "pending",
+  "lean_checked": false,
+  "remote_writes": false
+}

@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper,oneside]{book}
+\input{preamble.tex}
+\hypersetup{pdftitle={Erdos Problem 817: Corrected collected research notes, 16 September 2026},pdfauthor={The Clankers; original sources credited within each note},pdfsubject={Corrected reader edition through finite-period control}}
+\begin{document}
+\frontmatter
+\begin{titlepage}\centering
+\vspace*{25mm}
+{\Huge Erd\H{o}s Problem 817\par}
+\vspace{10mm}
+{\LARGE Collected Research Notes\par}
+\vspace{8mm}
+{\Large Corrected reader edition through finite-period control\par}
+\vfill
+{\large Corrected edition: 16 September 2026\par}
+\vspace{7mm}
+\begin{minipage}{.88\textwidth}
+This edition collects all 29 unique mathematical notes in the supplied source collection. The original Markdown files, implementations, proof data, audits and patches remain in the dated original source distribution. Byte-identical duplicate notes are printed once; all original paths are indexed. This reader repairs the conversion of inline mathematical powers and repeated-block notation, and incorporates the published separation-bound and equation-tag corrections in Chapter 24.
+
+The original anonymous/deleted contributor retains credit for the four-term construction and signed-block proof. The contributor \texttt{sneed-and-feed} retains separate credit for the finite-upper-bound Lean extension. Each collected note retains its own attribution, original date, assumptions and evidence boundary.
+
+The finite-period theorems in Chapter 28 have been reviewed as ordinary mathematical proofs; their producer and independently implemented auditor passed fresh bounded replays in normal and optimized Python. Earlier chapters retain their stated proof and computation scopes. The distinct original Lean results keep their existing attribution and scope. Historical publication-status statements describe the source snapshot; the current repository status is recorded separately.
+\end{minipage}
+\end{titlepage}
+\tableofcontents
+\mainmatter
+\input{chapters/01_ternary-variance-lower-bound.tex}
+\input{chapters/02_general-k-capacity.tex}
+\input{chapters/03_general-k-carry-capacity.tex}
+\input{chapters/04_outer-support-control.tex}
+\input{chapters/05_compact-global-dual.tex}
+\input{chapters/06_supported-reset-generalization.tex}
+\input{chapters/07_variable-block-control.tex}
+\input{chapters/08_graphical-obstructions.tex}
+\input{chapters/09_monotone-obstruction-dual.tex}
+\input{chapters/10_splitzero-return.tex}
+\input{chapters/11_graphic-visibility-filtration.tex}
+\input{chapters/12_supported-defect-universality.tex}
+\input{chapters/13_splitzero-receiving-map.tex}
+\input{chapters/14_recurrence-control.tex}
+\input{chapters/15_splitzero-receiving-map.tex}
+\input{chapters/16_closure-and-core-isolation.tex}
+\input{chapters/17_splitzero-receiving-map.tex}
+\input{chapters/18_canonical-isolation.tex}
+\input{chapters/19_splitzero-receiving-map.tex}
+\input{chapters/20_arity-and-boundary.tex}
+\input{chapters/21_splitzero-receiving-map.tex}
+\input{chapters/22_all-block-image-capacity.tex}
+\input{chapters/23_general-pattern-return.tex}
+\input{chapters/24_seven-observable-capacity.tex}
+\input{chapters/25_splitzero-receiving-map.tex}
+\input{chapters/26_local-flow-and-switching.tex}
+\input{chapters/27_splitzero-receiving-map.tex}
+\input{chapters/28_finite-period-control.tex}
+\input{chapters/29_splitzero-receiving-map.tex}
+\end{document}

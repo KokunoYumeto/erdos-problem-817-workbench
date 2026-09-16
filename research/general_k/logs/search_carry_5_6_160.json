@@ -1,0 +1,2200 @@
+[
+  {
+    "k": 5,
+    "base": 81,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      28
+    ],
+    "nodes": 2350,
+    "candidate_checks": 12410
+  },
+  {
+    "k": 5,
+    "base": 82,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      23
+    ],
+    "nodes": 2294,
+    "candidate_checks": 15659
+  },
+  {
+    "k": 5,
+    "base": 83,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      29
+    ],
+    "nodes": 2700,
+    "candidate_checks": 15084
+  },
+  {
+    "k": 5,
+    "base": 84,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      33
+    ],
+    "nodes": 2478,
+    "candidate_checks": 14610
+  },
+  {
+    "k": 5,
+    "base": 85,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 3190,
+    "candidate_checks": 18621
+  },
+  {
+    "k": 5,
+    "base": 86,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      23
+    ],
+    "nodes": 2968,
+    "candidate_checks": 21643
+  },
+  {
+    "k": 5,
+    "base": 87,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 3637,
+    "candidate_checks": 22569
+  },
+  {
+    "k": 5,
+    "base": 88,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 3240,
+    "candidate_checks": 20547
+  },
+  {
+    "k": 5,
+    "base": 89,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4173,
+    "candidate_checks": 27171
+  },
+  {
+    "k": 5,
+    "base": 90,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 3757,
+    "candidate_checks": 25122
+  },
+  {
+    "k": 5,
+    "base": 91,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4828,
+    "candidate_checks": 32823
+  },
+  {
+    "k": 5,
+    "base": 92,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4119,
+    "candidate_checks": 28620
+  },
+  {
+    "k": 5,
+    "base": 93,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 5558,
+    "candidate_checks": 39854
+  },
+  {
+    "k": 5,
+    "base": 94,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4712,
+    "candidate_checks": 34340
+  },
+  {
+    "k": 5,
+    "base": 95,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 6431,
+    "candidate_checks": 48101
+  },
+  {
+    "k": 5,
+    "base": 96,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 5271,
+    "candidate_checks": 40398
+  },
+  {
+    "k": 5,
+    "base": 97,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 2185,
+    "candidate_checks": 12175
+  },
+  {
+    "k": 5,
+    "base": 98,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 6010,
+    "candidate_checks": 47873
+  },
+  {
+    "k": 5,
+    "base": 99,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 8363,
+    "candidate_checks": 68095
+  },
+  {
+    "k": 5,
+    "base": 100,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 6869,
+    "candidate_checks": 56932
+  },
+  {
+    "k": 5,
+    "base": 101,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 2758,
+    "candidate_checks": 16324
+  },
+  {
+    "k": 5,
+    "base": 102,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 7609,
+    "candidate_checks": 65881
+  },
+  {
+    "k": 5,
+    "base": 103,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 3102,
+    "candidate_checks": 18886
+  },
+  {
+    "k": 5,
+    "base": 104,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 8574,
+    "candidate_checks": 77486
+  },
+  {
+    "k": 5,
+    "base": 105,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 3508,
+    "candidate_checks": 21946
+  },
+  {
+    "k": 5,
+    "base": 106,
+    "generators": [
+      1,
+      9,
+      10,
+      15,
+      16,
+      25
+    ],
+    "nodes": 4036,
+    "candidate_checks": 31255
+  },
+  {
+    "k": 5,
+    "base": 107,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 3931,
+    "candidate_checks": 25331
+  },
+  {
+    "k": 5,
+    "base": 108,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 10645,
+    "candidate_checks": 104748
+  },
+  {
+    "k": 5,
+    "base": 109,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 4405,
+    "candidate_checks": 29277
+  },
+  {
+    "k": 5,
+    "base": 110,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 12557,
+    "candidate_checks": 127288
+  },
+  {
+    "k": 5,
+    "base": 111,
+    "generators": [
+      1,
+      4,
+      5,
+      18,
+      23,
+      24
+    ],
+    "nodes": 4977,
+    "candidate_checks": 33963
+  },
+  {
+    "k": 5,
+    "base": 112,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 13606,
+    "candidate_checks": 143682
+  },
+  {
+    "k": 5,
+    "base": 113,
+    "generators": [
+      1,
+      4,
+      5,
+      18,
+      23,
+      24
+    ],
+    "nodes": 5581,
+    "candidate_checks": 39328
+  },
+  {
+    "k": 5,
+    "base": 114,
+    "generators": [
+      1,
+      10,
+      11,
+      14,
+      15,
+      25
+    ],
+    "nodes": 6275,
+    "candidate_checks": 56356
+  },
+  {
+    "k": 5,
+    "base": 115,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 5254,
+    "candidate_checks": 28550
+  },
+  {
+    "k": 5,
+    "base": 116,
+    "generators": [
+      1,
+      4,
+      5,
+      18,
+      23,
+      24
+    ],
+    "nodes": 5634,
+    "candidate_checks": 41149
+  },
+  {
+    "k": 5,
+    "base": 117,
+    "generators": [
+      1,
+      4,
+      5,
+      18,
+      23,
+      24
+    ],
+    "nodes": 6979,
+    "candidate_checks": 52215
+  },
+  {
+    "k": 5,
+    "base": 118,
+    "generators": [
+      1,
+      4,
+      5,
+      19,
+      23,
+      24
+    ],
+    "nodes": 6253,
+    "candidate_checks": 47318
+  },
+  {
+    "k": 5,
+    "base": 119,
+    "generators": [
+      1,
+      4,
+      5,
+      19,
+      23,
+      24
+    ],
+    "nodes": 7778,
+    "candidate_checks": 60235
+  },
+  {
+    "k": 5,
+    "base": 120,
+    "generators": [
+      1,
+      4,
+      5,
+      21,
+      26,
+      27
+    ],
+    "nodes": 7047,
+    "candidate_checks": 54743
+  },
+  {
+    "k": 5,
+    "base": 121,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      24,
+      49
+    ],
+    "nodes": 7825,
+    "candidate_checks": 52207
+  },
+  {
+    "k": 5,
+    "base": 122,
+    "generators": [
+      1,
+      4,
+      5,
+      19,
+      24,
+      25
+    ],
+    "nodes": 7758,
+    "candidate_checks": 62140
+  },
+  {
+    "k": 5,
+    "base": 123,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      24,
+      49
+    ],
+    "nodes": 8742,
+    "candidate_checks": 59764
+  },
+  {
+    "k": 5,
+    "base": 124,
+    "generators": [
+      1,
+      4,
+      5,
+      20,
+      24,
+      25
+    ],
+    "nodes": 8594,
+    "candidate_checks": 70543
+  },
+  {
+    "k": 5,
+    "base": 125,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50
+    ],
+    "nodes": 9048,
+    "candidate_checks": 54442
+  },
+  {
+    "k": 5,
+    "base": 126,
+    "generators": [
+      1,
+      4,
+      5,
+      23,
+      24,
+      28
+    ],
+    "nodes": 9578,
+    "candidate_checks": 81169
+  },
+  {
+    "k": 5,
+    "base": 127,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 9990,
+    "candidate_checks": 64260
+  },
+  {
+    "k": 5,
+    "base": 128,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 9533,
+    "candidate_checks": 64817
+  },
+  {
+    "k": 5,
+    "base": 129,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 11068,
+    "candidate_checks": 74218
+  },
+  {
+    "k": 5,
+    "base": 130,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 10539,
+    "candidate_checks": 73476
+  },
+  {
+    "k": 5,
+    "base": 131,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 12292,
+    "candidate_checks": 84373
+  },
+  {
+    "k": 5,
+    "base": 132,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 11593,
+    "candidate_checks": 82783
+  },
+  {
+    "k": 5,
+    "base": 133,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 13576,
+    "candidate_checks": 94379
+  },
+  {
+    "k": 5,
+    "base": 134,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 14297,
+    "candidate_checks": 133645
+  },
+  {
+    "k": 5,
+    "base": 135,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 15110,
+    "candidate_checks": 105740
+  },
+  {
+    "k": 5,
+    "base": 136,
+    "generators": [
+      1,
+      4,
+      5,
+      23,
+      24,
+      28
+    ],
+    "nodes": 15948,
+    "candidate_checks": 153137
+  },
+  {
+    "k": 5,
+    "base": 137,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 16616,
+    "candidate_checks": 119839
+  },
+  {
+    "k": 5,
+    "base": 138,
+    "generators": [
+      1,
+      4,
+      5,
+      21,
+      25,
+      30
+    ],
+    "nodes": 17452,
+    "candidate_checks": 171863
+  },
+  {
+    "k": 5,
+    "base": 139,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 18288,
+    "candidate_checks": 135207
+  },
+  {
+    "k": 5,
+    "base": 140,
+    "generators": [
+      1,
+      4,
+      5,
+      25,
+      26,
+      30
+    ],
+    "nodes": 19449,
+    "candidate_checks": 195793
+  },
+  {
+    "k": 5,
+    "base": 141,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 20190,
+    "candidate_checks": 151906
+  },
+  {
+    "k": 5,
+    "base": 142,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      32,
+      55
+    ],
+    "nodes": 19862,
+    "candidate_checks": 177649
+  },
+  {
+    "k": 5,
+    "base": 143,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 22328,
+    "candidate_checks": 172255
+  },
+  {
+    "k": 5,
+    "base": 144,
+    "generators": [
+      1,
+      2,
+      5,
+      24,
+      29,
+      34
+    ],
+    "nodes": 20802,
+    "candidate_checks": 170036
+  },
+  {
+    "k": 5,
+    "base": 145,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      60
+    ],
+    "nodes": 24787,
+    "candidate_checks": 189912
+  },
+  {
+    "k": 5,
+    "base": 146,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 22776,
+    "candidate_checks": 186679
+  },
+  {
+    "k": 5,
+    "base": 147,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 27085,
+    "candidate_checks": 216626
+  },
+  {
+    "k": 5,
+    "base": 148,
+    "generators": [
+      1,
+      2,
+      5,
+      24,
+      29,
+      34
+    ],
+    "nodes": 25144,
+    "candidate_checks": 212609
+  },
+  {
+    "k": 5,
+    "base": 149,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      62
+    ],
+    "nodes": 29708,
+    "candidate_checks": 236842
+  },
+  {
+    "k": 5,
+    "base": 150,
+    "generators": [
+      1,
+      2,
+      5,
+      24,
+      29,
+      34
+    ],
+    "nodes": 27408,
+    "candidate_checks": 235430
+  },
+  {
+    "k": 5,
+    "base": 151,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      63
+    ],
+    "nodes": 32714,
+    "candidate_checks": 265925
+  },
+  {
+    "k": 5,
+    "base": 152,
+    "generators": [
+      1,
+      2,
+      5,
+      19,
+      24,
+      43
+    ],
+    "nodes": 30416,
+    "candidate_checks": 263481
+  },
+  {
+    "k": 5,
+    "base": 153,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      64
+    ],
+    "nodes": 35927,
+    "candidate_checks": 296676
+  },
+  {
+    "k": 5,
+    "base": 154,
+    "generators": [
+      1,
+      2,
+      5,
+      19,
+      24,
+      43
+    ],
+    "nodes": 32932,
+    "candidate_checks": 291639
+  },
+  {
+    "k": 5,
+    "base": 155,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      65
+    ],
+    "nodes": 39934,
+    "candidate_checks": 337161
+  },
+  {
+    "k": 5,
+    "base": 156,
+    "generators": [
+      1,
+      2,
+      5,
+      24,
+      29,
+      34
+    ],
+    "nodes": 36359,
+    "candidate_checks": 328856
+  },
+  {
+    "k": 5,
+    "base": 157,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      66
+    ],
+    "nodes": 43389,
+    "candidate_checks": 373168
+  },
+  {
+    "k": 5,
+    "base": 158,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 39652,
+    "candidate_checks": 357855
+  },
+  {
+    "k": 5,
+    "base": 159,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      67
+    ],
+    "nodes": 47305,
+    "candidate_checks": 414146
+  },
+  {
+    "k": 5,
+    "base": 160,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 44345,
+    "candidate_checks": 407604
+  },
+  {
+    "k": 6,
+    "base": 81,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      28
+    ],
+    "nodes": 3212,
+    "candidate_checks": 20450
+  },
+  {
+    "k": 6,
+    "base": 82,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      14
+    ],
+    "nodes": 2733,
+    "candidate_checks": 18305
+  },
+  {
+    "k": 6,
+    "base": 83,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      29
+    ],
+    "nodes": 3780,
+    "candidate_checks": 25146
+  },
+  {
+    "k": 6,
+    "base": 84,
+    "generators": [
+      1,
+      2,
+      5,
+      14,
+      19
+    ],
+    "nodes": 3105,
+    "candidate_checks": 21591
+  },
+  {
+    "k": 6,
+    "base": 85,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4524,
+    "candidate_checks": 31201
+  },
+  {
+    "k": 6,
+    "base": 86,
+    "generators": [
+      1,
+      2,
+      5,
+      14,
+      19
+    ],
+    "nodes": 3574,
+    "candidate_checks": 25532
+  },
+  {
+    "k": 6,
+    "base": 87,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 5153,
+    "candidate_checks": 37527
+  },
+  {
+    "k": 6,
+    "base": 88,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4021,
+    "candidate_checks": 29768
+  },
+  {
+    "k": 6,
+    "base": 89,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 6061,
+    "candidate_checks": 45957
+  },
+  {
+    "k": 6,
+    "base": 90,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 4740,
+    "candidate_checks": 37343
+  },
+  {
+    "k": 6,
+    "base": 91,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 7097,
+    "candidate_checks": 55585
+  },
+  {
+    "k": 6,
+    "base": 92,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 5258,
+    "candidate_checks": 42915
+  },
+  {
+    "k": 6,
+    "base": 93,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 2465,
+    "candidate_checks": 15148
+  },
+  {
+    "k": 6,
+    "base": 94,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 6057,
+    "candidate_checks": 51670
+  },
+  {
+    "k": 6,
+    "base": 95,
+    "generators": [
+      1,
+      9,
+      10,
+      15,
+      16,
+      25
+    ],
+    "nodes": 3922,
+    "candidate_checks": 30663
+  },
+  {
+    "k": 6,
+    "base": 96,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 6772,
+    "candidate_checks": 60782
+  },
+  {
+    "k": 6,
+    "base": 97,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 3133,
+    "candidate_checks": 20768
+  },
+  {
+    "k": 6,
+    "base": 98,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 7891,
+    "candidate_checks": 73253
+  },
+  {
+    "k": 6,
+    "base": 99,
+    "generators": [
+      2,
+      3,
+      5,
+      17,
+      19,
+      22
+    ],
+    "nodes": 5667,
+    "candidate_checks": 48257
+  },
+  {
+    "k": 6,
+    "base": 100,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 9180,
+    "candidate_checks": 89026
+  },
+  {
+    "k": 6,
+    "base": 101,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 4004,
+    "candidate_checks": 28124
+  },
+  {
+    "k": 6,
+    "base": 102,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 10231,
+    "candidate_checks": 103603
+  },
+  {
+    "k": 6,
+    "base": 103,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 4509,
+    "candidate_checks": 32657
+  },
+  {
+    "k": 6,
+    "base": 104,
+    "generators": [
+      1,
+      9,
+      10,
+      14,
+      22,
+      23
+    ],
+    "nodes": 4814,
+    "candidate_checks": 43161
+  },
+  {
+    "k": 6,
+    "base": 105,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 5122,
+    "candidate_checks": 37996
+  },
+  {
+    "k": 6,
+    "base": 106,
+    "generators": [
+      1,
+      9,
+      10,
+      15,
+      16,
+      25
+    ],
+    "nodes": 5503,
+    "candidate_checks": 50894
+  },
+  {
+    "k": 6,
+    "base": 107,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 5773,
+    "candidate_checks": 44033
+  },
+  {
+    "k": 6,
+    "base": 108,
+    "generators": [
+      1,
+      9,
+      10,
+      14,
+      23,
+      24
+    ],
+    "nodes": 6185,
+    "candidate_checks": 59538
+  },
+  {
+    "k": 6,
+    "base": 109,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 6491,
+    "candidate_checks": 50891
+  },
+  {
+    "k": 6,
+    "base": 110,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25
+    ],
+    "nodes": 18100,
+    "candidate_checks": 212879
+  },
+  {
+    "k": 6,
+    "base": 111,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 7353,
+    "candidate_checks": 58805
+  },
+  {
+    "k": 6,
+    "base": 112,
+    "generators": [
+      1,
+      4,
+      5,
+      20,
+      24,
+      25
+    ],
+    "nodes": 6232,
+    "candidate_checks": 51021
+  },
+  {
+    "k": 6,
+    "base": 113,
+    "generators": [
+      1,
+      4,
+      5,
+      18,
+      23,
+      24
+    ],
+    "nodes": 8268,
+    "candidate_checks": 67937
+  },
+  {
+    "k": 6,
+    "base": 114,
+    "generators": [
+      1,
+      10,
+      11,
+      14,
+      15,
+      25
+    ],
+    "nodes": 8979,
+    "candidate_checks": 95868
+  },
+  {
+    "k": 6,
+    "base": 115,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 7402,
+    "candidate_checks": 42852
+  },
+  {
+    "k": 6,
+    "base": 116,
+    "generators": [
+      1,
+      4,
+      5,
+      18,
+      23,
+      24
+    ],
+    "nodes": 7864,
+    "candidate_checks": 67112
+  },
+  {
+    "k": 6,
+    "base": 117,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      23,
+      46
+    ],
+    "nodes": 9106,
+    "candidate_checks": 64137
+  },
+  {
+    "k": 6,
+    "base": 118,
+    "generators": [
+      1,
+      4,
+      5,
+      19,
+      23,
+      24
+    ],
+    "nodes": 8862,
+    "candidate_checks": 77564
+  },
+  {
+    "k": 6,
+    "base": 119,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      24,
+      49
+    ],
+    "nodes": 10246,
+    "candidate_checks": 73881
+  },
+  {
+    "k": 6,
+    "base": 120,
+    "generators": [
+      1,
+      4,
+      5,
+      21,
+      26,
+      27
+    ],
+    "nodes": 10006,
+    "candidate_checks": 89522
+  },
+  {
+    "k": 6,
+    "base": 121,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      44,
+      51
+    ],
+    "nodes": 10624,
+    "candidate_checks": 68187
+  },
+  {
+    "k": 6,
+    "base": 122,
+    "generators": [
+      1,
+      4,
+      5,
+      19,
+      24,
+      25
+    ],
+    "nodes": 11136,
+    "candidate_checks": 102236
+  },
+  {
+    "k": 6,
+    "base": 123,
+    "generators": [
+      1,
+      2,
+      13,
+      19,
+      20,
+      33
+    ],
+    "nodes": 12566,
+    "candidate_checks": 91385
+  },
+  {
+    "k": 6,
+    "base": 124,
+    "generators": [
+      1,
+      4,
+      5,
+      20,
+      24,
+      25
+    ],
+    "nodes": 12406,
+    "candidate_checks": 116147
+  },
+  {
+    "k": 6,
+    "base": 125,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50
+    ],
+    "nodes": 13457,
+    "candidate_checks": 85096
+  },
+  {
+    "k": 6,
+    "base": 126,
+    "generators": [
+      1,
+      4,
+      5,
+      23,
+      24,
+      28
+    ],
+    "nodes": 14064,
+    "candidate_checks": 134128
+  },
+  {
+    "k": 6,
+    "base": 127,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 15115,
+    "candidate_checks": 100551
+  },
+  {
+    "k": 6,
+    "base": 128,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 13831,
+    "candidate_checks": 98704
+  },
+  {
+    "k": 6,
+    "base": 129,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 16939,
+    "candidate_checks": 116452
+  },
+  {
+    "k": 6,
+    "base": 130,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 15696,
+    "candidate_checks": 113533
+  },
+  {
+    "k": 6,
+    "base": 131,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 19032,
+    "candidate_checks": 133246
+  },
+  {
+    "k": 6,
+    "base": 132,
+    "generators": [
+      1,
+      2,
+      5,
+      20,
+      25,
+      30
+    ],
+    "nodes": 17382,
+    "candidate_checks": 128912
+  },
+  {
+    "k": 6,
+    "base": 133,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 21363,
+    "candidate_checks": 151678
+  },
+  {
+    "k": 6,
+    "base": 134,
+    "generators": [
+      1,
+      4,
+      5,
+      17,
+      21,
+      22
+    ],
+    "nodes": 21695,
+    "candidate_checks": 220987
+  },
+  {
+    "k": 6,
+    "base": 135,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 24018,
+    "candidate_checks": 172599
+  },
+  {
+    "k": 6,
+    "base": 136,
+    "generators": [
+      1,
+      2,
+      14,
+      19,
+      20,
+      39
+    ],
+    "nodes": 22203,
+    "candidate_checks": 191029
+  },
+  {
+    "k": 6,
+    "base": 137,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 26770,
+    "candidate_checks": 197127
+  },
+  {
+    "k": 6,
+    "base": 138,
+    "generators": [
+      1,
+      2,
+      7,
+      25,
+      26,
+      32
+    ],
+    "nodes": 24372,
+    "candidate_checks": 202484
+  },
+  {
+    "k": 6,
+    "base": 139,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 29891,
+    "candidate_checks": 225140
+  },
+  {
+    "k": 6,
+    "base": 140,
+    "generators": [
+      1,
+      2,
+      5,
+      23,
+      28,
+      33
+    ],
+    "nodes": 26881,
+    "candidate_checks": 216377
+  },
+  {
+    "k": 6,
+    "base": 141,
+    "generators": [
+      1,
+      2,
+      5,
+      17,
+      22,
+      39
+    ],
+    "nodes": 33392,
+    "candidate_checks": 257002
+  },
+  {
+    "k": 6,
+    "base": 142,
+    "generators": [
+      1,
+      2,
+      5,
+      23,
+      28,
+      33
+    ],
+    "nodes": 29764,
+    "candidate_checks": 244617
+  },
+  {
+    "k": 6,
+    "base": 143,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 37181,
+    "candidate_checks": 292572
+  },
+  {
+    "k": 6,
+    "base": 144,
+    "generators": [
+      1,
+      2,
+      5,
+      23,
+      28,
+      33
+    ],
+    "nodes": 33003,
+    "candidate_checks": 276716
+  },
+  {
+    "k": 6,
+    "base": 145,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      60
+    ],
+    "nodes": 41723,
+    "candidate_checks": 329884
+  },
+  {
+    "k": 6,
+    "base": 146,
+    "generators": [
+      1,
+      2,
+      5,
+      18,
+      23,
+      41
+    ],
+    "nodes": 36619,
+    "candidate_checks": 309701
+  },
+  {
+    "k": 6,
+    "base": 147,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      56,
+      61
+    ],
+    "nodes": 46240,
+    "candidate_checks": 373983
+  },
+  {
+    "k": 6,
+    "base": 148,
+    "generators": [
+      1,
+      2,
+      5,
+      23,
+      28,
+      33
+    ],
+    "nodes": 40505,
+    "candidate_checks": 352287
+  },
+  {
+    "k": 6,
+    "base": 149,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      62
+    ],
+    "nodes": 51076,
+    "candidate_checks": 422714
+  },
+  {
+    "k": 6,
+    "base": 150,
+    "generators": [
+      1,
+      2,
+      5,
+      23,
+      28,
+      33
+    ],
+    "nodes": 45075,
+    "candidate_checks": 397027
+  },
+  {
+    "k": 6,
+    "base": 151,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      63
+    ],
+    "nodes": 56860,
+    "candidate_checks": 480596
+  },
+  {
+    "k": 6,
+    "base": 152,
+    "generators": [
+      1,
+      2,
+      5,
+      19,
+      24,
+      43
+    ],
+    "nodes": 49587,
+    "candidate_checks": 446266
+  },
+  {
+    "k": 6,
+    "base": 153,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      64
+    ],
+    "nodes": 62836,
+    "candidate_checks": 543516
+  },
+  {
+    "k": 6,
+    "base": 154,
+    "generators": [
+      1,
+      2,
+      5,
+      19,
+      24,
+      43
+    ],
+    "nodes": 54452,
+    "candidate_checks": 499320
+  },
+  {
+    "k": 6,
+    "base": 155,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      65
+    ],
+    "nodes": 70505,
+    "candidate_checks": 624337
+  },
+  {
+    "k": 6,
+    "base": 156,
+    "generators": [
+      1,
+      2,
+      5,
+      24,
+      29,
+      34
+    ],
+    "nodes": 60105,
+    "candidate_checks": 564461
+  },
+  {
+    "k": 6,
+    "base": 157,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      66
+    ],
+    "nodes": 76958,
+    "candidate_checks": 697316
+  },
+  {
+    "k": 6,
+    "base": 158,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 66188,
+    "candidate_checks": 625568
+  },
+  {
+    "k": 6,
+    "base": 159,
+    "generators": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      67
+    ],
+    "nodes": 84546,
+    "candidate_checks": 784976
+  },
+  {
+    "k": 6,
+    "base": 160,
+    "generators": [
+      1,
+      2,
+      5,
+      15,
+      20,
+      35
+    ],
+    "nodes": 73190,
+    "candidate_checks": 707969
+  }
+]

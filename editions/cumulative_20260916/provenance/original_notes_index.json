@@ -1,0 +1,404 @@
+[
+  {
+    "sha256": "81a329e64b8f54838228faf23ef8f9f60c2f11c9ac0d4a4067bc89b55122471b",
+    "path": "history/EP817_PR2_variance_contribution_20260914/notes/ternary-variance-lower-bound.md",
+    "aliases": [
+      "history/EP817_PR2_variance_contribution_20260914/notes/ternary-variance-lower-bound.md",
+      "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR2_variance/notes/ternary-variance-lower-bound.md"
+    ],
+    "title": "An unweighted ternary-variance refinement of the k = 4 lower bound",
+    "order": 0,
+    "latex": "latex/chapters/01_ternary-variance-lower-bound.tex",
+    "standalone": "latex/individual/01_ternary-variance-lower-bound.tex",
+    "math_nodes": 20,
+    "display_nodes": 20
+  },
+  {
+    "sha256": "45c4e09b089b65afe65ae661494c4b82bf41e8f95b76971421f8243eec6f3894",
+    "path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+    "aliases": [
+      "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "history/EP817_PR3_general_k_contribution_20260914/notes/general-k-capacity.md"
+    ],
+    "title": "General-k exponential capacity, exact carry certificates, and improved k=5,6 constructions",
+    "order": 1,
+    "latex": "latex/chapters/02_general-k-capacity.tex",
+    "standalone": "latex/individual/02_general-k-capacity.tex",
+    "math_nodes": 59,
+    "display_nodes": 59
+  },
+  {
+    "sha256": "1954d499b7c63eb3f0202366ea75ff7f63729e17be110e11e7c6e3e9b425f650",
+    "path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+    "aliases": [
+      "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md"
+    ],
+    "title": "Exact composition, finite carry certificates, and the general-k capacity",
+    "order": 3,
+    "latex": "latex/chapters/03_general-k-carry-capacity.tex",
+    "standalone": "latex/individual/03_general-k-carry-capacity.tex",
+    "math_nodes": 100,
+    "display_nodes": 48
+  },
+  {
+    "sha256": "cf87ac7e695ad4b64b80e2e0049f8b2088539973426b49bc046e500fa7a1a543",
+    "path": "history/EP817_SPLITZERO_OUTER_20260914/research/splitzero_outer/notes/outer-support-control.md",
+    "aliases": [
+      "history/EP817_SPLITZERO_OUTER_20260914/research/splitzero_outer/notes/outer-support-control.md",
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/splitzero_outer/notes/outer-support-control.md"
+    ],
+    "title": "Support-preserving outer control for Erdős Problem 817",
+    "order": 4,
+    "latex": "latex/chapters/04_outer-support-control.tex",
+    "standalone": "latex/individual/04_outer-support-control.tex",
+    "math_nodes": 53,
+    "display_nodes": 53
+  },
+  {
+    "sha256": "1b82ffc587be0c025bac9d5195930b3f4bde1eb49e21387f338cc4af1b31482f",
+    "path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/compact-global-dual.md",
+    "aliases": [
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/compact-global-dual.md",
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/zeta/workbenches/ep817-supported-reset/notes/compact-global-dual.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/predecessors/notes/compact-global-dual.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/predecessors/compact-global-dual.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/predecessors/compact-global-dual.md"
+    ],
+    "title": "A compact all-rank dual from the retained reset cost",
+    "order": 5,
+    "latex": "latex/chapters/05_compact-global-dual.tex",
+    "standalone": "latex/individual/05_compact-global-dual.tex",
+    "math_nodes": 14,
+    "display_nodes": 14
+  },
+  {
+    "sha256": "a36db5a19e605ccb8559a99c2a1c5722f75377ef9fde0f07a21db173833b2d06",
+    "path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/supported-reset-generalization.md",
+    "aliases": [
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/supported-reset-generalization.md",
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/zeta/workbenches/ep817-supported-reset/notes/supported-reset-generalization.md"
+    ],
+    "title": "Supported zero resets for translation-invariant integer patterns",
+    "order": 5,
+    "latex": "latex/chapters/06_supported-reset-generalization.tex",
+    "standalone": "latex/individual/06_supported-reset-generalization.tex",
+    "math_nodes": 13,
+    "display_nodes": 13
+  },
+  {
+    "sha256": "e7045ee59c2b86eb72caab28f7b1e46104bde3924dda7d1dfa8f31cb3d937213",
+    "path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/variable-block-control.md",
+    "aliases": [
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/variable-block-control.md",
+      "history/EP817_ZETA_INTEGRATION_20260914/payloads/zeta/workbenches/ep817-supported-reset/notes/variable-block-control.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/predecessors/notes/variable-block-control.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/predecessors/variable-block-control.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/predecessors/variable-block-control.md"
+    ],
+    "title": "Supported zero resets and exact variable-block capacity",
+    "order": 5,
+    "latex": "latex/chapters/07_variable-block-control.tex",
+    "standalone": "latex/individual/07_variable-block-control.tex",
+    "math_nodes": 20,
+    "display_nodes": 20
+  },
+  {
+    "sha256": "1e7dda55215faf90696066ab8690a6136518f343635fefa739e857e8ab933e7f",
+    "path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/graphical-obstructions.md",
+    "aliases": [
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/graphical-obstructions.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/graphical-proof-provider.md"
+    ],
+    "title": "Graphical obstruction propagation and a stronger six-term construction",
+    "order": 6,
+    "latex": "latex/chapters/08_graphical-obstructions.tex",
+    "standalone": "latex/individual/08_graphical-obstructions.tex",
+    "math_nodes": 55,
+    "display_nodes": 55
+  },
+  {
+    "sha256": "f65163e7b4e1c1f1fb3216fc629d82f97024a4042a5f77f44ce6c001bfe88a9d",
+    "path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/monotone-obstruction-dual.md",
+    "aliases": [
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/monotone-obstruction-dual.md",
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/monotone-obstruction-dual.md"
+    ],
+    "title": "Canonical monotone potentials and compilation of arithmetic obstructions",
+    "order": 6,
+    "latex": "latex/chapters/09_monotone-obstruction-dual.tex",
+    "standalone": "latex/individual/09_monotone-obstruction-dual.tex",
+    "math_nodes": 15,
+    "display_nodes": 15
+  },
+  {
+    "sha256": "bd31cc477b88ac3312bef19b7f813fd10308609e1aa01acd1c78fc93a7522061",
+    "path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/splitzero-return.md",
+    "aliases": [
+      "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/splitzero-return.md"
+    ],
+    "title": "Returning graphical obstruction control to the original SplitZero interfaces",
+    "order": 6,
+    "latex": "latex/chapters/10_splitzero-return.tex",
+    "standalone": "latex/individual/10_splitzero-return.tex",
+    "math_nodes": 15,
+    "display_nodes": 15
+  },
+  {
+    "sha256": "2d443b8fed3a39951bedbe233458734993909828a480b78297cac94032df88ca",
+    "path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/graphic-visibility-filtration.md",
+    "aliases": [
+      "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/graphic-visibility-filtration.md",
+      "history/EP817_SUPPORTED_DEFECT_20260915/payloads/zeta/workbenches/ep817-supported-defects/notes/graphic-visibility-filtration.md"
+    ],
+    "title": "Exact graphical direction modules and supported arithmetic visibility",
+    "order": 7,
+    "latex": "latex/chapters/11_graphic-visibility-filtration.tex",
+    "standalone": "latex/individual/11_graphic-visibility-filtration.tex",
+    "math_nodes": 29,
+    "display_nodes": 29
+  },
+  {
+    "sha256": "3fcd9ccf780ae3fa05ba6691a7246086c52572e0c78729283b014bdedf6b57ea",
+    "path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/supported-defect-universality.md",
+    "aliases": [
+      "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/supported-defect-universality.md",
+      "history/EP817_SUPPORTED_DEFECT_20260915/payloads/zeta/workbenches/ep817-supported-defects/notes/supported-defect-universality.md"
+    ],
+    "title": "Supported zero actions, exact defect transport, and all-rank deformations",
+    "order": 7,
+    "latex": "latex/chapters/12_supported-defect-universality.tex",
+    "standalone": "latex/individual/12_supported-defect-universality.tex",
+    "math_nodes": 51,
+    "display_nodes": 51
+  },
+  {
+    "sha256": "b7e90f40ecc6fa2d93245c2e12ada2a4ca756e640af0504ba3f65e749b5690e8",
+    "path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/zeta/workbenches/ep817-supported-defects/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_SUPPORTED_DEFECT_20260915/payloads/zeta/workbenches/ep817-supported-defects/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Relative defect classes and the retained infinite visibility filtration",
+    "order": 7,
+    "latex": "latex/chapters/13_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/13_splitzero-receiving-map.tex",
+    "math_nodes": 13,
+    "display_nodes": 13
+  },
+  {
+    "sha256": "8f389209ad2fec65f7a5498c26fc3c78cbb68a6b3bf5b8629fa22c74e43b8346",
+    "path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+    "aliases": [
+      "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "history/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/recurrence-control.md"
+    ],
+    "title": "Recurrence sources with saturated short relations: exact progression control and a seven-term obstruction",
+    "order": 8,
+    "latex": "latex/chapters/14_recurrence-control.tex",
+    "standalone": "latex/individual/14_recurrence-control.tex",
+    "math_nodes": 59,
+    "display_nodes": 59
+  },
+  {
+    "sha256": "a99ec2576fc0a2b69f96761920d8781ff48add647973b11723c498dab2082ef6",
+    "path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Recurrence cohomology, supported arithmetic-zero carries, and the unchanged source metric",
+    "order": 8,
+    "latex": "latex/chapters/15_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/15_splitzero-receiving-map.tex",
+    "math_nodes": 20,
+    "display_nodes": 20
+  },
+  {
+    "sha256": "08a1e01d182e1062f119d0ca3c78cc69d2067d04e2bfbf71372e038f49053443",
+    "path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md",
+    "aliases": [
+      "history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md",
+      "history/EP817_DEFECT_CLOSURE_20260915/payloads/zeta/workbenches/ep817-defect-closure/notes/closure-and-core-isolation.md"
+    ],
+    "title": "Defect closure, synchronized witnesses, and isolated graphical cores",
+    "order": 9,
+    "latex": "latex/chapters/16_closure-and-core-isolation.tex",
+    "standalone": "latex/individual/16_closure-and-core-isolation.tex",
+    "math_nodes": 34,
+    "display_nodes": 34
+  },
+  {
+    "sha256": "b530efe6075f73b8a9bf086cacbc78a02d24554a1d452fc75963a77752d99654",
+    "path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/zeta/workbenches/ep817-defect-closure/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_DEFECT_CLOSURE_20260915/payloads/zeta/workbenches/ep817-defect-closure/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Receiving progression closure and synchronized source witnesses",
+    "order": 9,
+    "latex": "latex/chapters/17_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/17_splitzero-receiving-map.tex",
+    "math_nodes": 9,
+    "display_nodes": 9
+  },
+  {
+    "sha256": "b7b1b12d3944ae3b3e868112ee263fdbcf9e463fba127e08a27db0455d10dfd0",
+    "path": "history/EP817_CANONICAL_ISOLATION_20260916/payloads/ep817/research/canonical_isolation/notes/canonical-isolation.md",
+    "aliases": [
+      "history/EP817_CANONICAL_ISOLATION_20260916/payloads/ep817/research/canonical_isolation/notes/canonical-isolation.md",
+      "history/EP817_CANONICAL_ISOLATION_20260916/payloads/zeta/workbenches/ep817-canonical-isolation/notes/canonical-isolation.md"
+    ],
+    "title": "Canonical arithmetic factors and integral isolation at every clique rank",
+    "order": 10,
+    "latex": "latex/chapters/18_canonical-isolation.tex",
+    "standalone": "latex/individual/18_canonical-isolation.tex",
+    "math_nodes": 51,
+    "display_nodes": 51
+  },
+  {
+    "sha256": "b035e783df8fb9aaffea60089e302ee8da705e2ce882ed1b2f045c54d4fbd7a3",
+    "path": "history/EP817_CANONICAL_ISOLATION_20260916/payloads/zeta/workbenches/ep817-canonical-isolation/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_CANONICAL_ISOLATION_20260916/payloads/zeta/workbenches/ep817-canonical-isolation/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Canonical factor supports and integral progression-observation kernels",
+    "order": 10,
+    "latex": "latex/chapters/19_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/19_splitzero-receiving-map.tex",
+    "math_nodes": 15,
+    "display_nodes": 15
+  },
+  {
+    "sha256": "82189b686fef099a6502736ee417254ded6594b6e3911dfeabec5996a950c831",
+    "path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+    "aliases": [
+      "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "history/EP817_ARITY_BOUNDARY_20260916/payloads/zeta/workbenches/ep817-arity-boundary/notes/arity-and-boundary.md"
+    ],
+    "title": "Exact higher-arity kernels, retained spectral multiplicities, and real boundary progressions",
+    "order": 11,
+    "latex": "latex/chapters/20_arity-and-boundary.tex",
+    "standalone": "latex/individual/20_arity-and-boundary.tex",
+    "math_nodes": 76,
+    "display_nodes": 76
+  },
+  {
+    "sha256": "4c10756c8e4dfbfbe7408dcb043a98855a0dc1ca55806743f05435a5cc4c405b",
+    "path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/zeta/workbenches/ep817-arity-boundary/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_ARITY_BOUNDARY_20260916/payloads/zeta/workbenches/ep817-arity-boundary/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Higher-arity receiving kernels, visible Jordan terms, and retained real boundaries",
+    "order": 11,
+    "latex": "latex/chapters/21_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/21_splitzero-receiving-map.tex",
+    "math_nodes": 22,
+    "display_nodes": 22
+  },
+  {
+    "sha256": "4848e628811d0e9775848e68f21a1237ba54b04826ca2e103ebd93633fe5673b",
+    "path": "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/all-block-image-capacity.md",
+    "aliases": [
+      "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/all-block-image-capacity.md",
+      "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/zeta/workbenches/ep817-all-block-image/notes/all-block-image-capacity.md"
+    ],
+    "title": "All-block image capacity and exact ternary transfer",
+    "order": 12,
+    "latex": "latex/chapters/22_all-block-image-capacity.tex",
+    "standalone": "latex/individual/22_all-block-image-capacity.tex",
+    "math_nodes": 108,
+    "display_nodes": 78
+  },
+  {
+    "sha256": "5249e5a00a3bf065be6fed1bf1b2ccc09fcce9f709cbffc3bb554022b55bae2a",
+    "path": "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/general-pattern-return.md",
+    "aliases": [
+      "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/general-pattern-return.md",
+      "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/zeta/workbenches/ep817-all-block-image/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Finite arithmetic observations and the all-block capacity return",
+    "order": 12,
+    "latex": "latex/chapters/23_general-pattern-return.tex",
+    "standalone": "latex/individual/23_general-pattern-return.tex",
+    "math_nodes": 18,
+    "display_nodes": 18
+  },
+  {
+    "sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+    "path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+    "aliases": [
+      "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/zeta/workbenches/ep817-seven-observable/notes/seven-observable-capacity.md"
+    ],
+    "title": "Universal image observations, bounded-fibre resolutions, and spectral capacity",
+    "order": 13,
+    "latex": "latex/chapters/24_seven-observable-capacity.tex",
+    "standalone": "latex/individual/24_seven-observable-capacity.tex",
+    "math_nodes": 77,
+    "display_nodes": 77
+  },
+  {
+    "sha256": "b064cbc73a4582fa2bb7aaf45aac4357eea1a0c62eccaf307ca3af16a8f23305",
+    "path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/zeta/workbenches/ep817-seven-observable/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/zeta/workbenches/ep817-seven-observable/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Seven image observations and the original supported quotient",
+    "order": 13,
+    "latex": "latex/chapters/25_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/25_splitzero-receiving-map.tex",
+    "math_nodes": 19,
+    "display_nodes": 19
+  },
+  {
+    "sha256": "ca5fd72aa03b61c38632c27715af2a88dd0bb09146f1d1ca453cf4bfd6b72571",
+    "path": "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+    "aliases": [
+      "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+      "history/EP817_LOCAL_FLOW_20260916/payloads/zeta/workbenches/ep817-local-flow/notes/local-flow-and-switching.md"
+    ],
+    "title": "Exact local-pattern quotients and switching image capacity",
+    "order": 14,
+    "latex": "latex/chapters/26_local-flow-and-switching.tex",
+    "standalone": "latex/individual/26_local-flow-and-switching.tex",
+    "math_nodes": 64,
+    "display_nodes": 64
+  },
+  {
+    "sha256": "71a9acbd555be4ce076ff9b873d6d7fe74c48172b30d4b1df0afe07b14e7f729",
+    "path": "history/EP817_LOCAL_FLOW_20260916/payloads/zeta/workbenches/ep817-local-flow/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_LOCAL_FLOW_20260916/payloads/zeta/workbenches/ep817-local-flow/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Original local-current quotients and their SplitZero receiving maps",
+    "order": 14,
+    "latex": "latex/chapters/27_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/27_splitzero-receiving-map.tex",
+    "math_nodes": 28,
+    "display_nodes": 28
+  },
+  {
+    "sha256": "80798f554e704c746ff84f78f8ce5355ac74907a2f662013e1a83f72b86cbaaf",
+    "path": "history/EP817_FINITE_PERIOD_20260916/payloads/ep817/research/finite_period/notes/finite-period-control.md",
+    "aliases": [
+      "history/EP817_FINITE_PERIOD_20260916/payloads/ep817/research/finite_period/notes/finite-period-control.md",
+      "history/EP817_FINITE_PERIOD_20260916/payloads/zeta/workbenches/ep817-finite-period/notes/finite-period-control.md"
+    ],
+    "title": "Uniform finite-period approximation and exact finite-word switching minima",
+    "order": 15,
+    "latex": "latex/chapters/28_finite-period-control.tex",
+    "standalone": "latex/individual/28_finite-period-control.tex",
+    "math_nodes": 47,
+    "display_nodes": 47
+  },
+  {
+    "sha256": "dc18613b9655041ae1618a43cad1e74860d5631989b0797349d641665d496fbd",
+    "path": "history/EP817_FINITE_PERIOD_20260916/payloads/zeta/workbenches/ep817-finite-period/notes/splitzero-receiving-map.md",
+    "aliases": [
+      "history/EP817_FINITE_PERIOD_20260916/payloads/zeta/workbenches/ep817-finite-period/notes/splitzero-receiving-map.md"
+    ],
+    "title": "Retained cut kernels, bounded logarithmic defects, and finite-period recovery",
+    "order": 15,
+    "latex": "latex/chapters/29_splitzero-receiving-map.tex",
+    "standalone": "latex/individual/29_splitzero-receiving-map.tex",
+    "math_nodes": 12,
+    "display_nodes": 12
+  }
+]

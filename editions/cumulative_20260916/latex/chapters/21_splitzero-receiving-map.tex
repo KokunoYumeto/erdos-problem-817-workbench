@@ -1,0 +1,242 @@
+% Original Markdown SHA-256: 4c10756c8e4dfbfbe7408dcb043a98855a0dc1ca55806743f05435a5cc4c405b
+\chapter{Higher-arity receiving kernels, visible Jordan terms, and retained real boundaries}
+\label{chapter:21_splitzero-receiving-map}
+{\small\noindent\textbf{Source:} \nolinkurl{history/EP817_ARITY_BOUNDARY_20260916/payloads/zeta/workbenches/ep817-arity-boundary/notes/splitzero-receiving-map.md}\
+\textbf{Identity:} \nolinkurl{4c10756c8e4dfbfbe7408dcb043a98855a0dc1ca55806743f05435a5cc4c405b}}
+\medskip
+The Clankers, 16 September 2026. Ordinary mathematical continuation; independent review pending. No new Lean execution or arithmetic-weight theorem is claimed.
+
+This receiving note uses the existing SplitZero reconstruction and internal quotient of \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex}, equations D6--D8, inspected at revision \nolinkurl{58626a62cd5648e8ae7450fb54d4a4aab2330981} (blob \nolinkurl{d3493f891291ee6e94dbf2c77649f7d85d240df2}). It does not introduce a replacement scalar, support carrier, relation quotient, or theta source. The companion full proof is \texttt{arity-and-boundary.md}; standalone copies of its integer/rational checkers are under \texttt{certificates/}.
+
+\section{1. The original word relation and its further evaluation relation}\label{n21-the-original-word-relation-and-its-further-evaluation-relation}
+
+At a specified q\textgreater=2, base b\textgreater sum(B), and horizon m, retain every original q-digit generator word
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Omega_m=\{0,\ldots,q-1\}^{m|B|}.$
+\end{adjustbox}
+\]
+
+Partitioning its coordinates by their original levels gives its local value quotient. Write D=H\_q(B) and let omega(d) count the original block representations. There are surjections
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathbb Q[\Omega_m]\xrightarrow{q_m}\mathbb Q[D^m]
+\xrightarrow{J_m}\mathbb Q[H_q(B_m)],
+\qquad J_me_{(d_j)}=e_{\sum_jb^jd_j}.$
+\end{adjustbox}
+\]
+
+Let B\_m\^{}loc=ker(q\_m) and B\_m\^{}tot=ker(J\_mq\_m). The comparison is the exact sequence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 0\to B_m^{loc}\to B_m^{tot}\xrightarrow{q_m}\ker J_m\to0.$
+\end{adjustbox}
+\]
+
+Surjectivity of the last map follows by choosing an original block representative of every local value. The receiving kernel is therefore \(B_m^{\mathrm{tot}}/B_m^{\mathrm{loc}}\), with its actual inclusion and quotient maps, not a reassignment of the original relation module.
+
+The predecessor\textquotesingle s canonical binary components for the base97 six-generator family are its original six-generator levels. All of them join in the ternary factorization, witnessed by
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 97=1+2\cdot5+2\cdot21+2\cdot22.$
+\end{adjustbox}
+\]
+
+The analogous actual bounded relations for bases93 and1651 are retained in the full note. The additional ternary kernel dimensions at two of the bases are exactly
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 139^m-\frac{68\,97^m-21\,3^m}{47},$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle 2103^m-\frac{1007\,1651^m-226\,89^m}{781}.$
+\end{adjustbox}
+\]
+
+This calculates the exponential growth of the extra receiving relation space. Every local image value remains represented before that quotient.
+
+For support bookkeeping, use the finite admitted subsets of the actual word set, with inclusion transports and union as join, and the original value images of those subsets. The same kernels and quotient squares restrict naturally to each support. A relation is sent to its own support\textquotesingle s coefficient zero. The represented numerical value zero retains its basis vector e\_0; only a separate scalar-amplitude map sends that vector to zero. The empty admitted word support is the external bottom. These are the literal diagram operations of the inspected reconstruction, not new definitions of zero.
+
+\section{2. Full original metrics and an exact finite certificate for every horizon}\label{n21-full-original-metrics-and-an-exact-finite-certificate-for-every-horizon}
+
+The original orthonormal word metric gives local Gram
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle G_{loc}=\operatorname{diag}_{d\in D^m}\left(1/\prod_j\omega(d_j)\right).$
+\end{adjustbox}
+\]
+
+Let mu\_m(x)=sum\_(ev(d)=x) product\_j omega(d\_j). The minimum-section formula is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s_me_x=\sum_{ev(d)=x}\frac{\prod_j\omega(d_j)}{\mu_m(x)}e_d,
+\qquad G_{tot}=\operatorname{diag}_x(1/\mu_m(x)).$
+\end{adjustbox}
+\]
+
+The first identity has J\_ms\_m=1. A vector in ker J\_m has zero coefficient sum on each final fibre, so it is orthogonal to each displayed section vector in G\_loc. Thus every original lift z of v satisfies
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \|z\|_{G_{loc}}^2=\|z-s_mv\|_{G_{loc}}^2+\|v\|_{G_{tot}}^2.$
+\end{adjustbox}
+\]
+
+The exact source carries d+c=z+bc\textquotesingle{} have states c=0,1 in the ternary cases. For original multiplicities their residue matrix is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle W_z(c,c')=\omega(z+bc'-c).$
+\end{adjustbox}
+\]
+
+The full residue-class mass certificate bounds every row sum by 15 for the six-generator blocks and by219 for the ten-generator block. The original digits70 and1102 achieve these weights without a carry. The matrix bound and the repeated-digit lower witness prove
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \max_x\mu_m(x)=15^m\quad\text{or}\quad219^m.$
+\end{adjustbox}
+\]
+
+The original quotient-to-unit-value return norms are therefore exactly 15\^{}(m/2) and219\^{}(m/2). Starting instead from orthonormal \emph{distinct local values} gives maximum carry-fibre size 2\^{}(m-1) and return norm 2\^{}((m-1)/2). The two sources are connected by their original weighted sections; their norms are not silently equated or multiplied as if the worst fibres coincided.
+
+\section{3. A finite observation that removes only its actual invisible directions}\label{n21-a-finite-observation-that-removes-only-its-actual-invisible-directions}
+
+For any finite nonnegative D and integer b\textgreater=2, determinize the exact carry subsets R by
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T_z(R)=\{c':d+c=z+bc',\ d\in D,\ c\in R\}.$
+\end{adjustbox}
+\]
+
+The complete matrix is M\_(R,S)=\#\{z:T\_z(R)=S\}, and the terminal observation is f(R)=\textbar R\textbar. The number of distinct length-m values is e\_0\^{}T M\^{}m f. The same disjoint remainder union supplies finite constant matrices for all numerical moments. This is the map from original representations to distinct values; it counts neither a residue nor a path twice.
+
+On the forward state space, T=M\^{}T and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle Jv=(f^Tv,f^TTv,\ldots,f^TT^{s-1}v)$
+\end{adjustbox}
+\]
+
+has an invariant kernel by Cayley--Hamilton. Quotienting by that exact kernel preserves every later observation. For the binary base97 example the original empty carry state is a supported basis direction with eigenvalue97; it lies in ker J, whereas the count is38\^{}m.
+
+At four-valued digit arity for the ten-generator block in base1651, the actual five-state system has characteristic polynomial
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (X-1651)(X-3)^2(X-1)^2.$
+\end{adjustbox}
+\]
+
+The receiving cardinality series is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \frac{1+1644z-1645z^2}{(1-1651z)(1-3z)^2}.$
+\end{adjustbox}
+\]
+
+Its value is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \frac{825}{412}1651^m-
+\left(\frac{2m}{3}+\frac{413}{412}\right)3^m.$
+\end{adjustbox}
+\]
+
+The original observation kernel is two-dimensional and consists of the two explicitly recorded 1-eigenvectors. The 3-primary block survives. Its actual vectors v,w obey (M-3I)v=0 and (M-3I)w=824v. Thus retaining the full nilpotent direction is necessary for the numerical answer. Neither an arbitrary spectral radius nor the list of eigenvalues alone is the receiving calculation.
+
+This finite example is not an arithmetic zero packet of the theta source. It provides a directly evaluated test of the same original-kernel versus further-observation-kernel discipline, with all primitive and nilpotent directions identified.
+
+\section{4. Infinite real completion and the original terminal boundary}\label{n21-infinite-real-completion-and-the-original-terminal-boundary}
+
+For a finite digit set D subset {[}0,b-2{]}, the actual real limit is K=\{sum\_(j\textgreater=1)d\_j b\^{}(-j)\}. The finite high-prefix carry is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle c_{j+1}=bc_j+\Delta d_j,
+\qquad |c_j|\le 2\max(D)/(b-1).$
+\end{adjustbox}
+\]
+
+A finite graph therefore decides existence of a real k-AP: a reachable true-flag state must have an infinite continuation, equivalently reach a cycle. If such a progression exists, the same graph supplies rational coordinates with an eventually periodic expansion. The proof retains the real-tail equation and differs from the finite integer test, which requires the terminal second difference to be exactly zero.
+
+For the six-generator base97 example, take
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle a=(4,5,5,5,6),\qquad e=(64,0,32,64,0).$
+\end{adjustbox}
+\]
+
+Every entry has an original binary subset representative. The real point tuple is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle x=\frac1{97}\left(a+\frac e{96}\right)
+=\frac1{291}(14,15,16,17,18).$
+\end{adjustbox}
+\]
+
+Its finite integer representatives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle Y_m=97^{m-1}a+\frac{97^{m-1}-1}{96}e$
+\end{adjustbox}
+\]
+
+obey
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Delta Y_m=(-1,0,1)\ne0\quad\text{for every }m,
+\qquad97^{-m}Y_m\to x.$
+\end{adjustbox}
+\]
+
+Thus the boundary remains supported at every finite level; scaling makes its observed norm tend to zero. The full note supplies equally explicit real4-,6-, and6-term witnesses for the base19,93,1651 constructions, respectively.
+
+The additional observation can be kept literally. On sequences for which both limits exist, let
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathcal O((y_m))=(\lim b^{-m}y_m,\lim\Delta y_m).$
+\end{adjustbox}
+\]
+
+Its image is ker Delta direct-sum R\^{}(k-2). For c in R\^{}(k-2), define R(c)\_0=R(c)\_1=0 and \(R(c)_i=\sum_{j\le i-2}(i-1-j)c_j\). Then Delta R=1, and the sequence y\_m=b\^{}m x+R(c) is an explicit linear section of O. The quotient by sequences on which both observations vanish gives this full receiving space. Forgetting the second component has precisely kernel 0 direct-sum R\^{}(k-2).
+
+The actual feasible prefix example maps to (x,(-1,0,1)). Its feasibility is checked before linearization; the arbitrary linear section is not asserted to preserve the digit source. Recovering its original defect from the scaled observation costs b\^{}m. No bounded inverse in another source metric removes that displayed return cost.
+
+\section{5. Scope and reproducibility}\label{n21-scope-and-reproducibility}
+
+The complete mathematical note additionally proves a finite-hole interval-merging theorem, exact limiting Lebesgue masses and weak-convergence errors, boundary box dimensions, and original uniform-image variance constants. Those claims retain every scale map and its inverse. In particular discrete measures are compared with continuous limits through a specified unit-cell smoothing, not by asserting total-variation convergence of mutually singular measures.
+
+The same three standalone programs and full receipt are included in this receiving directory. Run:
+
+\begin{Verbatim}[breaklines=true,breakanywhere=true,fontsize=\footnotesize]
+python certificates/verify_arity_boundary.py --output /tmp/arity_receipt.json
+python certificates/audit_arity_boundary.py --input /tmp/arity_receipt.json \
+  --output /tmp/arity_audit.json
+\end{Verbatim}
+
+The auditor imports no producer or core implementation. Its scope and mutations are recorded in the receipt and the package\textquotesingle s integration record. These are finite arithmetic checks plus written universal proofs, not a new Lean run or an analytic estimate on the original growing zeta packets. No source, declaration, or accepted verification status in the Zeta workbench is overwritten.
+
+\subsection{References}\label{n21-references}
+
+KokunoYumeto. (2026). \emph{Reconstruction with changes of support index}. Zeta Function Research Reader, pinned source and equations specified above. \url{https://github.com/KokunoYumeto/zeta-function-research-reader/blob/58626a62cd5648e8ae7450fb54d4a4aab2330981/workbenches/splitzero-tandem/tex/support_diagrams.tex} .
+
+The Clankers. (2026, September 16). \emph{Exact higher-arity kernels, retained spectral multiplicities, and real boundary progressions}. Companion research note and exact finite certificates, submitted for independent mathematical review.

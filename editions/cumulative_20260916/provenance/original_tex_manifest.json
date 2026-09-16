@@ -1,0 +1,242 @@
+[
+  {
+    "path": "latex/chapters/01_ternary-variance-lower-bound.tex",
+    "sha256": "ca40002d914aaa9487b461b9ffe2448cf34c2b74368cb42e8dc8a3fb38aee397"
+  },
+  {
+    "path": "latex/chapters/02_general-k-capacity.tex",
+    "sha256": "320d08ebdf1e96bbd588519db05703323223fc735bee2e65d914fd645ca460f9"
+  },
+  {
+    "path": "latex/chapters/03_general-k-carry-capacity.tex",
+    "sha256": "f17530591f5fb40d738c4c3afd90730d35d3bb0ff4785b299f20accd2147a26b"
+  },
+  {
+    "path": "latex/chapters/04_outer-support-control.tex",
+    "sha256": "e639dc0d7662522553a027e77e33b813b1d3891f0a7d190e13f1d254c3488904"
+  },
+  {
+    "path": "latex/chapters/05_compact-global-dual.tex",
+    "sha256": "f916e50b35a5ffae5bfdda7fe765e3db38826894e967fb1239868514c71439df"
+  },
+  {
+    "path": "latex/chapters/06_supported-reset-generalization.tex",
+    "sha256": "920c37d2ae4939300d56bf195a36cd46962b1924ae0316b2e713cb332061eeae"
+  },
+  {
+    "path": "latex/chapters/07_variable-block-control.tex",
+    "sha256": "53264b611d05c4d4361e6074c8533f447cc02f7d9bba53b6f0e410833b59ecae"
+  },
+  {
+    "path": "latex/chapters/08_graphical-obstructions.tex",
+    "sha256": "8d7c25b04957b3a9b5fdf09cfcaeab994a645a28f92707a59e7a5491f6e5c355"
+  },
+  {
+    "path": "latex/chapters/09_monotone-obstruction-dual.tex",
+    "sha256": "cefff51e98f5d284719a15e815dd7792e39b6061d7bb4a89d212c9b12e07aa32"
+  },
+  {
+    "path": "latex/chapters/10_splitzero-return.tex",
+    "sha256": "ae08cbade64caab63183bf5de5e2088fe318b8274a2a47646a1f14e3883bc2af"
+  },
+  {
+    "path": "latex/chapters/11_graphic-visibility-filtration.tex",
+    "sha256": "ca2d00e2f496d3df20ec8d3e8faee41696c3ea3a999aefcf01e505ed808e5bc8"
+  },
+  {
+    "path": "latex/chapters/12_supported-defect-universality.tex",
+    "sha256": "2c52f998e3cee60537cf0898277dd25201c29d94641996ae198aca5d188ceb5d"
+  },
+  {
+    "path": "latex/chapters/13_splitzero-receiving-map.tex",
+    "sha256": "b134b32808c495c5c3f7f96cc54947c234ce0d9c033fe25e255bf712e31855a1"
+  },
+  {
+    "path": "latex/chapters/14_recurrence-control.tex",
+    "sha256": "58b3dd14559382444a457034315d079e902c5ea4422429d86a8fc6fd0cffcabd"
+  },
+  {
+    "path": "latex/chapters/15_splitzero-receiving-map.tex",
+    "sha256": "bfb81e428d589af4c85f6f86f48828a7030e1df113f59a67cd63a7c4bdd5b5cc"
+  },
+  {
+    "path": "latex/chapters/16_closure-and-core-isolation.tex",
+    "sha256": "0ce5eeb3825d4d81c75d60f579a3dc95dc2c618d2583bfeae7378bd6f360a034"
+  },
+  {
+    "path": "latex/chapters/17_splitzero-receiving-map.tex",
+    "sha256": "9f46c4cc1ab027782871a7010e4e307ddcc0c4597bd119175d44e9b481b959d5"
+  },
+  {
+    "path": "latex/chapters/18_canonical-isolation.tex",
+    "sha256": "5127b4be9bf9a0e76150459f6a20dec3acd91b16db1d8254cfc38491b483a9fa"
+  },
+  {
+    "path": "latex/chapters/19_splitzero-receiving-map.tex",
+    "sha256": "e16024222dad1efe66a5f7ac509de69a4146800cb05816c4ed96e1a34410dc12"
+  },
+  {
+    "path": "latex/chapters/20_arity-and-boundary.tex",
+    "sha256": "14148c752d2d62ec7b870f6ee5f751d04dfd751ab4fdc1fdf8943940b295b518"
+  },
+  {
+    "path": "latex/chapters/21_splitzero-receiving-map.tex",
+    "sha256": "800ade4c86d3467469a5938aa0d74262fa4ea4c041e34865a500d6b8e6af1e80"
+  },
+  {
+    "path": "latex/chapters/22_all-block-image-capacity.tex",
+    "sha256": "0ece2d7491591546d3dae1629212a50d7bb829481dfa5cf4e70781647e68b66b"
+  },
+  {
+    "path": "latex/chapters/23_general-pattern-return.tex",
+    "sha256": "b7ff5175241b962786fca36981252da3e2dbbd3d9e18cf676d78d013ba4d2afe"
+  },
+  {
+    "path": "latex/chapters/24_seven-observable-capacity.tex",
+    "sha256": "d2c2ea24f4bc7b2a4fded779c3505f6e38de99b215af6485eacfad7d5b074ab9"
+  },
+  {
+    "path": "latex/chapters/25_splitzero-receiving-map.tex",
+    "sha256": "baef2dcfda8f0eaee1584b682132f0f578bd7dd2b7944186f5395d898cb8828b"
+  },
+  {
+    "path": "latex/chapters/26_local-flow-and-switching.tex",
+    "sha256": "6de7781d5fcbbec1cd9f0604482ce57c20cb94418f5a0637a2c03b6226eb543f"
+  },
+  {
+    "path": "latex/chapters/27_splitzero-receiving-map.tex",
+    "sha256": "d608deb8ba537933f9c1641cbdb3daff45c561f38b7e7f06ace178d126326b78"
+  },
+  {
+    "path": "latex/chapters/28_finite-period-control.tex",
+    "sha256": "36e151ee9ec92bebb60c5818573f738d9703c5b7325639be79c6301096dede19"
+  },
+  {
+    "path": "latex/chapters/29_splitzero-receiving-map.tex",
+    "sha256": "e56610c387c509357042dac917726ced63d6146a2a7bec09d7cabf045fce1d2a"
+  },
+  {
+    "path": "latex/collected_notes.tex",
+    "sha256": "fc5dc84b37660009133a61af6f360749f247e468e5a3931b762d4f12d9f8ec95"
+  },
+  {
+    "path": "latex/individual/01_ternary-variance-lower-bound.tex",
+    "sha256": "68bb3b75621f1fe1349e5a73dc8ea4fd42999be781232a3b675058f5fd363103"
+  },
+  {
+    "path": "latex/individual/02_general-k-capacity.tex",
+    "sha256": "794c0b24b60296fa35419210a8698fc538a277eb69cf1fdcf7ab0dee01842fef"
+  },
+  {
+    "path": "latex/individual/03_general-k-carry-capacity.tex",
+    "sha256": "3a52ababd03870e6a9ed107e90d3e75d455260aa9076c0372402ba6db2e68a35"
+  },
+  {
+    "path": "latex/individual/04_outer-support-control.tex",
+    "sha256": "445a62b3ea5314b192b58c372ca7f38c40561958dd0c5dbbe060f5e170819b1a"
+  },
+  {
+    "path": "latex/individual/05_compact-global-dual.tex",
+    "sha256": "58c5f368344b076fdaf3cff01935238849091151e51d1b602f5610bc80d92510"
+  },
+  {
+    "path": "latex/individual/06_supported-reset-generalization.tex",
+    "sha256": "7edea2c38e59a0bec1829fda9b7ef4ebbb41a5d8585b2cec948f27d8bba9713e"
+  },
+  {
+    "path": "latex/individual/07_variable-block-control.tex",
+    "sha256": "c5a842b843ac9e99fbbd41278b5a0c719d72ab58d1ea96e7f02ac32f37f3b6a2"
+  },
+  {
+    "path": "latex/individual/08_graphical-obstructions.tex",
+    "sha256": "9cba0b99487779c773b753c01dd097dc610e33f321412716aa3acf3675d0c5c6"
+  },
+  {
+    "path": "latex/individual/09_monotone-obstruction-dual.tex",
+    "sha256": "025fa746a77c378b93b9e8672865adadc097ebd71cc461f523ea540bbfc8efab"
+  },
+  {
+    "path": "latex/individual/10_splitzero-return.tex",
+    "sha256": "8aadf6c64a683065137c7bd0445b4e5b376a96aa7011b6265848adfbd1d64d06"
+  },
+  {
+    "path": "latex/individual/11_graphic-visibility-filtration.tex",
+    "sha256": "407c1e95f089ef849d4a03a8c863a1fc983549ca8f13acfd08489c7696da6f3d"
+  },
+  {
+    "path": "latex/individual/12_supported-defect-universality.tex",
+    "sha256": "3edbd184783a0433da1372cbad7eba977ee67523651fe5f2223ac019d8bfd0e4"
+  },
+  {
+    "path": "latex/individual/13_splitzero-receiving-map.tex",
+    "sha256": "36d62d0c0b1199ae45ab0a72fd48fd44be37f434edc05dbdbd203121258dc7d2"
+  },
+  {
+    "path": "latex/individual/14_recurrence-control.tex",
+    "sha256": "2bc3bb04ab77fae7c6dfa4d1b0b1d503a06a700ea11d2633b68298e06590c714"
+  },
+  {
+    "path": "latex/individual/15_splitzero-receiving-map.tex",
+    "sha256": "967a13a84278d4c576f17c0667f35051a098bae8fc3b29a4ba72ed5197bdf43c"
+  },
+  {
+    "path": "latex/individual/16_closure-and-core-isolation.tex",
+    "sha256": "1fe373c3c9807ff2e86dd2c0eddf22ef53b6bd5956eaa6048783718aaad3f224"
+  },
+  {
+    "path": "latex/individual/17_splitzero-receiving-map.tex",
+    "sha256": "4177e6f01615703df2ac1caa6e55da12d4dd5ca09b4fd1aa955161d5f876a679"
+  },
+  {
+    "path": "latex/individual/18_canonical-isolation.tex",
+    "sha256": "269bc2eed4fec73e8b99ad8d84ee4742cadf7730995236e0552b32bd3e071b93"
+  },
+  {
+    "path": "latex/individual/19_splitzero-receiving-map.tex",
+    "sha256": "b5dfbec1a88d332f56055dac2cf4b0340ea7555ac6500217db4bebdbf8462388"
+  },
+  {
+    "path": "latex/individual/20_arity-and-boundary.tex",
+    "sha256": "29ec5d8cd0a9e4d58c011959b0dca887e291b38f16a8e48db425ae2101d754ad"
+  },
+  {
+    "path": "latex/individual/21_splitzero-receiving-map.tex",
+    "sha256": "9aea9f6867a07a80bafa472a6a84d11c418c83821350cdae022147edb8607fdd"
+  },
+  {
+    "path": "latex/individual/22_all-block-image-capacity.tex",
+    "sha256": "28297b560b6a8beec60666b1ceb58482c19f94382a3f0eefd3cfc7d9d4db4dee"
+  },
+  {
+    "path": "latex/individual/23_general-pattern-return.tex",
+    "sha256": "21abbd0a256fc1e9259624dbb64b28e18b6e47d3f88a66ff7a7b9cc9dc1c4554"
+  },
+  {
+    "path": "latex/individual/24_seven-observable-capacity.tex",
+    "sha256": "710e72676146aa06819c82df92a0bad8b6fc12cb14a4bd3dc920601fb6849ed3"
+  },
+  {
+    "path": "latex/individual/25_splitzero-receiving-map.tex",
+    "sha256": "a583cf383bde63c98c2581dc27affecbbd11518b3f4285ad512e9971fe7c55ed"
+  },
+  {
+    "path": "latex/individual/26_local-flow-and-switching.tex",
+    "sha256": "141c9a60d3069ecbfd1b226fc107e2c1be93cd564f85521ec0ff10eb634e522f"
+  },
+  {
+    "path": "latex/individual/27_splitzero-receiving-map.tex",
+    "sha256": "0859103aa120eab1d8cc2f207d9eaf71568493ab58c374689aa114743ef463de"
+  },
+  {
+    "path": "latex/individual/28_finite-period-control.tex",
+    "sha256": "5780bfd05a210237fbf0cd00ab7cf00e5bb131ad4e61fda1c9dfa646861dbb00"
+  },
+  {
+    "path": "latex/individual/29_splitzero-receiving-map.tex",
+    "sha256": "8ce075ba4c2aada5188acc3f0e3c2b48724ea8b8b0b61a491657d4f4faa6375c"
+  },
+  {
+    "path": "latex/preamble.tex",
+    "sha256": "7fa9c10d7b988ca7a73943129d7b79b97ef293a2329328d7c39d6bad2eb181a3"
+  }
+]

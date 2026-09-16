@@ -1,0 +1,849 @@
+{
+  "edition": "Corrected reader, 16 September 2026",
+  "source_edition": "EP817_COMPLETE_CONTINUED_LATEX_20260916",
+  "status": "All 82 identified mathematical conversion defects corrected; current published chapter24 correction incorporated",
+  "mathematical_conversion_amendments": [
+    {
+      "tex_path": "latex/chapters/01_ternary-variance-lower-bound.tex",
+      "original_tex_line": 125,
+      "old_tex": "3\\textsuperscript{m-2}m",
+      "corrected_tex": "\\(3^m-2^m\\)",
+      "original_markdown_path": "history/EP817_PR2_variance_contribution_20260914/notes/ternary-variance-lower-bound.md",
+      "original_markdown_line": 139,
+      "original_expression": "polynomial has 3^m-2^m coefficients equal to one, so division by that number",
+      "reason": "Restore the subtraction of two powers; Markdown paired carets incorrectly moved '-2' into the first exponent."
+    },
+    {
+      "tex_path": "latex/chapters/01_ternary-variance-lower-bound.tex",
+      "original_tex_line": 183,
+      "old_tex": "3\\textsuperscript{\\{m\\_j\\}-2}\\{m\\_j\\}",
+      "corrected_tex": "\\(3^{m_j}-2^{m_j}\\)",
+      "original_markdown_path": "history/EP817_PR2_variance_contribution_20260914/notes/ternary-variance-lower-bound.md",
+      "original_markdown_line": 198,
+      "original_expression": "The source quotient gives M = 3^|F| product_j(3^{m_j}-2^{m_j}). For m >= 3,",
+      "reason": "Restore the difference of powers inside the existing product parentheses."
+    },
+    {
+      "tex_path": "latex/chapters/02_general-k-capacity.tex",
+      "original_tex_line": 88,
+      "old_tex": "93\\textsuperscript{5\\textless7}12",
+      "corrected_tex": "\\(93^5<7^{12}\\)",
+      "original_markdown_path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "original_markdown_line": 69,
+      "original_expression": "The exact comparisons are 97<5^3 and 93^5<7^12.",
+      "reason": "The comparison belongs between powers, not in an exponent."
+    },
+    {
+      "tex_path": "latex/chapters/02_general-k-capacity.tex",
+      "original_tex_line": 604,
+      "old_tex": "97\\textsuperscript{(1/6)\\textless23}(1/4)",
+      "corrected_tex": "\\(97^{1/6}<23^{1/4}\\)",
+      "original_markdown_path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "original_markdown_line": 464,
+      "original_expression": "Asymptotically, 97^(1/6)<23^(1/4) because 97^2<23^3; 93^(1/6)<47^(1/5) follows from direct integer powers.",
+      "reason": "Restore both fractional exponents and the comparison."
+    },
+    {
+      "tex_path": "latex/chapters/02_general-k-capacity.tex",
+      "original_tex_line": 604,
+      "old_tex": "97\\textsuperscript{2\\textless23}3",
+      "corrected_tex": "\\(97^2<23^3\\)",
+      "original_markdown_path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "original_markdown_line": 464,
+      "original_expression": "97^2<23^3",
+      "reason": "Restore comparison of integer powers."
+    },
+    {
+      "tex_path": "latex/chapters/02_general-k-capacity.tex",
+      "original_tex_line": 604,
+      "old_tex": "93\\textsuperscript{(1/6)\\textless47}(1/5)",
+      "corrected_tex": "\\(93^{1/6}<47^{1/5}\\)",
+      "original_markdown_path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "original_markdown_line": 464,
+      "original_expression": "93^(1/6)<47^(1/5)",
+      "reason": "Restore both fractional exponents and the comparison."
+    },
+    {
+      "tex_path": "latex/chapters/02_general-k-capacity.tex",
+      "original_tex_line": 608,
+      "old_tex": "V:Z\\textsuperscript{6-\\textgreater Z}3",
+      "corrected_tex": "\\(V:\\mathbb Z^6\\to\\mathbb Z^3\\)",
+      "original_markdown_path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "original_markdown_line": 468,
+      "original_expression": "Use the exact column map V:Z^6->Z^3 with columns",
+      "reason": "Restore the domain/codomain dimensions and arrow."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 223,
+      "old_tex": "d\\textsuperscript{(0),...,d}(m-1)",
+      "corrected_tex": "\\(d^{(0)},\\ldots,d^{(m-1)}\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 267,
+      "original_expression": "**Proof.** A matrix of digit columns d^(0),...,d^(m-1) determines numbers",
+      "reason": "Restore the two digit-column superscripts and intervening ellipsis."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 387,
+      "old_tex": "\\textbar A\\footnote{m}\\textbar=m\\textbar A\\textbar{}",
+      "corrected_tex": "\\(|A^{[m]}|=m|A|\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 498,
+      "original_expression": "ranges. Thus |A^[m]|=m|A| and max A^[m]=b^(m-1) max A.",
+      "reason": "The bracketed iterate index is a superscript, not an inline footnote."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 387,
+      "old_tex": "max A\\textsuperscript{{[}m{]}=b}(m-1) max A",
+      "corrected_tex": "\\(\\max A^{[m]}=b^{m-1}\\max A\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 498,
+      "original_expression": "max A^[m]=b^(m-1) max A.",
+      "reason": "Restore the iterate index and the power of b on opposite sides of the equality."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 389,
+      "old_tex": "H(A\\footnote{m})=L\\_m(H(A);b)",
+      "corrected_tex": "\\(H(A^{[m]})=L_m(H(A);b)\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 503,
+      "original_expression": "H(A^[m])=L_m(H(A);b). The actual subset collisions therefore persist with",
+      "reason": "Restore the bracketed iterate index; remove the invented footnote."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 410,
+      "old_tex": "b\\textsuperscript{t\\textless c}\\textbar A\\textbar",
+      "corrected_tex": "\\(b^t<c^{|A|}\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 534,
+      "original_expression": "integer inequality b^t<c^|A|.",
+      "reason": "Restore two powers with the inequality between them."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 539,
+      "old_tex": "93\\textsuperscript{5\\textless7}12",
+      "corrected_tex": "\\(93^5<7^{12}\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 697,
+      "original_expression": "93^5<7^12. These comparisons identify improvement over that retrieved bound,",
+      "reason": "Restore comparison of integer powers."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 573,
+      "old_tex": "e\\_i=5\\textsuperscript{i+5}\\{i+1\\}",
+      "corrected_tex": "\\(e_i=5^i+5^{i+1}\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 748,
+      "original_expression": "**Proof.** Label generators v_i=5^i and e_i=5^i+5^{i+1}. Their standard",
+      "reason": "Restore the sum of the two powers defining the edge generator."
+    },
+    {
+      "tex_path": "latex/chapters/05_compact-global-dual.tex",
+      "original_tex_line": 147,
+      "old_tex": "97\\textsuperscript{2\\textless23}3",
+      "corrected_tex": "\\(97^2<23^3\\)",
+      "original_markdown_path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/compact-global-dual.md",
+      "original_markdown_line": 117,
+      "original_expression": "which is false because 97^2<23^3. At k=6, b=93 fails the same proposed inequality because 93^2<23^3.",
+      "reason": "Restore comparison of integer powers."
+    },
+    {
+      "tex_path": "latex/chapters/05_compact-global-dual.tex",
+      "original_tex_line": 147,
+      "old_tex": "93\\textsuperscript{2\\textless23}3",
+      "corrected_tex": "\\(93^2<23^3\\)",
+      "original_markdown_path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/compact-global-dual.md",
+      "original_markdown_line": 117,
+      "original_expression": "93^2<23^3",
+      "reason": "Restore comparison of integer powers."
+    },
+    {
+      "tex_path": "latex/chapters/07_variable-block-control.tex",
+      "original_tex_line": 249,
+      "old_tex": "23\\textsuperscript{3\\textgreater97}2",
+      "corrected_tex": "\\(23^3>97^2\\)",
+      "original_markdown_path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/variable-block-control.md",
+      "original_markdown_line": 210,
+      "original_expression": "Since 23^3>97^2 and 23^3>93^2, (13) rules out beating those rates",
+      "reason": "Restore comparison of integer powers."
+    },
+    {
+      "tex_path": "latex/chapters/07_variable-block-control.tex",
+      "original_tex_line": 249,
+      "old_tex": "23\\textsuperscript{3\\textgreater93}2",
+      "corrected_tex": "\\(23^3>93^2\\)",
+      "original_markdown_path": "history/EP817_ZETA_INTEGRATION_20260914/payloads/ep817/research/variable_blocks/notes/variable-block-control.md",
+      "original_markdown_line": 210,
+      "original_expression": "23^3>93^2",
+      "reason": "Restore comparison of integer powers."
+    },
+    {
+      "tex_path": "latex/chapters/02_general-k-capacity.tex",
+      "original_tex_line": 586,
+      "old_tex": "max(B\\_\\emph{)=22\\textless q min(B\\_})",
+      "corrected_tex": "\\(\\max(B_*)=22<q\\min(B_*)\\)",
+      "original_markdown_path": "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/notes/general-k-capacity.md",
+      "original_markdown_line": 452,
+      "original_expression": "Because max(B_*)=22<q min(B_*), their elements are ordered by level",
+      "reason": "Restore both star subscripts; their asterisks were consumed as emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 525,
+      "old_tex": "g\\_5(n)\\textless=7\\emph{23\\^{}(ceil(n/4)-1) and g\\_6(n)\\textless=14}47\\^{}(ceil(n/5)-1)",
+      "corrected_tex": "\\(g_5(n)\\le7\\cdot23^{\\lceil n/4\\rceil-1}\\) and \\(g_6(n)\\le14\\cdot47^{\\lceil n/5\\rceil-1}\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 669,
+      "original_expression": "also give g_5(n)<=7*23^(ceil(n/4)-1) and\n g_6(n)<=14*47^(ceil(n/5)-1), useful for some finite n.",
+      "reason": "Restore the two multiplication signs consumed as emphasis delimiters, with their original powers."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 535,
+      "old_tex": "D\\_\\emph{. The prefix map from six-term progression tuples to five-term tuples is the restriction of Z\\^{}6 -\\textgreater{} Z\\^{}5. It preserves the common difference. This particular five-term tuple has no preimage: its forced sixth term is 4914, whose residue 78 modulo 93 is absent from D\\_}",
+      "corrected_tex": "\\(D_*\\). The prefix map from six-term progression tuples to five-term tuples is the restriction of Z\\^{}6 -\\textgreater{} Z\\^{}5. It preserves the common difference. This particular five-term tuple has no preimage: its forced sixth term is 4914, whose residue 78 modulo 93 is absent from \\(D_*\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 682,
+      "original_expression": "(9,60,18,69,27) and (0,10,21,31,42), all entries in D_*.\nThe prefix map from six-term progression tuples to five-term tuples is the\nrestriction of Z^6 -> Z^5. It preserves the common difference. This particular\nfive-term tuple has no preimage: its forced sixth term is 4914, whose residue\n78 modulo 93 is absent from D_*.",
+      "reason": "Restore both star subscripts and remove the unintended italic span; intervening prose is preserved."
+    },
+    {
+      "tex_path": "latex/chapters/03_general-k-carry-capacity.tex",
+      "original_tex_line": 559,
+      "old_tex": "A\\_\\emph{. Direct enumeration gives \\textbar C\\textbar=38 and \\textbar L(C)\\textbar=38, so its restriction C -\\textgreater{} H(A\\_})",
+      "corrected_tex": "\\(A_*\\). Direct enumeration gives \\textbar C\\textbar=38 and \\textbar L(C)\\textbar=38, so its restriction C -\\textgreater{} \\(H(A_*)\\)",
+      "original_markdown_path": "history/EP817_GENERAL_K_POLYCLANK_20260914/research/general_k/notes/general-k-carry-capacity.md",
+      "original_markdown_line": 726,
+      "original_expression": "to A_*. Direct enumeration gives |C|=38 and |L(C)|=38, so its restriction\nC -> H(A_*) is a bijection.",
+      "reason": "Restore both star subscripts and remove unintended emphasis spanning the prose."
+    },
+    {
+      "tex_path": "latex/chapters/04_outer-support-control.tex",
+      "original_tex_line": 379,
+      "old_tex": "V\\_d+dR\\_d=3\\emph{2\\^{}(d-1)}d!",
+      "corrected_tex": "\\(V_d+dR_d=3\\cdot2^{d-1}\\cdot d!\\)",
+      "original_markdown_path": "history/EP817_SPLITZERO_OUTER_20260914/research/splitzero_outer/notes/outer-support-control.md",
+      "original_markdown_line": 307,
+      "original_expression": "Its coordinates are bounded by V_d+dR_d=3*2^(d-1)*d!.",
+      "reason": "Restore both multiplication signs consumed as emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/04_outer-support-control.tex",
+      "original_tex_line": 415,
+      "old_tex": "3\\emph{2\\^{}n}(n+1)!",
+      "corrected_tex": "\\(3\\cdot2^n\\cdot(n+1)!\\)",
+      "original_markdown_path": "history/EP817_SPLITZERO_OUTER_20260914/research/splitzero_outer/notes/outer-support-control.md",
+      "original_markdown_line": 337,
+      "original_expression": "For a single base, the all-pattern bound is 3*2^n*(n+1)!.",
+      "reason": "Restore both multiplication signs consumed as emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/08_graphical-obstructions.tex",
+      "original_tex_line": 127,
+      "old_tex": "c\\textsuperscript{1,...,c}r",
+      "corrected_tex": "\\(c^1,\\ldots,c^r\\)",
+      "original_markdown_path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/graphical-obstructions.md",
+      "original_markdown_line": 100,
+      "original_expression": "Suppose c^1,...,c^r are vectors in {-1,0,1}^E with pairwise disjoint supports",
+      "reason": "Two caret exponents were parsed as one Markdown superscript span, placing the intervening comma and second c in the exponent and leaving r on the baseline. Restore the literal source sequence as inline mathematics."
+    },
+    {
+      "tex_path": "latex/chapters/08_graphical-obstructions.tex",
+      "original_tex_line": 137,
+      "old_tex": "c\\textsuperscript{h=c}h\\_+-c\\^{}h\\_-",
+      "corrected_tex": "\\(c^h=c^h_{+}-c^h_{-}\\)",
+      "original_markdown_path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/graphical-obstructions.md",
+      "original_markdown_line": 108,
+      "original_expression": "Write c^h=c^h_+-c^h_- with disjoint positive and negative supports.",
+      "reason": "The first two carets swallowed the equality into a superscript span. Restore the source's positive/negative support decomposition with all three h superscripts and the plus/minus subscripts in math mode."
+    },
+    {
+      "tex_path": "latex/chapters/08_graphical-obstructions.tex",
+      "original_tex_line": 380,
+      "old_tex": "p\\textsuperscript{a(p}d-1)",
+      "corrected_tex": "\\(p^a(p^d-1)\\)",
+      "original_markdown_path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/graphical-obstructions.md",
+      "original_markdown_line": 309,
+      "original_expression": "the other edges are p^a(p^d-1).",
+      "reason": "Separate powers p^a and p^d became a single superscript spanning a parenthesis and the second p. The original product determines both exponents uniquely."
+    },
+    {
+      "tex_path": "latex/chapters/09_monotone-obstruction-dual.tex",
+      "original_tex_line": 157,
+      "old_tex": "2(P/u\\textsuperscript{N)}h\\textless1",
+      "corrected_tex": "\\(2(P/u^N)^h<1\\)",
+      "original_markdown_path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/monotone-obstruction-dual.md",
+      "original_markdown_line": 129,
+      "original_expression": "repeat it any integer h with 2(P/u^N)^h<1 and then apply the compiler.",
+      "reason": "The closing parenthesis was swallowed by a superscript span and h was left at baseline. Restore the source inequality with u raised to N and the parenthesized ratio raised to h."
+    },
+    {
+      "tex_path": "latex/chapters/09_monotone-obstruction-dual.tex",
+      "original_tex_line": 171,
+      "old_tex": "1651\\textsuperscript{3\\textgreater=93}5",
+      "corrected_tex": "\\(1651^3\\ge93^5\\)",
+      "original_markdown_path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/ep817/research/graphical_obstructions/notes/monotone-obstruction-dual.md",
+      "original_markdown_line": 141,
+      "original_expression": "(2.3) would require 1651^3>=93^5, which fails.",
+      "reason": "A Markdown superscript span swallowed the inequality and second base. Restore the literal source comparison between the third and fifth powers."
+    },
+    {
+      "tex_path": "latex/chapters/10_splitzero-return.tex",
+      "original_tex_line": 83,
+      "old_tex": "c\\textsuperscript{1,...,c}r",
+      "corrected_tex": "\\(c^1,\\ldots,c^r\\)",
+      "original_markdown_path": "history/EP817_OBSTRUCTION_GRAPH_20260915/payloads/zeta/workbenches/ep817-graphical-obstructions/notes/splitzero-return.md",
+      "original_markdown_line": 65,
+      "original_expression": "If c^1,...,c^r in {-1,0,1}^E have disjoint supports",
+      "reason": "Separate exponent labels 1 and r were parsed as one superscript spanning the comma and second base. Restore the source sequence in math mode."
+    },
+    {
+      "tex_path": "latex/chapters/11_graphic-visibility-filtration.tex",
+      "original_tex_line": 129,
+      "old_tex": "c\\_h=c\\_h\\textsuperscript{+-c\\_h}-",
+      "corrected_tex": "\\(c_h=c_h^+-c_h^-\\)",
+      "original_markdown_path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/graphic-visibility-filtration.md",
+      "original_markdown_line": 105,
+      "original_expression": "Write each c_h=c_h^+-c_h^- using its positive and negative edge supports relative to the retained reference orientation.",
+      "reason": "The intended positive and negative superscripts were paired as a superscript span across the subtraction and second term. Restore the explicitly stated positive/negative decomposition."
+    },
+    {
+      "tex_path": "latex/chapters/12_supported-defect-universality.tex",
+      "original_tex_line": 397,
+      "old_tex": "(L19\\textsuperscript{j,8L19}j)",
+      "corrected_tex": "\\((L19^j,8L19^j)\\)",
+      "original_markdown_path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/supported-defect-universality.md",
+      "original_markdown_line": 325,
+      "original_expression": "the relative coboundary of the potential (L19^j,8L19^j).",
+      "reason": "The two j exponents were misparsed as one superscript containing the comma and second coordinate's coefficient and base. Restore the source's ordered pair."
+    },
+    {
+      "tex_path": "latex/chapters/12_supported-defect-universality.tex",
+      "original_tex_line": 520,
+      "old_tex": "L19\\textsuperscript{j,7L19}j,8L19\\^{}j",
+      "corrected_tex": "\\(L19^j,7L19^j,8L19^j\\)",
+      "original_markdown_path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/supported-defect-universality.md",
+      "original_markdown_line": 426,
+      "original_expression": "The actual positive edge weights are L19^j,7L19^j,8L19^j, all distinct.",
+      "reason": "The first two j exponents became one superscript spanning the comma and second base, while the third remained an escaped caret. Restore the complete literal source list in math mode."
+    },
+    {
+      "tex_path": "latex/chapters/12_supported-defect-universality.tex",
+      "original_tex_line": 573,
+      "old_tex": "H\\textsuperscript{(-1)=Q}J",
+      "corrected_tex": "\\(H^{(-1)}=Q^J\\)",
+      "original_markdown_path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/ep817/research/supported_defects/notes/supported-defect-universality.md",
+      "original_markdown_line": 471,
+      "original_expression": "On specialization t=0, the differential is zero, so H^(-1)=Q^J and H^0=Q.",
+      "reason": "The equality and right-hand base were swallowed into a superscript span. Restore the source's degree (-1) on H and exponent J on Q without altering either symbol."
+    },
+    {
+      "tex_path": "latex/chapters/13_splitzero-receiving-map.tex",
+      "original_tex_line": 44,
+      "old_tex": "L19\\textsuperscript{j,7L19}j,8L19\\^{}j",
+      "corrected_tex": "\\(L19^j,7L19^j,8L19^j\\)",
+      "original_markdown_path": "history/EP817_SUPPORTED_DEFECT_20260915/payloads/zeta/workbenches/ep817-supported-defects/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 52,
+      "original_expression": "The original high cochain consisting of L19^j,7L19^j,8L19^j is itself a relative",
+      "reason": "The first two j exponents were paired as one superscript span across the comma and second base. The identical explicit source list forces three separate powers."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 47,
+      "old_tex": "2\\textsuperscript{(h+1)\\textless=2}r",
+      "corrected_tex": "\\(2^{h+1}\\leq 2^r\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 39,
+      "original_expression": "2^(h+1)<=2^r",
+      "reason": "Restore two separate exponents and the intervening inequality; the Markdown parser swallowed both caret delimiters into one text superscript."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 96,
+      "old_tex": "min(2\\textsuperscript{r,2}n)",
+      "corrected_tex": "\\(\\min(2^r,2^n)\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 80,
+      "original_expression": "min(2^r,2^n)",
+      "reason": "Restore the two powers as separate arguments of the source minimum."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 109,
+      "old_tex": "c\\emph{rho\\_r\\^{}j\\textless=p\\_j\\textless=C}rho\\_r\\^{}j",
+      "corrected_tex": "\\(c\\cdot\\rho_r^j\\leq p_j\\leq C\\cdot\\rho_r^j\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 91,
+      "original_expression": "c*rho_r^j<=p_j<=C*rho_r^j",
+      "reason": "The source asterisks denote the two scalar products, not emphasis; rho notation is established in source display (3.2)."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 259,
+      "old_tex": "2\\textbar\\textbar x\\textbar\\textbar{}\\textsuperscript{2/m}2",
+      "corrected_tex": "\\(2\\|x\\|^2/m^2\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 213,
+      "original_expression": "2||x||^2/m^2",
+      "reason": "Restore the separate squared norm and squared denominator from the source."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 263,
+      "old_tex": "exp(i\\emph{j}theta)v",
+      "corrected_tex": "\\(\\exp(i\\cdot j\\cdot\\theta)v\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 217,
+      "original_expression": "exp(i*j*theta)v",
+      "reason": "The two source asterisks are multiplication inside the exponential argument; theta is established by the immediately following display."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 331,
+      "old_tex": "W\\_n=sum\\_(j\\textless n)(p\\_j\\textsuperscript{(r))}2",
+      "corrected_tex": "\\(W_n=\\sum_{j<n}(p_j^{(r)})^2\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 278,
+      "original_expression": "W_n=sum_(j<n)(p_j^(r))^2",
+      "reason": "Restore the parenthesized recurrence label and the outer square; retain the original sum range."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 519,
+      "old_tex": "nu\\_r(X\\textsuperscript{j)=p\\_j}(r)",
+      "corrected_tex": "\\(\\nu_r(X^j)=p_j^{(r)}\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 433,
+      "original_expression": "nu_r(X^j)=p_j^(r)",
+      "reason": "Restore the exponent of X and the recurrence label as separate superscripts across the equality; nu notation is defined in source display (7.5)."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 545,
+      "old_tex": "X\\textsuperscript{r-2X}(r-1)-t",
+      "corrected_tex": "\\(X^r-2X^{r-1}-t\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 454,
+      "original_expression": "X^r-2X^(r-1)-t",
+      "reason": "Restore the two distinct polynomial exponents; subtraction and coefficient 2 remain at the original expression level."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 545,
+      "old_tex": "2\\textbar z\\textbar{}\\textsuperscript{(r-1)=\\textbar z}r-1\\textbar{}",
+      "corrected_tex": "\\(2|z|^{r-1}=|z^r-1|\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 454,
+      "original_expression": "2|z|^(r-1)=|z^r-1|",
+      "reason": "Restore two separate powers on opposite sides of the original equality, preserving the absolute-value grouping."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 556,
+      "old_tex": "\\textbar1-z\\textsuperscript{m\\textbar{}}2+\\textbar1+z\\textsuperscript{m\\textbar{}}2=4",
+      "corrected_tex": "\\(|1-z^m|^2+|1+z^m|^2=4\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 463,
+      "original_expression": "|1-z^m|^2+|1+z^m|^2=4",
+      "reason": "Restore both inner powers and both outer squares; this single replacement covers two corrupted text-superscript macros."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 608,
+      "old_tex": "4\\emph{2\\^{}(r-2). At stable roots, \\textbar Q\\_r\\textquotesingle(lambda\\_a)\\textbar\\textgreater=3\\^{}(-(r-2))}r delta\\_r",
+      "corrected_tex": "\\(4\\cdot2^{r-2}\\). At stable roots, \\(|Q_r'(\\lambda_a)|\\geq3^{-(r-2)}\\cdot r\\delta_r\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 505,
+      "original_expression": "4*2^(r-2). At stable roots, |Q_r'(lambda_a)|>=3^(-(r-2))*r delta_r",
+      "reason": "The source asterisks are independent multiplication signs spanning two sentences, not an emphasis pair; restore both products with their source exponents and grouping."
+    },
+    {
+      "tex_path": "latex/chapters/14_recurrence-control.tex",
+      "original_tex_line": 619,
+      "old_tex": "X\\textsuperscript{r=2X}(r-1)+1",
+      "corrected_tex": "\\(X^r=2X^{r-1}+1\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+      "original_markdown_line": 514,
+      "original_expression": "X^r=2X^(r-1)+1",
+      "reason": "Restore the two powers on opposite sides of the original algebraic relation."
+    },
+    {
+      "tex_path": "latex/chapters/15_splitzero-receiving-map.tex",
+      "original_tex_line": 116,
+      "old_tex": "E\\_r=Z{[}X{]}/(X\\textsuperscript{r-2X}(r-1)-1)",
+      "corrected_tex": "\\(E_r=\\mathbb Z[X]/(X^r-2X^{r-1}-1)\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 94,
+      "original_expression": "X^r-2X^(r-1)-1",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/15_splitzero-receiving-map.tex",
+      "original_tex_line": 167,
+      "old_tex": "I-S\\textsuperscript{m=(I+...+S}(m-1))(I-S)",
+      "corrected_tex": "\\(I-S^m=(I+\\cdots+S^{m-1})(I-S)\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 135,
+      "original_expression": "I-S^m=(I+...+S^(m-1))(I-S)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/15_splitzero-receiving-map.tex",
+      "original_tex_line": 175,
+      "old_tex": "(r-2)\\textsuperscript{2/pi}2",
+      "corrected_tex": "\\((r-2)^2/\\pi^2\\)",
+      "original_markdown_path": "history/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 141,
+      "original_expression": "(r-2)^2/pi^2",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/16_closure-and-core-isolation.tex",
+      "original_tex_line": 76,
+      "old_tex": "W\\_\\emph{. By the fixed-point identity its first difference belongs to W\\_}",
+      "corrected_tex": "\\(W_*\\). By the fixed-point identity its first difference belongs to \\(W_*\\)",
+      "original_markdown_path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md",
+      "original_markdown_line": 62,
+      "original_expression": "W_*. By the fixed-point identity its first difference belongs to W_*",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/16_closure-and-core-isolation.tex",
+      "original_tex_line": 78,
+      "old_tex": "W\\_\\emph{. On E/W\\_}",
+      "corrected_tex": "\\(W_*\\). On \\(E/W_*\\)",
+      "original_markdown_path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md",
+      "original_markdown_line": 64,
+      "original_expression": "W_*. On E/W_*",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/16_closure-and-core-isolation.tex",
+      "original_tex_line": 112,
+      "old_tex": "W\\_\\emph{. Project it orthogonally to W\\_}\\^{}perp",
+      "corrected_tex": "\\(W_*\\). Project it orthogonally to \\(W_*^\\perp\\)",
+      "original_markdown_path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md",
+      "original_markdown_line": 94,
+      "original_expression": "W_*. Project it orthogonally to W_*^perp",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/16_closure-and-core-isolation.tex",
+      "original_tex_line": 151,
+      "old_tex": "W\\_\\emph{(S) subset W\\_}(T)",
+      "corrected_tex": "\\(W_*(S)\\subset W_*(T)\\)",
+      "original_markdown_path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/ep817/research/defect_closure/notes/closure-and-core-isolation.md",
+      "original_markdown_line": 127,
+      "original_expression": "W_*(S) subset W_*(T)",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/17_splitzero-receiving-map.tex",
+      "original_tex_line": 48,
+      "old_tex": "f(W\\_\\emph{) subset U\\_}",
+      "corrected_tex": "\\(f(W_*)\\subset U_*\\)",
+      "original_markdown_path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/zeta/workbenches/ep817-defect-closure/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 38,
+      "original_expression": "f(W_*) subset U_*",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/17_splitzero-receiving-map.tex",
+      "original_tex_line": 119,
+      "old_tex": "4\\textsuperscript{(a/2)6}(b/2)sqrt(max mu\\_B)",
+      "corrected_tex": "\\(4^{a/2}6^{b/2}\\sqrt{\\max\\mu_B}\\)",
+      "original_markdown_path": "history/EP817_DEFECT_CLOSURE_20260915/payloads/zeta/workbenches/ep817-defect-closure/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 97,
+      "original_expression": "4^(a/2)6^(b/2)sqrt(max mu_B)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/20_arity-and-boundary.tex",
+      "original_tex_line": 549,
+      "old_tex": "139\\textsuperscript{m-(68\\emph{97\\^{}m-21}3}m)/47 and 2103\\textsuperscript{m-(1007\\emph{1651\\^{}m-226}89}m)/781",
+      "corrected_tex": "\\(139^m-(68\\cdot97^m-21\\cdot3^m)/47\\) and \\(2103^m-(1007\\cdot1651^m-226\\cdot89^m)/781\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "original_markdown_line": 443,
+      "original_expression": "139^m-(68*97^m-21*3^m)/47 and 2103^m-(1007*1651^m-226*89^m)/781",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/20_arity-and-boundary.tex",
+      "original_tex_line": 592,
+      "old_tex": "d\\_\\emph{\\textless b has omega(d\\_})=Lambda",
+      "corrected_tex": "\\(d_*<b\\) has \\(\\omega(d_*)=\\Lambda\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "original_markdown_line": 478,
+      "original_expression": "d_*<b has omega(d_*)=Lambda",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/20_arity-and-boundary.tex",
+      "original_tex_line": 594,
+      "old_tex": "Lambda=15, d\\_\\emph{=70 for B6 at both bases, and Lambda=219, d\\_}=1102",
+      "corrected_tex": "\\(\\Lambda=15,\\ d_*=70\\) for B6 at both bases, and \\(\\Lambda=219,\\ d_*=1102\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "original_markdown_line": 480,
+      "original_expression": "Lambda=15, d_*=70 for B6 at both bases, and Lambda=219, d_*=1102",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/20_arity-and-boundary.tex",
+      "original_tex_line": 678,
+      "old_tex": "{[}l+theta\\emph{b\\^{}(-m),u-theta}b\\^{}(-m){]}",
+      "corrected_tex": "\\([l+\\theta b^{-m},u-\\theta b^{-m}]\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "original_markdown_line": 548,
+      "original_expression": "[l+theta*b^(-m),u-theta*b^(-m)]",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/20_arity-and-boundary.tex",
+      "original_tex_line": 792,
+      "old_tex": "b\\textsuperscript{h(b}t-1)",
+      "corrected_tex": "\\(b^h(b^t-1)\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "original_markdown_line": 631,
+      "original_expression": "b^h(b^t-1)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/20_arity-and-boundary.tex",
+      "original_tex_line": 868,
+      "old_tex": "Delta:R\\textsuperscript{k-\\textgreater R}(k-2)",
+      "corrected_tex": "\\(\\Delta:\\mathbb R^k\\to\\mathbb R^{k-2}\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md",
+      "original_markdown_line": 679,
+      "original_expression": "Delta:R^k->R^(k-2)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/21_splitzero-receiving-map.tex",
+      "original_tex_line": 39,
+      "old_tex": "B\\_m\\textsuperscript{tot/B\\_m}loc",
+      "corrected_tex": "\\(B_m^{\\mathrm{tot}}/B_m^{\\mathrm{loc}}\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/zeta/workbenches/ep817-arity-boundary/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 29,
+      "original_expression": "B_m^tot/B_m^loc",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/21_splitzero-receiving-map.tex",
+      "original_tex_line": 220,
+      "old_tex": "R(c)\\emph{i=sum}(j\\textless=i-2)(i-1-j)c\\_j",
+      "corrected_tex": "\\(R(c)_i=\\sum_{j\\le i-2}(i-1-j)c_j\\)",
+      "original_markdown_path": "history/EP817_ARITY_BOUNDARY_20260916/payloads/zeta/workbenches/ep817-arity-boundary/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 172,
+      "original_expression": "R(c)_i=sum_(j<=i-2)(i-1-j)c_j",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/22_all-block-image-capacity.tex",
+      "original_tex_line": 519,
+      "old_tex": "A\\_p\\footnote{t}",
+      "corrected_tex": "\\(A_p^{[t]}\\)",
+      "original_markdown_path": "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/all-block-image-capacity.md",
+      "original_markdown_line": 421,
+      "original_expression": "A_p^[t]",
+      "reason": "Caret-bracket exponent was parsed as a Markdown inline footnote."
+    },
+    {
+      "tex_path": "latex/chapters/22_all-block-image-capacity.tex",
+      "original_tex_line": 671,
+      "old_tex": "h b\\textsuperscript{n\\textless a}n",
+      "corrected_tex": "\\(h b^n<a^n\\)",
+      "original_markdown_path": "history/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/all-block-image-capacity.md",
+      "original_markdown_line": 545,
+      "original_expression": "h b^n<a^n",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/24_seven-observable-capacity.tex",
+      "original_tex_line": 34,
+      "old_tex": "A\\_b\\footnote{m}",
+      "corrected_tex": "\\(A_b^{[m]}\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "original_markdown_line": 26,
+      "original_expression": "A_b^[m]",
+      "reason": "Caret-bracket exponent was parsed as a Markdown inline footnote."
+    },
+    {
+      "tex_path": "latex/chapters/24_seven-observable-capacity.tex",
+      "original_tex_line": 604,
+      "old_tex": "A\\_b\\footnote{m}",
+      "corrected_tex": "\\(A_b^{[m]}\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "original_markdown_line": 500,
+      "original_expression": "A_b^[m]",
+      "reason": "Caret-bracket exponent was parsed as a Markdown inline footnote."
+    },
+    {
+      "tex_path": "latex/chapters/24_seven-observable-capacity.tex",
+      "original_tex_line": 673,
+      "old_tex": "x\\textsuperscript{4+x}2+2",
+      "corrected_tex": "\\(x^4+x^2+2\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "original_markdown_line": 557,
+      "original_expression": "x^4+x^2+2",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/24_seven-observable-capacity.tex",
+      "original_tex_line": 686,
+      "old_tex": "rho\\textsuperscript{m\\textless=N\\_m\\textless=3rho}m",
+      "corrected_tex": "\\(\\rho^m\\le N_m\\le3\\rho^m\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "original_markdown_line": 568,
+      "original_expression": "rho^m<=N_m<=3rho^m",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/24_seven-observable-capacity.tex",
+      "original_tex_line": 728,
+      "old_tex": "(x-17)\\textsuperscript{3(x-3)}3(x+1)",
+      "corrected_tex": "\\((x-17)^3(x-3)^3(x+1)\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "original_markdown_line": 602,
+      "original_expression": "(x-17)^3(x-3)^3(x+1)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/24_seven-observable-capacity.tex",
+      "original_tex_line": 746,
+      "old_tex": "C\\_m=A\\_b\\footnote{m}",
+      "corrected_tex": "\\(C_m=A_b^{[m]}\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+      "original_markdown_line": 618,
+      "original_expression": "C_m=A_b^[m]",
+      "reason": "Caret-bracket exponent was parsed as a Markdown inline footnote."
+    },
+    {
+      "tex_path": "latex/chapters/25_splitzero-receiving-map.tex",
+      "original_tex_line": 136,
+      "old_tex": "2\\emph{3\\^{}m-1 numerical values. Therefore the original quotient-to-unit-value return norm is at least sqrt(5\\^{}m/(2}3\\^{}m-1))",
+      "corrected_tex": "\\(2\\cdot3^m-1\\) numerical values. Therefore the original quotient-to-unit-value return norm is at least \\(\\sqrt{5^m/(2\\cdot3^m-1)}\\)",
+      "original_markdown_path": "history/EP817_SEVEN_OBSERVABLE_20260916/payloads/zeta/workbenches/ep817-seven-observable/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 108,
+      "original_expression": "2*3^m-1 numerical values. Therefore the original quotient-to-unit-value return norm is at least sqrt(5^m/(2*3^m-1))",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/26_local-flow-and-switching.tex",
+      "original_tex_line": 323,
+      "old_tex": "o\\_(r+1)\\textsuperscript{(z+1)=o\\_r}z",
+      "corrected_tex": "\\(o_{r+1}^{z+1}=o_r^z\\)",
+      "original_markdown_path": "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+      "original_markdown_line": 265,
+      "original_expression": "o_(r+1)^(z+1)=o_r^z",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/26_local-flow-and-switching.tex",
+      "original_tex_line": 550,
+      "old_tex": "M\\_A\\textsuperscript{aM\\_B}b=U\\_aV\\_b",
+      "corrected_tex": "\\(M_A^aM_B^b=U_aV_b\\)",
+      "original_markdown_path": "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+      "original_markdown_line": 450,
+      "original_expression": "M_A^aM_B^b=U_aV_b",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/26_local-flow-and-switching.tex",
+      "original_tex_line": 562,
+      "old_tex": "A\\textsuperscript{(a\\_1)B}(b\\_1)...A\\textsuperscript{(a\\_s)B}(b\\_s)",
+      "corrected_tex": "\\(A^{a_1}B^{b_1}\\cdots A^{a_s}B^{b_s}\\)",
+      "original_markdown_path": "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+      "original_markdown_line": 460,
+      "original_expression": "A^(a_1)B^(b_1)...A^(a_s)B^(b_s)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/26_local-flow-and-switching.tex",
+      "original_tex_line": 589,
+      "old_tex": "933\\textsuperscript{2\\textgreater93}3",
+      "corrected_tex": "\\(933^2>93^3\\)",
+      "original_markdown_path": "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+      "original_markdown_line": 481,
+      "original_expression": "933^2>93^3",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/26_local-flow-and-switching.tex",
+      "original_tex_line": 609,
+      "old_tex": "N\\_t\\textgreater=N(w)\\textsuperscript{t/4}(t-1)",
+      "corrected_tex": "\\(N_t\\ge N(w)^t/4^{t-1}\\)",
+      "original_markdown_path": "history/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+      "original_markdown_line": 497,
+      "original_expression": "N_t>=N(w)^t/4^(t-1)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/28_finite-period-control.tex",
+      "original_tex_line": 123,
+      "old_tex": "eta(w)\\textgreater=a\\_t\\textsuperscript{(1/t)/C}(1/t)",
+      "corrected_tex": "\\(\\eta(w)\\ge a_t^{1/t}/C^{1/t}\\)",
+      "original_markdown_path": "history/EP817_FINITE_PERIOD_20260916/payloads/ep817/research/finite_period/notes/finite-period-control.md",
+      "original_markdown_line": 97,
+      "original_expression": "eta(w)>=a_t^(1/t)/C^(1/t)",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/28_finite-period-control.tex",
+      "original_tex_line": 457,
+      "old_tex": "max\\_R (M\\_w a)\\emph{R/\\textbar R\\textbar. The numerator is the actual count \\textbar H\\_5(A\\_w)+R\\textbar, at most \\textbar R\\textbar{} F\\_5(w), with equality in the singleton coordinate. Hence \\textbar\\textbar M\\_w\\textbar\\textbar{}}*=F\\_5(w)",
+      "corrected_tex": "\\(\\max_R(M_w a)_R/|R|\\). The numerator is the actual count \\(|H_5(A_w)+R|\\), at most \\(|R|F_5(w)\\), with equality in the singleton coordinate. Hence \\(\\|M_w\\|_*=F_5(w)\\)",
+      "original_markdown_path": "history/EP817_FINITE_PERIOD_20260916/payloads/ep817/research/finite_period/notes/finite-period-control.md",
+      "original_markdown_line": 371,
+      "original_expression": "max_R (M_w a)_R/|R|. The numerator is the actual count |H_5(A_w)+R|, at most |R| F_5(w), with equality in the singleton coordinate. Hence ||M_w||_*=F_5(w)",
+      "reason": "Literal mathematical underscores or asterisks were consumed as Markdown emphasis delimiters."
+    },
+    {
+      "tex_path": "latex/chapters/28_finite-period-control.tex",
+      "original_tex_line": 514,
+      "old_tex": "93\\textsuperscript{a893}b",
+      "corrected_tex": "\\(93^a893^b\\)",
+      "original_markdown_path": "history/EP817_FINITE_PERIOD_20260916/payloads/ep817/research/finite_period/notes/finite-period-control.md",
+      "original_markdown_line": 416,
+      "original_expression": "93^a893^b",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    },
+    {
+      "tex_path": "latex/chapters/29_splitzero-receiving-map.tex",
+      "original_tex_line": 146,
+      "old_tex": "93\\textsuperscript{a893}b",
+      "corrected_tex": "\\(93^a893^b\\)",
+      "original_markdown_path": "history/EP817_FINITE_PERIOD_20260916/payloads/zeta/workbenches/ep817-finite-period/notes/splitzero-receiving-map.md",
+      "original_markdown_line": 169,
+      "original_expression": "93^a893^b",
+      "reason": "Plain-text carets were paired as Markdown superscript delimiters across separate powers or adjacent operators."
+    }
+  ],
+  "published_proof_amendments": [
+    {
+      "chapter": 24,
+      "section": "4.1",
+      "original": "L>2Q",
+      "corrected": "L>3Q",
+      "proof_explanation": "Since P is contained in [0,Q], the inter-component gap is at least L-2Q>Q.",
+      "upstream_commit": "578564a5f0c6e3348f5bdc33fd2022b674899c41"
+    },
+    {
+      "chapter": 24,
+      "section": "7",
+      "original": "Tab followed by ag{7.1} inside display",
+      "corrected": "Equation tag (7.1) restored"
+    }
+  ],
+  "metadata_changes": [
+    "Corrected-edition designation and current review scope in collection frontmatter",
+    "Descriptive title, supplied author attribution and corrected-edition subject in both new standalone PDFs"
+  ],
+  "identity_policy": "The chapter Source and Identity labels identify original Markdown in the accompanying unchanged source ZIP. They are not checksums of corrected TeX or PDFs. Current note paths and the amended chapter24 Markdown hash are explicit in current_note_map.json.",
+  "historical_evidence_policy": "Original source archive and its manifests retain original bytes. Existing upstream cone_dual corrections and prior publication files are preserved; they are not replaced by historical copies."
+}

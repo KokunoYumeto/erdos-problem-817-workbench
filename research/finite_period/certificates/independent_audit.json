@@ -1,0 +1,72 @@
+{
+  "auditor_sha256": "e176f688a12e87d84ee5ba00af7484abf2d0f28ae1f7e751f18d5f80e714ab43",
+  "controller_paths": 24,
+  "dictionaries": {
+    "mixed_rank": {
+      "final_word_coverage": 6561,
+      "independent_column_states": 6561,
+      "maximum_length": 8
+    },
+    "radix_ten": {
+      "final_word_coverage": 1048576,
+      "independent_column_states": 106352,
+      "maximum_length": 20
+    },
+    "unequal_rewards": {
+      "final_word_coverage": 19683,
+      "independent_column_states": 17642,
+      "maximum_length": 9
+    }
+  },
+  "direct_generator_words": 92,
+  "lean_checked": false,
+  "mutations_rejected": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "original_test_sets": [
+    [
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      4
+    ]
+  ],
+  "pressure_checks": 54,
+  "producer_imported": false,
+  "receipt_sha256": "20248e052e395a9d11750bf6bb08941806ebabfc83ba4d855b5f0ef2e3d167b9",
+  "schema": "ep817-finite-period-independent-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "polyclank-general-k-artifacts-v1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3520,
+      "sha256": "4cde4e3bd4ae13e07b7cdb7e763b4e5a400c00eea6b445dbe95f3dbf15531d2f",
+      "git_blob_sha1": "2716b796a17b0f86615ae2133e94e373717beb31"
+    },
+    {
+      "path": "PULL_REQUEST_DRAFT.md",
+      "bytes": 3508,
+      "sha256": "f91857f284ad2168f691f5a7de25c1a954437250bd582af1a0848510f3c5a44e",
+      "git_blob_sha1": "ce4b077ec9f68899e675596bfa11abc98576fd85"
+    },
+    {
+      "path": "search_carry.py",
+      "bytes": 2166,
+      "sha256": "aa76fb7e8378b5f7671074de4c0d9e452f9dbbc44cdf7ce0e52393f881bd2331",
+      "git_blob_sha1": "a770c225f70afa59ba8a4ea8e2a9f16941e423ba"
+    },
+    {
+      "path": "search_noncanonical.py",
+      "bytes": 688,
+      "sha256": "6751338321b5b5abbcc8dc4f2bdde42e2103377783d20478231dc63ebaf04e86",
+      "git_blob_sha1": "268e8de2de53b5c1c4e7948f82a31007ccc2bccb"
+    },
+    {
+      "path": "notes/general-k-carry-capacity.md",
+      "bytes": 41458,
+      "sha256": "1954d499b7c63eb3f0202366ea75ff7f63729e17be110e11e7c6e3e9b425f650",
+      "git_blob_sha1": "eddb15dfb1ee3494d800c90e42d5d9bbac607296"
+    },
+    {
+      "path": "notes/checkpoint.md",
+      "bytes": 395,
+      "sha256": "09713d4c95832745f5dc99247b9d7c024c24a272baf061f3810baa9dbc33fa14",
+      "git_blob_sha1": "dcd6f96452ac77c0fb1c165de440678290a2c947"
+    },
+    {
+      "path": "certificates/carry_tools.py",
+      "bytes": 7955,
+      "sha256": "320042d00fc1e2e2fb15eeefee55e77824997041ae146cf08b663aa8815036ee",
+      "git_blob_sha1": "02fbc74a395278dae499b1487a708d09adf729a6"
+    },
+    {
+      "path": "certificates/verify_general_k.py",
+      "bytes": 18888,
+      "sha256": "7805ccd5d9e944dd2ba5f34c57cc4b584ff44db3611a8c8b9cc9ba8392bc5ed4",
+      "git_blob_sha1": "6b142be998077d7ad05e2d7352b919f194c45a35"
+    },
+    {
+      "path": "certificates/general_k_receipt.json",
+      "bytes": 24233,
+      "sha256": "13847738aaa744473352101876de041befbe6a731c36153e2fdec7235333c857",
+      "git_blob_sha1": "3177bc67055d9ac445e3fbca5b6cee9b91cd9a92"
+    },
+    {
+      "path": "logs/search_carry_5_6_80.json",
+      "bytes": 22484,
+      "sha256": "a3b4e6038f40c8c6659632ed2287e0b00deaa887fa8c341b741a7f3abbd9bac1",
+      "git_blob_sha1": "a86890e3a289a11c884f89a6ce551a1be8377af8"
+    },
+    {
+      "path": "logs/search_carry_5_6_160.json",
+      "bytes": 26894,
+      "sha256": "6f70e53469ddd1bbff93be64da6ba3d67de8481c8cd415ed42e7ee7f8470f602",
+      "git_blob_sha1": "1671b3e842b28d9dcae9fce9859f8ec765712065"
+    },
+    {
+      "path": "logs/search_modular_7_12_80.json",
+      "bytes": 70408,
+      "sha256": "551598c4944b64cb0fa45b9601201c5a723c649be38c34931f996d4e11ec15ec",
+      "git_blob_sha1": "42875eca2c947de49bdcf3c17100f189803fbde1"
+    },
+    {
+      "path": "logs/noncanonical_fixed_block.json",
+      "bytes": 17182,
+      "sha256": "aca78d6c38220433207403ca7198427d303e7a0019c7a4a5ad0f9945496b8c34",
+      "git_blob_sha1": "73a3ac933ccd30b77da28aa5615c9bf18273a198"
+    },
+    {
+      "path": "polyclank/claims.json",
+      "bytes": 3811,
+      "sha256": "dd347421a1c565dcbc6a8030d2f8bf62bf2c50ef27682bf2da2c421261dd769e",
+      "git_blob_sha1": "9957e37439e8987ea437aeff17f1304ecbea1db2"
+    },
+    {
+      "path": "polyclank/research_state.json",
+      "bytes": 2497,
+      "sha256": "51086165de72e059e7d6042ee902e62c2ed23bb24fbcdf67f23f048077be3b59",
+      "git_blob_sha1": "9835fe3b1d6a2dd6fd2e19ece48ddc067628ec5c"
+    },
+    {
+      "path": "polyclank/checks.json",
+      "bytes": 603,
+      "sha256": "0c24558801e56d40977179af190d0c21f2b3ff81798ce57856d6dca3c52dc05c",
+      "git_blob_sha1": "d451b16147f392dbae9e1cff32ace9b3359ebc0c"
+    }
+  ]
+}

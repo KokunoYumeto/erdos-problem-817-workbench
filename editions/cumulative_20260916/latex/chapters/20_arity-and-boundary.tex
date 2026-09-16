@@ -1,0 +1,917 @@
+% Original Markdown SHA-256: 82189b686fef099a6502736ee417254ded6594b6e3911dfeabec5996a950c831
+\chapter{Exact higher-arity kernels, retained spectral multiplicities, and real boundary progressions}
+\label{chapter:20_arity-and-boundary}
+{\small\noindent\textbf{Source:} \nolinkurl{history/EP817_ARITY_BOUNDARY_20260916/payloads/ep817/research/arity_boundary/notes/arity-and-boundary.md}\
+\textbf{Identity:} \nolinkurl{82189b686fef099a6502736ee417254ded6594b6e3911dfeabec5996a950c831}}
+\medskip
+The Clankers, 16 September 2026. Research contribution for independent mathematical review.
+
+The underlying problem is Erdős 817. For a set A of distinct positive integers, its binary subset-sum image H(A) includes zero. The extremal function g\_k(n) minimizes max(A) subject to \textbar A\textbar=n and absence of nonconstant k-term arithmetic progressions in H(A). The present continuation does not improve the previously constructed exponential upper rates or claim a full solution. It calculates exactly the higher-arity images of those constructions, their additional relation kernels and original metric costs, and the boundary information lost by a real completion.
+
+The original k=4 construction remains credited to the anonymous/deleted Reddit contributor; sneed-and-feed retains separate credit for its finite upper-bound Lean formalization. No new Lean elaboration is claimed. All new universal statements have the proofs below; the finite input certificates are reproduced by the accompanying integer/rational programs. Finite-state numeration methods are established mathematics, not a priority claim here. The inspected context includes Korsky (2026), Frougny and Pelantová (2018), and the original Zeta support-quotient source specified in Section 12.
+
+\section{1. The literal source and the main outcomes}\label{n20-the-literal-source-and-the-main-outcomes}
+
+For q\textgreater=2 define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H_q(A)=\left\{\sum_{a\in A}c_a a: c_a\in\{0,\ldots,q-1\}\right\},
+\quad \mu_{A,q}(x)=\#\{c:\sum c_a a=x\}.$
+\end{adjustbox}
+\]
+
+Values in H\_q are counted once. The empty generator set has image \{0\} and one representation. Fix b\textgreater sum(B) and retain
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle B_m=\bigcup_{j=0}^{m-1}b^jB,\qquad B_0=\varnothing,
+ \quad D_q=H_q(B),
+ \quad L_m(D;b)=\left\{\sum_{j<m}d_jb^j:d_j\in D\right\}.$
+\end{adjustbox}
+\tag{1.1}
+\]
+
+The generators at different levels are distinct because each weight lies in {[}1,b-1{]}. Partitioning an actual q-digit generator word by levels proves
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H_q(B_m)=L_m(D_q;b).$
+\end{adjustbox}
+\tag{1.2}
+\]
+
+The map from generator words to D\_q\^{}m is onto, with fibre mass product\_j mu\_(B,q)(d\_j). The next evaluation D\_q\^{}m -\textgreater{} L\_m is also onto; its further fibres are retained rather than assumed singleton.
+
+The two fixed blocks used throughout are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle B_6=\{1,4,5,17,21,22\},\qquad
+ B_{10}=\{3,4,7,34,37,41,216,250,253,257\}.$
+\end{adjustbox}
+\]
+
+The first is used at b=97 and b=93, the second at b=1651. Their binary modular certificates, rechecked here over every nonzero step, imply five-term freeness at 97 and six-term freeness at 93 and 1651 at every finite integer level. Their original word multiplicities are not assumed one.
+
+For every m\textgreater=0 the new ternary formulas are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\begin{aligned}
+ |H_3((B_6)_{m,97})|&=(68\,97^m-21\,3^m)/47,\\
+ |H_3((B_6)_{m,93})|&=(68\,93^m-23\,3^m)/45,\\
+ |H_3((B_{10})_{m,1651})|&=(1007\,1651^m-226\,89^m)/781.
+\end{aligned}}$
+\end{adjustbox}
+\tag{1.3}
+\]
+
+A second exact formula retains a visible repeated-root term:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{|H_4((B_{10})_{m,1651})|
+=\frac{825}{412}1651^m-
+\left(\frac{2m}{3}+\frac{413}{412}\right)3^m.}$
+\end{adjustbox}
+\tag{1.4}
+\]
+
+Sections 2--6 prove the finite-state and finite-hole theorems underlying these identities. Sections 7--9 compute all moments and the relevant original measures. Sections 10--11 show, by explicit rational witnesses, that the associated real limits contain forbidden progressions even though every finite integer stage is progression-free. The unscaled terminal second differences remain nonzero in those examples.
+
+\section{2. A finite theorem for every distinct-image moment}\label{n20-a-finite-theorem-for-every-distinct-image-moment}
+
+Let D be any finite set of nonnegative integers containing zero, b\textgreater=2, W=max(D), and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle C=\left\lfloor\frac{W}{b-1}\right\rfloor.$
+\end{adjustbox}
+\]
+
+During conversion of an actual D-word into its ordinary numerical digits, retain
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle d+c=z+b c',\qquad z\in\{0,\ldots,b-1\},\quad c,c'\in\{0,\ldots,C\}.$
+\end{adjustbox}
+\tag{2.1}
+\]
+
+The bound is invariant: write W=C(b-1)+r with 0\textless=r\textless b-1. Then d+c\textless=bC+r, so its quotient by b is at most C. Values of d exceeding b and every final carry remain admitted.
+
+For a subset R of this carry interval set
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle T_z(R)=\{c':\exists c\in R,\ d\in D,\ d+c=z+bc'\}.$
+\end{adjustbox}
+\tag{2.2}
+\]
+
+Starting with R\_0=\{0\}, retain every reachable subset, including the empty subset when it occurs. This is a finite state set with at most 2\^{}(C+1) elements. Define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle M_{R,S}=\#\{z:T_z(R)=S\},\qquad f(R)=|R|.$
+\end{adjustbox}
+\]
+
+\textbf{Theorem 2.1.} The exact number of distinct values is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle N_m(D,b)=|L_m(D;b)|=e_{R_0}^{\mathsf T}M^m f.$
+\end{adjustbox}
+\tag{2.3}
+\]
+
+Every unweighted moment of the distinct values also has a finite constant-matrix representation and a rational generating function in m.
+
+\textbf{Proof.} An integer represented by a length-m D-word has a unique pair consisting of its m ordinary base-b remainder digits and its integer quotient by b\^{}m. Applying (2.1) along any original representation gives that unique remainder word and final carry. Conversely, every final carry in the determinized subset has at least one original D-word, obtained by lifting its successive transition witnesses. Thus every represented integer is counted exactly once by the final weight \textbar R\textbar, regardless of how many carry paths represent it. This proves (2.3).
+
+For moments it is useful to retain a set identity valid at every reachable state. Put
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle V_m(R)=R+L_m(D;b).$
+\end{adjustbox}
+\]
+
+Ordinary remainder separation gives the disjoint union
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle V_{m+1}(R)=\coprod_{z=0}^{b-1}\bigl(z+bV_m(T_z(R))\bigr).$
+\end{adjustbox}
+\tag{2.4}
+\]
+
+For p\textgreater=0, let F\_(m,p)(R)=sum\_(x in V\_m(R)) x\^{}p, interpreting x\^{}0=1 even at x=0. Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle F_{0,p}(R)=\sum_{c\in R}c^p,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{F_{m+1,p}(R)=
+ \sum_{z=0}^{b-1}\sum_{j=0}^p
+ {p\choose j}z^{p-j}b^jF_{m,j}(T_z(R)).}$
+\end{adjustbox}
+\tag{2.5}
+\]
+
+This is a finite block-triangular integer matrix on all moments of degrees at most p. The original initial and terminal vectors remain specified. Its powers give the moments, and its formal resolvent gives rational generating series. Cayley--Hamilton supplies a finite recurrence. These statements apply to the full image, not to a weighted count of original words. QED.
+
+The executable certificates retain every residue transition, not only the aggregated matrix. A claimed scalar recurrence p(M) is checked by applying the actual output to M\^{}j p(M)f for 0\textless=j\textless s, where s is the matrix dimension. If these values vanish, Cayley--Hamilton proves that all later ones vanish. The numerator is checked against the exact initial coefficients. Thus the displayed rational series are certified beyond the numerical replay horizon.
+
+\subsection{2.1 The observation kernel and a spectral caution}\label{n20-the-observation-kernel-and-a-spectral-caution}
+
+Use the forward operator T=M\^{}T on the original state-basis space E and the observation f\^{}T. The finite observation map is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle J:E\to\mathbb Q^s,\qquad
+ Jv=(f^Tv,f^TTv,\ldots,f^TT^{s-1}v).$
+\end{adjustbox}
+\tag{2.6}
+\]
+
+Its kernel is T-stable by Cayley--Hamilton. The quotient by this exact kernel preserves every subsequent observation. It does not change a supported state into external absence.
+
+For the binary B\_6 block in base 97 the full matrix, in states \{0\}, empty, is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle M=\begin{pmatrix}38&59\\0&97\end{pmatrix},\qquad f=(1,0)^T.$
+\end{adjustbox}
+\]
+
+The actual count is 38\^{}m. In the forward system the empty-state line has eigenvalue 97 but lies in ker(J); the \{0\} state has terminal weight one. Using the largest eigenvalue of the unobserved full matrix would therefore give the wrong cardinality. The kernel, its inclusion, and its invariant action are the comparison data licensing the receiving quotient. Section 6 supplies the converse issue: a nontrivial Jordan block that survives this observation and must be retained.
+
+\section{3. A finite-hole theorem controlling every interval merger}\label{n20-a-finite-hole-theorem-controlling-every-interval-merger}
+
+For integers b\textless w\textless=2b-2, let H be a nonempty subset of {[}1,w-b{]} satisfying
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H\cap((w-b)-H)=\varnothing.$
+\end{adjustbox}
+\]
+
+Retain the actual digit set
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle D=[0,w]\setminus(H\cup(w-H)),\qquad t=|D|,$
+\end{adjustbox}
+\]
+
+and let kappa be the number of its maximal consecutive integer runs.
+
+\textbf{Theorem 3.1.} For every m\textgreater=0, L\_m(D;b) has exactly kappa\^{}m runs, and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle N_m=bN_{m-1}+(t-b)\kappa^{m-1},\qquad N_0=1.$
+\end{adjustbox}
+\]
+
+When b!=kappa,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{N_m=
+ \frac{(t-\kappa)b^m-(t-b)\kappa^m}{b-\kappa}.}$
+\end{adjustbox}
+\tag{3.1}
+\]
+
+At b=kappa the retained formula is b\^{}m+(t-b)m b\^{}(m-1), with the m=0 term defined as one.
+
+\textbf{Proof.} Directly from the original holes,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle D\cup(b+D)=[0,w+b]\setminus(H\cup(w+b-H)).$
+\end{adjustbox}
+\tag{3.2}
+\]
+
+Indeed the low outer holes H occur before the second translate starts. The high outer holes are their reflected copies. An upper hole w-h of the first copy lies in the overlap. It is covered by the second copy unless w-b-h belongs to H, which the stated hypothesis excludes. The lower holes of the second copy are covered by the same calculation. All other points are already present.
+
+Induction on U-L, using (3.2) at the last two translates, gives for every integer run {[}L,U{]}
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle D+b[L,U]=[bL,bU+w]\setminus
+ \bigl((bL+H)\cup(bU+w-H)\bigr).$
+\end{adjustbox}
+\tag{3.3}
+\]
+
+It has kappa runs and b(U-L)+t values. Two different runs of the old image have next starting point at least two larger than the preceding endpoint. Their new hulls are separated by at least 2b-w-1\textgreater=1 missing integer, so (3.3) for different runs cannot merge. Summing over the runs yields the two recurrences. Solving the geometric sum gives (3.1), including its stated repeated-root case. QED.
+
+The hypothesis is a finite proof obligation, not an assumed numerical pattern. The complete list of H and the literal equality (3.2) are independently checked for each application.
+
+\subsection{3.1 An independent exact moment recurrence}\label{n20-an-independent-exact-moment-recurrence}
+
+Write the runs of D as {[}l\_i,u\_i{]}, in their actual order. With a=max H there is one central run containing {[}a+1,w-a-1{]}. For an incoming run {[}L,U{]}, every lower output run is anchored at bL, the central output is {[}bL+l\_c,bU+u\_c{]}, and every upper output run is anchored at bU. Thus all sums of endpoint powers transform by the binomial formula, with no numerical approximation.
+
+If L\_p and U\_p are the sums of p-th powers of run endpoints, the exact moment formulas are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle N=U_1-L_1+L_0,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \sum x=(U_2+U_1-L_2+L_1)/2,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \sum x^2=
+ \{2(U_3-L_3)+3(U_2+L_2)+U_1-L_1\}/6.$
+\end{adjustbox}
+\tag{3.4}
+\]
+
+The endpoint recurrence through degree three therefore computes the same first two moments as (2.5). The certificate checks these independent recurrences against each other and also against direct digit products in the stated finite domains.
+
+\section{4. The six-generator images at every arity}\label{n20-the-six-generator-images-at-every-arity}
+
+For B\_6 the exact ternary image is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle D_3=[0,140]\setminus\{3,137\}.$
+\end{adjustbox}
+\]
+
+At b=97 or 93, Theorem 3.1 applies with t=139 and kappa=3. Its hypotheses are checked by the finite hole pair \{3\}; in particular 6 differs from 140-b. Substitution proves the first two formulas in (1.3), and the number of ternary runs is exactly 3\^{}m.
+
+For q=4, direct original digit enumeration gives D\_4={[}0,210{]}. For q\textgreater4, add the actual binary image one layer at a time:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle H_{q+1}(B)=H_q(B)+H_2(B).$
+\end{adjustbox}
+\]
+
+Once H\_q(B) is an interval of length (q-1)70, its translates by 0 and 70 overlap and cover the entire next interval. Hence D\_q={[}0,(q-1)70{]} for every q\textgreater=4. Lifting an interval digit set whose width is at least b-1 gives another full interval by overlap of consecutive translated intervals. Induction proves
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{H_q((B_6)_{m,b})=
+ [0,(q-1)70(b^m-1)/(b-1)]\cap\mathbb Z,
+ \quad q\ge4.}$
+\end{adjustbox}
+\tag{4.1}
+\]
+
+At q=2, digit uniqueness gives 38\^{}m values. At q=3, the image has the retained exponential holes in (1.3). Arity four is the first full-interval stage. These are assertions about the q-digit sums of the same original generators; they do not enlarge the binary subset choices used in the original progression-free claim.
+
+For reference, with F\_q(z)=sum\_(m\textgreater=0)\textbar H\_q(B\_m)\textbar z\^{}m,
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle F_2(z)=\frac1{1-38z},
+\quad
+ F_3(z)=\frac{1+(136-b)z}{(1-bz)(1-3z)},$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle F_q(z)=\frac{1+((q-1)70-b)z}{(1-bz)(1-z)}\quad(q\ge4).$
+\end{adjustbox}
+\tag{4.2}
+\]
+
+\section{5. The ten-generator images: three different merger scales}\label{n20-the-ten-generator-images-three-different-merger-scales}
+
+For B\_10 the exact ternary image has t=2103 values in {[}0,2204{]}. Its small holes are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \begin{aligned}
+H=\{&1,2,5,9,12,16,19,23,26,27,29,30,31,32,33,35,36,39,46,53,60,64,67,70,73,\\
+&101,151,179,182,185,188,192,199,206,213,217,221,225,243,247,251,255,262,269,276,280,283,286,289,317,533\}.
+\end{aligned}$
+\end{adjustbox}
+\]
+
+The other holes are exactly 2204-H. There are 89 runs. At b=1651 the overlap width is 553; max H=533 and no two retained small holes sum to 553. Theorem 3.1 proves the third formula in (1.3), with exactly 89\^{}m runs.
+
+The next two arities have the following exact series:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{F_4(z)=
+\frac{1+1644z-1645z^2}{(1-1651z)(1-3z)^2},}$
+\end{adjustbox}
+\tag{5.1}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{F_5(z)=
+\frac{1+2749z+3302z^2}{(1-1651z)(1-3z)}.}$
+\end{adjustbox}
+\tag{5.2}
+\]
+
+They imply (1.4) and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |H_5((B_{10})_m)|=
+ \frac{2201}{824}1651^m-\frac{5779}{2472}3^m
+ +\frac23\mathbf1_{m=0}.$
+\end{adjustbox}
+\tag{5.3}
+\]
+
+The m=0 correction is part of the identity. These formulas are proved by the exact transition matrices and the output-recurrence certificates of Section 2, not by extrapolating their first twenty coefficients. The full matrices for every q=2,...,7 and all residue transitions are in the receipt. Section 6 exhibits the q=4 matrix in full.
+
+For every q\textgreater=6 and m\textgreater=1 there is a simpler complete description. Put
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle W_m=(q-1)1102\frac{1651^m-1}{1650},\qquad H_0=\{1,2,5\}.$
+\end{adjustbox}
+\]
+
+Then
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{H_q((B_{10})_m)=[0,W_m]\setminus(H_0\cup(W_m-H_0)).}$
+\end{adjustbox}
+\tag{5.4}
+\]
+
+\textbf{Proof.} Direct enumeration of the original q=4 block gives {[}0,3306{]} minus these six reflected holes. All q\textgreater=4 local block images have the same small holes: the central intervals of the 0 and 1102 translates overlap at each next arity. The small integers 1,2,5 remain absent because every generator belongs to the semigroup generated by 3 and 4, whose nonnegative gaps are exactly 1,2,5. Reflection of coefficient words gives the high holes.
+
+For q\textgreater=6 the local width w=(q-1)1102 is at least 5510. If the preceding lifted image has only the six holes in (5.4), consecutive present integers differ by at most three. The central interval {[}6,w-6{]} of each local translate therefore overlaps that of the next translate: w-3*1651\textgreater=557\textgreater11. These central intervals cover the whole middle region. Before the first translated central interval and after the last, the original low and high holes remain. This proves the induction, including the absence of any other hole. QED.
+
+In particular \textbar H\_q\textbar=W\_m-5 for m\textgreater=1, while \textbar H\_q(B\_0)\textbar=1. Its series is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle F_q(z)=6+
+ \frac{(q-1)1102/1650}{1-1651z}
+ -\frac{(q-1)1102/1650+5}{1-z},\qquad q\ge6.$
+\end{adjustbox}
+\tag{5.5}
+\]
+
+The first rows are useful checks on conventions:
+
+\begin{longtable}[]{@{}lrrrr@{}}
+\toprule\noalign{}
+Block/base & q & m=0 & m=1 & m=2 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+B6/97 & 2 & 1 & 38 & 1,444 \\
+B6/97 & 3 & 1 & 139 & 13,609 \\
+B6/97 & 4 & 1 & 211 & 20,581 \\
+B10/1651 & 2 & 1 & 291 & 84,681 \\
+B10/1651 & 3 & 1 & 2,103 & 3,512,281 \\
+B10/1651 & 4 & 1 & 3,301 & 5,458,197 \\
+B10/1651 & 5 & 1 & 4,403 & 7,280,911 \\
+B10/1651 & 6 & 1 & 5,505 & 9,102,515 \\
+\end{longtable}
+
+\section{6. A visible nilpotent term in the unchanged carry coordinates}\label{n20-a-visible-nilpotent-term-in-the-unchanged-carry-coordinates}
+
+For q=4 and B10/base1651 the complete reachable carry sets, in order, are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \{0\},\quad\{0,1,2\},\quad\{1,2\},\quad\{1\},\quad\{0,1\}.$
+\end{adjustbox}
+\]
+
+The matrix and terminal vector are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle M=\begin{pmatrix}
+1&2&1&2&1645\\
+0&7&0&0&1644\\
+0&4&2&0&1645\\
+0&2&1&3&1645\\
+0&4&1&0&1646
+\end{pmatrix},\qquad f=(1,3,2,1,2)^T.$
+\end{adjustbox}
+\tag{6.1}
+\]
+
+Every row entry counts its actual residue classes. Integer matrix calculation gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \det(XI-M)=(X-1651)(X-3)^2(X-1)^2.$
+\end{adjustbox}
+\]
+
+Retain the vectors
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle v=(1,0,0,1,0)^T,\qquad w=(0,-411,1,0,1)^T.$
+\end{adjustbox}
+\]
+
+Their exact equations are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (M-3I)v=0,\qquad (M-3I)w=824v.$
+\end{adjustbox}
+\tag{6.2}
+\]
+
+Moreover rank(M-3I)=4 and rank((M-3I)\^{}2)=3. The output Hankel matrix (N\_(i+j))\_(0\textless=i,j\textless5) has rank three. Thus the receiving sequence retains the size-two 3-primary block. The inverse resolvent of (6.1) gives (5.1); its double pole supplies the actual -(2m/3)3\^{}m term. Replacing this block by its eigenvalue alone would change the numerical image cardinality.
+
+In the forward system T=M\^{}T, the kernel of the full observation (2.6) has dimension two. It has the displayed basis
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (-1,0,0,1,0)^T,\qquad(0,0,-1,0,1)^T.$
+\end{adjustbox}
+\]
+
+These are the two additional observation-null directions. The quotient by them, with its induced operator, still has the nontrivial 3-primary block. This is a concrete separation between discarding an actual observation kernel and discarding a retained nilpotent part of the receiving action.
+
+\section{7. Canonical mergers and the exact original quotient metrics}\label{n20-canonical-mergers-and-the-exact-original-quotient-metrics}
+
+\subsection{7.1 All levels join at the ternary stage}\label{n20-all-levels-join-at-the-ternary-stage}
+
+The binary factorization into the original B6 or B10 blocks is exact. Within each block the original triangle relations connect all coordinates, so these are precisely its binary components in the predecessor\textquotesingle s canonical bounded-relation factorization. Binary digit uniqueness prevents a relation between different numerical block values.
+
+At ternary arity, adjacent blocks are linked by the following literal bounded relations. Coordinates are in the increasing orders displayed in Section 1:
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \begin{array}{c|c|c}
+b&\text{lower coefficients}&\text{upper coefficients}\\\hline
+97&(1,0,2,0,2,2)&(1,0,0,0,0,0)\\
+93&(1,0,2,1,1,2)&(1,0,0,0,0,0)\\
+1651&(0,1,2,2,0,2,1,2,1,2)&(-1,1,0,0,0,0,0,0,0,0).
+\end{array}$
+\end{adjustbox}
+\tag{7.1}
+\]
+
+In each row, lower dot B equals b times upper dot B, and upper dot B=1. Multiplication by the actual level factor b\^{}j gives the relation at every adjacent pair. Any independent ternary partition must be coarser than the binary partition. If it separated one adjacent pair, restricting (7.1) to that side would give a nonzero amplitude, contradicting independence. Hence all m blocks belong to one ternary component.
+
+Let Omega be the original q-digit word set of size q\^{}(m\textbar B\textbar). Its local quotient and receiving map are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathbb Q[\Omega]\xrightarrow{q_{\rm loc}}\mathbb Q[D_q^m]
+ \xrightarrow{J_m}\mathbb Q[H_q(B_m)],\qquad
+ J_m e_d=e_{\sum_jb^jd_j}.$
+\end{adjustbox}
+\]
+
+Their exact relation sequence is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{0\to\ker q_{\rm loc}\to\ker(J_mq_{\rm loc})
+ \xrightarrow{q_{\rm loc}}\ker J_m\to0.}$
+\end{adjustbox}
+\tag{7.2}
+\]
+
+The final map is onto because each local value has an original word representative. The additional relation space has dimension
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \dim\ker J_m=|D_q|^m-|H_q(B_m)|.$
+\end{adjustbox}
+\tag{7.3}
+\]
+
+For example, its ternary dimensions are \(139^m-(68\cdot97^m-21\cdot3^m)/47\) and \(2103^m-(1007\cdot1651^m-226\cdot89^m)/781\). This is an exponential loss from the independent local-value product. In particular, no lower estimate retaining 139\^{}m, or 2103\^{}m, up to a subexponential divisor can hold for these binary-isolated families.
+
+\subsection{7.2 Weighted least-norm sections}\label{n20-weighted-least-norm-sections}
+
+Put omega(d)=mu\_(B,q)(d), and Omega(d\_0,...,d\_(m-1))=product\_j omega(d\_j). The quotient of the original orthonormal word source gives the local Gram diag(1/Omega(d)). On the final value image define
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mu_m(x)=\sum_{\sum b^jd_j=x}\Omega(d).$
+\end{adjustbox}
+\]
+
+The exact least-norm section is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s_m(e_x)=\sum_{\sum b^jd_j=x}\frac{\Omega(d)}{\mu_m(x)}e_d,
+ \qquad G_m=\operatorname{diag}_x(1/\mu_m(x)).$
+\end{adjustbox}
+\tag{7.4}
+\]
+
+The coefficients sum to one. Their squared norm in the original local Gram is 1/mu\_m(x). A vector in ker J\_m has coefficient sum zero within every final fibre, so it is orthogonal to these section vectors. This proves both the right-inverse and Pythagoras identities, including all original masses.
+
+\subsection{7.3 Exact maximum multiplicity at every length}\label{n20-exact-maximum-multiplicity-at-every-length}
+
+For any weighted D subset {[}0,2b-2{]}, its carry coefficients on states c=0,1 are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle W_z(c,c')=\omega(z+bc'-c),\qquad\omega(t)=0\text{ outside }D.$
+\end{adjustbox}
+\]
+
+Every row sum is bounded by the largest complete residue-class mass
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Lambda=\max_{r\bmod b}\sum_{d\equiv r\bmod b}\omega(d).$
+\end{adjustbox}
+\tag{7.5}
+\]
+
+Starting at (1,0), total path mass after m digits is at most Lambda\^{}m, so every final numerical fibre has at most that mass. If an actual digit \(d_*<b\) has \(\omega(d_*)=\Lambda\), the source word consisting of that digit repeatedly gives Lambda\^{}m original representatives of the corresponding number. Thus the upper bound is attained.
+
+The complete residue checks give \(\Lambda=15,\ d_*=70\) for B6 at both bases, and \(\Lambda=219,\ d_*=1102\) for B10 at1651. Consequently
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\max_x\mu_{B_m,3}(x)=15^m\text{ or }219^m,}$
+\end{adjustbox}
+\tag{7.6}
+\]
+
+and the original quotient-to-unit-value identity has exact norm 15\^{}(m/2) or 219\^{}(m/2).
+
+For comparison, give each distinct local digit weight one instead. Every residue matrix then has entries zero or one. A prescribed final carry receives at most the total mass at the preceding step, so its coefficient is at most 2\^{}(m-1), m\textgreater=1. A residue r with r-1,r,b+r-1,b+r all in D makes its matrix all ones and attains that bound by repetition. Such a residue is r=1 for B6 and r=4 for B10. Hence
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\max_x\#\{d\in D_3^m:\sum b^jd_j=x\}=2^{m-1}.}$
+\end{adjustbox}
+\tag{7.7}
+\]
+
+Its unweighted local-value quotient-to-unit-value norm is 2\^{}((m-1)/2). Equations (7.4)--(7.7) specify the exact comparison of the two sources. Multiplying separate worst-case norm bounds would introduce an extra exponential factor that the original weighted calculation does not have.
+
+\section{8. Exact limiting measure of the higher-arity image}\label{n20-exact-limiting-measure-of-the-higher-arity-image}
+
+The infinite geometry is useful only with its scale and return map explicit. Under Theorem 3.1 additionally assume w\textless2b-2, and put
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle s=\frac{w}{b-1},\quad C_0=\frac{t-\kappa}{b-\kappa},
+ \quad r_0=\frac\kappa b,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle K=\left\{\sum_{j\ge1}d_jb^{-j}:d_j\in D\right\},\qquad
+ K_m=b^{-m}(L_m(D;b)+[0,s]).$
+\end{adjustbox}
+\tag{8.1}
+\]
+
+The scale map is multiplication by b\^{}(-m), with inverse multiplication by b\^{}m. The sets K\_m are nested compact supersets with intersection K: the interval {[}0,s{]} is invariant under every digit map (d+x)/b, and finite digit approximations have uniformly vanishing tail diameter.
+
+Because 1\textless s\textless2, distinct runs of L\_m give disjoint intervals in K\_m. Their exact total length is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle b^{-m}\{N_m+(s-1)\kappa^m\}.$
+\end{adjustbox}
+\]
+
+Theorem 3.1 therefore proves
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\operatorname{Leb}(K_m)=C_0+(s-C_0)r_0^m,
+ \quad\operatorname{Leb}(K)=C_0.}$
+\end{adjustbox}
+\tag{8.2}
+\]
+
+The remaining outer mass is exactly (s-C\_0)r\_0\^{}m. For the three ternary applications the tuples (C\_0,s,s-C\_0) are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (68/47,35/24,13/1128),\quad
+ (68/45,35/23,11/1035),\quad
+ (1007/781,1102/825,247/5325).$
+\end{adjustbox}
+\]
+
+\subsection{8.1 Boundary size, with the notion of dimension specified}\label{n20-boundary-size-with-the-notion-of-dimension-specified}
+
+The lower and upper box-counting dimensions of the boundary both equal
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\dim_{\rm box}\partial K=\frac{\log\kappa}{\log b}.}$
+\end{adjustbox}
+\tag{8.3}
+\]
+
+To prove the lower bound, both endpoints of every K\_m component belong to K: use a terminating allowed word for its lower endpoint, and an all-w tail for its upper endpoint. They are boundary points because the adjacent gap is excluded from K\_m. The 2*kappa\^{}m endpoints are separated by at least min(s,2-s)b\^{}(-m).
+
+For the upper bound, write a=max H and theta=(a+1)/(b-1). Choosing the central child of any K\_m component {[}l,u{]} at every subsequent stage retains the interval \([l+\theta b^{-m},u-\theta b^{-m}]\) in K. Its length is positive: s-2theta\textgreater0 follows from a\textless=w-b and w\textless2b-2. Thus the boundary inside each component lies in two collars of length theta*b\^{}(-m), each covered by a fixed number of intervals of scale b\^{}(-m). This proves the matching upper bound and, by comparison of intermediate scales, both box dimensions. No Hausdorff-dimension assertion is needed here.
+
+\subsection{8.2 Weak convergence with an evaluated error}\label{n20-weak-convergence-with-an-evaluated-error}
+
+Let E\_m=b\^{}(-m)(L\_m+{[}0,1{]}) be the disjoint unit-cell thickening, and retain the unweighted discrete measure
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \eta_m=b^{-m}\sum_{x\in L_m}\delta_{x/b^m}.$
+\end{adjustbox}
+\]
+
+One has E\_m subset K\_m and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \operatorname{Leb}(E_m\triangle K)
+ \le(2s-1-C_0)r_0^m.$
+\end{adjustbox}
+\]
+
+For every bounded Lipschitz function f on {[}0,s{]}, integrating it in each original cell gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{
+\left|\eta_m(f)-\int_K f(x)\,dx\right|
+\le \frac{\operatorname{Lip}(f)N_m}{2b^{2m}}
+ +\|f\|_\infty(2s-1-C_0)r_0^m.}$
+\end{adjustbox}
+\tag{8.4}
+\]
+
+This proves explicit weak convergence. Division by the actual mass N\_m/b\^{}m, whose error is given by (3.1), gives the uniform distinct-image probability limit Leb\textbar K/C\_0. The cell smoothing is an explicit comparison map; no total-variation convergence of a discrete probability to a continuous probability is asserted.
+
+\section{9. Exact second moments and original variance costs}\label{n20-exact-second-moments-and-original-variance-costs}
+
+For the ternary images, reflection gives their exact mean W\_m/2, where
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle W_m=w(b^m-1)/(b-1).$
+\end{adjustbox}
+\]
+
+Section 3.1 gives every centered second moment. The certificate also supplies a closed raw-second-moment expression as a rational linear combination of
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \kappa^m,\ b^m,\ (b\kappa)^m,\ b^{2m},\ (\kappa b^2)^m,\ b^{3m}.$
+\end{adjustbox}
+\]
+
+The six coefficients are retained in the receipt. The product of these six linear factors is checked as an all-length observed annihilator on the actual nine-dimensional moment matrix, and six exact initial values determine the coefficients. This is a finite proof of the closed formula, not an interpolated prediction.
+
+Let U\_m be uniform on the distinct ternary image. The resulting limits are
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Block/base
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+lim Var(U\_m)/b\^{}(2m)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+lim Var(U\_m)/sum\_(a in B\_m) a\^{}2
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+B6/97 & 93825139/536649960 & 93825139/71644595 \\
+B6/93 & 82897249/434753337 & 82897249/63141789 \\
+B10/1651 & \nolinkurl{14562026775392709/102939824359874810} & \nolinkurl{436860803261781270/275866493425966949} \\
+\end{longtable}
+
+The second column also equals the variance of the exact limiting measure in (8.4). The third column retains
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \sum_{a\in B_m}a^2=\left(\sum_{a\in B}a^2\right)
+ \frac{b^{2m}-1}{b^2-1}.$
+\end{adjustbox}
+\]
+
+Its limits are approximately 1.30959, 1.31287, and 1.58360. In contrast, uniform original ternary assignments have variance exactly (2/3)sum a\^{}2. Their pushforward has the original multiplicity weights; it is not the uniform distinct-image measure. Equations (7.4), (7.6), and (8.4) are the explicit maps and costs between these presentations. A proposed all-family variance inequality must account for these exact examples.
+
+\section{10. A separate finite decision for real-limit progressions}\label{n20-a-separate-finite-decision-for-real-limit-progressions}
+
+Let D be a finite subset of {[}0,b-2{]} containing zero, and define the actual real limit K\_b(D) by its digit expansion as in (8.1). The strict span bound max D/(b-1)\textless1 makes expansions unique: a first differing digit contributes at least b\^{}(-j), while its entire later tail contributes strictly less.
+
+For a k-tuple of digit columns, the integer prefix second differences obey
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle c_{j+1}=bc_j+\Delta(d^{(j)}),\qquad c_0=0.$
+\end{adjustbox}
+\tag{10.1}
+\]
+
+A real progression has
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle |c_{j,i}|\le 2\max(D)/(b-1).$
+\end{adjustbox}
+\]
+
+Conversely, an infinite digit path with this bounded carry has zero limiting second differences because b\^{}(-m)c\_m tends to zero. A persistent flag records whether any column has unequal first two digits; uniqueness of expansions makes it exactly the nonconstant condition.
+
+\textbf{Theorem 10.1.} Put C=floor(2max(D)/(b-1)). The finite graph on (c,flag), c in {[}-C,C{]}\^{}(k-2), with transitions (10.1), decides whether K\_b(D) contains a nonconstant k-AP. Such a progression exists exactly when a reachable flagged state can reach a directed cycle. If it exists, an eventually periodic digit witness exists with preperiod less than the number of graph states and period at most that number.
+
+\textbf{Proof.} The preceding prefix and tail identities prove the correspondence with infinite bounded-carry paths. Once the true flag occurs it persists. An infinite path in a finite graph reaches a cycle; conversely a path to a cycle can be repeated indefinitely. Its digit coordinates are rational, with denominators dividing \(b^h(b^t-1)\) for the stated preperiod h and period t. The first-two-digit flag ensures a nonzero numerical difference. The state bound is 2(2C+1)\^{}(k-2). QED.
+
+The graph uses the reversed carry relation relative to finite integer terminal-zero tests. The source digits and the endpoint observation specify which test is intended. The complete record graphs and all their directed destination pairs are in the receipt; one actual digit column is retained for each pair. The counts are 15 states/23 arcs at (19,4), 53/389 at (97,5), and 159/1185 at (93,6).
+
+\subsection{10.1 Explicit rational progressions in all the previously used limits}\label{n20-explicit-rational-progressions-in-all-the-previously-used-limits}
+
+The following are original binary digit columns a,e. Repeating e forever after a gives
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle x=\frac1b\left(a+\frac e{b-1}\right).$
+\end{adjustbox}
+\]
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Block/base, k
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+First column a
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Repeated column e
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Real progression
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\{1,7,8\}/19, 4 & (0,0,1,1) & (0,9,0,9) & (0,1,2,3)/38 \\
+B6/97, 5 & (4,5,5,5,6) & (64,0,32,64,0) & (14,15,16,17,18)/291 \\
+B6/93, 6 & (0,0,0,0,1,1) & (4,26,48,70,0,22) & (4+22i)/(93*92), 0\textless=i\textless6 \\
+B10/1651, 6 & (293,293,294,294,294,295) & (548,1099,0,551,1102,3) & (483998+551i)/2724150, 0\textless=i\textless6 \\
+\end{longtable}
+
+Every entry is an actual subset sum of its displayed generator block, and its original subset mask is included. Let c=Delta(a). In all four rows c is nonzero and
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \Delta(e)=-(b-1)c.$
+\end{adjustbox}
+\]
+
+The exact integer prefixes are
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle Y_m=b^{m-1}a+\frac{b^{m-1}-1}{b-1}e\in H_2(B_m)^k,$
+\end{adjustbox}
+\]
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \boxed{\Delta Y_m=c\ne0\quad\text{for every }m,}$
+\end{adjustbox}
+\tag{10.2}
+\]
+
+while
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle b^{-m}Y_m\to x,\qquad
+ x-b^{-m}Y_m=\frac e{(b-1)b^m},\qquad\Delta x=0.$
+\end{adjustbox}
+\tag{10.3}
+\]
+
+For the base97 row, c=(-1,0,1). Thus every finite prefix retains the same nonzero integer boundary, even though the scale map makes that boundary converge to zero. This is compatible with, and illustrates the exact scope of, the finite-stage progression-free theorem.
+
+\section{11. A graph observation retaining the missing boundary}\label{n20-a-graph-observation-retaining-the-missing-boundary}
+
+Let \(\Delta:\mathbb R^k\to\mathbb R^{k-2}\) be the original second-difference map. Its explicit right inverse is
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle R(c)_0=R(c)_1=0,\qquad
+ R(c)_i=\sum_{j=0}^{i-2}(i-1-j)c_j\quad(i\ge2).$
+\end{adjustbox}
+\]
+
+On the linear space of sequences y\_m for which both b\^{}(-m)y\_m and Delta y\_m converge, retain the pair of observations
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle \mathcal O(y)=(\lim b^{-m}y_m,\lim\Delta y_m).$
+\end{adjustbox}
+\]
+
+The first component necessarily lies in ker Delta. The pair map is onto ker Delta direct-sum R\^{}(k-2), with explicit section
+
+\[
+\begin{adjustbox}{max width=.92\linewidth}
+$\displaystyle (x,c)\longmapsto(y_m=b^m x+R(c))_m.$
+\end{adjustbox}
+\]
+
+Its kernel consists exactly of sequences for which both observations vanish. The further projection forgetting c has kernel 0 direct-sum R\^{}(k-2). Restricting this pair observation to the actual feasible prefix sequences in (10.2) gives (x,c) with c nonzero. The unrestricted linear section is not asserted to produce feasible digit words; feasibility was proved separately for the displayed witnesses.
+
+At finite m, recovering the original defect from Delta(b\^{}(-m)Y\_m) requires multiplication by b\^{}m. This evaluated return cost is why vanishing of the scaled defect cannot serve as an integer terminal-zero certificate. The active support and the retained receiving kernel locate the loss without identifying it with the original relation module.
+
+\section{12. Verification, references, and the remaining arithmetic question}\label{n20-verification-references-and-the-remaining-arithmetic-question}
+
+The standard-library producer is \nolinkurl{certificates/verify_arity_boundary.py}; its finite-state and arithmetic library is \texttt{arity\_core.py}. The independent auditor is \texttt{audit\_arity\_boundary.py} and imports neither. The latter rebuilds the original digit polynomials by dense coefficient addition, every residue destination by a separate quotient enumeration, and the large numerical images by Boolean products over the actual generator set. Direct image moments are obtained from bytewise sums over those original image bits. Real graphs are rebuilt destination-first and analyzed through an independent strongly-connected-component procedure.
+
+The retained proof data cover all arities 2 through 7 for three block/base cases, all first and second moments through twenty levels, and the exact observed matrix annihilators proving their continuations. Additional bounded domains include 596 small alphabets with 2,384 direct moment comparisons, twelve finite-hole examples, 2,202 weighted least-norm fibres, and 186 real-limit sources. The independent original-generator replay checks 66 complete image/moment instances, 39,552 residue actions, 162 moment states, 48 exact peak instances, and all 1,597 recorded real-graph arcs. It rejects eight deliberately corrupted records. These finite checks corroborate the general proofs and establish the displayed finite certificates; they are not substitutions for the proofs.
+
+The old canonical factorization is used with its delivered proof and scope. The present work does not re-audit every theorem in the earlier cumulative archives. No existing Lean source, audit receipt, or accepted status is modified. No remote publication is inferred from a local patch. The accompanying integration record states the actual completed runs.
+
+The relevant general problem remains a uniform lower estimate across every admissible generator set. Here the complete higher-arity loss is calculated for two important construction families. Their binary components all merge at ternary arity, the additional kernel has exponentially growing dimension, and even the weighted metric return is exactly computable. These identities rule out an uncorrected higher-arity product estimate while supplying the correct correction. The finite transfer applies to any specified block, but its outer family of inputs remains unbounded.
+
+The real-limit counterexamples likewise identify an exact obstruction to transferring a finite integer exclusion through a completion that forgets the terminal boundary. They do not contradict the original finite problem or the finite upper constructions. No claim of a new best unrestricted exponential rate, an all-rank matching lower bound, or an RH conclusion is made.
+
+\subsection{References and exact source roles}\label{n20-references-and-exact-source-roles}
+
+Korsky, S. (2026). \emph{Arithmetic progression-free subset-sum sets} (arXiv:2606.24139v1). \url{https://arxiv.org/abs/2606.24139} . The original problem conventions and general bounds provide context; the inspected abstract is not represented as a new full-paper audit in this continuation.
+
+Frougny, C., \& Pelantová, E. (2018). \emph{Two applications of the spectrum of numbers} (arXiv:1512.04234v3; original preprint 2015). \url{https://arxiv.org/abs/1512.04234} . The inspected abstract supplies established context for finite automata and infinite zero representations. The specialized carry theorems above are proved directly; no unread theorem is imported.
+
+KokunoYumeto. (2026). \emph{Reconstruction with changes of support index}. \nolinkurl{workbenches/splitzero-tandem/tex/support_diagrams.tex} at Zeta revision \nolinkurl{58626a62cd5648e8ae7450fb54d4a4aab2330981}, equations D6--D8; Git blob \nolinkurl{d3493f891291ee6e94dbf2c77649f7d85d240df2}. Role: inspected original internal quotient, supported kernel, and additional receiving-kernel interface. \url{https://github.com/KokunoYumeto/zeta-function-research-reader/blob/58626a62cd5648e8ae7450fb54d4a4aab2330981/workbenches/splitzero-tandem/tex/support_diagrams.tex} .
+
+The Clankers. (2026, September 16). \emph{Canonical arithmetic factors and integral isolation at every clique rank}. Delivered predecessor \nolinkurl{EP817_CANONICAL_ISOLATION_20260916.zip}, retained unchanged in the cumulative package. Role: actual canonical bounded-relation components and their binary graphical instances, with the original mathematical and Lean attributions preserved.

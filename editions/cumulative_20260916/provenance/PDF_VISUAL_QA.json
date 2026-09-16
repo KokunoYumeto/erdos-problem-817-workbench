@@ -1,0 +1,176 @@
+{
+  "scope": "Independent bounded visual QA of corrected PDFs; no mathematical replay and no full 220-page visual proofread",
+  "result": "PASS for the inspected pages",
+  "files": [
+    {
+      "file": "latex/collected_notes.pdf",
+      "sha256": "c66bf0fd64de31b3328b759c9f16fbc521e0ce2e9b2cd529f18665541d6e513c",
+      "pages": 220,
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "Erdos Problem 817: Corrected collected research notes, 16 September 2026",
+        "author": "The Clankers; original sources credited within each note",
+        "subject": "Corrected reader edition through finite-period control",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "MiKTeX pdfTeX-1.40.29",
+        "creationDate": "D:20260916233754+02'00'",
+        "modDate": "D:20260916233754+02'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "inspected_pdf_pages": [
+        1,
+        6,
+        25,
+        178,
+        183,
+        215,
+        216,
+        220
+      ]
+    },
+    {
+      "file": "latex/individual/28_finite-period-control.pdf",
+      "sha256": "508d4b18d87e89ae21c0d5176a69e555d8605c502cc50512c3cd2487d66dc70c",
+      "pages": 8,
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "Uniform finite-period approximation and exact finite-word switching minima",
+        "author": "The Clankers",
+        "subject": "Corrected reader edition, 16 September 2026",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "MiKTeX pdfTeX-1.40.29",
+        "creationDate": "D:20260916233758+02'00'",
+        "modDate": "D:20260916233758+02'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "inspected_pdf_pages": [
+        1,
+        7
+      ]
+    },
+    {
+      "file": "latex/individual/29_splitzero-receiving-map.pdf",
+      "sha256": "2893bd97ea47d20e30064aba89ef0dd0f2fccab848a96287c23ca64491ca572c",
+      "pages": 3,
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "Retained cut kernels, bounded logarithmic defects, and finite-period recovery",
+        "author": "The Clankers",
+        "subject": "Corrected reader edition, 16 September 2026",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "MiKTeX pdfTeX-1.40.29",
+        "creationDate": "D:20260916233759+02'00'",
+        "modDate": "D:20260916233759+02'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "inspected_pdf_pages": [
+        1,
+        3
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        1
+      ],
+      "finding": "Corrected edition title, date, separate source and Lean credits, historical-source scope, and finite-period review scope are visible and legible; no clipping or overlap."
+    },
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        6
+      ],
+      "finding": "3^m-2^m and 3^{m_j}-2^{m_j} render with separate exponents and subtraction at baseline, matching the historical Markdown rather than the old merged exponent."
+    },
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        25
+      ],
+      "finding": "A^{[m]} renders as repeated-block superscript, including cardinality and maximum formulas; no unintended footnote or footnote marker appears."
+    },
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        178
+      ],
+      "finding": "Chapter 24 displays L>3Q and the inter-component gap L-2Q>Q, with the added justification; text and display fit the page."
+    },
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        183
+      ],
+      "finding": "Chapter 24 repeated-block notation is correct and equation tag (7.1) renders correctly beside the spectral inequality."
+    },
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        215
+      ],
+      "finding": "Finite-minimum cases, matrix formulas, and repaired max_R/norm subscript-star prose are readable; no consumed-underscore emphasis remains in the inspected repaired passage."
+    },
+    {
+      "file": "collected_notes.pdf",
+      "pages": [
+        216,
+        220
+      ],
+      "finding": "Final products render as 93^a 893^b with distinct exponents in both arithmetic and receiving notes; no clipping or overlap in those passages."
+    },
+    {
+      "file": "28_finite-period-control.pdf",
+      "pages": [
+        1,
+        7
+      ],
+      "finding": "Title and original-source identity are legible; corrected macro-product formula renders correctly on page 7."
+    },
+    {
+      "file": "29_splitzero-receiving-map.pdf",
+      "pages": [
+        1,
+        3
+      ],
+      "finding": "Title and original-source identity are legible; corrected macro-product formula renders correctly on page 3."
+    }
+  ],
+  "source_identities": [
+    {
+      "chapter": 1,
+      "original_markdown_sha256": "81a329e64b8f54838228faf23ef8f9f60c2f11c9ac0d4a4067bc89b55122471b"
+    },
+    {
+      "chapter": 3,
+      "original_markdown_sha256": "1954d499b7c63eb3f0202366ea75ff7f63729e17be110e11e7c6e3e9b425f650"
+    },
+    {
+      "chapter": 24,
+      "original_markdown_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+      "published_corrected_markdown_sha256": "418542101ce199b925bee927e23af9a939174d45975d3275e4b9c7165bae4cfe",
+      "published_revision": "578564a5f0c6e3348f5bdc33fd2022b674899c41",
+      "note": "Original-source identity retained; derivative reader separately identifies incorporation of published amendments."
+    },
+    {
+      "chapter": 28,
+      "original_markdown_sha256": "80798f554e704c746ff84f78f8ce5355ac74907a2f662013e1a83f72b86cbaaf"
+    },
+    {
+      "chapter": 29,
+      "original_markdown_sha256": "dc18613b9655041ae1618a43cad1e74860d5631989b0797349d641665d496fbd"
+    }
+  ],
+  "limitations": [
+    "Unchanged plain-text mathematical notation such as literal underscores/carets remains in historical prose; this review confirms the specific repaired semantic conversion defects, not a complete re-typesetting of all prose notation.",
+    "Source hash labels identify the original Markdown, not the transformed TeX/PDF. The edition note states that distinction.",
+    "Visual review sampled 12 rendered pages; exact static source-repair checks and compilation-warning review are separately recorded."
+  ]
+}

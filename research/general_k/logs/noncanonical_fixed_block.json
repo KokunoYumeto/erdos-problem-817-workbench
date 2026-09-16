@@ -1,0 +1,1394 @@
+[
+  {
+    "k": 5,
+    "base": 23,
+    "safe": false,
+    "states_seen": 1095,
+    "length": 2,
+    "witness": [
+      23,
+      207,
+      391,
+      575,
+      759
+    ]
+  },
+  {
+    "k": 5,
+    "base": 24,
+    "safe": false,
+    "states_seen": 840,
+    "length": 2,
+    "witness": [
+      24,
+      216,
+      408,
+      600,
+      792
+    ]
+  },
+  {
+    "k": 5,
+    "base": 25,
+    "safe": false,
+    "states_seen": 636,
+    "length": 2,
+    "witness": [
+      25,
+      225,
+      425,
+      625,
+      825
+    ]
+  },
+  {
+    "k": 5,
+    "base": 26,
+    "safe": false,
+    "states_seen": 772,
+    "length": 2,
+    "witness": [
+      26,
+      234,
+      442,
+      650,
+      858
+    ]
+  },
+  {
+    "k": 5,
+    "base": 27,
+    "safe": false,
+    "states_seen": 548,
+    "length": 2,
+    "witness": [
+      27,
+      243,
+      459,
+      675,
+      891
+    ]
+  },
+  {
+    "k": 5,
+    "base": 28,
+    "safe": false,
+    "states_seen": 642,
+    "length": 2,
+    "witness": [
+      28,
+      252,
+      476,
+      700,
+      924
+    ]
+  },
+  {
+    "k": 5,
+    "base": 29,
+    "safe": false,
+    "states_seen": 477,
+    "length": 2,
+    "witness": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "k": 5,
+    "base": 30,
+    "safe": false,
+    "states_seen": 486,
+    "length": 2,
+    "witness": [
+      30,
+      270,
+      510,
+      750,
+      990
+    ]
+  },
+  {
+    "k": 5,
+    "base": 31,
+    "safe": false,
+    "states_seen": 375,
+    "length": 2,
+    "witness": [
+      31,
+      279,
+      527,
+      775,
+      1023
+    ]
+  },
+  {
+    "k": 5,
+    "base": 32,
+    "safe": false,
+    "states_seen": 439,
+    "length": 2,
+    "witness": [
+      32,
+      288,
+      544,
+      800,
+      1056
+    ]
+  },
+  {
+    "k": 5,
+    "base": 33,
+    "safe": false,
+    "states_seen": 275,
+    "length": 2,
+    "witness": [
+      33,
+      297,
+      561,
+      825,
+      1089
+    ]
+  },
+  {
+    "k": 5,
+    "base": 34,
+    "safe": false,
+    "states_seen": 272,
+    "length": 2,
+    "witness": [
+      34,
+      43,
+      52,
+      61,
+      70
+    ]
+  },
+  {
+    "k": 5,
+    "base": 35,
+    "safe": false,
+    "states_seen": 206,
+    "length": 2,
+    "witness": [
+      35,
+      315,
+      595,
+      875,
+      1155
+    ]
+  },
+  {
+    "k": 5,
+    "base": 36,
+    "safe": false,
+    "states_seen": 186,
+    "length": 2,
+    "witness": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "k": 5,
+    "base": 37,
+    "safe": false,
+    "states_seen": 186,
+    "length": 2,
+    "witness": [
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "k": 5,
+    "base": 38,
+    "safe": false,
+    "states_seen": 125,
+    "length": 2,
+    "witness": [
+      38,
+      342,
+      646,
+      950,
+      1254
+    ]
+  },
+  {
+    "k": 5,
+    "base": 39,
+    "safe": false,
+    "states_seen": 162,
+    "length": 2,
+    "witness": [
+      39,
+      351,
+      663,
+      975,
+      1287
+    ]
+  },
+  {
+    "k": 5,
+    "base": 40,
+    "safe": false,
+    "states_seen": 156,
+    "length": 2,
+    "witness": [
+      40,
+      360,
+      680,
+      1000,
+      1320
+    ]
+  },
+  {
+    "k": 5,
+    "base": 41,
+    "safe": false,
+    "states_seen": 140,
+    "length": 2,
+    "witness": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "k": 5,
+    "base": 42,
+    "safe": false,
+    "states_seen": 125,
+    "length": 2,
+    "witness": [
+      42,
+      378,
+      714,
+      1050,
+      1386
+    ]
+  },
+  {
+    "k": 5,
+    "base": 43,
+    "safe": false,
+    "states_seen": 84,
+    "length": 2,
+    "witness": [
+      43,
+      387,
+      731,
+      1075,
+      1419
+    ]
+  },
+  {
+    "k": 5,
+    "base": 44,
+    "safe": false,
+    "states_seen": 102,
+    "length": 2,
+    "witness": [
+      44,
+      396,
+      748,
+      1100,
+      1452
+    ]
+  },
+  {
+    "k": 5,
+    "base": 45,
+    "safe": false,
+    "states_seen": 122,
+    "length": 2,
+    "witness": [
+      45,
+      405,
+      765,
+      1125,
+      1485
+    ]
+  },
+  {
+    "k": 5,
+    "base": 46,
+    "safe": false,
+    "states_seen": 118,
+    "length": 2,
+    "witness": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "k": 5,
+    "base": 47,
+    "safe": false,
+    "states_seen": 102,
+    "length": 2,
+    "witness": [
+      47,
+      423,
+      799,
+      1175,
+      1551
+    ]
+  },
+  {
+    "k": 5,
+    "base": 48,
+    "safe": false,
+    "states_seen": 104,
+    "length": 2,
+    "witness": [
+      48,
+      432,
+      816,
+      1200,
+      1584
+    ]
+  },
+  {
+    "k": 5,
+    "base": 49,
+    "safe": false,
+    "states_seen": 94,
+    "length": 2,
+    "witness": [
+      49,
+      441,
+      833,
+      1225,
+      1617
+    ]
+  },
+  {
+    "k": 5,
+    "base": 50,
+    "safe": false,
+    "states_seen": 91,
+    "length": 2,
+    "witness": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "k": 5,
+    "base": 51,
+    "safe": false,
+    "states_seen": 90,
+    "length": 2,
+    "witness": [
+      0,
+      26,
+      52,
+      78,
+      104
+    ]
+  },
+  {
+    "k": 5,
+    "base": 52,
+    "safe": false,
+    "states_seen": 90,
+    "length": 2,
+    "witness": [
+      52,
+      468,
+      884,
+      1300,
+      1716
+    ]
+  },
+  {
+    "k": 5,
+    "base": 53,
+    "safe": false,
+    "states_seen": 83,
+    "length": 2,
+    "witness": [
+      53,
+      477,
+      901,
+      1325,
+      1749
+    ]
+  },
+  {
+    "k": 5,
+    "base": 54,
+    "safe": false,
+    "states_seen": 78,
+    "length": 2,
+    "witness": [
+      0,
+      21,
+      42,
+      63,
+      84
+    ]
+  },
+  {
+    "k": 5,
+    "base": 55,
+    "safe": false,
+    "states_seen": 64,
+    "length": 2,
+    "witness": [
+      0,
+      26,
+      52,
+      78,
+      104
+    ]
+  },
+  {
+    "k": 5,
+    "base": 56,
+    "safe": false,
+    "states_seen": 82,
+    "length": 2,
+    "witness": [
+      0,
+      22,
+      44,
+      66,
+      88
+    ]
+  },
+  {
+    "k": 5,
+    "base": 57,
+    "safe": false,
+    "states_seen": 88,
+    "length": 2,
+    "witness": [
+      0,
+      21,
+      42,
+      63,
+      84
+    ]
+  },
+  {
+    "k": 5,
+    "base": 58,
+    "safe": false,
+    "states_seen": 87,
+    "length": 2,
+    "witness": [
+      58,
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "k": 5,
+    "base": 59,
+    "safe": false,
+    "states_seen": 48,
+    "length": 2,
+    "witness": [
+      0,
+      21,
+      42,
+      63,
+      84
+    ]
+  },
+  {
+    "k": 5,
+    "base": 60,
+    "safe": false,
+    "states_seen": 50,
+    "length": 2,
+    "witness": [
+      60,
+      540,
+      1020,
+      1500,
+      1980
+    ]
+  },
+  {
+    "k": 5,
+    "base": 61,
+    "safe": false,
+    "states_seen": 48,
+    "length": 2,
+    "witness": [
+      61,
+      549,
+      1037,
+      1525,
+      2013
+    ]
+  },
+  {
+    "k": 5,
+    "base": 62,
+    "safe": false,
+    "states_seen": 79,
+    "length": 2,
+    "witness": [
+      62,
+      63,
+      64,
+      65,
+      66
+    ]
+  },
+  {
+    "k": 5,
+    "base": 63,
+    "safe": false,
+    "states_seen": 69,
+    "length": 2,
+    "witness": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "k": 5,
+    "base": 64,
+    "safe": false,
+    "states_seen": 46,
+    "length": 2,
+    "witness": [
+      64,
+      576,
+      1088,
+      1600,
+      2112
+    ]
+  },
+  {
+    "k": 5,
+    "base": 65,
+    "safe": false,
+    "states_seen": 44,
+    "length": 2,
+    "witness": [
+      65,
+      585,
+      1105,
+      1625,
+      2145
+    ]
+  },
+  {
+    "k": 5,
+    "base": 66,
+    "safe": false,
+    "states_seen": 44,
+    "length": 2,
+    "witness": [
+      66,
+      594,
+      1122,
+      1650,
+      2178
+    ]
+  },
+  {
+    "k": 5,
+    "base": 67,
+    "safe": false,
+    "states_seen": 27,
+    "length": 2,
+    "witness": [
+      67,
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "k": 5,
+    "base": 68,
+    "safe": false,
+    "states_seen": 48,
+    "length": 2,
+    "witness": [
+      0,
+      30,
+      60,
+      90,
+      120
+    ]
+  },
+  {
+    "k": 5,
+    "base": 69,
+    "safe": false,
+    "states_seen": 44,
+    "length": 2,
+    "witness": [
+      69,
+      621,
+      1173,
+      1725,
+      2277
+    ]
+  },
+  {
+    "k": 5,
+    "base": 70,
+    "safe": false,
+    "states_seen": 44,
+    "length": 2,
+    "witness": [
+      70,
+      630,
+      1190,
+      1750,
+      2310
+    ]
+  },
+  {
+    "k": 6,
+    "base": 23,
+    "safe": false,
+    "states_seen": 4771,
+    "length": 2,
+    "witness": [
+      138,
+      391,
+      644,
+      897,
+      1150,
+      1403
+    ]
+  },
+  {
+    "k": 6,
+    "base": 24,
+    "safe": false,
+    "states_seen": 3208,
+    "length": 2,
+    "witness": [
+      144,
+      408,
+      672,
+      936,
+      1200,
+      1464
+    ]
+  },
+  {
+    "k": 6,
+    "base": 25,
+    "safe": false,
+    "states_seen": 2345,
+    "length": 2,
+    "witness": [
+      150,
+      425,
+      700,
+      975,
+      1250,
+      1525
+    ]
+  },
+  {
+    "k": 6,
+    "base": 26,
+    "safe": false,
+    "states_seen": 2643,
+    "length": 2,
+    "witness": [
+      156,
+      442,
+      728,
+      1014,
+      1300,
+      1586
+    ]
+  },
+  {
+    "k": 6,
+    "base": 27,
+    "safe": false,
+    "states_seen": 1857,
+    "length": 2,
+    "witness": [
+      162,
+      459,
+      756,
+      1053,
+      1350,
+      1647
+    ]
+  },
+  {
+    "k": 6,
+    "base": 28,
+    "safe": false,
+    "states_seen": 2072,
+    "length": 2,
+    "witness": [
+      168,
+      476,
+      784,
+      1092,
+      1400,
+      1708
+    ]
+  },
+  {
+    "k": 6,
+    "base": 29,
+    "safe": false,
+    "states_seen": 1182,
+    "length": 2,
+    "witness": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "k": 6,
+    "base": 30,
+    "safe": false,
+    "states_seen": 1482,
+    "length": 2,
+    "witness": [
+      180,
+      510,
+      840,
+      1170,
+      1500,
+      1830
+    ]
+  },
+  {
+    "k": 6,
+    "base": 31,
+    "safe": false,
+    "states_seen": 1053,
+    "length": 2,
+    "witness": [
+      186,
+      527,
+      868,
+      1209,
+      1550,
+      1891
+    ]
+  },
+  {
+    "k": 6,
+    "base": 32,
+    "safe": false,
+    "states_seen": 1337,
+    "length": 2,
+    "witness": [
+      192,
+      544,
+      896,
+      1248,
+      1600,
+      1952
+    ]
+  },
+  {
+    "k": 6,
+    "base": 33,
+    "safe": false,
+    "states_seen": 815,
+    "length": 2,
+    "witness": [
+      198,
+      561,
+      924,
+      1287,
+      1650,
+      2013
+    ]
+  },
+  {
+    "k": 6,
+    "base": 34,
+    "safe": false,
+    "states_seen": 684,
+    "length": 2,
+    "witness": [
+      34,
+      43,
+      52,
+      61,
+      70,
+      79
+    ]
+  },
+  {
+    "k": 6,
+    "base": 35,
+    "safe": false,
+    "states_seen": 580,
+    "length": 2,
+    "witness": [
+      210,
+      595,
+      980,
+      1365,
+      1750,
+      2135
+    ]
+  },
+  {
+    "k": 6,
+    "base": 36,
+    "safe": false,
+    "states_seen": 507,
+    "length": 2,
+    "witness": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "k": 6,
+    "base": 37,
+    "safe": false,
+    "states_seen": 452,
+    "length": 2,
+    "witness": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  {
+    "k": 6,
+    "base": 38,
+    "safe": false,
+    "states_seen": 330,
+    "length": 2,
+    "witness": [
+      228,
+      646,
+      1064,
+      1482,
+      1900,
+      2318
+    ]
+  },
+  {
+    "k": 6,
+    "base": 39,
+    "safe": false,
+    "states_seen": 359,
+    "length": 2,
+    "witness": [
+      234,
+      663,
+      1092,
+      1521,
+      1950,
+      2379
+    ]
+  },
+  {
+    "k": 6,
+    "base": 40,
+    "safe": false,
+    "states_seen": 372,
+    "length": 2,
+    "witness": [
+      240,
+      680,
+      1120,
+      1560,
+      2000,
+      2440
+    ]
+  },
+  {
+    "k": 6,
+    "base": 41,
+    "safe": false,
+    "states_seen": 280,
+    "length": 2,
+    "witness": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "k": 6,
+    "base": 42,
+    "safe": false,
+    "states_seen": 272,
+    "length": 2,
+    "witness": [
+      252,
+      714,
+      1176,
+      1638,
+      2100,
+      2562
+    ]
+  },
+  {
+    "k": 6,
+    "base": 43,
+    "safe": false,
+    "states_seen": 182,
+    "length": 2,
+    "witness": [
+      258,
+      731,
+      1204,
+      1677,
+      2150,
+      2623
+    ]
+  },
+  {
+    "k": 6,
+    "base": 44,
+    "safe": false,
+    "states_seen": 211,
+    "length": 2,
+    "witness": [
+      264,
+      748,
+      1232,
+      1716,
+      2200,
+      2684
+    ]
+  },
+  {
+    "k": 6,
+    "base": 45,
+    "safe": false,
+    "states_seen": 248,
+    "length": 2,
+    "witness": [
+      270,
+      765,
+      1260,
+      1755,
+      2250,
+      2745
+    ]
+  },
+  {
+    "k": 6,
+    "base": 46,
+    "safe": false,
+    "states_seen": 217,
+    "length": 2,
+    "witness": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "k": 6,
+    "base": 47,
+    "safe": false,
+    "states_seen": 194,
+    "length": 2,
+    "witness": [
+      282,
+      799,
+      1316,
+      1833,
+      2350,
+      2867
+    ]
+  },
+  {
+    "k": 6,
+    "base": 48,
+    "safe": false,
+    "states_seen": 202,
+    "length": 2,
+    "witness": [
+      288,
+      816,
+      1344,
+      1872,
+      2400,
+      2928
+    ]
+  },
+  {
+    "k": 6,
+    "base": 49,
+    "safe": false,
+    "states_seen": 170,
+    "length": 2,
+    "witness": [
+      294,
+      833,
+      1372,
+      1911,
+      2450,
+      2989
+    ]
+  },
+  {
+    "k": 6,
+    "base": 50,
+    "safe": false,
+    "states_seen": 176,
+    "length": 2,
+    "witness": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "k": 6,
+    "base": 51,
+    "safe": false,
+    "states_seen": 160,
+    "length": 2,
+    "witness": [
+      204,
+      230,
+      256,
+      282,
+      308,
+      334
+    ]
+  },
+  {
+    "k": 6,
+    "base": 52,
+    "safe": false,
+    "states_seen": 161,
+    "length": 2,
+    "witness": [
+      312,
+      884,
+      1456,
+      2028,
+      2600,
+      3172
+    ]
+  },
+  {
+    "k": 6,
+    "base": 53,
+    "safe": false,
+    "states_seen": 151,
+    "length": 2,
+    "witness": [
+      318,
+      901,
+      1484,
+      2067,
+      2650,
+      3233
+    ]
+  },
+  {
+    "k": 6,
+    "base": 54,
+    "safe": false,
+    "states_seen": 132,
+    "length": 2,
+    "witness": [
+      0,
+      567,
+      1134,
+      1701,
+      2268,
+      2835
+    ]
+  },
+  {
+    "k": 6,
+    "base": 55,
+    "safe": false,
+    "states_seen": 108,
+    "length": 2,
+    "witness": [
+      0,
+      588,
+      1176,
+      1764,
+      2352,
+      2940
+    ]
+  },
+  {
+    "k": 6,
+    "base": 56,
+    "safe": false,
+    "states_seen": 138,
+    "length": 2,
+    "witness": [
+      224,
+      250,
+      276,
+      302,
+      328,
+      354
+    ]
+  },
+  {
+    "k": 6,
+    "base": 57,
+    "safe": false,
+    "states_seen": 120,
+    "length": 2,
+    "witness": [
+      0,
+      21,
+      42,
+      63,
+      84,
+      105
+    ]
+  },
+  {
+    "k": 6,
+    "base": 58,
+    "safe": false,
+    "states_seen": 126,
+    "length": 2,
+    "witness": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ]
+  },
+  {
+    "k": 6,
+    "base": 59,
+    "safe": false,
+    "states_seen": 95,
+    "length": 2,
+    "witness": [
+      236,
+      266,
+      296,
+      326,
+      356,
+      386
+    ]
+  },
+  {
+    "k": 6,
+    "base": 60,
+    "safe": false,
+    "states_seen": 91,
+    "length": 2,
+    "witness": [
+      360,
+      1020,
+      1680,
+      2340,
+      3000,
+      3660
+    ]
+  },
+  {
+    "k": 6,
+    "base": 61,
+    "safe": false,
+    "states_seen": 90,
+    "length": 2,
+    "witness": [
+      366,
+      1037,
+      1708,
+      2379,
+      3050,
+      3721
+    ]
+  },
+  {
+    "k": 6,
+    "base": 62,
+    "safe": false,
+    "states_seen": 119,
+    "length": 2,
+    "witness": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "k": 6,
+    "base": 63,
+    "safe": false,
+    "states_seen": 98,
+    "length": 2,
+    "witness": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "k": 6,
+    "base": 64,
+    "safe": false,
+    "states_seen": 87,
+    "length": 2,
+    "witness": [
+      384,
+      1088,
+      1792,
+      2496,
+      3200,
+      3904
+    ]
+  },
+  {
+    "k": 6,
+    "base": 65,
+    "safe": false,
+    "states_seen": 83,
+    "length": 2,
+    "witness": [
+      390,
+      1105,
+      1820,
+      2535,
+      3250,
+      3965
+    ]
+  },
+  {
+    "k": 6,
+    "base": 66,
+    "safe": false,
+    "states_seen": 85,
+    "length": 2,
+    "witness": [
+      396,
+      1122,
+      1848,
+      2574,
+      3300,
+      4026
+    ]
+  },
+  {
+    "k": 6,
+    "base": 67,
+    "safe": false,
+    "states_seen": 34,
+    "length": 2,
+    "witness": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "k": 6,
+    "base": 68,
+    "safe": false,
+    "states_seen": 84,
+    "length": 2,
+    "witness": [
+      0,
+      727,
+      1454,
+      2181,
+      2908,
+      3635
+    ]
+  },
+  {
+    "k": 6,
+    "base": 69,
+    "safe": false,
+    "states_seen": 83,
+    "length": 2,
+    "witness": [
+      414,
+      1173,
+      1932,
+      2691,
+      3450,
+      4209
+    ]
+  },
+  {
+    "k": 6,
+    "base": 70,
+    "safe": false,
+    "states_seen": 83,
+    "length": 2,
+    "witness": [
+      420,
+      1190,
+      1960,
+      2730,
+      3500,
+      4270
+    ]
+  }
+]

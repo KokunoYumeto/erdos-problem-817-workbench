@@ -1,0 +1,5 @@
+{
+  "scope": "Historical root publication descriptors are retained in history only, not staged into a live repository root.",
+  "excluded_from_flat_payload": ["PUBLICATION.json"],
+  "preserved_originals": ["history/EP817_PR3_general_k_contribution_20260914/PUBLICATION.json", "history/EP817_CUMULATIVE_PR2_PR3_20260914/PR3_general_k/PUBLICATION.json"]
+}

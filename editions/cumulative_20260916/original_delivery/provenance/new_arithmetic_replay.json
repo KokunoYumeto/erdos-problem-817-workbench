@@ -1,0 +1,24 @@
+{
+  "schema": "ep817-finite-period-replay-v1",
+  "status": "PASS",
+  "normal_and_optimized_byte_identical": true,
+  "byte_compilation_passed": true,
+  "hashes": {
+    "finite_period_receipt.json": "20248e052e395a9d11750bf6bb08941806ebabfc83ba4d855b5f0ef2e3d167b9",
+    "independent_audit.json": "3cdb3d27dd629912debfe26c5c35a58c1ca88bc3e138e122ae0dbeb06c7d12ed"
+  },
+  "runs": [
+    {
+      "script": "verify_finite_period.py",
+      "optimized_exit": 0,
+      "stdout_tail": "{\n  \"status\": \"PASS\",\n  \"receipt\": \"/mnt/data/EP817_FINITE_PERIOD_20260916/payloads/ep817/research/finite_period/certificates/finite_period_receipt.json\",\n  \"bytes\": 88071,\n  \"dictionary_word_counts_at_final_depth\": {\n    \"radix_ten\": 1048576,\n    \"unequal_rewards\": 19683,\n    \"mixed_rank\": 6561\n  },\n  \"cut_cases\": {\n    \"matrix_cases\": 120,\n    \"full_join_cases\": 600,\n    \"maximum_pair_to_value_ratio\": \"82/43\",\n    \"transcript_sha256\": \"9fa1c16ab90f6f8f2edbea54f1f46f02931af5d3d3dd48cf9cffea489826315e\"\n  },\n  \"pressure_checks\": 54\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "audit_finite_period.py",
+      "optimized_exit": 0,
+      "stdout_tail": "aximum_length\": 20\n    },\n    \"unequal_rewards\": {\n      \"final_word_coverage\": 19683,\n      \"independent_column_states\": 17642,\n      \"maximum_length\": 9\n    }\n  },\n  \"direct_generator_words\": 92,\n  \"lean_checked\": false,\n  \"mutations_rejected\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7\n  ],\n  \"original_test_sets\": [\n    [\n      0\n    ],\n    [\n      0,\n      1\n    ],\n    [\n      0,\n      2\n    ],\n    [\n      0,\n      1,\n      2\n    ],\n    [\n      0,\n      3\n    ],\n    [\n      0,\n      1,\n      2,\n      3\n    ],\n    [\n      0,\n      1,\n      3,\n      4\n    ]\n  ],\n  \"pressure_checks\": 54,\n  \"producer_imported\": false,\n  \"receipt_sha256\": \"20248e052e395a9d11750bf6bb08941806ebabfc83ba4d855b5f0ef2e3d167b9\",\n  \"schema\": \"ep817-finite-period-independent-v1\",\n  \"status\": \"PASS\"\n}\n\n",
+      "stderr": ""
+    }
+  ]
+}

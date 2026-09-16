@@ -1,4 +1,34 @@
-# Erdős Problem 817: the `k = 4` exponential rate
+# Erdős Problem 817 research workbench
+
+## Cumulative research collection — 16 September 2026
+
+[Read the corrected collection](editions/cumulative_20260916/latex/collected_notes.pdf) · [Twenty-nine-note index](editions/cumulative_20260916/NOTE_INDEX.md) · [LaTeX](editions/cumulative_20260916/latex/collected_notes.tex) · [Complete original delivery](https://github.com/KokunoYumeto/erdos-problem-817-workbench/releases/tag/cumulative-2026-09-16)
+
+The workbench now includes the cumulative research notes on general-k capacity, exact carry constructions, supported arithmetic relations, graphical and recurrence sources, image-count transfer, and switching optimization. The original k=4 proof and its attribution remain below; the subsequent research is a distinct contribution.
+
+The new [finite-period theorem](research/finite_period/notes/finite-period-control.md) gives a uniform, explicit approximation of the best infinite-schedule image rate for any specified finite canonical dictionary. For coefficient arity q≥2 and least positive generator reward n_min, the best length-m word rate U_m satisfies
+
+```
+0 ≤ log U_m − log δ_q(D) ≤ log(q−1)/(m n_min).
+```
+
+The proof uses the original numerical cut map (x,y)↦x+P_u y, whose fibres have at most q−1 elements. It retains the actual radices and generator sets. Repeating a minimizing word gives quantitative periodic approximation; exact attainment by one finite period is not assumed. Finite controllers have an explicit additional cost for a real closing path.
+
+For the earlier radix-ten dictionary A=(10,{1,3}), B=(10,{2,4}), the continuation determines every finite fifth-arity minimum. With a_0=1 and a_1=13,
+
+```
+a_(3r)   = 893^r                 (r ≥ 1),
+a_(3r+1) = 93² · 893^(r−1)       (r ≥ 1),
+a_(3r+2) = 93 · 893^r            (r ≥ 0).
+```
+
+Actual words built from BA and BAA attain these values. This refines the finite endpoint calculation; the infinite per-generator rate remains 893^(1/6), rather than a new unrestricted record. The [receiving-map companion](interfaces/zeta/workbenches/ep817-finite-period/notes/splitzero-receiving-map.md) gives the original kernels, exact concatenation defect, and the separate source-metric cost.
+
+Fresh ordinary and optimized producer and independent-auditor runs reproduce the supplied finite-period results. The publication preserves the existing seven-observation correction L>3Q and repairs formula-conversion errors in the reading edition. [Publication notes](editions/cumulative_20260916/PUBLICATION_NOTES.md) distinguish current proofs and checks from historical receipts and the unmodified source archive. The new finite-period arguments are ordinary proofs with exact finite computation; no new Lean certification is asserted.
+
+## The original k=4 result and its attribution
+
+
 
 ## September 16 research update
 

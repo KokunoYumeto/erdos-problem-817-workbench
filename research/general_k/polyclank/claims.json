@@ -1,0 +1,92 @@
+[
+  {
+    "id": "EP817.GK.COMPOSE",
+    "statement": "Exact associative composition, multiplicative R, AP tuple and representation-fiber bijections",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "2",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.RATE",
+    "statement": "Existence of lambda_k for every k >= 3 and infimum over generator-sum observables",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "3",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.CANONICAL-CARRY",
+    "statement": "All-length canonical carry decision and 3^(k-2) shortest witness bound",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "4.1",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.FULL-CARRY",
+    "statement": "All-length full carry decision preserving noncanonical digit fibers and actual differences",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "4.2",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.CAPACITY",
+    "statement": "Exact capacity over finite modular and canonical carry certificates",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "6.1",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.FULL-CAPACITY",
+    "statement": "Exact full-certificate capacity with power-alias exclusion",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "6.2",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.UPPER-5-6",
+    "statement": "Explicit all-n upper bounds using A={1,4,5,17,21,22}, bases 97 and 93",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "7",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.CORRELATED-CUBE",
+    "statement": "Five-term-free correlated cube and exact projection fibers",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "8",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.OVERLAPPING-RELATIONS",
+    "statement": "Arbitrarily large connected patterns of minimal signed relations at k >= 5",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "9",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  },
+  {
+    "id": "EP817.GK.POSITIVE-COLUMN-BOUND",
+    "statement": "Positive interval-column budget and an exact relation-preserving obstruction",
+    "proof_source": "notes/general-k-carry-capacity.md",
+    "section": "10",
+    "status": "proved in ordinary mathematics; independent review pending",
+    "lean_checked": false,
+    "finite_evidence": "certificates/general_k_receipt.json"
+  }
+]

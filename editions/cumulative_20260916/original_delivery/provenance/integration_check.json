@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "new_patch_checks": [
+    {
+      "repository": "ep817",
+      "files": 9,
+      "patch_sha256": "2390b7ae25512d19dc4f480185f07539ff662a94ca3588499b97ee284aec0338",
+      "apply_and_compare": "PASS"
+    },
+    {
+      "repository": "zeta",
+      "files": 10,
+      "patch_sha256": "cd1e88961656012ccac12abc9464011834e74ab7a2ec3f382013801ec9d6e858",
+      "apply_and_compare": "PASS"
+    }
+  ],
+  "applied_ep817_producer_auditor": "byte-identical",
+  "applied_zeta_auditor": "byte-identical",
+  "standalone_latex_compilations": [
+    {
+      "file": "latex/individual/01_ternary-variance-lower-bound.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/02_general-k-capacity.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/03_general-k-carry-capacity.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/04_outer-support-control.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/05_compact-global-dual.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/06_supported-reset-generalization.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/07_variable-block-control.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/08_graphical-obstructions.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/09_monotone-obstruction-dual.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/10_splitzero-return.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/11_graphic-visibility-filtration.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/12_supported-defect-universality.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/13_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/14_recurrence-control.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/15_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/16_closure-and-core-isolation.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/17_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/18_canonical-isolation.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/19_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/20_arity-and-boundary.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/21_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/22_all-block-image-capacity.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/23_general-pattern-return.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/24_seven-observable-capacity.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/25_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/26_local-flow-and-switching.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/27_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/28_finite-period-control.tex",
+      "exit": 0,
+      "error_tail": ""
+    },
+    {
+      "file": "latex/individual/29_splitzero-receiving-map.tex",
+      "exit": 0,
+      "error_tail": ""
+    }
+  ],
+  "new_lean_checked": false,
+  "inherited_arithmetic_rerun": false
+}

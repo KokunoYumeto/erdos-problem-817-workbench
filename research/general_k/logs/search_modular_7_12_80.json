@@ -1,0 +1,5842 @@
+[
+  {
+    "k": 7,
+    "base": 3,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 2
+  },
+  {
+    "k": 7,
+    "base": 4,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 4
+  },
+  {
+    "k": 7,
+    "base": 5,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 7,
+    "candidate_checks": 6
+  },
+  {
+    "k": 7,
+    "base": 6,
+    "generators": [
+      1
+    ],
+    "nodes": 5,
+    "candidate_checks": 9
+  },
+  {
+    "k": 7,
+    "base": 7,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 11,
+    "candidate_checks": 11
+  },
+  {
+    "k": 7,
+    "base": 8,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 9,
+    "candidate_checks": 14
+  },
+  {
+    "k": 7,
+    "base": 9,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 15,
+    "candidate_checks": 18
+  },
+  {
+    "k": 7,
+    "base": 10,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 13,
+    "candidate_checks": 23
+  },
+  {
+    "k": 7,
+    "base": 11,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 20,
+    "candidate_checks": 30
+  },
+  {
+    "k": 7,
+    "base": 12,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 18,
+    "candidate_checks": 37
+  },
+  {
+    "k": 7,
+    "base": 13,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 25,
+    "candidate_checks": 29
+  },
+  {
+    "k": 7,
+    "base": 14,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 23,
+    "candidate_checks": 56
+  },
+  {
+    "k": 7,
+    "base": 15,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 34,
+    "candidate_checks": 42
+  },
+  {
+    "k": 7,
+    "base": 16,
+    "generators": [
+      1,
+      4,
+      6
+    ],
+    "nodes": 29,
+    "candidate_checks": 56
+  },
+  {
+    "k": 7,
+    "base": 17,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 43,
+    "candidate_checks": 62
+  },
+  {
+    "k": 7,
+    "base": 18,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 35,
+    "candidate_checks": 64
+  },
+  {
+    "k": 7,
+    "base": 19,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 56,
+    "candidate_checks": 97
+  },
+  {
+    "k": 7,
+    "base": 20,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 46,
+    "candidate_checks": 101
+  },
+  {
+    "k": 7,
+    "base": 21,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 69,
+    "candidate_checks": 146
+  },
+  {
+    "k": 7,
+    "base": 22,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 57,
+    "candidate_checks": 149
+  },
+  {
+    "k": 7,
+    "base": 23,
+    "generators": [
+      1,
+      2,
+      8,
+      10
+    ],
+    "nodes": 60,
+    "candidate_checks": 92
+  },
+  {
+    "k": 7,
+    "base": 24,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 74,
+    "candidate_checks": 227
+  },
+  {
+    "k": 7,
+    "base": 25,
+    "generators": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "nodes": 74,
+    "candidate_checks": 101
+  },
+  {
+    "k": 7,
+    "base": 26,
+    "generators": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "nodes": 71,
+    "candidate_checks": 192
+  },
+  {
+    "k": 7,
+    "base": 27,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 94,
+    "candidate_checks": 141
+  },
+  {
+    "k": 7,
+    "base": 28,
+    "generators": [
+      1,
+      2,
+      5
+    ],
+    "nodes": 113,
+    "candidate_checks": 463
+  },
+  {
+    "k": 7,
+    "base": 29,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 116,
+    "candidate_checks": 209
+  },
+  {
+    "k": 7,
+    "base": 30,
+    "generators": [
+      1,
+      4,
+      5,
+      8
+    ],
+    "nodes": 99,
+    "candidate_checks": 319
+  },
+  {
+    "k": 7,
+    "base": 31,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 142,
+    "candidate_checks": 306
+  },
+  {
+    "k": 7,
+    "base": 32,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 110,
+    "candidate_checks": 248
+  },
+  {
+    "k": 7,
+    "base": 33,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 177,
+    "candidate_checks": 449
+  },
+  {
+    "k": 7,
+    "base": 34,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 136,
+    "candidate_checks": 376
+  },
+  {
+    "k": 7,
+    "base": 35,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 121,
+    "candidate_checks": 190
+  },
+  {
+    "k": 7,
+    "base": 36,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 167,
+    "candidate_checks": 540
+  },
+  {
+    "k": 7,
+    "base": 37,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 141,
+    "candidate_checks": 239
+  },
+  {
+    "k": 7,
+    "base": 38,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 206,
+    "candidate_checks": 766
+  },
+  {
+    "k": 7,
+    "base": 39,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 167,
+    "candidate_checks": 311
+  },
+  {
+    "k": 7,
+    "base": 40,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 257,
+    "candidate_checks": 1110
+  },
+  {
+    "k": 7,
+    "base": 41,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9
+    ],
+    "nodes": 194,
+    "candidate_checks": 448
+  },
+  {
+    "k": 7,
+    "base": 42,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 302,
+    "candidate_checks": 1490
+  },
+  {
+    "k": 7,
+    "base": 43,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9
+    ],
+    "nodes": 232,
+    "candidate_checks": 589
+  },
+  {
+    "k": 7,
+    "base": 44,
+    "generators": [
+      1,
+      2,
+      5,
+      7
+    ],
+    "nodes": 383,
+    "candidate_checks": 2106
+  },
+  {
+    "k": 7,
+    "base": 45,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 267,
+    "candidate_checks": 615
+  },
+  {
+    "k": 7,
+    "base": 46,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "nodes": 241,
+    "candidate_checks": 755
+  },
+  {
+    "k": 7,
+    "base": 47,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 321,
+    "candidate_checks": 820
+  },
+  {
+    "k": 7,
+    "base": 48,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      11
+    ],
+    "nodes": 298,
+    "candidate_checks": 1384
+  },
+  {
+    "k": 7,
+    "base": 49,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 208,
+    "candidate_checks": 322
+  },
+  {
+    "k": 7,
+    "base": 50,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 328,
+    "candidate_checks": 1041
+  },
+  {
+    "k": 7,
+    "base": 51,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      22
+    ],
+    "nodes": 462,
+    "candidate_checks": 1470
+  },
+  {
+    "k": 7,
+    "base": 52,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 386,
+    "candidate_checks": 1367
+  },
+  {
+    "k": 7,
+    "base": 53,
+    "generators": [
+      2,
+      3,
+      5,
+      7,
+      9,
+      14
+    ],
+    "nodes": 396,
+    "candidate_checks": 1235
+  },
+  {
+    "k": 7,
+    "base": 54,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 444,
+    "candidate_checks": 1706
+  },
+  {
+    "k": 7,
+    "base": 55,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      10,
+      14
+    ],
+    "nodes": 318,
+    "candidate_checks": 729
+  },
+  {
+    "k": 7,
+    "base": 56,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 536,
+    "candidate_checks": 2259
+  },
+  {
+    "k": 7,
+    "base": 57,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      11,
+      14
+    ],
+    "nodes": 361,
+    "candidate_checks": 938
+  },
+  {
+    "k": 7,
+    "base": 58,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 639,
+    "candidate_checks": 2879
+  },
+  {
+    "k": 7,
+    "base": 59,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      17
+    ],
+    "nodes": 392,
+    "candidate_checks": 1019
+  },
+  {
+    "k": 7,
+    "base": 60,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 750,
+    "candidate_checks": 3448
+  },
+  {
+    "k": 7,
+    "base": 61,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      17
+    ],
+    "nodes": 443,
+    "candidate_checks": 1243
+  },
+  {
+    "k": 7,
+    "base": 62,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 895,
+    "candidate_checks": 4435
+  },
+  {
+    "k": 7,
+    "base": 63,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 479,
+    "candidate_checks": 1211
+  },
+  {
+    "k": 7,
+    "base": 64,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 1024,
+    "candidate_checks": 5488
+  },
+  {
+    "k": 7,
+    "base": 65,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 552,
+    "candidate_checks": 1479
+  },
+  {
+    "k": 7,
+    "base": 66,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 1185,
+    "candidate_checks": 6807
+  },
+  {
+    "k": 7,
+    "base": 67,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 624,
+    "candidate_checks": 1803
+  },
+  {
+    "k": 7,
+    "base": 68,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 1423,
+    "candidate_checks": 8748
+  },
+  {
+    "k": 7,
+    "base": 69,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      19
+    ],
+    "nodes": 769,
+    "candidate_checks": 2798
+  },
+  {
+    "k": 7,
+    "base": 70,
+    "generators": [
+      3,
+      6,
+      7,
+      10,
+      13,
+      17
+    ],
+    "nodes": 1345,
+    "candidate_checks": 9258
+  },
+  {
+    "k": 7,
+    "base": 71,
+    "generators": [
+      1,
+      2,
+      9,
+      10,
+      11,
+      19
+    ],
+    "nodes": 916,
+    "candidate_checks": 3661
+  },
+  {
+    "k": 7,
+    "base": 72,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 1943,
+    "candidate_checks": 13874
+  },
+  {
+    "k": 7,
+    "base": 73,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 981,
+    "candidate_checks": 3366
+  },
+  {
+    "k": 7,
+    "base": 74,
+    "generators": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1083,
+    "candidate_checks": 6063
+  },
+  {
+    "k": 7,
+    "base": 75,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1123,
+    "candidate_checks": 4099
+  },
+  {
+    "k": 7,
+    "base": 76,
+    "generators": [
+      1,
+      2,
+      10,
+      11,
+      12,
+      21
+    ],
+    "nodes": 1065,
+    "candidate_checks": 4833
+  },
+  {
+    "k": 7,
+    "base": 77,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1315,
+    "candidate_checks": 5059
+  },
+  {
+    "k": 7,
+    "base": 78,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1175,
+    "candidate_checks": 4695
+  },
+  {
+    "k": 7,
+    "base": 79,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1507,
+    "candidate_checks": 6152
+  },
+  {
+    "k": 7,
+    "base": 80,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1364,
+    "candidate_checks": 5737
+  },
+  {
+    "k": 8,
+    "base": 3,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 2
+  },
+  {
+    "k": 8,
+    "base": 4,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 4
+  },
+  {
+    "k": 8,
+    "base": 5,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 7,
+    "candidate_checks": 6
+  },
+  {
+    "k": 8,
+    "base": 6,
+    "generators": [
+      1
+    ],
+    "nodes": 5,
+    "candidate_checks": 9
+  },
+  {
+    "k": 8,
+    "base": 7,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 11,
+    "candidate_checks": 11
+  },
+  {
+    "k": 8,
+    "base": 8,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 9,
+    "candidate_checks": 14
+  },
+  {
+    "k": 8,
+    "base": 9,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 15,
+    "candidate_checks": 18
+  },
+  {
+    "k": 8,
+    "base": 10,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 13,
+    "candidate_checks": 23
+  },
+  {
+    "k": 8,
+    "base": 11,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 20,
+    "candidate_checks": 24
+  },
+  {
+    "k": 8,
+    "base": 12,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 18,
+    "candidate_checks": 37
+  },
+  {
+    "k": 8,
+    "base": 13,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 26,
+    "candidate_checks": 32
+  },
+  {
+    "k": 8,
+    "base": 14,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 22,
+    "candidate_checks": 37
+  },
+  {
+    "k": 8,
+    "base": 15,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 35,
+    "candidate_checks": 47
+  },
+  {
+    "k": 8,
+    "base": 16,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 28,
+    "candidate_checks": 50
+  },
+  {
+    "k": 8,
+    "base": 17,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 44,
+    "candidate_checks": 69
+  },
+  {
+    "k": 8,
+    "base": 18,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 36,
+    "candidate_checks": 72
+  },
+  {
+    "k": 8,
+    "base": 19,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 57,
+    "candidate_checks": 106
+  },
+  {
+    "k": 8,
+    "base": 20,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 47,
+    "candidate_checks": 111
+  },
+  {
+    "k": 8,
+    "base": 21,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 71,
+    "candidate_checks": 159
+  },
+  {
+    "k": 8,
+    "base": 22,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 59,
+    "candidate_checks": 164
+  },
+  {
+    "k": 8,
+    "base": 23,
+    "generators": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "nodes": 61,
+    "candidate_checks": 97
+  },
+  {
+    "k": 8,
+    "base": 24,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 75,
+    "candidate_checks": 241
+  },
+  {
+    "k": 8,
+    "base": 25,
+    "generators": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "nodes": 77,
+    "candidate_checks": 122
+  },
+  {
+    "k": 8,
+    "base": 26,
+    "generators": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "nodes": 72,
+    "candidate_checks": 208
+  },
+  {
+    "k": 8,
+    "base": 27,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 93,
+    "candidate_checks": 158
+  },
+  {
+    "k": 8,
+    "base": 28,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 115,
+    "candidate_checks": 490
+  },
+  {
+    "k": 8,
+    "base": 29,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 121,
+    "candidate_checks": 238
+  },
+  {
+    "k": 8,
+    "base": 30,
+    "generators": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "nodes": 98,
+    "candidate_checks": 226
+  },
+  {
+    "k": 8,
+    "base": 31,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 154,
+    "candidate_checks": 359
+  },
+  {
+    "k": 8,
+    "base": 32,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 115,
+    "candidate_checks": 277
+  },
+  {
+    "k": 8,
+    "base": 33,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 193,
+    "candidate_checks": 538
+  },
+  {
+    "k": 8,
+    "base": 34,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 147,
+    "candidate_checks": 440
+  },
+  {
+    "k": 8,
+    "base": 35,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 127,
+    "candidate_checks": 245
+  },
+  {
+    "k": 8,
+    "base": 36,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 178,
+    "candidate_checks": 615
+  },
+  {
+    "k": 8,
+    "base": 37,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 149,
+    "candidate_checks": 311
+  },
+  {
+    "k": 8,
+    "base": 38,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 228,
+    "candidate_checks": 930
+  },
+  {
+    "k": 8,
+    "base": 39,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 177,
+    "candidate_checks": 402
+  },
+  {
+    "k": 8,
+    "base": 40,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 281,
+    "candidate_checks": 1316
+  },
+  {
+    "k": 8,
+    "base": 41,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9
+    ],
+    "nodes": 213,
+    "candidate_checks": 582
+  },
+  {
+    "k": 8,
+    "base": 42,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 344,
+    "candidate_checks": 1863
+  },
+  {
+    "k": 8,
+    "base": 43,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9
+    ],
+    "nodes": 259,
+    "candidate_checks": 765
+  },
+  {
+    "k": 8,
+    "base": 44,
+    "generators": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "nodes": 421,
+    "candidate_checks": 2498
+  },
+  {
+    "k": 8,
+    "base": 45,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 304,
+    "candidate_checks": 831
+  },
+  {
+    "k": 8,
+    "base": 46,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "nodes": 274,
+    "candidate_checks": 990
+  },
+  {
+    "k": 8,
+    "base": 47,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 379,
+    "candidate_checks": 1145
+  },
+  {
+    "k": 8,
+    "base": 48,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      11
+    ],
+    "nodes": 320,
+    "candidate_checks": 1257
+  },
+  {
+    "k": 8,
+    "base": 49,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 223,
+    "candidate_checks": 527
+  },
+  {
+    "k": 8,
+    "base": 50,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 377,
+    "candidate_checks": 1372
+  },
+  {
+    "k": 8,
+    "base": 51,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      18
+    ],
+    "nodes": 554,
+    "candidate_checks": 2036
+  },
+  {
+    "k": 8,
+    "base": 52,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 440,
+    "candidate_checks": 1775
+  },
+  {
+    "k": 8,
+    "base": 53,
+    "generators": [
+      2,
+      3,
+      5,
+      7,
+      9,
+      14
+    ],
+    "nodes": 470,
+    "candidate_checks": 1652
+  },
+  {
+    "k": 8,
+    "base": 54,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 513,
+    "candidate_checks": 2217
+  },
+  {
+    "k": 8,
+    "base": 55,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      10,
+      14
+    ],
+    "nodes": 355,
+    "candidate_checks": 919
+  },
+  {
+    "k": 8,
+    "base": 56,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 631,
+    "candidate_checks": 3027
+  },
+  {
+    "k": 8,
+    "base": 57,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      11,
+      14
+    ],
+    "nodes": 417,
+    "candidate_checks": 1183
+  },
+  {
+    "k": 8,
+    "base": 58,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 742,
+    "candidate_checks": 3752
+  },
+  {
+    "k": 8,
+    "base": 59,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      17
+    ],
+    "nodes": 452,
+    "candidate_checks": 1278
+  },
+  {
+    "k": 8,
+    "base": 60,
+    "generators": [
+      1,
+      2,
+      5,
+      7,
+      14
+    ],
+    "nodes": 860,
+    "candidate_checks": 4478
+  },
+  {
+    "k": 8,
+    "base": 61,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      17
+    ],
+    "nodes": 519,
+    "candidate_checks": 1592
+  },
+  {
+    "k": 8,
+    "base": 62,
+    "generators": [
+      1,
+      2,
+      3,
+      14,
+      24
+    ],
+    "nodes": 1044,
+    "candidate_checks": 5708
+  },
+  {
+    "k": 8,
+    "base": 63,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 566,
+    "candidate_checks": 1587
+  },
+  {
+    "k": 8,
+    "base": 64,
+    "generators": [
+      1,
+      2,
+      3,
+      14,
+      25
+    ],
+    "nodes": 1208,
+    "candidate_checks": 7131
+  },
+  {
+    "k": 8,
+    "base": 65,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 665,
+    "candidate_checks": 1983
+  },
+  {
+    "k": 8,
+    "base": 66,
+    "generators": [
+      1,
+      2,
+      3,
+      14,
+      26
+    ],
+    "nodes": 1411,
+    "candidate_checks": 9031
+  },
+  {
+    "k": 8,
+    "base": 67,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 764,
+    "candidate_checks": 2465
+  },
+  {
+    "k": 8,
+    "base": 68,
+    "generators": [
+      1,
+      2,
+      3,
+      14,
+      27
+    ],
+    "nodes": 1684,
+    "candidate_checks": 11502
+  },
+  {
+    "k": 8,
+    "base": 69,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      19
+    ],
+    "nodes": 953,
+    "candidate_checks": 3815
+  },
+  {
+    "k": 8,
+    "base": 70,
+    "generators": [
+      3,
+      6,
+      7,
+      10,
+      13,
+      17
+    ],
+    "nodes": 1677,
+    "candidate_checks": 12993
+  },
+  {
+    "k": 8,
+    "base": 71,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      16,
+      17
+    ],
+    "nodes": 1141,
+    "candidate_checks": 4932
+  },
+  {
+    "k": 8,
+    "base": 72,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      19
+    ],
+    "nodes": 2287,
+    "candidate_checks": 18024
+  },
+  {
+    "k": 8,
+    "base": 73,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1256,
+    "candidate_checks": 4947
+  },
+  {
+    "k": 8,
+    "base": 74,
+    "generators": [
+      1,
+      2,
+      10,
+      11,
+      12,
+      20
+    ],
+    "nodes": 1138,
+    "candidate_checks": 5461
+  },
+  {
+    "k": 8,
+    "base": 75,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1448,
+    "candidate_checks": 6078
+  },
+  {
+    "k": 8,
+    "base": 76,
+    "generators": [
+      1,
+      2,
+      10,
+      11,
+      12,
+      21
+    ],
+    "nodes": 1315,
+    "candidate_checks": 6598
+  },
+  {
+    "k": 8,
+    "base": 77,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1767,
+    "candidate_checks": 7855
+  },
+  {
+    "k": 8,
+    "base": 78,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1496,
+    "candidate_checks": 6694
+  },
+  {
+    "k": 8,
+    "base": 79,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 2045,
+    "candidate_checks": 9585
+  },
+  {
+    "k": 8,
+    "base": 80,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1737,
+    "candidate_checks": 8185
+  },
+  {
+    "k": 9,
+    "base": 3,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 2
+  },
+  {
+    "k": 9,
+    "base": 4,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 4
+  },
+  {
+    "k": 9,
+    "base": 5,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 7,
+    "candidate_checks": 6
+  },
+  {
+    "k": 9,
+    "base": 6,
+    "generators": [
+      1
+    ],
+    "nodes": 5,
+    "candidate_checks": 9
+  },
+  {
+    "k": 9,
+    "base": 7,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 11,
+    "candidate_checks": 11
+  },
+  {
+    "k": 9,
+    "base": 8,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 9,
+    "candidate_checks": 14
+  },
+  {
+    "k": 9,
+    "base": 9,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 15,
+    "candidate_checks": 18
+  },
+  {
+    "k": 9,
+    "base": 10,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 13,
+    "candidate_checks": 23
+  },
+  {
+    "k": 9,
+    "base": 11,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 24,
+    "candidate_checks": 24
+  },
+  {
+    "k": 9,
+    "base": 12,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 18,
+    "candidate_checks": 37
+  },
+  {
+    "k": 9,
+    "base": 13,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 32
+  },
+  {
+    "k": 9,
+    "base": 14,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 22,
+    "candidate_checks": 37
+  },
+  {
+    "k": 9,
+    "base": 15,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 39,
+    "candidate_checks": 48
+  },
+  {
+    "k": 9,
+    "base": 16,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 52
+  },
+  {
+    "k": 9,
+    "base": 17,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 45,
+    "candidate_checks": 61
+  },
+  {
+    "k": 9,
+    "base": 18,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 38,
+    "candidate_checks": 76
+  },
+  {
+    "k": 9,
+    "base": 19,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 53,
+    "candidate_checks": 79
+  },
+  {
+    "k": 9,
+    "base": 20,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 49,
+    "candidate_checks": 117
+  },
+  {
+    "k": 9,
+    "base": 21,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 61,
+    "candidate_checks": 104
+  },
+  {
+    "k": 9,
+    "base": 22,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 61,
+    "candidate_checks": 172
+  },
+  {
+    "k": 9,
+    "base": 23,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 68,
+    "candidate_checks": 89
+  },
+  {
+    "k": 9,
+    "base": 24,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 77,
+    "candidate_checks": 251
+  },
+  {
+    "k": 9,
+    "base": 25,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 86,
+    "candidate_checks": 124
+  },
+  {
+    "k": 9,
+    "base": 26,
+    "generators": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "nodes": 74,
+    "candidate_checks": 220
+  },
+  {
+    "k": 9,
+    "base": 27,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 107,
+    "candidate_checks": 180
+  },
+  {
+    "k": 9,
+    "base": 28,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 84,
+    "candidate_checks": 228
+  },
+  {
+    "k": 9,
+    "base": 29,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 107,
+    "candidate_checks": 170
+  },
+  {
+    "k": 9,
+    "base": 30,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 103,
+    "candidate_checks": 237
+  },
+  {
+    "k": 9,
+    "base": 31,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 121,
+    "candidate_checks": 222
+  },
+  {
+    "k": 9,
+    "base": 32,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 122,
+    "candidate_checks": 310
+  },
+  {
+    "k": 9,
+    "base": 33,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 142,
+    "candidate_checks": 296
+  },
+  {
+    "k": 9,
+    "base": 34,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 157,
+    "candidate_checks": 499
+  },
+  {
+    "k": 9,
+    "base": 35,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 148,
+    "candidate_checks": 313
+  },
+  {
+    "k": 9,
+    "base": 36,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 196,
+    "candidate_checks": 726
+  },
+  {
+    "k": 9,
+    "base": 37,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 172,
+    "candidate_checks": 341
+  },
+  {
+    "k": 9,
+    "base": 38,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 245,
+    "candidate_checks": 1063
+  },
+  {
+    "k": 9,
+    "base": 39,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 202,
+    "candidate_checks": 450
+  },
+  {
+    "k": 9,
+    "base": 40,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 308,
+    "candidate_checks": 1520
+  },
+  {
+    "k": 9,
+    "base": 41,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 237,
+    "candidate_checks": 468
+  },
+  {
+    "k": 9,
+    "base": 42,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 371,
+    "candidate_checks": 2127
+  },
+  {
+    "k": 9,
+    "base": 43,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 293,
+    "candidate_checks": 657
+  },
+  {
+    "k": 9,
+    "base": 44,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      9
+    ],
+    "nodes": 264,
+    "candidate_checks": 1333
+  },
+  {
+    "k": 9,
+    "base": 45,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 363,
+    "candidate_checks": 930
+  },
+  {
+    "k": 9,
+    "base": 46,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "nodes": 303,
+    "candidate_checks": 1257
+  },
+  {
+    "k": 9,
+    "base": 47,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 475,
+    "candidate_checks": 1379
+  },
+  {
+    "k": 9,
+    "base": 48,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 341,
+    "candidate_checks": 982
+  },
+  {
+    "k": 9,
+    "base": 49,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 247,
+    "candidate_checks": 479
+  },
+  {
+    "k": 9,
+    "base": 50,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 411,
+    "candidate_checks": 1281
+  },
+  {
+    "k": 9,
+    "base": 51,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 725,
+    "candidate_checks": 2719
+  },
+  {
+    "k": 9,
+    "base": 52,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 485,
+    "candidate_checks": 1748
+  },
+  {
+    "k": 9,
+    "base": 53,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 325,
+    "candidate_checks": 728
+  },
+  {
+    "k": 9,
+    "base": 54,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 574,
+    "candidate_checks": 2270
+  },
+  {
+    "k": 9,
+    "base": 55,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      15
+    ],
+    "nodes": 381,
+    "candidate_checks": 910
+  },
+  {
+    "k": 9,
+    "base": 56,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 703,
+    "candidate_checks": 3250
+  },
+  {
+    "k": 9,
+    "base": 57,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10
+    ],
+    "nodes": 479,
+    "candidate_checks": 1377
+  },
+  {
+    "k": 9,
+    "base": 58,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 846,
+    "candidate_checks": 4227
+  },
+  {
+    "k": 9,
+    "base": 59,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 545,
+    "candidate_checks": 1514
+  },
+  {
+    "k": 9,
+    "base": 60,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1000,
+    "candidate_checks": 5536
+  },
+  {
+    "k": 9,
+    "base": 61,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11,
+      22
+    ],
+    "nodes": 608,
+    "candidate_checks": 1679
+  },
+  {
+    "k": 9,
+    "base": 62,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1219,
+    "candidate_checks": 7456
+  },
+  {
+    "k": 9,
+    "base": 63,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 770,
+    "candidate_checks": 2534
+  },
+  {
+    "k": 9,
+    "base": 64,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1462,
+    "candidate_checks": 9861
+  },
+  {
+    "k": 9,
+    "base": 65,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 947,
+    "candidate_checks": 3333
+  },
+  {
+    "k": 9,
+    "base": 66,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1687,
+    "candidate_checks": 12184
+  },
+  {
+    "k": 9,
+    "base": 67,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1123,
+    "candidate_checks": 4285
+  },
+  {
+    "k": 9,
+    "base": 68,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nodes": 892,
+    "candidate_checks": 3866
+  },
+  {
+    "k": 9,
+    "base": 69,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1325,
+    "candidate_checks": 5440
+  },
+  {
+    "k": 9,
+    "base": 70,
+    "generators": [
+      1,
+      7,
+      8,
+      9,
+      15,
+      16
+    ],
+    "nodes": 1422,
+    "candidate_checks": 10474
+  },
+  {
+    "k": 9,
+    "base": 71,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      21
+    ],
+    "nodes": 1516,
+    "candidate_checks": 5701
+  },
+  {
+    "k": 9,
+    "base": 72,
+    "generators": [
+      1,
+      5,
+      6,
+      10,
+      11,
+      12
+    ],
+    "nodes": 1509,
+    "candidate_checks": 11204
+  },
+  {
+    "k": 9,
+    "base": 73,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      21
+    ],
+    "nodes": 1816,
+    "candidate_checks": 7325
+  },
+  {
+    "k": 9,
+    "base": 74,
+    "generators": [
+      1,
+      2,
+      9,
+      10,
+      11,
+      12
+    ],
+    "nodes": 1472,
+    "candidate_checks": 8139
+  },
+  {
+    "k": 9,
+    "base": 75,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      21
+    ],
+    "nodes": 2118,
+    "candidate_checks": 9195
+  },
+  {
+    "k": 9,
+    "base": 76,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10
+    ],
+    "nodes": 1720,
+    "candidate_checks": 9178
+  },
+  {
+    "k": 9,
+    "base": 77,
+    "generators": [
+      1,
+      6,
+      7,
+      8,
+      14,
+      15,
+      16
+    ],
+    "nodes": 1393,
+    "candidate_checks": 5994
+  },
+  {
+    "k": 9,
+    "base": 78,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 1983,
+    "candidate_checks": 10408
+  },
+  {
+    "k": 9,
+    "base": 79,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      22
+    ],
+    "nodes": 3157,
+    "candidate_checks": 15184
+  },
+  {
+    "k": 9,
+    "base": 80,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 2375,
+    "candidate_checks": 13111
+  },
+  {
+    "k": 10,
+    "base": 3,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 2
+  },
+  {
+    "k": 10,
+    "base": 4,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 4
+  },
+  {
+    "k": 10,
+    "base": 5,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 7,
+    "candidate_checks": 6
+  },
+  {
+    "k": 10,
+    "base": 6,
+    "generators": [
+      1
+    ],
+    "nodes": 5,
+    "candidate_checks": 9
+  },
+  {
+    "k": 10,
+    "base": 7,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 11,
+    "candidate_checks": 11
+  },
+  {
+    "k": 10,
+    "base": 8,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 9,
+    "candidate_checks": 14
+  },
+  {
+    "k": 10,
+    "base": 9,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 15,
+    "candidate_checks": 18
+  },
+  {
+    "k": 10,
+    "base": 10,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 13,
+    "candidate_checks": 23
+  },
+  {
+    "k": 10,
+    "base": 11,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 24,
+    "candidate_checks": 24
+  },
+  {
+    "k": 10,
+    "base": 12,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 18,
+    "candidate_checks": 37
+  },
+  {
+    "k": 10,
+    "base": 13,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 32
+  },
+  {
+    "k": 10,
+    "base": 14,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 22,
+    "candidate_checks": 37
+  },
+  {
+    "k": 10,
+    "base": 15,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 39,
+    "candidate_checks": 48
+  },
+  {
+    "k": 10,
+    "base": 16,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 52
+  },
+  {
+    "k": 10,
+    "base": 17,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 45,
+    "candidate_checks": 61
+  },
+  {
+    "k": 10,
+    "base": 18,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 38,
+    "candidate_checks": 76
+  },
+  {
+    "k": 10,
+    "base": 19,
+    "generators": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "nodes": 49,
+    "candidate_checks": 66
+  },
+  {
+    "k": 10,
+    "base": 20,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 49,
+    "candidate_checks": 117
+  },
+  {
+    "k": 10,
+    "base": 21,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 61,
+    "candidate_checks": 104
+  },
+  {
+    "k": 10,
+    "base": 22,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 61,
+    "candidate_checks": 172
+  },
+  {
+    "k": 10,
+    "base": 23,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 69,
+    "candidate_checks": 90
+  },
+  {
+    "k": 10,
+    "base": 24,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 77,
+    "candidate_checks": 251
+  },
+  {
+    "k": 10,
+    "base": 25,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 87,
+    "candidate_checks": 126
+  },
+  {
+    "k": 10,
+    "base": 26,
+    "generators": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "nodes": 74,
+    "candidate_checks": 220
+  },
+  {
+    "k": 10,
+    "base": 27,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 108,
+    "candidate_checks": 184
+  },
+  {
+    "k": 10,
+    "base": 28,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 84,
+    "candidate_checks": 228
+  },
+  {
+    "k": 10,
+    "base": 29,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 108,
+    "candidate_checks": 170
+  },
+  {
+    "k": 10,
+    "base": 30,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 104,
+    "candidate_checks": 244
+  },
+  {
+    "k": 10,
+    "base": 31,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 122,
+    "candidate_checks": 222
+  },
+  {
+    "k": 10,
+    "base": 32,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 123,
+    "candidate_checks": 319
+  },
+  {
+    "k": 10,
+    "base": 33,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 144,
+    "candidate_checks": 297
+  },
+  {
+    "k": 10,
+    "base": 34,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 159,
+    "candidate_checks": 517
+  },
+  {
+    "k": 10,
+    "base": 35,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8
+    ],
+    "nodes": 149,
+    "candidate_checks": 314
+  },
+  {
+    "k": 10,
+    "base": 36,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 197,
+    "candidate_checks": 739
+  },
+  {
+    "k": 10,
+    "base": 37,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 174,
+    "candidate_checks": 344
+  },
+  {
+    "k": 10,
+    "base": 38,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 247,
+    "candidate_checks": 1089
+  },
+  {
+    "k": 10,
+    "base": 39,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 205,
+    "candidate_checks": 454
+  },
+  {
+    "k": 10,
+    "base": 40,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 310,
+    "candidate_checks": 1550
+  },
+  {
+    "k": 10,
+    "base": 41,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 240,
+    "candidate_checks": 475
+  },
+  {
+    "k": 10,
+    "base": 42,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 373,
+    "candidate_checks": 2161
+  },
+  {
+    "k": 10,
+    "base": 43,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 302,
+    "candidate_checks": 675
+  },
+  {
+    "k": 10,
+    "base": 44,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      9
+    ],
+    "nodes": 266,
+    "candidate_checks": 1358
+  },
+  {
+    "k": 10,
+    "base": 45,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 373,
+    "candidate_checks": 961
+  },
+  {
+    "k": 10,
+    "base": 46,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "nodes": 305,
+    "candidate_checks": 1269
+  },
+  {
+    "k": 10,
+    "base": 47,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 491,
+    "candidate_checks": 1441
+  },
+  {
+    "k": 10,
+    "base": 48,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 343,
+    "candidate_checks": 996
+  },
+  {
+    "k": 10,
+    "base": 49,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 253,
+    "candidate_checks": 496
+  },
+  {
+    "k": 10,
+    "base": 50,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 414,
+    "candidate_checks": 1304
+  },
+  {
+    "k": 10,
+    "base": 51,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 759,
+    "candidate_checks": 2887
+  },
+  {
+    "k": 10,
+    "base": 52,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 488,
+    "candidate_checks": 1778
+  },
+  {
+    "k": 10,
+    "base": 53,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 302,
+    "candidate_checks": 571
+  },
+  {
+    "k": 10,
+    "base": 54,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 585,
+    "candidate_checks": 2355
+  },
+  {
+    "k": 10,
+    "base": 55,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 355,
+    "candidate_checks": 723
+  },
+  {
+    "k": 10,
+    "base": 56,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 709,
+    "candidate_checks": 3324
+  },
+  {
+    "k": 10,
+    "base": 57,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 425,
+    "candidate_checks": 921
+  },
+  {
+    "k": 10,
+    "base": 58,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 869,
+    "candidate_checks": 4464
+  },
+  {
+    "k": 10,
+    "base": 59,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 521,
+    "candidate_checks": 1234
+  },
+  {
+    "k": 10,
+    "base": 60,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1029,
+    "candidate_checks": 5860
+  },
+  {
+    "k": 10,
+    "base": 61,
+    "generators": [
+      1,
+      2,
+      3,
+      11,
+      12,
+      13
+    ],
+    "nodes": 628,
+    "candidate_checks": 1661
+  },
+  {
+    "k": 10,
+    "base": 62,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1264,
+    "candidate_checks": 7956
+  },
+  {
+    "k": 10,
+    "base": 63,
+    "generators": [
+      1,
+      2,
+      3,
+      11,
+      12,
+      13
+    ],
+    "nodes": 745,
+    "candidate_checks": 2165
+  },
+  {
+    "k": 10,
+    "base": 64,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1512,
+    "candidate_checks": 10469
+  },
+  {
+    "k": 10,
+    "base": 65,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      19
+    ],
+    "nodes": 940,
+    "candidate_checks": 2801
+  },
+  {
+    "k": 10,
+    "base": 66,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1769,
+    "candidate_checks": 13253
+  },
+  {
+    "k": 10,
+    "base": 67,
+    "generators": [
+      1,
+      2,
+      3,
+      12,
+      13,
+      14
+    ],
+    "nodes": 1133,
+    "candidate_checks": 3931
+  },
+  {
+    "k": 10,
+    "base": 68,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nodes": 930,
+    "candidate_checks": 4236
+  },
+  {
+    "k": 10,
+    "base": 69,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      19
+    ],
+    "nodes": 1330,
+    "candidate_checks": 4673
+  },
+  {
+    "k": 10,
+    "base": 70,
+    "generators": [
+      1,
+      7,
+      8,
+      9,
+      15,
+      16
+    ],
+    "nodes": 1502,
+    "candidate_checks": 11540
+  },
+  {
+    "k": 10,
+    "base": 71,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      21
+    ],
+    "nodes": 1698,
+    "candidate_checks": 6526
+  },
+  {
+    "k": 10,
+    "base": 72,
+    "generators": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      13
+    ],
+    "nodes": 1622,
+    "candidate_checks": 12261
+  },
+  {
+    "k": 10,
+    "base": 73,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      22
+    ],
+    "nodes": 2064,
+    "candidate_checks": 8349
+  },
+  {
+    "k": 10,
+    "base": 74,
+    "generators": [
+      1,
+      2,
+      8,
+      10,
+      11,
+      12
+    ],
+    "nodes": 1574,
+    "candidate_checks": 8800
+  },
+  {
+    "k": 10,
+    "base": 75,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      32
+    ],
+    "nodes": 2398,
+    "candidate_checks": 10428
+  },
+  {
+    "k": 10,
+    "base": 76,
+    "generators": [
+      1,
+      2,
+      3,
+      14,
+      15,
+      16
+    ],
+    "nodes": 1795,
+    "candidate_checks": 8167
+  },
+  {
+    "k": 10,
+    "base": 77,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12,
+      22
+    ],
+    "nodes": 785,
+    "candidate_checks": 1953
+  },
+  {
+    "k": 10,
+    "base": 78,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 2145,
+    "candidate_checks": 11560
+  },
+  {
+    "k": 10,
+    "base": 79,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      34
+    ],
+    "nodes": 3726,
+    "candidate_checks": 18012
+  },
+  {
+    "k": 10,
+    "base": 80,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 2509,
+    "candidate_checks": 12275
+  },
+  {
+    "k": 11,
+    "base": 3,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 2
+  },
+  {
+    "k": 11,
+    "base": 4,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 4
+  },
+  {
+    "k": 11,
+    "base": 5,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 7,
+    "candidate_checks": 6
+  },
+  {
+    "k": 11,
+    "base": 6,
+    "generators": [
+      1
+    ],
+    "nodes": 5,
+    "candidate_checks": 9
+  },
+  {
+    "k": 11,
+    "base": 7,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 11,
+    "candidate_checks": 11
+  },
+  {
+    "k": 11,
+    "base": 8,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 9,
+    "candidate_checks": 14
+  },
+  {
+    "k": 11,
+    "base": 9,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 15,
+    "candidate_checks": 18
+  },
+  {
+    "k": 11,
+    "base": 10,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 13,
+    "candidate_checks": 23
+  },
+  {
+    "k": 11,
+    "base": 11,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 24,
+    "candidate_checks": 24
+  },
+  {
+    "k": 11,
+    "base": 12,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 18,
+    "candidate_checks": 37
+  },
+  {
+    "k": 11,
+    "base": 13,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 32
+  },
+  {
+    "k": 11,
+    "base": 14,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 22,
+    "candidate_checks": 37
+  },
+  {
+    "k": 11,
+    "base": 15,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 39,
+    "candidate_checks": 48
+  },
+  {
+    "k": 11,
+    "base": 16,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 52
+  },
+  {
+    "k": 11,
+    "base": 17,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 45,
+    "candidate_checks": 61
+  },
+  {
+    "k": 11,
+    "base": 18,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 38,
+    "candidate_checks": 76
+  },
+  {
+    "k": 11,
+    "base": 19,
+    "generators": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "nodes": 49,
+    "candidate_checks": 66
+  },
+  {
+    "k": 11,
+    "base": 20,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 49,
+    "candidate_checks": 117
+  },
+  {
+    "k": 11,
+    "base": 21,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 60,
+    "candidate_checks": 71
+  },
+  {
+    "k": 11,
+    "base": 22,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 61,
+    "candidate_checks": 172
+  },
+  {
+    "k": 11,
+    "base": 23,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 72,
+    "candidate_checks": 90
+  },
+  {
+    "k": 11,
+    "base": 24,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 77,
+    "candidate_checks": 251
+  },
+  {
+    "k": 11,
+    "base": 25,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 91,
+    "candidate_checks": 127
+  },
+  {
+    "k": 11,
+    "base": 26,
+    "generators": [
+      1,
+      4,
+      5,
+      6
+    ],
+    "nodes": 74,
+    "candidate_checks": 220
+  },
+  {
+    "k": 11,
+    "base": 27,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 113,
+    "candidate_checks": 189
+  },
+  {
+    "k": 11,
+    "base": 28,
+    "generators": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "nodes": 86,
+    "candidate_checks": 235
+  },
+  {
+    "k": 11,
+    "base": 29,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9
+    ],
+    "nodes": 103,
+    "candidate_checks": 155
+  },
+  {
+    "k": 11,
+    "base": 30,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 104,
+    "candidate_checks": 244
+  },
+  {
+    "k": 11,
+    "base": 31,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 112,
+    "candidate_checks": 166
+  },
+  {
+    "k": 11,
+    "base": 32,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 127,
+    "candidate_checks": 336
+  },
+  {
+    "k": 11,
+    "base": 33,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 148,
+    "candidate_checks": 298
+  },
+  {
+    "k": 11,
+    "base": 34,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 160,
+    "candidate_checks": 525
+  },
+  {
+    "k": 11,
+    "base": 35,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 152,
+    "candidate_checks": 272
+  },
+  {
+    "k": 11,
+    "base": 36,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 201,
+    "candidate_checks": 776
+  },
+  {
+    "k": 11,
+    "base": 37,
+    "generators": [
+      1,
+      2,
+      3,
+      13,
+      16
+    ],
+    "nodes": 170,
+    "candidate_checks": 296
+  },
+  {
+    "k": 11,
+    "base": 38,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 251,
+    "candidate_checks": 1133
+  },
+  {
+    "k": 11,
+    "base": 39,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 203,
+    "candidate_checks": 353
+  },
+  {
+    "k": 11,
+    "base": 40,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 315,
+    "candidate_checks": 1610
+  },
+  {
+    "k": 11,
+    "base": 41,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 259,
+    "candidate_checks": 511
+  },
+  {
+    "k": 11,
+    "base": 42,
+    "generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "nodes": 376,
+    "candidate_checks": 2209
+  },
+  {
+    "k": 11,
+    "base": 43,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nodes": 201,
+    "candidate_checks": 326
+  },
+  {
+    "k": 11,
+    "base": 44,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      9
+    ],
+    "nodes": 271,
+    "candidate_checks": 1388
+  },
+  {
+    "k": 11,
+    "base": 45,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 415,
+    "candidate_checks": 1076
+  },
+  {
+    "k": 11,
+    "base": 46,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "nodes": 311,
+    "candidate_checks": 1301
+  },
+  {
+    "k": 11,
+    "base": 47,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 245,
+    "candidate_checks": 459
+  },
+  {
+    "k": 11,
+    "base": 48,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 350,
+    "candidate_checks": 1043
+  },
+  {
+    "k": 11,
+    "base": 49,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 248,
+    "candidate_checks": 389
+  },
+  {
+    "k": 11,
+    "base": 50,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 429,
+    "candidate_checks": 1423
+  },
+  {
+    "k": 11,
+    "base": 51,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      15
+    ],
+    "nodes": 319,
+    "candidate_checks": 752
+  },
+  {
+    "k": 11,
+    "base": 52,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 501,
+    "candidate_checks": 1916
+  },
+  {
+    "k": 11,
+    "base": 53,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 333,
+    "candidate_checks": 610
+  },
+  {
+    "k": 11,
+    "base": 54,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 611,
+    "candidate_checks": 2617
+  },
+  {
+    "k": 11,
+    "base": 55,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 400,
+    "candidate_checks": 802
+  },
+  {
+    "k": 11,
+    "base": 56,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 735,
+    "candidate_checks": 3626
+  },
+  {
+    "k": 11,
+    "base": 57,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      12
+    ],
+    "nodes": 482,
+    "candidate_checks": 1053
+  },
+  {
+    "k": 11,
+    "base": 58,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 912,
+    "candidate_checks": 4993
+  },
+  {
+    "k": 11,
+    "base": 59,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      12
+    ],
+    "nodes": 608,
+    "candidate_checks": 1465
+  },
+  {
+    "k": 11,
+    "base": 60,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1105,
+    "candidate_checks": 6821
+  },
+  {
+    "k": 11,
+    "base": 61,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 750,
+    "candidate_checks": 2026
+  },
+  {
+    "k": 11,
+    "base": 62,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1344,
+    "candidate_checks": 9001
+  },
+  {
+    "k": 11,
+    "base": 63,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      13
+    ],
+    "nodes": 874,
+    "candidate_checks": 2605
+  },
+  {
+    "k": 11,
+    "base": 64,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1617,
+    "candidate_checks": 11940
+  },
+  {
+    "k": 11,
+    "base": 65,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1152,
+    "candidate_checks": 3617
+  },
+  {
+    "k": 11,
+    "base": 66,
+    "generators": [
+      1,
+      2,
+      3,
+      8,
+      9
+    ],
+    "nodes": 1916,
+    "candidate_checks": 15425
+  },
+  {
+    "k": 11,
+    "base": 67,
+    "generators": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      13,
+      17
+    ],
+    "nodes": 711,
+    "candidate_checks": 2225
+  },
+  {
+    "k": 11,
+    "base": 68,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1031,
+    "candidate_checks": 5100
+  },
+  {
+    "k": 11,
+    "base": 69,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1639,
+    "candidate_checks": 6144
+  },
+  {
+    "k": 11,
+    "base": 70,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      8,
+      11
+    ],
+    "nodes": 1320,
+    "candidate_checks": 7641
+  },
+  {
+    "k": 11,
+    "base": 71,
+    "generators": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      13,
+      17
+    ],
+    "nodes": 966,
+    "candidate_checks": 3401
+  },
+  {
+    "k": 11,
+    "base": 72,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      11,
+      12
+    ],
+    "nodes": 1483,
+    "candidate_checks": 8170
+  },
+  {
+    "k": 11,
+    "base": 73,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12,
+      21
+    ],
+    "nodes": 671,
+    "candidate_checks": 1411
+  },
+  {
+    "k": 11,
+    "base": 74,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1704,
+    "candidate_checks": 7145
+  },
+  {
+    "k": 11,
+    "base": 75,
+    "generators": [
+      2,
+      3,
+      5,
+      7,
+      10,
+      12,
+      17
+    ],
+    "nodes": 1850,
+    "candidate_checks": 8242
+  },
+  {
+    "k": 11,
+    "base": 76,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 2027,
+    "candidate_checks": 9086
+  },
+  {
+    "k": 11,
+    "base": 77,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      22
+    ],
+    "nodes": 908,
+    "candidate_checks": 2025
+  },
+  {
+    "k": 11,
+    "base": 78,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 2364,
+    "candidate_checks": 11167
+  },
+  {
+    "k": 11,
+    "base": 79,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12,
+      22
+    ],
+    "nodes": 1074,
+    "candidate_checks": 2625
+  },
+  {
+    "k": 11,
+    "base": 80,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 2854,
+    "candidate_checks": 14378
+  },
+  {
+    "k": 12,
+    "base": 3,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 2
+  },
+  {
+    "k": 12,
+    "base": 4,
+    "generators": [
+      1
+    ],
+    "nodes": 3,
+    "candidate_checks": 4
+  },
+  {
+    "k": 12,
+    "base": 5,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 7,
+    "candidate_checks": 6
+  },
+  {
+    "k": 12,
+    "base": 6,
+    "generators": [
+      1
+    ],
+    "nodes": 5,
+    "candidate_checks": 9
+  },
+  {
+    "k": 12,
+    "base": 7,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 11,
+    "candidate_checks": 11
+  },
+  {
+    "k": 12,
+    "base": 8,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 9,
+    "candidate_checks": 14
+  },
+  {
+    "k": 12,
+    "base": 9,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 15,
+    "candidate_checks": 18
+  },
+  {
+    "k": 12,
+    "base": 10,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 13,
+    "candidate_checks": 23
+  },
+  {
+    "k": 12,
+    "base": 11,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 24,
+    "candidate_checks": 24
+  },
+  {
+    "k": 12,
+    "base": 12,
+    "generators": [
+      1,
+      2
+    ],
+    "nodes": 18,
+    "candidate_checks": 37
+  },
+  {
+    "k": 12,
+    "base": 13,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 31,
+    "candidate_checks": 32
+  },
+  {
+    "k": 12,
+    "base": 14,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 22,
+    "candidate_checks": 37
+  },
+  {
+    "k": 12,
+    "base": 15,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 39,
+    "candidate_checks": 48
+  },
+  {
+    "k": 12,
+    "base": 16,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 30,
+    "candidate_checks": 52
+  },
+  {
+    "k": 12,
+    "base": 17,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 43,
+    "candidate_checks": 50
+  },
+  {
+    "k": 12,
+    "base": 18,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 38,
+    "candidate_checks": 76
+  },
+  {
+    "k": 12,
+    "base": 19,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 49,
+    "candidate_checks": 60
+  },
+  {
+    "k": 12,
+    "base": 20,
+    "generators": [
+      1,
+      2,
+      3
+    ],
+    "nodes": 49,
+    "candidate_checks": 117
+  },
+  {
+    "k": 12,
+    "base": 21,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 61,
+    "candidate_checks": 77
+  },
+  {
+    "k": 12,
+    "base": 22,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 50,
+    "candidate_checks": 82
+  },
+  {
+    "k": 12,
+    "base": 23,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 74,
+    "candidate_checks": 101
+  },
+  {
+    "k": 12,
+    "base": 24,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 59,
+    "candidate_checks": 102
+  },
+  {
+    "k": 12,
+    "base": 25,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 94,
+    "candidate_checks": 140
+  },
+  {
+    "k": 12,
+    "base": 26,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 72,
+    "candidate_checks": 136
+  },
+  {
+    "k": 12,
+    "base": 27,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 116,
+    "candidate_checks": 206
+  },
+  {
+    "k": 12,
+    "base": 28,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 84,
+    "candidate_checks": 174
+  },
+  {
+    "k": 12,
+    "base": 29,
+    "generators": [
+      1,
+      2,
+      7,
+      8,
+      9
+    ],
+    "nodes": 105,
+    "candidate_checks": 169
+  },
+  {
+    "k": 12,
+    "base": 30,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 106,
+    "candidate_checks": 267
+  },
+  {
+    "k": 12,
+    "base": 31,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 114,
+    "candidate_checks": 183
+  },
+  {
+    "k": 12,
+    "base": 32,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 129,
+    "candidate_checks": 364
+  },
+  {
+    "k": 12,
+    "base": 33,
+    "generators": [
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "nodes": 150,
+    "candidate_checks": 318
+  },
+  {
+    "k": 12,
+    "base": 34,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 164,
+    "candidate_checks": 567
+  },
+  {
+    "k": 12,
+    "base": 35,
+    "generators": [
+      1,
+      2,
+      5,
+      6,
+      11
+    ],
+    "nodes": 155,
+    "candidate_checks": 295
+  },
+  {
+    "k": 12,
+    "base": 36,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 204,
+    "candidate_checks": 819
+  },
+  {
+    "k": 12,
+    "base": 37,
+    "generators": [
+      1,
+      2,
+      3,
+      13,
+      16
+    ],
+    "nodes": 174,
+    "candidate_checks": 322
+  },
+  {
+    "k": 12,
+    "base": 38,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 255,
+    "candidate_checks": 1191
+  },
+  {
+    "k": 12,
+    "base": 39,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 208,
+    "candidate_checks": 371
+  },
+  {
+    "k": 12,
+    "base": 40,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 318,
+    "candidate_checks": 1665
+  },
+  {
+    "k": 12,
+    "base": 41,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 270,
+    "candidate_checks": 545
+  },
+  {
+    "k": 12,
+    "base": 42,
+    "generators": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nodes": 380,
+    "candidate_checks": 2283
+  },
+  {
+    "k": 12,
+    "base": 43,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nodes": 203,
+    "candidate_checks": 353
+  },
+  {
+    "k": 12,
+    "base": 44,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      9
+    ],
+    "nodes": 275,
+    "candidate_checks": 1443
+  },
+  {
+    "k": 12,
+    "base": 45,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 423,
+    "candidate_checks": 1141
+  },
+  {
+    "k": 12,
+    "base": 46,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10
+    ],
+    "nodes": 315,
+    "candidate_checks": 1347
+  },
+  {
+    "k": 12,
+    "base": 47,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      14
+    ],
+    "nodes": 253,
+    "candidate_checks": 510
+  },
+  {
+    "k": 12,
+    "base": 48,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 356,
+    "candidate_checks": 1088
+  },
+  {
+    "k": 12,
+    "base": 49,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 257,
+    "candidate_checks": 451
+  },
+  {
+    "k": 12,
+    "base": 50,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 440,
+    "candidate_checks": 1520
+  },
+  {
+    "k": 12,
+    "base": 51,
+    "generators": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      15
+    ],
+    "nodes": 336,
+    "candidate_checks": 847
+  },
+  {
+    "k": 12,
+    "base": 52,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 514,
+    "candidate_checks": 2005
+  },
+  {
+    "k": 12,
+    "base": 53,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 351,
+    "candidate_checks": 713
+  },
+  {
+    "k": 12,
+    "base": 54,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 630,
+    "candidate_checks": 2800
+  },
+  {
+    "k": 12,
+    "base": 55,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 420,
+    "candidate_checks": 929
+  },
+  {
+    "k": 12,
+    "base": 56,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 757,
+    "candidate_checks": 3823
+  },
+  {
+    "k": 12,
+    "base": 57,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      12
+    ],
+    "nodes": 503,
+    "candidate_checks": 1207
+  },
+  {
+    "k": 12,
+    "base": 58,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 949,
+    "candidate_checks": 5367
+  },
+  {
+    "k": 12,
+    "base": 59,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      11,
+      12
+    ],
+    "nodes": 642,
+    "candidate_checks": 1658
+  },
+  {
+    "k": 12,
+    "base": 60,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 1138,
+    "candidate_checks": 7181
+  },
+  {
+    "k": 12,
+    "base": 61,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "nodes": 796,
+    "candidate_checks": 2284
+  },
+  {
+    "k": 12,
+    "base": 62,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 1404,
+    "candidate_checks": 9694
+  },
+  {
+    "k": 12,
+    "base": 63,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      13
+    ],
+    "nodes": 924,
+    "candidate_checks": 2911
+  },
+  {
+    "k": 12,
+    "base": 64,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 1676,
+    "candidate_checks": 12732
+  },
+  {
+    "k": 12,
+    "base": 65,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      10,
+      11,
+      16
+    ],
+    "nodes": 656,
+    "candidate_checks": 1700
+  },
+  {
+    "k": 12,
+    "base": 66,
+    "generators": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "nodes": 2034,
+    "candidate_checks": 17019
+  },
+  {
+    "k": 12,
+    "base": 67,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      10,
+      11,
+      16
+    ],
+    "nodes": 765,
+    "candidate_checks": 2175
+  },
+  {
+    "k": 12,
+    "base": 68,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1088,
+    "candidate_checks": 5664
+  },
+  {
+    "k": 12,
+    "base": 69,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1777,
+    "candidate_checks": 6852
+  },
+  {
+    "k": 12,
+    "base": 70,
+    "generators": [
+      1,
+      3,
+      4,
+      7,
+      8,
+      11
+    ],
+    "nodes": 1412,
+    "candidate_checks": 8455
+  },
+  {
+    "k": 12,
+    "base": 71,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11,
+      19
+    ],
+    "nodes": 766,
+    "candidate_checks": 2132
+  },
+  {
+    "k": 12,
+    "base": 72,
+    "generators": [
+      1,
+      2,
+      8,
+      9,
+      11,
+      12
+    ],
+    "nodes": 1585,
+    "candidate_checks": 9103
+  },
+  {
+    "k": 12,
+    "base": 73,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12,
+      21
+    ],
+    "nodes": 703,
+    "candidate_checks": 1490
+  },
+  {
+    "k": 12,
+    "base": 74,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 1823,
+    "candidate_checks": 7943
+  },
+  {
+    "k": 12,
+    "base": 75,
+    "generators": [
+      1,
+      4,
+      5,
+      6,
+      10,
+      11,
+      16
+    ],
+    "nodes": 1369,
+    "candidate_checks": 5479
+  },
+  {
+    "k": 12,
+    "base": 76,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 2147,
+    "candidate_checks": 10012
+  },
+  {
+    "k": 12,
+    "base": 77,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      22
+    ],
+    "nodes": 956,
+    "candidate_checks": 2186
+  },
+  {
+    "k": 12,
+    "base": 78,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 2541,
+    "candidate_checks": 12377
+  },
+  {
+    "k": 12,
+    "base": 79,
+    "generators": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12,
+      22
+    ],
+    "nodes": 1142,
+    "candidate_checks": 2853
+  },
+  {
+    "k": 12,
+    "base": 80,
+    "generators": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11
+    ],
+    "nodes": 3021,
+    "candidate_checks": 15694
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "path": "research/splitzero_outer/README.md",
+    "supplied_sha256": "34ba7df43c3b852fb1b784728c2fdcb66175b5138ed6b7bb9fcb9016c2b344ae",
+    "retained_git_blob": "2f16e1f6b7108245415378c0e8a9a1e691551800"
+  },
+  {
+    "path": "research/seven_observable/notes/seven-observable-capacity.md",
+    "supplied_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+    "retained_git_blob": "56f0d3779d7de7eb182bd1b2cc72f61c460e8d2b"
+  },
+  {
+    "path": "research/seven_observable/polyclank/artifacts.json",
+    "supplied_sha256": "ace3f327156088fea8fc4e25f9c8688ccad0a850c0b15771963b1a1e233c0d11",
+    "retained_git_blob": "bf9798f301afc6f19f056121a43b6833d227c7eb"
+  },
+  {
+    "path": "interfaces/zeta/workbenches/ep817-seven-observable/notes/seven-observable-capacity.md",
+    "supplied_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+    "retained_git_blob": "56f0d3779d7de7eb182bd1b2cc72f61c460e8d2b"
+  },
+  {
+    "path": "interfaces/zeta/workbenches/ep817-seven-observable/polyclank/artifacts.json",
+    "supplied_sha256": "6f16aa66930153ee562c14b6abc18e7796002bf2125d5fa5399133e5c53f162a",
+    "retained_git_blob": "e40afc607b75a53a52b1dcfd03fd59c32b7ff7e9"
+  }
+]

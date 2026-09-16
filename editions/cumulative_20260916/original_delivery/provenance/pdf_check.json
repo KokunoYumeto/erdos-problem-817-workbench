@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "pages": 220,
+  "unique_complete_notes": 29,
+  "original_math_nodes": 1116,
+  "original_display_nodes": 1034,
+  "overfull_warnings": [],
+  "undefined_warnings": [],
+  "outside_page_blocks": [],
+  "rendered_sample_pdf_pages": [
+    1,
+    3,
+    208,
+    210,
+    212,
+    214,
+    216,
+    219
+  ],
+  "earlier_rendered_original_pages": [
+    1,
+    2,
+    4,
+    10,
+    29,
+    56,
+    91,
+    122,
+    166,
+    206
+  ],
+  "visual_scope": "sampled raster inspection; every PDF page checked for text blocks outside its page",
+  "standalone_compilations": 29,
+  "arithmetic_scope": "new finite-period receipts replayed; inherited arithmetic evidence not rerun by typesetting",
+  "new_lean_checked": false
+}

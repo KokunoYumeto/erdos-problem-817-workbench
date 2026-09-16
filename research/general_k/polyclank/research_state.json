@@ -1,0 +1,59 @@
+{
+  "schema": "polyclank-ep817-general-k-state-v1",
+  "date": "2026-09-14",
+  "repository": "KokunoYumeto/erdos-problem-817-workbench",
+  "base_commit": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+  "intended_branch": "research/general-k-carry-capacity-20260914",
+  "objective": "Determine the exponential rates for general k, with every arithmetic and representation map explicit.",
+  "results": "See claims.json and the full proof note; all-k exact capacity, finite carry decisions, new k=5 and k=6 upper constructions.",
+  "unevaluated": [
+    "Exact optimal lambda_k for general k>=5",
+    "Sharp large-k behavior of log lambda_k",
+    "An effective error bound for exhaustion of finite certificate costs"
+  ],
+  "next_mathematical_targets": [
+    "Obtain lower certificates valid uniformly over all safe carry systems, or improve constructions outside the positive interval-column domain.",
+    "Review and formalize the exact composition and carry equivalences, retaining digit fibers and the generator power-alias condition."
+  ],
+  "evidence": "Exact Python checks and ordinary mathematical proofs; existing Lean scope unchanged.",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux",
+    "external_python_dependencies": [],
+    "lean_executable_available": false
+  },
+  "publication": {
+    "new_remote_commit_created": false,
+    "new_pull_request_created": false,
+    "delivery": "Repository-ready patch and self-contained archive. Current discovered GitHub actions expose reads; the gh executable is absent in this resumed environment."
+  },
+  "prior_contributions": [
+    {
+      "scope": "Original k=4 construction and signed-block proof",
+      "credit": "Anonymous/deleted Reddit contributor"
+    },
+    {
+      "scope": "PR #1 Lean finite upper bound",
+      "credit": "sneed-and-feed"
+    },
+    {
+      "scope": "PR #2 unweighted ternary variance",
+      "commit": "612020848e4bbec5f5a723a64c5fdc85636b5e83",
+      "status": "separate draft; ordinary mathematics"
+    }
+  ],
+  "methodology_sources": [
+    {
+      "repository": "KokunoYumeto/erdos-straus-foundation",
+      "path": "POLYCLANK.md",
+      "relation": "inspected public record convention"
+    },
+    {
+      "repository": "KokunoYumeto/yang-mills-interacting-workbench",
+      "path": "docs/polyclank/RESEARCH_STATE.md",
+      "commit": "7ba7ea5a5dab84d88934477de93dda71f6af0662",
+      "relation": "inspected explicit-map and claim-local evidence convention"
+    }
+  ],
+  "running_processes": []
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "ep817-finite-period-sources-v1",
+  "upstream_observed_main": "578564a5f0c6e3348f5bdc33fd2022b674899c41",
+  "sources": [
+    {
+      "name": "Local-flow predecessor",
+      "location": "research/local_flow/notes/local-flow-and-switching.md",
+      "access": "complete original delivered archive; preserved in cumulative source collection",
+      "used_for": "actual matrices and prior infinite radix-ten optimum"
+    },
+    {
+      "name": "Seven-observation predecessor",
+      "location": "research/seven_observable/notes/seven-observable-capacity.md",
+      "access": "complete original delivered archive; preserved in cumulative source collection",
+      "used_for": "numerical observation coordinates and count norm"
+    },
+    {
+      "name": "Concurrent cone-dual contribution",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "ref": "578564a5f0c6e3348f5bdc33fd2022b674899c41",
+      "location": "research/cone_dual/notes/cone-and-dual.md",
+      "access": "read via connected GitHub; full source not republished in historical collection",
+      "used_for": "comparison with strict all-rank finite-facet certificates; not an input to FP1-FP3"
+    },
+    {
+      "name": "Bochi and Morris",
+      "url": "https://arxiv.org/abs/1309.0319",
+      "access": "abstract and publication metadata inspected",
+      "used_for": "background only; no theorem imported"
+    },
+    {
+      "name": "Cuneo",
+      "url": "https://arxiv.org/abs/1909.08643",
+      "access": "abstract and publication metadata inspected",
+      "used_for": "almost-additive terminology and context; no theorem imported"
+    },
+    {
+      "name": "Korsky",
+      "url": "https://arxiv.org/abs/2606.24139",
+      "access": "abstract and current version record inspected",
+      "used_for": "problem conventions and general bounds context"
+    }
+  ]
+}
