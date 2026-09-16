@@ -1,0 +1,327 @@
+# An unweighted ternary-variance refinement of the k = 4 lower bound
+
+Date: 14 September 2026. Base: `23c0110c95b5a2036bdc04a1f352b6e5e27742c8`.
+
+**Status:** ordinary mathematical derivation, with exact bounded computational
+checks; submitted for independent review. **Not Lean-checked.** No existing Lean
+source, receipt, or accepted claim status is changed by this contribution.
+
+The dependency is the minimal signed-block/short-kernel classification proved
+in `paper/ep817_k4_rate.tex`, especially `lem:short-kernel` and
+`eq:ternary-count`. That construction and proof remain attributed to the
+anonymous/deleted Reddit contributor. The finite upper-bound Lean extension
+remains separately credited to `sneed-and-feed`. The calculations below are an
+additional workbench contribution, not a priority claim for either earlier
+result. No identification of the anonymous contributor is attempted.
+
+## 1. Statement
+
+Let A = {a_1,...,a_n} be a set of distinct positive integers, n >= 1, with no
+nonconstant four-term arithmetic progression in its set H(A) of subset sums.
+Write N = max A, S = sum_i a_i, Q = sum_i a_i^2, and
+
+\[
+T(A)=\left\{\sum_i x_i a_i:x_i\in\{0,1,2\}\right\},\qquad M=|T(A)|.
+\]
+
+Crucially, every element of T(A) is counted **once**, regardless of the number
+of ternary representations. Put n = 3q+r, 0 <= r < 3, and M_n = 19^q 3^r.
+
+**Theorem.** Under these hypotheses,
+
+\[
+M\ge M_n,\qquad
+19(M^2-1)\le192Q\le192nN^2.
+\]
+
+Consequently the extremal function in Problem 817 satisfies
+
+\[
+\boxed{g_4(n)\ge
+\left\lceil\sqrt{\frac{19}{192n}\bigl(M_n^2-1\bigr)}\right\rceil.}
+\]
+
+In particular,
+
+\[
+g_4(n)\ge\sqrt{\frac{19}{192n}\bigl(19^{2n/3}-1\bigr)}
+=\left(\sqrt{\frac{19}{192}}+o(1)\right)
+\frac{19^{n/3}}{\sqrt n}
+\]
+
+as a lower estimate. This improves the existing interval-counting lower
+estimate by an order-sqrt(n) factor. It does not assert that the sqrt(n)
+denominator is optimal, and does not change the established exponential rate.
+The remaining gap to the upper construction is polynomial, not exponential.
+
+## 2. Exact generating polynomial for distinct ternary sums
+
+Use the source theorem to choose minimal signed relations r^(j), with disjoint
+supports B_j of sizes m_j >= 3, one representative from each opposite pair.
+Let F be the uncovered coordinates. The complete short kernel is precisely
+
+\[
+\left\{\sum_j t_jr^{(j)}:t_j\in\{-2,-1,0,1,2\}\right\}.
+\]
+
+For a block B, write S_B = sum_{i in B} a_i and Q_B = sum_{i in B} a_i^2.
+Since its signed relation has coefficients +/-1 on the block, its positive
+and negative parts have the same sum S_B/2; in particular S_B is even.
+Define
+
+\[
+P_B(z)=\prod_{i\in B}(1+z^{a_i}+z^{2a_i})
+-z^{S_B/2}\prod_{i\in B}(1+z^{a_i}).
+\]
+
+**Proposition (unweighted polynomial factorization).**
+
+\[
+\boxed{
+\sum_{u\in T(A)}z^u=
+\prod_{i\in F}(1+z^{a_i}+z^{2a_i})\prod_jP_{B_j}(z).
+}
+\]
+
+Each factor P_B has coefficients zero or one. The full product also has
+coefficients zero or one; this is an identity of unweighted image polynomials,
+not just an equality of supports or an equality after evaluation at z = 1.
+
+**Proof.** Reflect a coordinate x_i to 2-x_i where r_i = -1, leaving positive
+coordinates unchanged. On the reflected cube the equivalence relation is
+translation by a constant vector. Each class has exactly one representative
+with minimum coordinate zero, obtained by subtracting the minimum.
+
+The vectors excluded from that representative set have all reflected
+coordinates in {1,2}. Before reflection, a positive coordinate therefore lies
+in {1,2}, and a negative coordinate in {0,1}. Their generating polynomial is
+
+\[
+z^{\sum_{r_i=1}a_i}\prod_{i\in B}(1+z^{a_i})
+=z^{S_B/2}\prod_{i\in B}(1+z^{a_i}).
+\]
+
+Subtracting it from the full ternary polynomial selects one representative
+per class, and gives P_B. The short-kernel theorem ensures that two local
+representatives have the same value exactly when they are the same class.
+It also ensures that an equality of global sums cannot change a free
+coordinate or the class of any block. Thus the Cartesian product of all
+local representative sets maps bijectively onto T(A). Multiplying their
+polynomials proves the proposition. QED.
+
+## 3. Exact variance of the uniform distinct-image distribution
+
+Let U be uniformly distributed on the finite set T(A), not the ternary cube.
+
+**Proposition (exact second moment).**
+
+\[
+\mathbb E U=S,\qquad
+\operatorname{Var}(U)=
+\frac23\sum_{i\in F}a_i^2+
+\sum_j\kappa_{m_j}Q_{B_j},
+\]
+
+where
+
+\[
+\kappa_m=
+\frac{(2/3)3^m-(1/4)2^m}{3^m-2^m}
+=\frac{8\,3^m-3\,2^m}{12(3^m-2^m)}.
+\]
+
+**Proof.** In a block of size m, the 3^m ternary assignments, counted with
+multiplicity, have mean S_B and variance (2/3)Q_B. The 2^m assignments
+subtracted in the preceding proposition have the distribution of
+S_B/2 plus a sum of independent fair binary choices of the weights a_i.
+They have the same mean S_B and variance Q_B/4. Subtract the unnormalized
+zeroth, first, and second moments of these two multisets. The resulting
+polynomial has 3^m-2^m coefficients equal to one, so division by that number
+gives mean S_B and variance kappa_m Q_B for the uniform distinct block image.
+
+The global representative map is a bijection. Uniform measure on its domain
+is therefore the product of the uniform local measures, and pushes forward
+to uniform measure on T(A). These independent contributions have additive
+means and variances. A free coordinate has variance 2a_i^2/3. QED.
+
+For every m >= 3,
+
+\[
+\frac{16}{19}-\kappa_m
+=\frac{5(8\,3^m-27\,2^m)}{228(3^m-2^m)}\ge0,
+\]
+
+because (3/2)^m >= (3/2)^3. Equality holds at m = 3. Also 2/3 < 16/19.
+Consequently
+
+\[
+\operatorname{Var}(U)\le\frac{16}{19}Q.
+\]
+
+The distinction between the two probability spaces matters. For A = {1,4,5},
+the ternary cube has 27 assignments but only 19 distinct sums. The cube
+variance is 28, while the uniform distinct-image variance is 672/19. Using
+28 for the latter distribution would invalidate the argument.
+
+## 4. A discrete variance packing inequality
+
+**Lemma.** If V is uniform on M distinct integers, then
+
+\[
+\operatorname{Var}(V)\ge\frac{M^2-1}{12}.
+\]
+
+**Proof.** List the integers as v_1 < ... < v_M. Then v_j-v_i >= j-i for j>i,
+and
+
+\[
+M^2\operatorname{Var}(V)
+=\sum_{i<j}(v_j-v_i)^2
+\ge\sum_{d=1}^{M-1}(M-d)d^2
+=\frac{M^2(M^2-1)}{12}.
+\]
+
+The last equality follows by the finite formulas for sums of squares and
+cubes, or directly by induction on M. The M = 1 case is also included. QED.
+
+Applying the lemma to the preceding exact variance yields
+
+\[
+\frac{M^2-1}{12}\le\operatorname{Var}(U)\le\frac{16}{19}Q,
+\]
+
+which proves 19(M^2-1) <= 192Q. No density heuristic, concentration
+approximation, or assumption of distinct ternary representations is used.
+
+## 5. Exact residue-sensitive optimization of the class count
+
+The source quotient gives M = 3^|F| product_j(3^{m_j}-2^{m_j}). For m >= 3,
+
+\[
+3^m-2^m\ge19\,3^{m-3},
+\]
+
+since this is equivalent to 8*3^{m-3} >= 2^m. The inequality is strict for
+m > 3. If h is the number of blocks, h <= q = floor(n/3), so
+
+\[
+M\ge19^h3^{n-3h}\ge19^q3^r=M_n,
+\]
+
+where the second inequality uses 19 < 27. Equality M = M_n holds precisely
+when there are q blocks, all of size three, and r free coordinates. This
+characterizes equality in the class-count bound, not in the variance bound
+or in the extremal problem for N. Combining this with Section 4 proves the
+theorem in Section 1.
+
+## 6. Distinctness-aware, integer-only finite bound
+
+Distinct positive generators bounded by N satisfy
+
+\[
+S\le nN-\frac{n(n-1)}2,\qquad
+Q\le Q_{\max}(n,N):=
+ nN^2-n(n-1)N+\frac{n(n-1)(2n-1)}6.
+\]
+
+Thus every admissible N satisfies all three integer constraints
+
+\[
+N\ge n,\qquad
+2nN\ge M_n+n(n-1)-1,\qquad
+192Q_{\max}(n,N)\ge19(M_n^2-1).
+\]
+
+The companion script defines `finite_lower(n)` as the least integer satisfying
+them. The quadratic expression is increasing for N >= n; binary search
+therefore computes the exact threshold without floating-point square roots.
+For reference, completing the square gives the quadratic threshold
+
+\[
+N\ge\frac{n-1}{2}+
+\sqrt{\max\left\{0,
+\frac{19(M_n^2-1)}{192n}-\frac{n^2-1}{12}\right\}},
+\]
+
+used together with N >= n and the interval constraint. When the radicand
+before taking its maximum is negative, the quadratic adds no restriction.
+
+| n | Combined finite lower bound |
+|---:|---:|
+| 1 | 1 |
+| 2 | 3 |
+| 3 | 5 |
+| 4 | 11 |
+| 5 | 27 |
+| 6 | 49 |
+| 9 | 724 |
+| 12 | 11,841 |
+| 30 | 352,128,817,514 |
+
+The first three bounds are attained by {1}, {1,3}, and {1,4,5}, respectively;
+their binary subset-sum sets can be inspected directly. No claim of exactness
+is made for the other entries.
+
+## 7. Reproducibility and formalization boundary
+
+Run from the repository root:
+
+```sh
+python certificates/verify_variance_lower_bound.py \
+  --output certificates/ternary_variance_receipt.json
+```
+
+The default exhaustive domain is all nonempty subsets of {1,...,24} with size
+at most five: 55,454 candidate sets, of which 2,551 are admissible. For each
+admissible set the script independently enumerates the entire short kernel,
+reconstructs the minimal blocks, compares the full polynomial coefficient
+map against the directly computed unweighted ternary image, checks its exact
+rational mean and variance, and checks the finite bounds and the class-count
+equality criterion. This includes 823 cases with a size-three block and 179
+with a size-four block; 1,549 have no signed block.
+
+Seven separate targeted cases cover a pair of size-three blocks, a size-three
+block with two free coordinates, a mixed size-three/size-four pair, and single
+blocks of sizes three through six. Further bounded checks cover canonical
+cube moments through dimension eight, the partition optimizer through n=200,
+and the coefficient bound through m=256. Six regression checks distinguish
+weighted from unweighted variance, detect an incorrect polynomial shift,
+and reject inadmissible or invalid inputs. All calculations use integers or
+`fractions.Fraction`. The receipt hashes the executable and the ordered
+exhaustive transcript. Finite checks are corroboration, not the general proof.
+
+No Lean executable was available in the session environment. A new local Lean
+build was therefore not run, and no uncompiled Lean file is presented as a
+formal certificate. The existing PR #1 receipt was inspected, not regenerated.
+
+The next formalization units are precise:
+
+1. Prove the minimal-block and complete short-kernel classification already
+   stated in the source manuscript, including disjoint magnitude layers.
+2. Construct a finite equivalence from the product of canonical local
+   representatives to the distinct ternary image; this is the essential
+   cardinality and probability-measure bridge.
+3. Prove the polynomial identity and rational centered-second-moment identity.
+4. Prove the integer spacing/variance inequality and combine it with the
+   residue-sensitive product bound to obtain the finite lower theorem.
+5. Add the real nth-root squeeze only after those finite claims are checked.
+
+These are targets, not assertions of completed formalization. The accepted
+Lean upper-bound theorem, Core hashes, and existing verification statuses
+remain untouched.
+
+## References and dependencies
+
+Anonymous/deleted Reddit contributor, & The Clankers. (2026, September 13).
+*The exponential rate for four-term-progression-free subset-sum sets*
+[Workbench manuscript]. `paper/ep817_k4_rate.tex` at the base commit above.
+The original proof route belongs to the anonymous contributor; reconstruction
+and verification are attributed separately in that manuscript.
+
+sneed-and-feed. (2026, September 13). *Formalize finite upper bound theorem and
+core helper lemmas in Extended.lean* [Pull request #1].
+`https://github.com/KokunoYumeto/erdos-problem-817-workbench/pull/1`.
+
+Korsky, S. (2026). *Arithmetic progression-free subset-sum sets*
+[Preprint]. arXiv:2606.24139. Cited for the surrounding problem and published
+abstract bounds, not as a source of the new variance formula.
