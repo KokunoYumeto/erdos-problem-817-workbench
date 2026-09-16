@@ -1,0 +1,188 @@
+{
+  "checked_commit": "68d64ed4fe050d51e4247cecae79e419a48bad63",
+  "driver_sha256": "a8ba327de1375f9adb37dc2f79974d60d19e7c456626e292b7d3b5c678940e48",
+  "github_run_attempt": "1",
+  "github_run_id": "34891977899",
+  "independently_audited_generator_sets": 47259,
+  "k5_audit_parts": [
+    {
+      "audited_indices": [
+        0,
+        10000
+      ],
+      "capacity_target": "65^(1/5)",
+      "complete_domain_size": 41185,
+      "counts": {
+        "bad_base_witnesses": 23462,
+        "complete_return_blocks": 710,
+        "controller_blocks": 55,
+        "controller_transfers": 3438,
+        "generators": 10000,
+        "integer_obstructions": 9235,
+        "potential_edges": 852,
+        "return_rows": 20491
+      },
+      "k": 5,
+      "plain_receipt_sha256": "9e361c5779e81f5b55e36db6dab0e19db1268bf7b9d8b20de1644563af6ee801",
+      "status": "PASS"
+    },
+    {
+      "audited_indices": [
+        10000,
+        20000
+      ],
+      "capacity_target": "65^(1/5)",
+      "complete_domain_size": 41185,
+      "counts": {
+        "bad_base_witnesses": 15775,
+        "complete_return_blocks": 576,
+        "controller_blocks": 53,
+        "controller_transfers": 3340,
+        "generators": 10000,
+        "integer_obstructions": 9371,
+        "potential_edges": 1013,
+        "return_rows": 16843
+      },
+      "k": 5,
+      "plain_receipt_sha256": "42269d916047e72b89544af2a3b3d4711439f6bd6bf647b06a1f3886d0df3e36",
+      "status": "PASS"
+    },
+    {
+      "audited_indices": [
+        20000,
+        30000
+      ],
+      "capacity_target": "65^(1/5)",
+      "complete_domain_size": 41185,
+      "counts": {
+        "bad_base_witnesses": 11331,
+        "complete_return_blocks": 471,
+        "controller_blocks": 69,
+        "controller_transfers": 4497,
+        "generators": 10000,
+        "integer_obstructions": 9460,
+        "potential_edges": 1556,
+        "return_rows": 14342
+      },
+      "k": 5,
+      "plain_receipt_sha256": "9c113974dc65f31f7ee3e918337b3e7c69cd5338178ae1444e5a37ef971380d7",
+      "status": "PASS"
+    },
+    {
+      "audited_indices": [
+        30000,
+        41185
+      ],
+      "capacity_target": "65^(1/5)",
+      "complete_domain_size": 41185,
+      "counts": {
+        "bad_base_witnesses": 7774,
+        "complete_return_blocks": 415,
+        "controller_blocks": 54,
+        "controller_transfers": 3373,
+        "generators": 11185,
+        "integer_obstructions": 10716,
+        "potential_edges": 1633,
+        "return_rows": 12487
+      },
+      "k": 5,
+      "plain_receipt_sha256": "526bf0de85a1543db36ef19e1fe997ae2a65ccd42d5d799f91b5c1e79393111b",
+      "status": "PASS"
+    }
+  ],
+  "k6_audit": {
+    "audited_indices": [
+      0,
+      6074
+    ],
+    "capacity_target": "47^(1/5)",
+    "complete_domain_size": 6074,
+    "counts": {
+      "bad_base_witnesses": 3314,
+      "complete_return_blocks": 150,
+      "controller_blocks": 18,
+      "controller_transfers": 820,
+      "generators": 6074,
+      "integer_obstructions": 5906,
+      "potential_edges": 279,
+      "return_rows": 13458
+    },
+    "k": 6,
+    "plain_receipt_sha256": "708502d4bfa7e696e8f5435baeac775df8eda521974ca26b022df2941a4f5445",
+    "status": "PASS"
+  },
+  "lean_checked": false,
+  "negative_audit": {
+    "auditor_sha256": "2535c7548c524645edeafa4eac7a7d8917c13ac0b3a8855d6d105b00f375825c",
+    "baseline_fragments": 2,
+    "rejected_mutations": [
+      {
+        "diagnostic": "section primitive does not return",
+        "mutation": "alter actual return primitive",
+        "rejected": true
+      },
+      {
+        "diagnostic": "bad-base interval incomplete",
+        "mutation": "remove earlier-base witness",
+        "rejected": true
+      },
+      {
+        "diagnostic": "insufficient complete-return lower bound",
+        "mutation": "claim smaller unproved base",
+        "rejected": true
+      },
+      {
+        "diagnostic": "viable transfer not exact",
+        "mutation": "remove a viable transfer",
+        "rejected": true
+      },
+      {
+        "diagnostic": "invalid positive potential",
+        "mutation": "erase positive potential",
+        "rejected": true
+      },
+      {
+        "diagnostic": "domain omission/reorder/duplication",
+        "mutation": "omit original generator support",
+        "rejected": true
+      }
+    ],
+    "status": "PASS",
+    "validator_sha256": "96a732e5706ad62bda1001a2a3739b3ecb295a6400657924a5e721050010c854"
+  },
+  "normal_optimized_negative_identical": true,
+  "normal_optimized_outer_identical": true,
+  "python": "3.13.5",
+  "records": {
+    "outer_control_receipt.json": {
+      "gzip_bytes": 24300,
+      "gzip_sha256": "5c4d5e88d58f2d8f21dd44da24f6363f7b585e9f034cdc5e8d8da7334607f326",
+      "path": "outer_control_receipt.json.gz",
+      "plain_sha256": "3478663013d47efb313de4b63dff68250a1b9d80f31f085ff886b10026cc969f"
+    },
+    "rank_five_k5_receipt.json": {
+      "gzip_bytes": 1883570,
+      "gzip_sha256": "5c165b5517e1e1c1706fddcff4e29187a7a7f31fdb47ec94d8e376d943a3b9e8",
+      "path": "rank_five_k5_receipt.json.gz",
+      "plain_sha256": "5bd67da0abbc63cad5a226d5ade39ed2f95ece357ed3b121ff2ce40c7e99c240"
+    },
+    "rank_five_k6_receipt.json": {
+      "gzip_bytes": 248618,
+      "gzip_sha256": "f7ba05ad76dffe0678660df90eb4610f56ab31094073936856a64b93bf4c7e2b",
+      "path": "rank_five_k6_receipt.json.gz",
+      "plain_sha256": "708502d4bfa7e696e8f5435baeac775df8eda521974ca26b022df2941a4f5445"
+    }
+  },
+  "schema": "ep817-outer-publication-replay-v1",
+  "scope": "Fresh complete producers, independent arithmetic audits, source and decoded-record identity checks.",
+  "source_sha256": {
+    "certificates/audit_rank_five.py": "2535c7548c524645edeafa4eac7a7d8917c13ac0b3a8855d6d105b00f375825c",
+    "certificates/merge_rank_shards.py": "8b24f2939a4c4c024eceed6d4876ff67bf8712b06ff49e527280617313c3b0c4",
+    "certificates/verify_negative.py": "96a732e5706ad62bda1001a2a3739b3ecb295a6400657924a5e721050010c854",
+    "certificates/verify_outer_control.py": "7069fd11355c02f05371489ffb4dc62a6e0247d5b05a553c7bbcd334104d02d0",
+    "certificates/verify_rank_five.py": "f38dd2921f5f9e92a984d0796df9b353d603e23459cf34b58ae8f248c1fcc7f5",
+    "notes/outer-support-control.md": "cf87ac7e695ad4b64b80e2e0049f8b2088539973426b49bc046e500fa7a1a543"
+  },
+  "status": "PASS",
+  "zlib": "1.3"
+}
