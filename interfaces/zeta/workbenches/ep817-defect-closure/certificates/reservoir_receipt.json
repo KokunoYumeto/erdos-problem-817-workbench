@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "admissible": 201,
+      "binary_coupling_obstructions": 63,
+      "distinct_extensions": 294,
+      "inadmissible": 93,
+      "separated_image_cardinality": 152,
+      "separated_reservoir": [
+        141,
+        282
+      ],
+      "singleton_domain": [
+        1,
+        300
+      ],
+      "source": "K4",
+      "variance": "1920095/76",
+      "weights": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ]
+    },
+    {
+      "admissible": 1884,
+      "binary_coupling_obstructions": 1908,
+      "distinct_extensions": 4991,
+      "inadmissible": 3107,
+      "separated_image_cardinality": 1312,
+      "separated_reservoir": [
+        4615,
+        9230
+      ],
+      "singleton_domain": [
+        1,
+        5000
+      ],
+      "source": "K33",
+      "variance": "2213057457/82",
+      "weights": [
+        25,
+        125,
+        625,
+        24,
+        124,
+        624,
+        20,
+        120,
+        620
+      ]
+    }
+  ],
+  "lean_checked": false,
+  "scope": "direct finite singleton extensions and specified two-generator reservoirs",
+  "script_sha256": "315eff70ce2ebb148f80795f0ecccc9e641d0ec8ff6f8bf175e2c90f854bbe0d",
+  "status": "PASS",
+  "transcript_sha256": "9cfeee6c68a60ccf8f8e22b40362e7b3f3c33e1af061e8f49e1e71c8a93115d9"
+}

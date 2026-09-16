@@ -1,0 +1,49 @@
+{
+  "auditor_sha256": "b4c115a0703865cf8afd5e5c4f96cd320804d9baec71b12620cc387e0e3896c5",
+  "base_receipt_sha256": "65b43551aa485e4e8922eff35ca888780d1d3c78e65b32e9919011c3bba8c1d4",
+  "rejected_mutations": [
+    {
+      "name": "omit_literal_level",
+      "reason": "literal domain omitted/reordered/changed",
+      "rejected": true
+    },
+    {
+      "name": "erase_present_zero_word",
+      "reason": "representation fibres changed",
+      "rejected": true
+    },
+    {
+      "name": "reset_as_identity",
+      "reason": "orbit transition profile",
+      "rejected": true
+    },
+    {
+      "name": "false_initial_carry",
+      "reason": "initial transfer",
+      "rejected": true
+    },
+    {
+      "name": "nonpositive_potential",
+      "reason": "positive potential",
+      "rejected": true
+    },
+    {
+      "name": "wrong_target_rate",
+      "reason": "all-edge potential inequality",
+      "rejected": true
+    },
+    {
+      "name": "omit_cost_representative",
+      "reason": "parallel-edge cost summary",
+      "rejected": true
+    },
+    {
+      "name": "erase_accepting_bit",
+      "reason": "accepting bit",
+      "rejected": true
+    }
+  ],
+  "schema": "variable-block-negative-audit-v1",
+  "status": "PASS",
+  "validator_sha256": "b59620252dcc0abff77643bf016636ba972f5d59db5d0e4beb51c64635941159"
+}

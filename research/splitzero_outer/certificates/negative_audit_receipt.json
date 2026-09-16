@@ -1,0 +1,38 @@
+{
+  "auditor_sha256": "2535c7548c524645edeafa4eac7a7d8917c13ac0b3a8855d6d105b00f375825c",
+  "baseline_fragments": 2,
+  "rejected_mutations": [
+    {
+      "diagnostic": "section primitive does not return",
+      "mutation": "alter actual return primitive",
+      "rejected": true
+    },
+    {
+      "diagnostic": "bad-base interval incomplete",
+      "mutation": "remove earlier-base witness",
+      "rejected": true
+    },
+    {
+      "diagnostic": "insufficient complete-return lower bound",
+      "mutation": "claim smaller unproved base",
+      "rejected": true
+    },
+    {
+      "diagnostic": "viable transfer not exact",
+      "mutation": "remove a viable transfer",
+      "rejected": true
+    },
+    {
+      "diagnostic": "invalid positive potential",
+      "mutation": "erase positive potential",
+      "rejected": true
+    },
+    {
+      "diagnostic": "domain omission/reorder/duplication",
+      "mutation": "omit original generator support",
+      "rejected": true
+    }
+  ],
+  "status": "PASS",
+  "validator_sha256": "96a732e5706ad62bda1001a2a3739b3ecb295a6400657924a5e721050010c854"
+}

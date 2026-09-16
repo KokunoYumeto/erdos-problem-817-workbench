@@ -1,0 +1,18 @@
+{
+  "admitted_cases": 1211,
+  "false_records_rejected": [
+    "removed relative quotient direction",
+    "missing marked-graph support",
+    "altered transcript",
+    "unit replacement of doubled fibre metric"
+  ],
+  "lean_checked": false,
+  "orientation_masks_checked": 60585,
+  "producer_receipt_sha256": "198159221f5c4b54e1128b0789e4b522407ccc3c7c03c76571a4868d7c92cf4f",
+  "schema": "ep817-observation-quotient-independent-audit-v1",
+  "source_sha256": "70830c38a483d26646042e21e8f93c08043edaf957cf9e90ef38c6b8c92727bf",
+  "status": "PASS",
+  "theta_full_word_cases": 4,
+  "theta_incidence_cases": 12,
+  "transcript_sha256": "4621c684d46cde24782a41f8eee306a6db5cc561e5d2b278f93ccde198c81d1c"
+}

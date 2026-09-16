@@ -1,0 +1,23 @@
+{
+  "actual_cut_fibers": 2828,
+  "alphabet_replay": {
+    "additional_literal_tails": 5050,
+    "independently_interpolated_matrices": 5050,
+    "transcript_sha256": "259ec89653262dced58b708d58079db779cb4293c5caf34d957660ed8eea764f"
+  },
+  "auditor_sha256": "bcb8382aea4ee42c10abb7b002863f2eb0cc6ea0cd0ea33f6a3b82cf1aa3a4a1",
+  "corruptions_rejected": 8,
+  "generator_replay": {
+    "original_generator_cases": 1375,
+    "transcript_sha256": "0219825db88ce719a32c9467cc0f6a62285cd3b1abcc9cda7206a01ea2730465"
+  },
+  "imports_producer_or_library": false,
+  "independent_contraction_identities": 126,
+  "lean_checked": false,
+  "original_word_metric_cases": 8,
+  "producer_receipt_sha256": "ef122c1eb9171312631997c8a310c6ce7c704834c0e4e9bba70ef749172fb04a",
+  "schema": "ep817-seven-observable-independent-audit-v1",
+  "selected_original_counts": 36,
+  "selected_original_moments": 108,
+  "status": "PASS"
+}

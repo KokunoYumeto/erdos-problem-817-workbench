@@ -1,0 +1,114 @@
+{
+  "schema": "ep817-arity-boundary-claims-v1",
+  "date": "2026-09-16",
+  "lean_checked": false,
+  "external_review": "not asserted",
+  "claims": [
+    {
+      "id": "AB1",
+      "statement": "General determinized carry formula for every distinct-image moment",
+      "evidence": "ordinary proof",
+      "file": "arity-and-boundary.md",
+      "section": "2"
+    },
+    {
+      "id": "AB2",
+      "statement": "Finite-hole run theorem and exact all-length cardinality",
+      "evidence": "ordinary proof",
+      "file": "arity-and-boundary.md",
+      "section": "3"
+    },
+    {
+      "id": "AB3",
+      "statement": "Complete arity formulas for the six-generator and ten-generator constructions",
+      "evidence": "ordinary proof plus exact finite input/recurrence certificate",
+      "file": "arity-and-boundary.md",
+      "section": "4–6"
+    },
+    {
+      "id": "AB4",
+      "statement": "Visible size-two 3-primary block and its original observation kernel",
+      "evidence": "exact linear algebra certificate and proof",
+      "file": "arity-and-boundary.md",
+      "section": "6"
+    },
+    {
+      "id": "AB5",
+      "statement": "Canonical ternary joining of every original block and exact extra kernel dimensions",
+      "evidence": "ordinary proof with literal bounded relations",
+      "file": "arity-and-boundary.md",
+      "section": "7.1"
+    },
+    {
+      "id": "AB6",
+      "statement": "Exact weighted quotient sections and maximum original ternary multiplicities",
+      "evidence": "ordinary proof plus full residue mass certificate",
+      "file": "arity-and-boundary.md",
+      "section": "7.2–7.3"
+    },
+    {
+      "id": "AB7",
+      "statement": "Exact compact-limit mass, boundary box dimensions and weak-convergence error",
+      "evidence": "ordinary proof",
+      "file": "arity-and-boundary.md",
+      "section": "8"
+    },
+    {
+      "id": "AB8",
+      "statement": "All-length second moments and original variance constants",
+      "evidence": "ordinary proof plus observed annihilator certificate",
+      "file": "arity-and-boundary.md",
+      "section": "9"
+    },
+    {
+      "id": "AB9",
+      "statement": "Finite decision theorem and rational witness bound for real-limit APs",
+      "evidence": "ordinary proof",
+      "file": "arity-and-boundary.md",
+      "section": "10"
+    },
+    {
+      "id": "AB10",
+      "statement": "Four original-source rational boundary witnesses with fixed finite defect",
+      "evidence": "explicit integer/rational certificate",
+      "file": "arity-and-boundary.md",
+      "section": "10.1"
+    },
+    {
+      "id": "AB11",
+      "statement": "Graph observation preserving the extra terminal boundary",
+      "evidence": "ordinary proof",
+      "file": "arity-and-boundary.md",
+      "section": "11"
+    }
+  ],
+  "sources": [
+    {
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "base": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+      "role": "existing problem conventions and attribution; no main changes"
+    },
+    {
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "ref": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "git_blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "scope": "equations D6–D8 read; original quotient and receiving-kernel interface"
+    },
+    {
+      "source": "arXiv:2606.24139v1",
+      "role": "abstract checked for original conventions and surrounding general bounds"
+    },
+    {
+      "source": "arXiv:1512.04234v3",
+      "role": "abstract checked for prior finite-automata context; no unread theorem imported"
+    }
+  ],
+  "boundaries": [
+    "No improvement to the unrestricted numerical rate is claimed.",
+    "The outer family of all generator blocks remains unbounded.",
+    "The continuum result is box dimension, not an asserted Hausdorff-dimension identity.",
+    "Finite integer AP-freeness and real-limit AP existence have separately proved maps.",
+    "No existing Lean status is extended."
+  ]
+}

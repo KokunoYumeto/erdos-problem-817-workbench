@@ -1,0 +1,17 @@
+# SplitZero outer-control research state
+
+The active objective is the general Erdős 817 rate. The Zeta source was read at `42df8a2de002d5fc7090641fac46ea11be05fa71`, and the existing EP817 SplitZero transfer was read at `98fd25802a387138053064e11ddd2f6d2007d55b`. This new additive source is separate from both, and separate from the variance and general-k draft contributions.
+
+The new work establishes a support-preserving bounded realization for every canonical affine carry pattern and an exact finite optimization for every fixed progression length and block size. The benchmark cost provides a much smaller optimization cutoff than the all-pattern realization theorem. All transformed arithmetic parameters are retained with an explicit inverse code; pair-sum transport and unrestricted scalar-relation comparison have their own maps.
+
+The practical advance is a complete viability characterization using actual next-column return primitives. A true carry with a return primitive forces a progression for every next radix. Every controller state avoiding all such carries is rescued by the explicit radix 2S+2. This removes precisely the supports without infinite admissible extensions, with their full discarded supports and primitive witnesses retained.
+
+The exact global fixed-block mixed-radix capacities have been evaluated through five generators at k=5,6. The rank-five values are 65^(1/5) and 47^(1/5). Production covered all 41,185 and 6,074 blocks in their proved exhaustive domains. A separate verifier, importing neither producer, rechecked the complete domains, digit sets, original return columns, retained and discarded controller transfers, rational lower potentials, and upper modular certificates. Its scope is recorded in the complete audit. Six deliberately corrupted proof fragments were rejected.
+
+The rank-five run was partitioned into exact index intervals to stay within execution-call limits. The complete ordered generator inventory was rechecked before merging. A metadata variable-shadowing defect in an early audit-output range was repaired; every affected audit was rerun with the corrected source and exact range bindings. The final source hashes and the complete audit refer only to that corrected version. This repair affected the reported interval labels, not the arithmetic inequalities, but the final coverage claim was withheld until the corrected records were produced.
+
+The general theorem identifies the unrestricted rate with the infimum over all block sizes. That final rank parameter remains unbounded. The original fiber-metric return grows under tensors, and the note retains an exact positive chain-growth defect as another possible receiver for a uniform estimate. No theorem assumes an unproved bound on either quantity.
+
+No new Lean build was performed. The general arguments have written proofs; the exact capacity table has finite computational proof certificates after a proved cutoff. No external human review, new Lean certificate, or full resolution of the general rank infimum is claimed. Original anonymous mathematical attribution and sneed-and-feed's formalization attribution remain separate.
+
+No remote write was performed by this contribution. The final repository read still showed main at `23c0110c95b5a2036bdc04a1f352b6e5e27742c8` and the existing SplitZero branch at the pinned revision above. The patch adds only `research/splitzero_outer/`. All recorded computation is completed; no background process is part of this handoff.

@@ -1,0 +1,253 @@
+{
+  "all_rank_status": "Exact compact dual with H in [1,2] on a finite support set; inequalities over unbounded blocks and optimal feasible threshold remain unevaluated.",
+  "cases": [
+    {
+      "audit": "audit_k5_r1.json",
+      "audit_sha256": "9fc744b6aed55c5d99d2583f7cd817fe638e4fec943107556aee0bd74c0724ee",
+      "audited_labeled_nonzero_source_columns": 252,
+      "audited_source_carries": 416,
+      "counts": {
+        "cost_representative_edges": 16,
+        "dictionary_labels": 16,
+        "integer_obstructions": 0,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 252,
+        "reachable_states": 4,
+        "rejected_transfers": 10,
+        "safe_transfers": 54,
+        "usable_labels": 16
+      },
+      "k": 5,
+      "max_block_size": 1,
+      "plain_receipt_sha256": "65b43551aa485e4e8922eff35ca888780d1d3c78e65b32e9919011c3bba8c1d4",
+      "receipt": "variable_k5_r1.json.gz",
+      "receipt_sha256": "406e890539e35d03fa8a7bf750ec102f24210671a434d9c2f9ea9af0e8d5ec5b",
+      "target": {
+        "base": 8,
+        "root": 2
+      }
+    },
+    {
+      "audit": "audit_k5_r2.json",
+      "audit_sha256": "ff8a45949bbcdced208421f06fbae259ff4b1278725cbbb54146ebc53ca027da",
+      "audited_labeled_nonzero_source_columns": 3692,
+      "audited_source_carries": 1716,
+      "counts": {
+        "cost_representative_edges": 103,
+        "dictionary_labels": 66,
+        "integer_obstructions": 0,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 3692,
+        "reachable_states": 11,
+        "rejected_transfers": 385,
+        "safe_transfers": 341,
+        "usable_labels": 66
+      },
+      "k": 5,
+      "max_block_size": 2,
+      "plain_receipt_sha256": "3aed4987bb16594e868789f758b46a9f8240dbd9fdcd350b887bf135d2fc0529",
+      "receipt": "variable_k5_r2.json.gz",
+      "receipt_sha256": "087ec9a80ae6fb5bd3a02f32f01c53963756b14dce3058c941206bee5c38b531",
+      "target": {
+        "base": 5,
+        "root": 2
+      }
+    },
+    {
+      "audit": "audit_k5_r3.json",
+      "audit_sha256": "60b484c12a72d357d5e34402ef07ea526d1e2dd5cd20a3275a92eb09bf8c0350",
+      "audited_labeled_nonzero_source_columns": 229380,
+      "audited_source_carries": 48750,
+      "counts": {
+        "cost_representative_edges": 258,
+        "dictionary_labels": 1980,
+        "integer_obstructions": 105,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 229380,
+        "reachable_states": 12,
+        "rejected_transfers": 16318,
+        "safe_transfers": 6182,
+        "usable_labels": 1875
+      },
+      "k": 5,
+      "max_block_size": 3,
+      "plain_receipt_sha256": "cb8d6eb8bd43d983a543eeade8a61da3aae11ec22924d8ded1efbaaf6d4cf0af",
+      "receipt": "variable_k5_r3.json.gz",
+      "receipt_sha256": "99d51855c761e80ed7b524ece87ba9a74a35afb59c9ccae8836bd7d45b4749b2",
+      "target": {
+        "base": 5,
+        "root": 2
+      }
+    },
+    {
+      "audit": "audit_k5_r4.json",
+      "audit_sha256": "0d63e953514f253335dd4b39b66b545f8caa54dacaaef9d440155aaf139d1c55",
+      "audited_labeled_nonzero_source_columns": 9722718,
+      "audited_source_carries": 616850,
+      "counts": {
+        "cost_representative_edges": 519,
+        "dictionary_labels": 41571,
+        "integer_obstructions": 17846,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 9722718,
+        "reachable_states": 16,
+        "rejected_transfers": 330094,
+        "safe_transfers": 49506,
+        "usable_labels": 23725
+      },
+      "k": 5,
+      "max_block_size": 4,
+      "plain_receipt_sha256": "c709dc2219788bfe31ab22ca5a5cd10d31e3536766f8ba464d12c7da406b0ee3",
+      "receipt": "variable_k5_r4.json.gz",
+      "receipt_sha256": "de0bad42a8b2e7b3d8274087dcdadd4546fbf623b1676a86dcac8ff146bd98bf",
+      "target": {
+        "base": 23,
+        "root": 4
+      }
+    },
+    {
+      "audit": "audit_k6_r1.json",
+      "audit_sha256": "655d1da610110c2498f38a245e3de4a3162ac443fc556ec73087d90dae0a89f2",
+      "audited_labeled_nonzero_source_columns": 592,
+      "audited_source_carries": 1280,
+      "counts": {
+        "cost_representative_edges": 21,
+        "dictionary_labels": 16,
+        "integer_obstructions": 0,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 592,
+        "reachable_states": 5,
+        "rejected_transfers": 15,
+        "safe_transfers": 65,
+        "usable_labels": 16
+      },
+      "k": 6,
+      "max_block_size": 1,
+      "plain_receipt_sha256": "a45f7ea0c1d5f51f79413a89af1c5dc7ca890b120094e95fb20ade4ed93f88c7",
+      "receipt": "variable_k6_r1.json.gz",
+      "receipt_sha256": "a8f7900f60f9c3107b483e50ffa3212c27d2ce1a950b8cf6ab832106776b78dc",
+      "target": {
+        "base": 8,
+        "root": 2
+      }
+    },
+    {
+      "audit": "audit_k6_r2.json",
+      "audit_sha256": "349ce9024c6df34eb9fe5e6bb2ae3dc24fe86995651da186f735c4121f4545b4",
+      "audited_labeled_nonzero_source_columns": 7760,
+      "audited_source_carries": 5280,
+      "counts": {
+        "cost_representative_edges": 415,
+        "dictionary_labels": 66,
+        "integer_obstructions": 0,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 7760,
+        "reachable_states": 38,
+        "rejected_transfers": 1449,
+        "safe_transfers": 1059,
+        "usable_labels": 66
+      },
+      "k": 6,
+      "max_block_size": 2,
+      "plain_receipt_sha256": "b11b29d37736c2374ebcc673ad3729ff02bba8543247dfa7202503c2fdd11379",
+      "receipt": "variable_k6_r2.json.gz",
+      "receipt_sha256": "0446d0878151b3633ee401a2cacfac4b5d9b624e38852dd5ae3fbed98134cb23",
+      "target": {
+        "base": 5,
+        "root": 2
+      }
+    },
+    {
+      "audit": "audit_k6_r3.json",
+      "audit_sha256": "f8543b605ea0e625abd9307921850a46e650e9d44358624e93d5ebdd968823dc",
+      "audited_labeled_nonzero_source_columns": 403352,
+      "audited_source_carries": 150000,
+      "counts": {
+        "cost_representative_edges": 5457,
+        "dictionary_labels": 1980,
+        "integer_obstructions": 105,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 403352,
+        "reachable_states": 120,
+        "rejected_transfers": 172142,
+        "safe_transfers": 52858,
+        "usable_labels": 1875
+      },
+      "k": 6,
+      "max_block_size": 3,
+      "plain_receipt_sha256": "9e528256151909dca1bf02018def8be2ac04604c29dff715fffe25b028d93f70",
+      "receipt": "variable_k6_r3.json.gz",
+      "receipt_sha256": "5b82de330f9abd99bec98196859ccd6cabb9d59994a643180f3e325a784e3a54",
+      "target": {
+        "base": 5,
+        "root": 2
+      }
+    },
+    {
+      "audit": "audit_k6_r4.json",
+      "audit_sha256": "7f942b076575525bc386982d79577a2a720924767a025d0258aee6a1d07a91a2",
+      "audited_labeled_nonzero_source_columns": 18969820,
+      "audited_source_carries": 2279280,
+      "counts": {
+        "cost_representative_edges": 14075,
+        "dictionary_labels": 41571,
+        "integer_obstructions": 13080,
+        "potential_passes": 2,
+        "raw_labeled_nonzero_source_columns": 18969820,
+        "reachable_states": 128,
+        "rejected_transfers": 3387016,
+        "safe_transfers": 259832,
+        "usable_labels": 28491
+      },
+      "k": 6,
+      "max_block_size": 4,
+      "plain_receipt_sha256": "174c069e8649489d14da2ef75716dbccf5c33ca4facb8ef6478bf70bed2ded83",
+      "receipt": "variable_k6_r4.json.gz",
+      "receipt_sha256": "740433f4af0a7ab7627ed269d16c9b94478fd6f9239b105c367d47c863d4a171",
+      "target": {
+        "base": 23,
+        "root": 4
+      }
+    }
+  ],
+  "date": "2026-09-14",
+  "environment": {
+    "python": "3.13.5",
+    "system": "Linux",
+    "third_party_runtime_dependencies": []
+  },
+  "independent_auditor_sha256": "b4c115a0703865cf8afd5e5c4f96cd320804d9baec71b12620cc387e0e3896c5",
+  "lean_checked": false,
+  "negative_mutations_rejected": 8,
+  "observed_repetitions": {
+    "compact_dual_receipt.json": {
+      "normal_optimized_byte_identical": true,
+      "sha256": "abbafb986c35ab8f7a12e0a44e861e8d35c3264a5a36e7f4c2f10a0b9738300a"
+    },
+    "k5_r4": {
+      "normal_optimized_gzip_byte_identical": true,
+      "normal_sha256": "de0bad42a8b2e7b3d8274087dcdadd4546fbf623b1676a86dcac8ff146bd98bf",
+      "optimized_sha256": "de0bad42a8b2e7b3d8274087dcdadd4546fbf623b1676a86dcac8ff146bd98bf"
+    },
+    "k6_r4": {
+      "normal_optimized_gzip_byte_identical": true,
+      "normal_sha256": "740433f4af0a7ab7627ed269d16c9b94478fd6f9239b105c367d47c863d4a171",
+      "optimized_sha256": "740433f4af0a7ab7627ed269d16c9b94478fd6f9239b105c367d47c863d4a171"
+    },
+    "negative_receipt.json": {
+      "normal_optimized_byte_identical": true,
+      "sha256": "1e33fd27e5c80f220cd64f682bb92f5f1621417da59dbfb97114923ddbcaeac9"
+    }
+  },
+  "producer_sha256": "c719c6adc09d8aa7173c07b7d031b3941e53815d78e2c1cf786ef36aeeb6754b",
+  "schema": "ep817-variable-block-integration-summary-v1",
+  "scope": "Complete exact finite domains after a written all-schedule cutoff; all-rank compact dual is a written theorem, not an evaluated global rate.",
+  "source_observations": {
+    "ep817_main": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+    "ep817_predecessor_transfer": "98fd25802a387138053064e11ddd2f6d2007d55b",
+    "mathematical_zeta_source": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+    "zeta_main_ref_observed": "5817ef9027257375b6ff3de7048b3331077251e7"
+  },
+  "source_status": "Independent code audit, not external human review; no new Lean elaboration.",
+  "status": "PASS"
+}

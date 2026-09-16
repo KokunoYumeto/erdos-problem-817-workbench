@@ -1,0 +1,53 @@
+{
+  "auditor_sha256": "912e9083260be481f219c4bc45fd21a6746e0fbcb0e2242b9472e01877858254",
+  "lean_checked": false,
+  "method": "Separate source DP, direct original-mask equations, independently reconstructed symmetry coverage, direct first-round AP sets, and cardinality-based factor splitting; no producer imports.",
+  "results": {
+    "K33": {
+      "closure_steps_checked": 281,
+      "differences": 5298,
+      "kinds": {
+        "integral-packets": 94,
+        "saturation": 3,
+        "second-closure": 2
+      },
+      "orbits": 99,
+      "values": 328,
+      "words": 512
+    },
+    "applications": {
+      "literal_modular_starts": 314,
+      "nonzero_steps": 3124,
+      "overlap_witness": [
+        0,
+        6,
+        12,
+        18,
+        24
+      ],
+      "start_step_pairs": 980936
+    },
+    "canonical": {
+      "all_cases": 1970,
+      "arity_refinements": 385,
+      "targeted_cases": 4
+    },
+    "clique_differences": 3300,
+    "clique_root_steps": 15020,
+    "larger_rank_samples": 84,
+    "prism": {
+      "closure_steps_checked": 0,
+      "differences": 4994,
+      "kinds": {
+        "integral-packets": 255
+      },
+      "orbits": 255,
+      "values": 314,
+      "words": 512
+    },
+    "rejected_corruptions": 9
+  },
+  "schema": "ep817-canonical-isolation-independent-audit-v1",
+  "status": "PASS",
+  "uncompressed_input_sha256": "8d98146443b2ec414a3d64b3465e87a90b41fb38acbf2ba0219109cfdea4f9c2"
+}

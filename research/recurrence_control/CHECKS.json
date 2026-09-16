@@ -1,0 +1,23 @@
+{
+  "additional_exposition_check": "Displayed 8x8 four-AP matrix equals the full graph restriction; its exact coaccessibility set rechecked",
+  "false_records_rejected": 8,
+  "lean_checked": false,
+  "observed_replays": {
+    "normal_independent_auditor": "PASS",
+    "normal_producer": "PASS",
+    "optimized_auditor_byte_identical": true,
+    "optimized_producer_byte_identical": true,
+    "python_byte_compilation": "PASS"
+  },
+  "python_version": "3.13.5",
+  "schema": "ep817-recurrence-checks-v1",
+  "scope": "Exact finite arithmetic and source identities. Infinite conclusions rest on full written proofs. Predecessor archives retained, not rerun.",
+  "source_and_output_sha256": {
+    "certificates/audit_recurrence_control.py": "aeab5fa065bbd16755a74b1ffbae49c80a373b156322e9631d8350567d39d7c2",
+    "certificates/independent_audit.json": "8c05ff3d3cd5299f746a140d65ab1cb140f28489063e3daa17175c57058cb1b9",
+    "certificates/recurrence_receipt.json": "a7d9e5c9c3d0588eae7ce34dc9e8bc944b4a0160d682135802db5fdaa4009f48",
+    "certificates/verify_recurrence_control.py": "762980a7e2ff3834d4b72fdda9689a8ee49c9291a69a80a78ed70d7a1a720152",
+    "notes/recurrence-control.md": "8f389209ad2fec65f7a5498c26fc3c78cbb68a6b3bf5b8629fa22c74e43b8346"
+  },
+  "status": "PASS"
+}

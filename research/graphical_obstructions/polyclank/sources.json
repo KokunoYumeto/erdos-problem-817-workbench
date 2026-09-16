@@ -1,0 +1,57 @@
+[
+  {
+    "id": "EPmain",
+    "ref": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+    "repository": "KokunoYumeto/erdos-problem-817-workbench",
+    "role": "Original conventions and attribution; main observed through connector."
+  },
+  {
+    "id": "EPouter",
+    "ref": "74ba7dcc4bd623b3555046feb6d45ccac38417a3",
+    "repository": "KokunoYumeto/erdos-problem-817-workbench",
+    "role": "Observed published outer-control branch; not assumed merged."
+  },
+  {
+    "id": "ZetaSupport",
+    "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+    "ref": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+    "repository": "KokunoYumeto/zeta-function-research-reader",
+    "role": "Original reconstruction and internal quotient interface; no analytic weight estimate imported."
+  },
+  {
+    "file": "EP817_ZETA_INTEGRATION_20260914.zip",
+    "id": "PriorIntegration",
+    "role": "Unchanged local predecessor with the eight finite Bellman inputs; all old audit scopes retained.",
+    "sha256": "32a227d5e468aa05d91a9a7c5911be4413f9646d5ea3bfc66ad8997e24b922cb"
+  },
+  {
+    "authors": "Brett Kolesnik; Mario Sanchez",
+    "id": "KS2024",
+    "inspected": "Sections 1\u20134, Corollary 4.2",
+    "role": "Classical generalized Landau multigraph orientation criterion; independently reproved, not claimed new.",
+    "title": "The Geometry of Random Tournaments",
+    "url": "https://link.springer.com/article/10.1007/s00454-023-00571-4",
+    "year": 2024
+  },
+  {
+    "authors": "Samuel Korsky",
+    "id": "Korsky2026",
+    "inspected": "General bounds and graph construction",
+    "role": "Prior benchmark p^(2/(min(p,k)-1)); no global novelty assertion.",
+    "title": "Arithmetic Progression-Free Subset-Sum Sets",
+    "url": "https://arxiv.org/html/2606.24139v1",
+    "year": 2026
+  },
+  {
+    "id": "Bertrand",
+    "inspected": "Nat.exists_prime_lt_and_le_two_mul",
+    "role": "Standard existence m<p<=2m; not a Lean certificate for new work.",
+    "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/Bertrand.html"
+  },
+  {
+    "id": "Postnikov",
+    "inspected": "Abstract only",
+    "role": "Context only; no unread theorem imported.",
+    "url": "https://arxiv.org/abs/math/0507163"
+  }
+]

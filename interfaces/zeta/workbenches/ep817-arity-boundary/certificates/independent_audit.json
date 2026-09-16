@@ -1,0 +1,25 @@
+{
+  "auditor_sha256": "e1c89f6452ca6f0e179335cf11b459fe5b6d1cfd7e4957225071f3c311c778e1",
+  "brute_force_real_sources": 186,
+  "direct_original_moment_cases": 66,
+  "direct_transcript_sha256": "6a431ac83fcaa56b840bcfb46ecadb39a4dc3d36cf86566c3d33d09a10033804",
+  "exact_peak_instances": 48,
+  "lean_checked": false,
+  "moment_states_checked": 162,
+  "mutations_rejected": [
+    "original digit multiplicity",
+    "supported zero terminal",
+    "omitted residue transition",
+    "semisimplified repeated pole",
+    "uncorrected count",
+    "false uniform weight budget",
+    "erased terminal defect",
+    "altered least-norm variance"
+  ],
+  "no_real_AP_sources": 82,
+  "receipt_sha256": "7b697f228a405a6d223b43cb57b58572a9bd3ceb3954de882fe6cf37eb0278df",
+  "record_real_graph_arcs": 1597,
+  "residue_actions": 39552,
+  "schema": "ep817-arity-boundary-independent-audit-v1",
+  "status": "PASS"
+}

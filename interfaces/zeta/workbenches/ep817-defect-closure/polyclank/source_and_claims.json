@@ -1,0 +1,88 @@
+{
+  "attribution": {
+    "current_continuation": "The Clankers",
+    "original_finite_upper_Lean": "sneed-and-feed",
+    "original_k4_mathematics": "anonymous/deleted Reddit contributor"
+  },
+  "claims": [
+    {
+      "claim": "Least progression-forcing closure and exact intersection of admissible observation kernels on a finite rational source",
+      "evidence": "written proof plus exact finite replay",
+      "id": "DC1",
+      "locator": "notes/closure-and-core-isolation.md Section 2",
+      "scope": "all finite-dimensional rational E, finite S, rational W0, k>=3"
+    },
+    {
+      "claim": "Necessary and sufficient positive-distinct integer realization criterion for the binary cube",
+      "evidence": "written separation and constructive finite-hyperplane proof; 592 exact cases",
+      "id": "DC2",
+      "locator": "notes/closure-and-core-isolation.md Section 2.2",
+      "scope": "all specified finite binary sources; no optimal coordinate-height claim"
+    },
+    {
+      "claim": "Complete binary-switch witnesses for K4 and K3,3 score differences",
+      "evidence": "actual orientation masks and independently audited exhaustive finite certificate",
+      "id": "DC3",
+      "locator": "notes/closure-and-core-isolation.md Sections 4-5",
+      "scope": "200 K4 differences; 5298 nonzero K3,3 differences in 99 symmetry orbits"
+    },
+    {
+      "claim": "Arbitrary-core-count isolation from an arbitrary remaining generator set",
+      "evidence": "uniform synchronized tuple proof using DC3; 35 explicit tensor examples and 5285 singleton extension tests",
+      "id": "DC4",
+      "locator": "notes/closure-and-core-isolation.md Section 6",
+      "scope": "five-admissible distinct positive sets; full six-edge K4 or nine-edge K3,3 cores; no separation hypothesis"
+    },
+    {
+      "claim": "Exact original representation, quotient metric and unweighted covariance formulas",
+      "evidence": "explicit product maps and complete rational moment enumeration",
+      "id": "DC5",
+      "locator": "notes/closure-and-core-isolation.md Sections 7-8",
+      "scope": "DC4 family with actual reservoir; binary representation multiplicities retained"
+    },
+    {
+      "claim": "41*(328^(2h)-1) <= 150*sum(a^2)-3*sum(imbalance^2)",
+      "evidence": "written integer-spacing inequality and DC4-DC5",
+      "id": "DC6",
+      "locator": "notes/closure-and-core-isolation.md Section 7",
+      "scope": "all h>=1 when a five-admissible set is partitioned into h full K3,3 cores; not a global lower bound for g5"
+    }
+  ],
+  "date": "2026-09-15",
+  "external_mathematical_review": "pending",
+  "lean_checked": false,
+  "remote_publication_performed": false,
+  "schema": "ep817-defect-closure-claims-v1",
+  "source_sha256": {
+    "README.md": "5bdac53d1ac4b4720dff930ddded7a136f86b5fb2fd740cb59a92593bbf8f0b4",
+    "certificates/audit_certificate.py": "e1e3e644a2abf15c2c878313bbc3b21a8662e618077ecffcc56ce5ceeb678c1b",
+    "certificates/build_certificate.py": "ab037aab406ea4abe8b74a5f4345213663c53a43554c797dad7b30fc01be1cc9",
+    "certificates/exact_closure.py": "820beaf34a8c1b313615f876c4d15133ea1dfe1e924597e367bd93367a9123e2",
+    "certificates/independent_audit.json": "67bcc60ee0a2634260ffdecc64ef0d3a75b9c1d69161d54545795fbfd42c31da",
+    "certificates/producer_summary.json": "f89f3883b8c1596c7d560271b5efa9e9e433c20ce85dad3def82e11117547937",
+    "certificates/proof_data.json.gz": "94e1cc719f3fe6f9a0b875f001c7067704494d69889595e98b30f757ce4fd8af",
+    "certificates/reservoir_receipt.json": "dc3fcfefe11a0d6a021e39fe8a6ef032ee04e51b7facb889fefb2ff88c782ad6",
+    "certificates/verify_reservoir.py": "315eff70ce2ebb148f80795f0ecccc9e641d0ec8ff6f8bf175e2c90f854bbe0d",
+    "notes/closure-and-core-isolation.md": "08a1e01d182e1062f119d0ca3c78cc69d2067d04e2bfbf71372e038f49053443"
+  },
+  "sources": [
+    {
+      "commit": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "git_blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "id": "ZETA-D6-D8",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "scope_read": "lines 125-221, internal quotient and receiving kernels (D6)-(D8)",
+      "used_for": "original supported quotient interface; no analytic arithmetic-weight estimate imported"
+    },
+    {
+      "author": "Samuel Korsky",
+      "id": "KORSKY-V1",
+      "scope_read": "Sections 1-4",
+      "title": "Arithmetic Progression-Free Subset-Sum Sets",
+      "url": "https://arxiv.org/html/2606.24139v1",
+      "used_for": "problem conventions, general-bound context, and one-shift source comparison; no new upper-rate priority claim",
+      "version": "arXiv:2606.24139v1"
+    }
+  ]
+}

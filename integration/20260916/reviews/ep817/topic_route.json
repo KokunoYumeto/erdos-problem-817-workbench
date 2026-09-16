@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "topic_id": "EP817-DELIVERY-INTEGRATION-20260916",
+  "topic": "Exact subset-sum image carriers, local-pattern cone, and source-resolved SplitZero receiving maps",
+  "workspace": "private_review/program_updates_20260916/reviews/ep817",
+  "corpus_entrypoint": "C:/Users/LOCAL_USER/Documents/Papors/Chatnotes/Zeta-Function-Foundation/config/literature_index_entrypoint.json",
+  "updated_utc": "2026-09-16T20:15:47Z",
+  "queries": [
+    {
+      "query": "subset sum progression",
+      "layer": "all",
+      "index_level": "canonical",
+      "executed_utc": "2026-09-16T20:11:35Z",
+      "reason": "Route exact arithmetic problem and neighboring additive-combinatorial terminology; bounded two results per layer only.",
+      "result_unit_ids": [
+        "PUBUNIT-C8639500385618A8FADDA25C",
+        "PUBUNIT-A4894D5AC1047F2167AE1B6F",
+        "PUBUNIT-1C9A160031EECC8F3F032D4D",
+        "PUBUNIT-FE32EBA3F9A26AE4E006F07F"
+      ]
+    },
+    {
+      "query": "Korsky",
+      "layer": "all",
+      "index_level": "canonical",
+      "executed_utc": "2026-09-16T20:11:35Z",
+      "reason": "Exact source cited by delivered notes; no hit, so inspected pinned arXiv primary source online.",
+      "result_unit_ids": []
+    }
+  ],
+  "sources": [
+    {
+      "source_class": "local_unpublished_work",
+      "publication_unit_or_source_id": "DELIVERY-EP817-LOCAL-FLOW-20260916",
+      "exact_locators": [
+        "intake/ep817/EP817_LOCAL_FLOW_20260916/payloads/ep817/research/local_flow/notes/local-flow-and-switching.md",
+        "intake/ep817/EP817_LOCAL_FLOW_20260916/payloads/zeta/workbenches/ep817-local-flow/notes/splitzero-receiving-map.md"
+      ],
+      "relevance_edge": "Direct supplied continuation; exact seven-count/nine-pattern cone and path substitution.",
+      "toc_or_section_check": {
+        "status": "checked",
+        "checked_utc": "2026-09-16T20:11:35Z",
+        "relevant_sections": [
+          "1–8",
+          "receiving note 1–7"
+        ]
+      },
+      "reading_status": "fully_content_read_entire_source",
+      "content_loci_read": [
+        "All proof sections and receiving sections"
+      ],
+      "dependencies": [
+        "DELIVERY-EP817-SEVEN-OBSERVABLE-20260916",
+        "SPLITZERO-SUPPORT-DIAGRAMS-58626a6"
+      ]
+    },
+    {
+      "source_class": "local_unpublished_work",
+      "publication_unit_or_source_id": "DELIVERY-EP817-SEVEN-OBSERVABLE-20260916",
+      "exact_locators": [
+        "intake/ep817_previous/EP817_SEVEN_OBSERVABLE_20260916/payloads/ep817/research/seven_observable/notes/seven-observable-capacity.md",
+        "intake/ep817_previous/EP817_SEVEN_OBSERVABLE_20260916/payloads/zeta/workbenches/ep817-seven-observable/notes/splitzero-receiving-map.md"
+      ],
+      "relevance_edge": "Universal finite carrier, full-radius observation, fibre resolution and exact capacity identity.",
+      "toc_or_section_check": {
+        "status": "checked",
+        "checked_utc": "2026-09-16T20:11:35Z",
+        "relevant_sections": [
+          "1–12",
+          "receiving note 1–6"
+        ]
+      },
+      "reading_status": "fully_content_read_entire_source",
+      "content_loci_read": [
+        "All proof sections and receiving sections"
+      ],
+      "dependencies": [
+        "DELIVERY-EP817-ALL-BLOCK-20260916",
+        "SPLITZERO-SUPPORT-DIAGRAMS-58626a6"
+      ],
+      "notes": "Section 4.1 requires L>3Q, not delivered L>2Q, for its separated-reflection proof. Actual code uses L=4Q+3 and remains valid."
+    },
+    {
+      "source_class": "local_unpublished_work",
+      "publication_unit_or_source_id": "DELIVERY-EP817-ALL-BLOCK-20260916",
+      "exact_locators": [
+        "intake/ep817_ancestors/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/all-block-image-capacity.md",
+        "intake/ep817_ancestors/EP817_ALL_BLOCK_IMAGE_20260916/payloads/ep817/research/all_block_image/notes/general-pattern-return.md"
+      ],
+      "relevance_edge": "Complete written prime-avoidance, amplification and fixed-arity global capacity interface, independent of earlier fixed-block tests.",
+      "toc_or_section_check": {
+        "status": "checked",
+        "checked_utc": "2026-09-16T20:11:35Z",
+        "relevant_sections": [
+          "1–10",
+          "general-pattern return 1–6"
+        ]
+      },
+      "reading_status": "fully_content_read_entire_source",
+      "content_loci_read": [
+        "All proof sections"
+      ],
+      "dependencies": []
+    },
+    {
+      "source_class": "local_unpublished_work",
+      "publication_unit_or_source_id": "SPLITZERO-SUPPORT-DIAGRAMS-58626a6",
+      "exact_locators": [
+        "https://github.com/KokunoYumeto/zeta-function-research-reader/blob/58626a62cd5648e8ae7450fb54d4a4aab2330981/workbenches/splitzero-tandem/tex/support_diagrams.tex",
+        "Git blob d3493f891291ee6e94dbf2c77649f7d85d240df2"
+      ],
+      "relevance_edge": "Original support-index reconstruction and additional receiving kernel; no imported analytic theta estimate.",
+      "toc_or_section_check": {
+        "status": "checked",
+        "checked_utc": "2026-09-16T20:11:35Z",
+        "relevant_sections": [
+          "D1–D8"
+        ]
+      },
+      "reading_status": "fully_content_read_entire_source",
+      "content_loci_read": [
+        "Full exact GitHub raw TeX"
+      ],
+      "dependencies": []
+    },
+    {
+      "source_class": "research_literature",
+      "publication_unit_or_source_id": "ARXIV-2606.24139-V1",
+      "exact_locators": [
+        "https://arxiv.org/html/2606.24139v1"
+      ],
+      "relevance_edge": "Source identity, original definition of g_k, historical June general-bound context and three-term injectivity; no September global status inferred.",
+      "toc_or_section_check": {
+        "status": "checked",
+        "checked_utc": "2026-09-16T20:11:35Z",
+        "relevant_sections": [
+          "Introduction",
+          "Theorems 1.1–1.3",
+          "Corollary 1.4",
+          "Section 4"
+        ]
+      },
+      "reading_status": "partially_content_read",
+      "content_loci_read": [
+        "Header and source version, introduction and displayed Theorems 1.1–1.3 / Corollary 1.4"
+      ],
+      "dependencies": [],
+      "notes": "No novelty conclusion; finite-image capacity and prime lemma have their own full local proofs."
+    },
+    {
+      "source_class": "local_unpublished_work",
+      "publication_unit_or_source_id": "DELIVERY-EP817-RECURRENCE-CONTROL-20260915",
+      "exact_locators": [
+        "intake/ep817_recurrence/EP817_RECURRENCE_CONTROL_20260915/payloads/ep817/research/recurrence_control/notes/recurrence-control.md",
+        "intake/ep817_recurrence/EP817_RECURRENCE_CONTROL_20260915/payloads/zeta/workbenches/ep817-recurrence-control/notes/splitzero-receiving-map.md"
+      ],
+      "relevance_edge": "Recovered transcript-linked omitted continuation; exact recurrence family, original relation inverse, algebraic carry source and supported metric return.",
+      "toc_or_section_check": {
+        "status": "checked",
+        "checked_utc": "2026-09-16T20:15:47Z",
+        "relevant_sections": [
+          "main note 1–10",
+          "receiving note 1–7"
+        ]
+      },
+      "reading_status": "fully_content_read_entire_source",
+      "content_loci_read": [
+        "Bounded independent recurrence subagent read full notes; parent read subreview and rechecked fresh executable evidence."
+      ],
+      "dependencies": [
+        "SPLITZERO-SUPPORT-DIAGRAMS-58626a6"
+      ],
+      "notes": "Audit provenance: recurrence_review/REVIEW.md; primary review does not pretend independent full re-reading of recurrence proof."
+    }
+  ],
+  "unresolved_dependencies": [],
+  "refresh_reason": "User-authorized integration of delivered EP817 mathematics, including recovered missing recurrence-control archive named by the supplied transcript.",
+  "anti_loop_note": "Bounded routing only. No index rebuild or shelf reread; unrelated query hits were not used as evidence. Source-check and query timestamps are recording-time upper bounds, not exact query start times; queries preceded this record. See run manifests for precise replay execution times."
+}

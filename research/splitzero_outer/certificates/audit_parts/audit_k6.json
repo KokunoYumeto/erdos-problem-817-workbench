@@ -1,0 +1,29 @@
+{
+  "auditor_sha256": "2535c7548c524645edeafa4eac7a7d8917c13ac0b3a8855d6d105b00f375825c",
+  "lean_checked": false,
+  "results": [
+    {
+      "audited_indices": [
+        0,
+        6074
+      ],
+      "capacity_target": "47^(1/5)",
+      "complete_domain_size": 6074,
+      "counts": {
+        "bad_base_witnesses": 3314,
+        "complete_return_blocks": 150,
+        "controller_blocks": 18,
+        "controller_transfers": 820,
+        "generators": 6074,
+        "integer_obstructions": 5906,
+        "potential_edges": 279,
+        "return_rows": 13458
+      },
+      "k": 6,
+      "plain_receipt_sha256": "708502d4bfa7e696e8f5435baeac775df8eda521974ca26b022df2941a4f5445",
+      "status": "PASS"
+    }
+  ],
+  "schema": "ep817-rank-five-independent-audit-v1",
+  "status": "PASS"
+}

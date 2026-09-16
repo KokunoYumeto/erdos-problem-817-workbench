@@ -1,5 +1,10 @@
 # Erdős Problem 817: the `k = 4` exponential rate
 
+## September 16 research update
+
+[Read the new contributions, full source lineage and integration checks](integration/20260916/README.md).
+
+
 This is a focused, reviewable workbench for a proof posted to
 `r/LLMmathematics` by a contributor whose account was later deleted. The proof
 establishes

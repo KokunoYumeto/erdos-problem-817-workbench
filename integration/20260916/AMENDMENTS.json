@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "scope": "Narrow reviewed proof/presentation repairs; original delivered packages unchanged. Historical package hashes still identify the original versions.",
+  "changes": [
+    {
+      "path": "research/cone_dual/notes/cone-and-dual.md",
+      "original_sha256": "5f8b16549ee13041749707c1421c94f860b39d79f0db8055d0d2a013aa4ca9fb",
+      "published_sha256": "e1cf06c8b110865029ff17b4e24786d14c807470aedb27d541e9288af348926e",
+      "replacements": [
+        {
+          "before": "A is k-admissible when H_2(A) contains no nonconstant ordered k-term arithmetic progression.",
+          "after": "A is k-admissible when H_2(A) contains no nonconstant ordered k-term arithmetic progression. Throughout, k is an integer with k>=3, and g_k(n)=min{max A: |A|=n, A is k-admissible} for n>=1."
+        },
+        {
+          "before": "The finite certificate retains both complete histograms.",
+          "after": "The producer and independent auditor recompute both complete histograms from the retained original weights; the serialized certificate records their peak multiplicities."
+        },
+        {
+          "before": "Minimizing that cost at fixed rank is submultiplicative.",
+          "after": "Define F_k(n)=min{2S(A)+1: |A|=n, A is k-admissible}. Minimizing that cost at fixed rank is submultiplicative."
+        }
+      ]
+    },
+    {
+      "path": "research/seven_observable/notes/seven-observable-capacity.md",
+      "original_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+      "published_sha256": "418542101ce199b925bee927e23af9a939174d45975d3275e4b9c7165bae4cfe",
+      "replacements": [
+        {
+          "before": "L>2Q.",
+          "after": "L>3Q."
+        },
+        {
+          "before": "\tag{7.1}",
+          "after": "\\tag{7.1}"
+        },
+        {
+          "before": "No pattern of width at most Q crosses the gap.",
+          "after": "Since P is contained in [0,Q], the inter-component gap is at least L-2Q>Q. No pattern of width at most Q crosses the gap."
+        }
+      ]
+    },
+    {
+      "path": "interfaces/zeta/workbenches/ep817-seven-observable/notes/seven-observable-capacity.md",
+      "original_sha256": "6aaae799ab5dabb576d00f2144c8d75be8b782052f0330fe150481f1d0a58eff",
+      "published_sha256": "418542101ce199b925bee927e23af9a939174d45975d3275e4b9c7165bae4cfe",
+      "replacements": [
+        {
+          "before": "L>2Q.",
+          "after": "L>3Q."
+        },
+        {
+          "before": "\tag{7.1}",
+          "after": "\\tag{7.1}"
+        },
+        {
+          "before": "No pattern of width at most Q crosses the gap.",
+          "after": "Since P is contained in [0,Q], the inter-component gap is at least L-2Q>Q. No pattern of width at most Q crosses the gap."
+        }
+      ]
+    }
+  ],
+  "separation_justification": "For P subset [0,Q], the two components of P union(L-P) are separated by at least L-2Q. To exclude a crossing pattern of width at most Q, require L-2Q>Q, i.e. L>3Q. The former L>2Q fails for Q=3,P={0,3},L=7, where {3,4} crosses the gap. Taking L larger leaves the intended existence/linear-independence argument intact."
+}

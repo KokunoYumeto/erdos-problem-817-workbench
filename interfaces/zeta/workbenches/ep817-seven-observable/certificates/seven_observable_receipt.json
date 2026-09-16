@@ -1,0 +1,4141 @@
+{
+  "all_alphabets": {
+    "alphabets": 5050,
+    "base_range": [
+      2,
+      4
+    ],
+    "count_joins": 15150,
+    "domain": "all D subset [0,(q-1)(b-1)] containing 0",
+    "moment_vector_checks": 45450,
+    "q_range": [
+      2,
+      5
+    ],
+    "symmetric_sources": 384,
+    "transcript_sha256": "259ec89653262dced58b708d58079db779cb4293c5caf34d957660ed8eea764f"
+  },
+  "chain_and_metrics": {
+    "actual_numeric_fibers": 2828,
+    "all_basis_homotopy_identities": 126,
+    "macro_cuts": [
+      {
+        "cut_scale": 8,
+        "domain_size": 16,
+        "fiber_histogram": {
+          "1": 16
+        },
+        "image_size": 16,
+        "left_generators": [
+          1,
+          2,
+          4
+        ],
+        "q": 2,
+        "right_generators": [
+          1
+        ]
+      },
+      {
+        "cut_scale": 25,
+        "domain_size": 64,
+        "fiber_histogram": {
+          "1": 64
+        },
+        "image_size": 64,
+        "left_generators": [
+          1,
+          2,
+          5,
+          10
+        ],
+        "q": 2,
+        "right_generators": [
+          1,
+          2
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 16,
+        "fiber_histogram": {
+          "1": 16
+        },
+        "image_size": 16,
+        "left_generators": [
+          2,
+          5
+        ],
+        "q": 2,
+        "right_generators": [
+          1,
+          3
+        ]
+      },
+      {
+        "cut_scale": 5,
+        "domain_size": 16,
+        "fiber_histogram": {
+          "1": 16
+        },
+        "image_size": 16,
+        "left_generators": [
+          1,
+          3
+        ],
+        "q": 2,
+        "right_generators": [
+          2,
+          7
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 45,
+        "fiber_histogram": {
+          "1": 17,
+          "2": 14
+        },
+        "image_size": 31,
+        "left_generators": [
+          1,
+          2,
+          4
+        ],
+        "q": 3,
+        "right_generators": [
+          1
+        ]
+      },
+      {
+        "cut_scale": 25,
+        "domain_size": 259,
+        "fiber_histogram": {
+          "1": 115,
+          "2": 72
+        },
+        "image_size": 187,
+        "left_generators": [
+          1,
+          2,
+          5,
+          10
+        ],
+        "q": 3,
+        "right_generators": [
+          1,
+          2
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 81,
+        "fiber_histogram": {
+          "1": 49,
+          "2": 16
+        },
+        "image_size": 65,
+        "left_generators": [
+          2,
+          5
+        ],
+        "q": 3,
+        "right_generators": [
+          1,
+          3
+        ]
+      },
+      {
+        "cut_scale": 5,
+        "domain_size": 81,
+        "fiber_histogram": {
+          "1": 81
+        },
+        "image_size": 81,
+        "left_generators": [
+          1,
+          3
+        ],
+        "q": 3,
+        "right_generators": [
+          2,
+          7
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 88,
+        "fiber_histogram": {
+          "1": 16,
+          "2": 18,
+          "3": 12
+        },
+        "image_size": 46,
+        "left_generators": [
+          1,
+          2,
+          4
+        ],
+        "q": 4,
+        "right_generators": [
+          1
+        ]
+      },
+      {
+        "cut_scale": 25,
+        "domain_size": 550,
+        "fiber_histogram": {
+          "1": 50,
+          "2": 190,
+          "3": 40
+        },
+        "image_size": 280,
+        "left_generators": [
+          1,
+          2,
+          5,
+          10
+        ],
+        "q": 4,
+        "right_generators": [
+          1,
+          2
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 208,
+        "fiber_histogram": {
+          "1": 20,
+          "2": 94
+        },
+        "image_size": 114,
+        "left_generators": [
+          2,
+          5
+        ],
+        "q": 4,
+        "right_generators": [
+          1,
+          3
+        ]
+      },
+      {
+        "cut_scale": 5,
+        "domain_size": 208,
+        "fiber_histogram": {
+          "1": 88,
+          "2": 60
+        },
+        "image_size": 148,
+        "left_generators": [
+          1,
+          3
+        ],
+        "q": 4,
+        "right_generators": [
+          2,
+          7
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 145,
+        "fiber_histogram": {
+          "1": 16,
+          "2": 16,
+          "3": 19,
+          "4": 10
+        },
+        "image_size": 61,
+        "left_generators": [
+          1,
+          2,
+          4
+        ],
+        "q": 5,
+        "right_generators": [
+          1
+        ]
+      },
+      {
+        "cut_scale": 25,
+        "domain_size": 949,
+        "fiber_histogram": {
+          "1": 50,
+          "2": 70,
+          "3": 253
+        },
+        "image_size": 373,
+        "left_generators": [
+          1,
+          2,
+          5,
+          10
+        ],
+        "q": 5,
+        "right_generators": [
+          1,
+          2
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 425,
+        "fiber_histogram": {
+          "1": 16,
+          "2": 44,
+          "3": 51,
+          "4": 42
+        },
+        "image_size": 153,
+        "left_generators": [
+          2,
+          5
+        ],
+        "q": 5,
+        "right_generators": [
+          1,
+          3
+        ]
+      },
+      {
+        "cut_scale": 5,
+        "domain_size": 425,
+        "fiber_histogram": {
+          "1": 41,
+          "2": 92,
+          "3": 56,
+          "4": 8
+        },
+        "image_size": 197,
+        "left_generators": [
+          1,
+          3
+        ],
+        "q": 5,
+        "right_generators": [
+          2,
+          7
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 216,
+        "fiber_histogram": {
+          "1": 16,
+          "2": 16,
+          "3": 16,
+          "4": 20,
+          "5": 8
+        },
+        "image_size": 76,
+        "left_generators": [
+          1,
+          2,
+          4
+        ],
+        "q": 6,
+        "right_generators": [
+          1
+        ]
+      },
+      {
+        "cut_scale": 25,
+        "domain_size": 1456,
+        "fiber_histogram": {
+          "1": 50,
+          "2": 50,
+          "3": 158,
+          "4": 208
+        },
+        "image_size": 466,
+        "left_generators": [
+          1,
+          2,
+          5,
+          10
+        ],
+        "q": 6,
+        "right_generators": [
+          1,
+          2
+        ]
+      },
+      {
+        "cut_scale": 8,
+        "domain_size": 672,
+        "fiber_histogram": {
+          "1": 16,
+          "2": 16,
+          "3": 16,
+          "4": 144
+        },
+        "image_size": 192,
+        "left_generators": [
+          2,
+          5
+        ],
+        "q": 6,
+        "right_generators": [
+          1,
+          3
+        ]
+      },
+      {
+        "cut_scale": 5,
+        "domain_size": 756,
+        "fiber_histogram": {
+          "1": 20,
+          "2": 46,
+          "3": 86,
+          "4": 84,
+          "5": 10
+        },
+        "image_size": 246,
+        "left_generators": [
+          1,
+          3
+        ],
+        "q": 6,
+        "right_generators": [
+          2,
+          7
+        ]
+      }
+    ],
+    "simplex_sizes": [
+      1,
+      6
+    ],
+    "weighted_section_checks": 2828
+  },
+  "faithful_reencoding": [
+    {
+      "blocks": 1,
+      "distinct_generator_residues": 2,
+      "fifth_arity_size": 25,
+      "prime": 13,
+      "rejected_prime_witnesses": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          11,
+          11
+        ]
+      ],
+      "ternary_size": 9,
+      "two_level_binary_values": 16,
+      "unchanged_generators": [
+        1,
+        9
+      ]
+    },
+    {
+      "blocks": 2,
+      "distinct_generator_residues": 4,
+      "fifth_arity_size": 425,
+      "prime": 151,
+      "rejected_prime_witnesses": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          23,
+          46
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          31,
+          62
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          41,
+          205
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          59,
+          236
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          67,
+          268
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          73,
+          73
+        ],
+        [
+          79,
+          316
+        ],
+        [
+          83,
+          415
+        ],
+        [
+          89,
+          178
+        ],
+        [
+          97,
+          485
+        ],
+        [
+          101,
+          505
+        ],
+        [
+          103,
+          206
+        ],
+        [
+          107,
+          214
+        ],
+        [
+          109,
+          218
+        ],
+        [
+          113,
+          226
+        ],
+        [
+          127,
+          254
+        ],
+        [
+          131,
+          262
+        ],
+        [
+          137,
+          548
+        ],
+        [
+          139,
+          278
+        ],
+        [
+          149,
+          298
+        ]
+      ],
+      "ternary_size": 81,
+      "two_level_binary_values": 256,
+      "unchanged_generators": [
+        1,
+        9,
+        27,
+        243
+      ]
+    },
+    {
+      "blocks": 3,
+      "distinct_generator_residues": 6,
+      "fifth_arity_size": 7225,
+      "prime": 1091,
+      "rejected_prime_witnesses": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          23,
+          46
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          31,
+          62
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          41,
+          205
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          59,
+          236
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          67,
+          268
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          73,
+          73
+        ],
+        [
+          79,
+          316
+        ],
+        [
+          83,
+          415
+        ],
+        [
+          89,
+          178
+        ],
+        [
+          97,
+          485
+        ],
+        [
+          101,
+          505
+        ],
+        [
+          103,
+          206
+        ],
+        [
+          107,
+          214
+        ],
+        [
+          109,
+          218
+        ],
+        [
+          113,
+          226
+        ],
+        [
+          127,
+          254
+        ],
+        [
+          131,
+          262
+        ],
+        [
+          137,
+          548
+        ],
+        [
+          139,
+          278
+        ],
+        [
+          149,
+          298
+        ],
+        [
+          151,
+          755
+        ],
+        [
+          157,
+          314
+        ],
+        [
+          163,
+          1141
+        ],
+        [
+          167,
+          668
+        ],
+        [
+          173,
+          173
+        ],
+        [
+          179,
+          179
+        ],
+        [
+          181,
+          181
+        ],
+        [
+          191,
+          191
+        ],
+        [
+          193,
+          772
+        ],
+        [
+          197,
+          197
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          211,
+          422
+        ],
+        [
+          223,
+          223
+        ],
+        [
+          227,
+          227
+        ],
+        [
+          229,
+          458
+        ],
+        [
+          233,
+          233
+        ],
+        [
+          239,
+          478
+        ],
+        [
+          241,
+          241
+        ],
+        [
+          251,
+          251
+        ],
+        [
+          257,
+          514
+        ],
+        [
+          263,
+          263
+        ],
+        [
+          269,
+          269
+        ],
+        [
+          271,
+          271
+        ],
+        [
+          277,
+          277
+        ],
+        [
+          281,
+          281
+        ],
+        [
+          283,
+          1415
+        ],
+        [
+          293,
+          1172
+        ],
+        [
+          307,
+          307
+        ],
+        [
+          311,
+          1244
+        ],
+        [
+          313,
+          313
+        ],
+        [
+          317,
+          317
+        ],
+        [
+          331,
+          1655
+        ],
+        [
+          337,
+          674
+        ],
+        [
+          347,
+          694
+        ],
+        [
+          349,
+          1396
+        ],
+        [
+          353,
+          1412
+        ],
+        [
+          359,
+          718
+        ],
+        [
+          367,
+          1468
+        ],
+        [
+          373,
+          746
+        ],
+        [
+          379,
+          758
+        ],
+        [
+          383,
+          766
+        ],
+        [
+          389,
+          1945
+        ],
+        [
+          397,
+          794
+        ],
+        [
+          401,
+          802
+        ],
+        [
+          409,
+          1636
+        ],
+        [
+          419,
+          1676
+        ],
+        [
+          421,
+          421
+        ],
+        [
+          431,
+          431
+        ],
+        [
+          433,
+          433
+        ],
+        [
+          439,
+          439
+        ],
+        [
+          443,
+          443
+        ],
+        [
+          449,
+          449
+        ],
+        [
+          457,
+          457
+        ],
+        [
+          461,
+          461
+        ],
+        [
+          463,
+          926
+        ],
+        [
+          467,
+          467
+        ],
+        [
+          479,
+          479
+        ],
+        [
+          487,
+          487
+        ],
+        [
+          491,
+          982
+        ],
+        [
+          499,
+          998
+        ],
+        [
+          503,
+          503
+        ],
+        [
+          509,
+          1018
+        ],
+        [
+          521,
+          521
+        ],
+        [
+          523,
+          523
+        ],
+        [
+          541,
+          541
+        ],
+        [
+          547,
+          547
+        ],
+        [
+          557,
+          557
+        ],
+        [
+          563,
+          5067
+        ],
+        [
+          569,
+          4552
+        ],
+        [
+          571,
+          1142
+        ],
+        [
+          577,
+          1154
+        ],
+        [
+          587,
+          5283
+        ],
+        [
+          593,
+          1186
+        ],
+        [
+          599,
+          1198
+        ],
+        [
+          601,
+          4808
+        ],
+        [
+          607,
+          1214
+        ],
+        [
+          613,
+          1226
+        ],
+        [
+          617,
+          1234
+        ],
+        [
+          619,
+          5571
+        ],
+        [
+          631,
+          1262
+        ],
+        [
+          641,
+          5128
+        ],
+        [
+          643,
+          1286
+        ],
+        [
+          647,
+          5176
+        ],
+        [
+          653,
+          4571
+        ],
+        [
+          659,
+          659
+        ],
+        [
+          661,
+          4627
+        ],
+        [
+          673,
+          673
+        ],
+        [
+          677,
+          677
+        ],
+        [
+          683,
+          683
+        ],
+        [
+          691,
+          691
+        ],
+        [
+          701,
+          701
+        ],
+        [
+          709,
+          709
+        ],
+        [
+          719,
+          719
+        ],
+        [
+          727,
+          727
+        ],
+        [
+          733,
+          1466
+        ],
+        [
+          739,
+          739
+        ],
+        [
+          743,
+          1486
+        ],
+        [
+          751,
+          1502
+        ],
+        [
+          757,
+          757
+        ],
+        [
+          761,
+          1522
+        ],
+        [
+          769,
+          5383
+        ],
+        [
+          773,
+          773
+        ],
+        [
+          787,
+          7083
+        ],
+        [
+          797,
+          5579
+        ],
+        [
+          809,
+          5663
+        ],
+        [
+          811,
+          6488
+        ],
+        [
+          821,
+          6568
+        ],
+        [
+          823,
+          1646
+        ],
+        [
+          827,
+          1654
+        ],
+        [
+          829,
+          1658
+        ],
+        [
+          839,
+          7551
+        ],
+        [
+          853,
+          6824
+        ],
+        [
+          857,
+          6856
+        ],
+        [
+          859,
+          1718
+        ],
+        [
+          863,
+          1726
+        ],
+        [
+          877,
+          1754
+        ],
+        [
+          881,
+          1762
+        ],
+        [
+          883,
+          1766
+        ],
+        [
+          887,
+          1774
+        ],
+        [
+          907,
+          907
+        ],
+        [
+          911,
+          911
+        ],
+        [
+          919,
+          919
+        ],
+        [
+          929,
+          929
+        ],
+        [
+          937,
+          937
+        ],
+        [
+          941,
+          1882
+        ],
+        [
+          947,
+          947
+        ],
+        [
+          953,
+          953
+        ],
+        [
+          967,
+          1934
+        ],
+        [
+          971,
+          971
+        ],
+        [
+          977,
+          1954
+        ],
+        [
+          983,
+          983
+        ],
+        [
+          991,
+          991
+        ],
+        [
+          997,
+          997
+        ],
+        [
+          1009,
+          1009
+        ],
+        [
+          1013,
+          5065
+        ],
+        [
+          1019,
+          1019
+        ],
+        [
+          1021,
+          5105
+        ],
+        [
+          1031,
+          5155
+        ],
+        [
+          1033,
+          1033
+        ],
+        [
+          1039,
+          7273
+        ],
+        [
+          1049,
+          7343
+        ],
+        [
+          1051,
+          13663
+        ],
+        [
+          1061,
+          8488
+        ],
+        [
+          1063,
+          8504
+        ],
+        [
+          1069,
+          5345
+        ],
+        [
+          1087,
+          14131
+        ]
+      ],
+      "ternary_size": 729,
+      "two_level_binary_values": 4096,
+      "unchanged_generators": [
+        1,
+        9,
+        27,
+        243,
+        729,
+        6561
+      ]
+    }
+  ],
+  "full_replay": true,
+  "lean_checked": false,
+  "minimality": {
+    "actual_image_determinant": -10240,
+    "actual_image_matrix": [
+      [
+        5,
+        10,
+        10,
+        15,
+        10,
+        15,
+        20
+      ],
+      [
+        5,
+        6,
+        7,
+        7,
+        8,
+        8,
+        8
+      ],
+      [
+        5,
+        10,
+        6,
+        11,
+        10,
+        11,
+        12
+      ],
+      [
+        5,
+        10,
+        10,
+        15,
+        6,
+        11,
+        16
+      ],
+      [
+        13,
+        14,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      [
+        25,
+        30,
+        31,
+        31,
+        32,
+        32,
+        32
+      ],
+      [
+        25,
+        46,
+        30,
+        47,
+        42,
+        47,
+        48
+      ]
+    ],
+    "admissible_hankel_determinant": 1228800,
+    "admissible_hankel_matrix": [
+      [
+        25,
+        17,
+        25,
+        25,
+        41,
+        85,
+        117
+      ],
+      [
+        25,
+        21,
+        25,
+        25,
+        53,
+        105,
+        121
+      ],
+      [
+        25,
+        19,
+        17,
+        25,
+        43,
+        87,
+        85
+      ],
+      [
+        25,
+        23,
+        25,
+        21,
+        55,
+        107,
+        117
+      ],
+      [
+        65,
+        33,
+        53,
+        65,
+        73,
+        153,
+        233
+      ],
+      [
+        85,
+        37,
+        57,
+        77,
+        77,
+        157,
+        237
+      ],
+      [
+        125,
+        59,
+        89,
+        105,
+        123,
+        251,
+        377
+      ]
+    ],
+    "evaluation_determinant": -1,
+    "evaluation_matrix": [
+      [
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        5
+      ],
+      [
+        2,
+        4,
+        3,
+        5,
+        4,
+        5,
+        6
+      ],
+      [
+        3,
+        4,
+        5,
+        5,
+        6,
+        6,
+        6
+      ],
+      [
+        2,
+        4,
+        4,
+        6,
+        3,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        6,
+        6,
+        7,
+        7,
+        7
+      ],
+      [
+        4,
+        6,
+        7,
+        7,
+        6,
+        8,
+        8
+      ]
+    ],
+    "five_admissible_blocks": [
+      [
+        4
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        9
+      ]
+    ],
+    "general_dimensions": [
+      {
+        "q": 2,
+        "raw_dimension": 1,
+        "raw_evaluation_determinant": 1,
+        "symmetric_dimension": 1,
+        "symmetric_evaluation_determinant": 2,
+        "union_to_pattern_determinant": 1
+      },
+      {
+        "q": 3,
+        "raw_dimension": 2,
+        "raw_evaluation_determinant": -1,
+        "symmetric_dimension": 2,
+        "symmetric_evaluation_determinant": -4,
+        "union_to_pattern_determinant": -1
+      },
+      {
+        "q": 4,
+        "raw_dimension": 4,
+        "raw_evaluation_determinant": 1,
+        "symmetric_dimension": 4,
+        "symmetric_evaluation_determinant": 16,
+        "union_to_pattern_determinant": 1
+      },
+      {
+        "q": 5,
+        "raw_dimension": 8,
+        "raw_evaluation_determinant": -1,
+        "symmetric_dimension": 7,
+        "symmetric_evaluation_determinant": 64,
+        "union_to_pattern_determinant": -1
+      },
+      {
+        "q": 6,
+        "raw_dimension": 16,
+        "raw_evaluation_determinant": -1,
+        "symmetric_dimension": 13,
+        "symmetric_evaluation_determinant": -1024,
+        "union_to_pattern_determinant": -1
+      },
+      {
+        "q": 7,
+        "raw_dimension": 32,
+        "raw_evaluation_determinant": -1,
+        "symmetric_dimension": 23,
+        "symmetric_evaluation_determinant": -16384,
+        "union_to_pattern_determinant": -1
+      }
+    ],
+    "non_symmetric_observation": {
+      "Y": [
+        0,
+        1,
+        3
+      ],
+      "signed_difference": -1
+    },
+    "prefix_certificates": [
+      {
+        "base": 3,
+        "generators": [
+          1
+        ]
+      },
+      {
+        "base": 4,
+        "generators": [
+          1
+        ]
+      },
+      {
+        "base": 3,
+        "generators": [
+          2
+        ]
+      },
+      {
+        "base": 4,
+        "generators": [
+          3
+        ]
+      },
+      {
+        "base": 5,
+        "generators": [
+          1,
+          2
+        ]
+      },
+      {
+        "base": 5,
+        "generators": [
+          1,
+          3
+        ]
+      },
+      {
+        "base": 8,
+        "generators": [
+          1,
+          6
+        ]
+      }
+    ],
+    "prefix_determinant": -120,
+    "prefix_rows": [
+      [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        3
+      ]
+    ],
+    "set_object_observation_kernel": {
+      "coefficients": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        1
+      ],
+      "kernel_rank": 1,
+      "rank": 7,
+      "sets": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "seven_basis": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "symmetric_sets": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ]
+  },
+  "mixed_schedules": {
+    "macro_cut_checks": 210,
+    "q_range": [
+      2,
+      6
+    ],
+    "specified_schedules": 140,
+    "transcript_sha256": "ea19eac7f997d384102a66814bdaf9eebb56a99be7e2a3308371c8ea1e712059"
+  },
+  "original_blocks": {
+    "block_radix_cases": 1375,
+    "generator_domain": "all nonempty subsets of [1,8] of size at most 3",
+    "original_two_level_counts": 1375,
+    "q_range": [
+      2,
+      6
+    ],
+    "radices": "S+1,S+2,2S+1 (duplicates removed)",
+    "transcript_sha256": "0219825db88ce719a32c9467cc0f6a62285cd3b1abcc9cda7206a01ea2730465"
+  },
+  "regressions": {
+    "absent_residue_row": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "factorial_stage_replay": [
+      {
+        "count_bit_length": 3,
+        "count_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "length": 1,
+        "radix": 3,
+        "stage": 1
+      },
+      {
+        "count_bit_length": 7,
+        "count_sha256": "a88a7902cb4ef697ba0b6759c50e8c10297ff58f942243de19b984841bfe1f73",
+        "length": 3,
+        "radix": 5,
+        "stage": 2
+      },
+      {
+        "count_bit_length": 17,
+        "count_sha256": "87e9c0e7deb18d89d3b04de8a72dd8a06d462ef73f9ac00aaa593787048e5668",
+        "length": 9,
+        "radix": 3,
+        "stage": 3
+      },
+      {
+        "count_bit_length": 72,
+        "count_sha256": "dfee4d382bdc9a129ba77b8eae3943c4d7fec720fddc63be8ada51521df6d5e5",
+        "length": 33,
+        "radix": 5,
+        "stage": 4
+      },
+      {
+        "count_bit_length": 263,
+        "count_sha256": "a589e0ed0f022fecd83c74830103fa240e34e2b22319649bc547078357f8e594",
+        "length": 153,
+        "radix": 3,
+        "stage": 5
+      },
+      {
+        "count_bit_length": 1934,
+        "count_sha256": "243ec9e31b7eaf51ccca3148ca8b8679fae00c4947560879d328882e4b3df4c9",
+        "length": 873,
+        "radix": 5,
+        "stage": 6
+      }
+    ],
+    "invalid_inputs_rejected": 3,
+    "noncommuting_product_left": [
+      [
+        317,
+        130,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        368,
+        299,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        350,
+        162,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        363,
+        304,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        372,
+        263,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        363,
+        304,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        358,
+        309,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "noncommuting_product_right": [
+      [
+        221,
+        194,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        208,
+        395,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        234,
+        338,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        143,
+        480,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        260,
+        235,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        195,
+        412,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        130,
+        497,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "original_word_metric_example": [
+      {
+        "distinct_values": 5,
+        "length": 1,
+        "maximum_mass": 1,
+        "original_words": 5
+      },
+      {
+        "distinct_values": 17,
+        "length": 2,
+        "maximum_mass": 2,
+        "original_words": 25
+      },
+      {
+        "distinct_values": 53,
+        "length": 3,
+        "maximum_mass": 4,
+        "original_words": 125
+      },
+      {
+        "distinct_values": 161,
+        "length": 4,
+        "maximum_mass": 8,
+        "original_words": 625
+      },
+      {
+        "distinct_values": 485,
+        "length": 5,
+        "maximum_mass": 16,
+        "original_words": 3125
+      },
+      {
+        "distinct_values": 1457,
+        "length": 6,
+        "maximum_mass": 32,
+        "original_words": 15625
+      },
+      {
+        "distinct_values": 4373,
+        "length": 7,
+        "maximum_mass": 64,
+        "original_words": 78125
+      },
+      {
+        "distinct_values": 13121,
+        "length": 8,
+        "maximum_mass": 128,
+        "original_words": 390625
+      }
+    ]
+  },
+  "schema": "ep817-seven-observable-v1",
+  "scope": "Written general proofs plus explicitly bounded exact checks",
+  "selected_matrices": [
+    {
+      "base": 3,
+      "boundary_budget": 1,
+      "characteristic_polynomial_descending": [
+        1,
+        -4,
+        3
+      ],
+      "counts_through_length_10": [
+        1,
+        3,
+        9,
+        27,
+        81,
+        243,
+        729,
+        2187,
+        6561,
+        19683,
+        59049
+      ],
+      "direct_original_counts": [
+        3,
+        9
+      ],
+      "generators": [
+        1
+      ],
+      "label_sha256": "c7a4aea41dd5c5efc74e55bd90c07de14175d49327118a5982c658214e4d0b5f",
+      "local_size": 3,
+      "matrix": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          3,
+          3,
+          5
+        ],
+        [
+          9,
+          36,
+          204
+        ]
+      ],
+      "q": 3
+    },
+    {
+      "base": 3,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -5,
+        7,
+        -3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        5,
+        17,
+        53,
+        161,
+        485,
+        1457,
+        4373,
+        13121,
+        39365,
+        118097
+      ],
+      "direct_original_counts": [
+        5,
+        17
+      ],
+      "generators": [
+        1
+      ],
+      "label_sha256": "bcac050122b551915528284d0ece044fd415b93a606a2b8cc4d5809e89310312",
+      "local_size": 5,
+      "matrix": [
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          5,
+          10,
+          30
+        ],
+        [
+          17,
+          136,
+          1496
+        ]
+      ],
+      "q": 5
+    },
+    {
+      "base": 4,
+      "boundary_budget": 4,
+      "characteristic_polynomial_descending": [
+        1,
+        -16,
+        102,
+        -332,
+        593,
+        -588,
+        304,
+        -64
+      ],
+      "counts_through_length_10": [
+        1,
+        5,
+        21,
+        85,
+        341,
+        1365,
+        5461,
+        21845,
+        87381,
+        349525,
+        1398101
+      ],
+      "direct_original_counts": [
+        5,
+        21
+      ],
+      "generators": [
+        3
+      ],
+      "label_sha256": "28c26c80835083a8bca6d30b5e499d9d2f2f256cc0a379d37b154e82279334fb",
+      "local_size": 5,
+      "matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          5,
+          30,
+          270
+        ],
+        [
+          21,
+          630,
+          25830
+        ]
+      ],
+      "q": 5
+    },
+    {
+      "base": 27,
+      "boundary_budget": 1,
+      "characteristic_polynomial_descending": [
+        1,
+        -9,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        9,
+        81,
+        729,
+        6561,
+        59049,
+        531441,
+        4782969,
+        43046721,
+        387420489,
+        3486784401
+      ],
+      "direct_original_counts": [
+        9,
+        81
+      ],
+      "generators": [
+        1,
+        9
+      ],
+      "label_sha256": "44c2e55914c182ca9695dbe30ca5fbe9028535e7b6d64e3bef696a0b193ff5cd",
+      "local_size": 9,
+      "matrix": [
+        [
+          9,
+          0
+        ],
+        [
+          12,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          9,
+          90,
+          1392
+        ],
+        [
+          81,
+          22680,
+          9582840
+        ]
+      ],
+      "perron_certificate": {
+        "identity": "M^2 = root*M",
+        "root": 9
+      },
+      "q": 3,
+      "second_level_variance": {
+        "lower": "52852900/1108809",
+        "upper": "78400",
+        "value": "119720/3"
+      }
+    },
+    {
+      "base": 27,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        25,
+        425,
+        7225,
+        122825,
+        2088025,
+        35496425,
+        603439225,
+        10258466825,
+        174393936025,
+        2964696912425
+      ],
+      "direct_original_counts": [
+        25,
+        425
+      ],
+      "generators": [
+        1,
+        9
+      ],
+      "label_sha256": "38a8836bda8b4ae5c8b608e76fe9b33ea607ec6b6b41536255d52c3abe07476c",
+      "local_size": 25,
+      "matrix": [
+        [
+          5,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          25,
+          500,
+          14100
+        ],
+        [
+          425,
+          238000,
+          184298700
+        ]
+      ],
+      "perron_certificate": {
+        "identity": "M^2 = root*M",
+        "root": 17
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "52852900/14115049",
+        "upper": "313600",
+        "value": "120044"
+      }
+    },
+    {
+      "base": 19,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -24,
+        95
+      ],
+      "counts_through_length_10": [
+        1,
+        19,
+        361,
+        6859,
+        130321,
+        2476099,
+        47045881,
+        893871739,
+        16983563041,
+        322687697779,
+        6131066257801
+      ],
+      "direct_original_counts": [
+        19,
+        361
+      ],
+      "generators": [
+        1,
+        7,
+        8
+      ],
+      "label_sha256": "900d141241c127cdf65c026f632926bb01e23cc4dfb997fa65890ac7c1e63191",
+      "local_size": 19,
+      "matrix": [
+        [
+          19,
+          0
+        ],
+        [
+          14,
+          5
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          19,
+          304,
+          6688
+        ],
+        [
+          361,
+          115520,
+          49511872
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 19,
+        "row_sum_upper": 19
+      },
+      "q": 3,
+      "second_level_variance": {
+        "lower": "8248384/10556001",
+        "upper": "102400",
+        "value": "34752"
+      }
+    },
+    {
+      "base": 19,
+      "boundary_budget": 4,
+      "characteristic_polynomial_descending": [
+        1,
+        -21,
+        39,
+        -19,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        59,
+        1269,
+        24367,
+        463337,
+        8803875,
+        167274205,
+        3178210583,
+        60386001873,
+        1147334036491,
+        21799346694341
+      ],
+      "direct_original_counts": [
+        59,
+        1269
+      ],
+      "generators": [
+        1,
+        7,
+        8
+      ],
+      "label_sha256": "78d9b4679cd7adaad5bc4a9aa7e3e24bbd16b7cdc388c9295c128a2c74176d0a",
+      "local_size": 59,
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          14,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          10
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          11
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          59,
+          1888,
+          79764
+        ],
+        [
+          1269,
+          812160,
+          691283208
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 19,
+        "row_sum_upper": 19
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "8248384/10556001",
+        "upper": "409600",
+        "value": "57166936/423"
+      }
+    },
+    {
+      "base": 97,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -100,
+        291
+      ],
+      "counts_through_length_10": [
+        1,
+        139,
+        13609,
+        1320451,
+        128084881,
+        12424236859,
+        1205150985529,
+        116899645626931,
+        11339265625904161,
+        1099908765712979179,
+        106691150274159807049
+      ],
+      "direct_original_counts": [
+        139,
+        13609
+      ],
+      "generators": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ],
+      "label_sha256": "9cc9d75f0b95c63cac068f704251c2b1ab24aad7285748e42b6c7f02b76691d3",
+      "local_size": 139,
+      "matrix": [
+        [
+          55,
+          42
+        ],
+        [
+          52,
+          45
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          139,
+          9730,
+          905712
+        ],
+        [
+          13609,
+          93357740,
+          850960260208
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 97,
+        "row_sum_upper": 97
+      },
+      "q": 3,
+      "second_level_variance": {
+        "lower": "108402270025/203971463424",
+        "upper": "47059600",
+        "value": "210526163808/13609"
+      }
+    },
+    {
+      "base": 97,
+      "boundary_budget": 3,
+      "characteristic_polynomial_descending": [
+        1,
+        -98,
+        97,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        281,
+        27441,
+        2661961,
+        258210401,
+        25046409081,
+        2429501681041,
+        235661663061161,
+        22859181316932801,
+        2217340587742481881,
+        215082037011020742641
+      ],
+      "direct_original_counts": [
+        281,
+        27441
+      ],
+      "generators": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ],
+      "label_sha256": "b47dedbfbd332c6cd560c001902546f0e1fbd29342175124c971635e80bb5fc9",
+      "local_size": 281,
+      "matrix": [
+        [
+          0,
+          10,
+          0,
+          87,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          88,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          0,
+          89,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          0,
+          89,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          90,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          90,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          90,
+          0,
+          0,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          281,
+          39340,
+          7356580
+        ],
+        [
+          27441,
+          376490520,
+          6887392076040
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 97,
+        "row_sum_upper": 97
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "108402270025/114733948176",
+        "upper": "188238400",
+        "value": "188252120/3"
+      }
+    },
+    {
+      "base": 93,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -96,
+        279
+      ],
+      "counts_through_length_10": [
+        1,
+        139,
+        13065,
+        1215459,
+        113038929,
+        10512624123,
+        977674054617,
+        90923687112915,
+        8455902901601697,
+        786398969849259627,
+        73135104195982050729
+      ],
+      "direct_original_counts": [
+        139,
+        13065
+      ],
+      "generators": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ],
+      "label_sha256": "9d1688b759a261472fac5f8a81ee3be589d7c3c3d84e1d6d53e76e4a7aed9cf8",
+      "local_size": 139,
+      "matrix": [
+        [
+          47,
+          46
+        ],
+        [
+          44,
+          49
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          139,
+          9730,
+          905712
+        ],
+        [
+          13065,
+          85967700,
+          751901523584
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 93,
+        "row_sum_upper": 93
+      },
+      "q": 3,
+      "second_level_variance": {
+        "lower": "91593996025/158287805316",
+        "upper": "43296400",
+        "value": "186234057584/13065"
+      }
+    },
+    {
+      "base": 93,
+      "boundary_budget": 4,
+      "characteristic_polynomial_descending": [
+        1,
+        -94,
+        93,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        281,
+        26321,
+        2448041,
+        227668001,
+        21173124281,
+        1969100558321,
+        183126351924041,
+        17030750728936001,
+        1583859817791048281,
+        147298963054567490321
+      ],
+      "direct_original_counts": [
+        281,
+        26321
+      ],
+      "generators": [
+        1,
+        4,
+        5,
+        17,
+        21,
+        22
+      ],
+      "label_sha256": "944ecab1ed94176b13f734ab36f4cfe11783c7c7e08d2c7aa6609ec9b836c682",
+      "local_size": 281,
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          91,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          90,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          89,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          89,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          88,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          88,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          88,
+          0,
+          0,
+          5
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          281,
+          39340,
+          7356580
+        ],
+        [
+          26321,
+          346384360,
+          6078006364920
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 93,
+        "row_sum_upper": 93
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "91593996025/158287805316",
+        "upper": "173185600",
+        "value": "57732920"
+      }
+    },
+    {
+      "base": 1651,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -1740,
+        146939
+      ],
+      "counts_through_length_10": [
+        1,
+        2103,
+        3512281,
+        5802356223,
+        9580008770161,
+        15816622839028743,
+        26113246831231325641,
+        43112970742998462147663,
+        71179514716683024378570721,
+        117517378799023011389197600983,
+        194021192397345352898041022537401
+      ],
+      "direct_original_counts": [
+        2103,
+        3512281
+      ],
+      "generators": [
+        3,
+        4,
+        7,
+        34,
+        37,
+        41,
+        216,
+        250,
+        253,
+        257
+      ],
+      "label_sha256": "65597afb8cd7342881dbca47feead96c209fd38dbcc65e6e512832489005a01f",
+      "local_size": 2103,
+      "matrix": [
+        [
+          1199,
+          452
+        ],
+        [
+          1110,
+          541
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          2103,
+          2317506,
+          3351280794
+        ],
+        [
+          3512281,
+          6394121609624,
+          15328855444577129512
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 1651,
+        "row_sum_upper": 1651
+      },
+      "q": 3,
+      "second_level_variance": {
+        "lower": "2255749415178732001/5057037686720930625",
+        "upper": "3314234814016",
+        "value": "3688331477770199016/3512281"
+      }
+    },
+    {
+      "base": 1651,
+      "boundary_budget": 3,
+      "characteristic_polynomial_descending": [
+        1,
+        -1657,
+        9915,
+        -14859,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        3301,
+        5458197,
+        9011517873,
+        14878016141865,
+        24563604650708733,
+        40554511278321854013,
+        66955498120509386983881,
+        110543527396960997930815569,
+        182507363732382607583844996885,
+        301319657522163685120928316959589
+      ],
+      "direct_original_counts": [
+        3301,
+        5458197
+      ],
+      "generators": [
+        3,
+        4,
+        7,
+        34,
+        37,
+        41,
+        216,
+        250,
+        253,
+        257
+      ],
+      "label_sha256": "d56469bae76e334f2911499747610ee01ab4309643724ac08642d2244bc0b1c7",
+      "local_size": 3301,
+      "matrix": [
+        [
+          3,
+          1646,
+          0,
+          2
+        ],
+        [
+          0,
+          1647,
+          0,
+          4
+        ],
+        [
+          0,
+          1646,
+          0,
+          5
+        ],
+        [
+          0,
+          1644,
+          0,
+          7
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          3301,
+          5456553,
+          12017188169
+        ],
+        [
+          5458197,
+          14905004206932,
+          54252834308090631280
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 1651,
+        "row_sum_upper": 1651
+      },
+      "q": 4,
+      "second_level_variance": {
+        "lower": "2255749415178732001/5057037686720930625",
+        "upper": "7457028331536",
+        "value": "13550904639985830688/5458197"
+      }
+    },
+    {
+      "base": 1651,
+      "boundary_budget": 3,
+      "characteristic_polynomial_descending": [
+        1,
+        -1654,
+        4953,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        4403,
+        7280911,
+        12020818735,
+        19846371835507,
+        32766359900734123,
+        54097260196112973271,
+        89314576583782521679015,
+        147458365939824943300479547,
+        243453762166650981389117009443,
+        401942161337140770273432258422431
+      ],
+      "direct_original_counts": [
+        4403,
+        7280911
+      ],
+      "generators": [
+        3,
+        4,
+        7,
+        34,
+        37,
+        41,
+        216,
+        250,
+        253,
+        257
+      ],
+      "label_sha256": "8065445f08c4ee23c6509b5fdb351f1747608850821933454d0f65866aacc368",
+      "local_size": 4403,
+      "matrix": [
+        [
+          0,
+          550,
+          0,
+          1101,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          545,
+          0,
+          1106,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          544,
+          0,
+          1107,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          542,
+          0,
+          1109,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          547,
+          0,
+          1104,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          543,
+          0,
+          1108,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          541,
+          0,
+          1110,
+          0,
+          0,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          4403,
+          9704212,
+          28501323480
+        ],
+        [
+          7280911,
+          26509855198288,
+          128687064663641299574
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 1651,
+        "row_sum_upper": 1651
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "36091990642859712016/45513339180488375625",
+        "upper": "13256939256064",
+        "value": "2924042709803009570/661901"
+      }
+    },
+    {
+      "base": 4404,
+      "boundary_budget": 2,
+      "characteristic_polynomial_descending": [
+        1,
+        -4403,
+        8796,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "counts_through_length_10": [
+        1,
+        4403,
+        19377613,
+        85280901251,
+        375321362724205,
+        1651789829267270819,
+        7269529291557271308877,
+        31993208327388430658861507,
+        140802153485842722432534333229,
+        619670469537717798234373323391715,
+        2727170581632509993039429170898638861
+      ],
+      "direct_original_counts": [
+        4403,
+        19377613
+      ],
+      "generators": [
+        3,
+        4,
+        7,
+        34,
+        37,
+        41,
+        216,
+        250,
+        253,
+        257
+      ],
+      "label_sha256": "5dce66241acce9aa395064fdd8ba5c721040365df1d24542f04487237e39c09d",
+      "local_size": 4403,
+      "matrix": [
+        [
+          4399,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4400,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4399,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4397,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4398,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4398,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4396,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          4403,
+          9704212,
+          28501323480
+        ],
+        [
+          19377613,
+          188129881124060,
+          2433656915938245157992
+        ]
+      ],
+      "perron_certificate": {
+        "quadratic": [
+          1,
+          -4403,
+          8796
+        ],
+        "root_interval": [
+          4401,
+          4402
+        ]
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "114206901580045771396/454964531754465145609",
+        "upper": "94257302304400",
+        "value": "607175389459573760792/19377613"
+      }
+    },
+    {
+      "base": 19,
+      "binary_modular_five_certificate": {
+        "candidate_pairs": 72,
+        "digits": [
+          0,
+          3,
+          10,
+          13
+        ],
+        "nonzero_step_witnesses": 0
+      },
+      "boundary_budget": 3,
+      "characteristic_polynomial_descending": [
+        1,
+        -36,
+        382,
+        -1116,
+        65,
+        0,
+        0,
+        0
+      ],
+      "count_series": {
+        "denominator_ascending": [
+          1,
+          -36,
+          382,
+          -1116,
+          65
+        ],
+        "numerator_ascending": [
+          1,
+          -11,
+          43,
+          87
+        ]
+      },
+      "counts_through_length_10": [
+        1,
+        25,
+        561,
+        11849,
+        240097,
+        4741625,
+        92168465,
+        1773942057,
+        33929607617,
+        646371809753,
+        12282003426801
+      ],
+      "direct_original_counts": [
+        25,
+        561
+      ],
+      "generators": [
+        3,
+        10
+      ],
+      "label_sha256": "3677a297578a9f04104fa9325f726ae68cfcf3822dfb1c12befc547e8fe529d4",
+      "local_size": 25,
+      "matrix": [
+        [
+          9,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          9,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          6,
+          1,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          17,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          1,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          18,
+          0,
+          0,
+          0
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          25,
+          650,
+          22350
+        ],
+        [
+          561,
+          291720,
+          198068772
+        ]
+      ],
+      "perron_certificate": {
+        "all_real_root_brackets": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            18,
+            19
+          ]
+        ],
+        "irreducible_modulus": 3,
+        "irreducible_quadratic_remainders": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "quartic": [
+          1,
+          -36,
+          382,
+          -1116,
+          65
+        ],
+        "root_interval": [
+          18,
+          19
+        ]
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "87123556/95004009",
+        "upper": "270400",
+        "value": "1405284/17"
+      }
+    },
+    {
+      "base": 17,
+      "binary_modular_five_certificate": {
+        "candidate_pairs": 64,
+        "digits": [
+          0,
+          6,
+          9,
+          15
+        ],
+        "nonzero_step_witnesses": 0
+      },
+      "boundary_budget": 4,
+      "characteristic_polynomial_descending": [
+        1,
+        -59,
+        1293,
+        -12767,
+        54883,
+        -87057,
+        -23409,
+        132651
+      ],
+      "count_series": {
+        "denominator_ascending": [
+          1,
+          -20,
+          51
+        ],
+        "numerator_ascending": [
+          1,
+          -1
+        ]
+      },
+      "counts_through_length_10": [
+        1,
+        19,
+        329,
+        5611,
+        95441,
+        1622659,
+        27585689,
+        468958171,
+        7972293281,
+        135528998899,
+        2303993020649
+      ],
+      "direct_original_counts": [
+        19,
+        329
+      ],
+      "generators": [
+        6,
+        9
+      ],
+      "label_sha256": "3a6ceb638903e10c3fbc7adfc70daa158e518e433ce422349aba77d0c17b4dcb",
+      "local_size": 19,
+      "matrix": [
+        [
+          15,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          4,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          10,
+          3,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          6
+        ],
+        [
+          12,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          2,
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          9
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          19,
+          570,
+          22572
+        ],
+        [
+          329,
+          177660,
+          124317792
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 17,
+        "row_sum_upper": 17,
+        "squarefree_annihilator": [
+          1,
+          -19,
+          31,
+          51
+        ]
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "18533025/21381376",
+        "upper": "291600",
+        "value": "28381392/329"
+      }
+    },
+    {
+      "base": 19,
+      "binary_modular_five_certificate": {
+        "candidate_pairs": 72,
+        "digits": [
+          0,
+          7,
+          10,
+          17
+        ],
+        "nonzero_step_witnesses": 0
+      },
+      "boundary_budget": 4,
+      "characteristic_polynomial_descending": [
+        1,
+        -50,
+        881,
+        -6170,
+        9539,
+        51010,
+        -151541,
+        96330
+      ],
+      "count_series": {
+        "denominator_ascending": [
+          1,
+          -50,
+          888,
+          -6526,
+          16055
+        ],
+        "numerator_ascending": [
+          1,
+          -25,
+          243,
+          -795
+        ]
+      },
+      "counts_through_length_10": [
+        1,
+        25,
+        605,
+        13781,
+        298905,
+        6254577,
+        127522741,
+        2551472749,
+        50351893169,
+        983683031369,
+        19075203987597
+      ],
+      "direct_original_counts": [
+        25,
+        605
+      ],
+      "generators": [
+        7,
+        10
+      ],
+      "interior_jordan_chain": {
+        "eigenvalue": 13,
+        "eigenvector": [
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "generalized_eigenvector": [
+          -227,
+          198,
+          132,
+          0,
+          0,
+          120,
+          0
+        ],
+        "multiplier": 462
+      },
+      "label_sha256": "ac44a956526ab5567f2a31e21b4e47bb7c0cdbccbae75bf87db5f8d25fac2779",
+      "local_size": 25,
+      "matrix": [
+        [
+          13,
+          2,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          6,
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          8,
+          1,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          4
+        ],
+        [
+          6,
+          4,
+          6,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          6,
+          1,
+          7,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          9
+        ]
+      ],
+      "moments_zero_one_two": [
+        [
+          25,
+          850,
+          36350
+        ],
+        [
+          605,
+          411400,
+          346759286
+        ]
+      ],
+      "perron_certificate": {
+        "det_root_minus_matrix": 0,
+        "root": 19,
+        "row_sum_upper": 19
+      },
+      "q": 5,
+      "second_level_variance": {
+        "lower": "37246609/42224004",
+        "upper": "462400",
+        "value": "67007286/605"
+      }
+    }
+  ],
+  "source_sha256": {
+    "certificates/verify_seven_observable.py": "6afb60035c7c9c849c197204cde776684190e086288b4f9eee8b26f6f243a51e",
+    "tools/image_carrier.py": "018434127effd193b72ef637a17d0d4ee65db97ef3948ed6eeb403ccec6853f0"
+  },
+  "status": "PASS"
+}

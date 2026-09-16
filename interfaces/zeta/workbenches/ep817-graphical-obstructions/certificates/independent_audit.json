@@ -1,0 +1,23 @@
+{
+  "auditor_sha256": "9831c0a53131c574bf10f69d5be01c7fe62c707e41c3d0f1dfdd4578f843f684",
+  "candidate_actual_start_step_pairs": 480150,
+  "complete_collision_packets": 3300,
+  "finite_extension_parameters": 315,
+  "lower_canonical_radix_witnesses": 548,
+  "outside_start_pairs_excluded_by_first_digit": 2244000,
+  "predecessor_Bellman_records": 8,
+  "producer_imported": false,
+  "receipt_file_sha256": "5b2eceaa9485d6ae6d3bdacc20b51c1a5793f8df672d8daef84bfe470efc3cee",
+  "rejected_mutations": [
+    "changed_return_primitive",
+    "changed_subset_mask",
+    "changed_numerical_point",
+    "changed_root_packet_mask",
+    "changed_original_relation",
+    "omitted_radix",
+    "omitted_collision_class",
+    "unit_quotient_metric"
+  ],
+  "returning_columns": 81,
+  "status": "PASS"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "path": "integration/20260916/reviews/ep817_prs/AUDIT_PR2_PR3.md",
+    "original_sha256": "3900b50e3d8269cf0afdba29a15113ee7075671e863ea2574fcea5a67603273c",
+    "public_sha256": "3900b50e3d8269cf0afdba29a15113ee7075671e863ea2574fcea5a67603273c",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817_prs/INTEGRATION_RECOMMENDATIONS.json",
+    "original_sha256": "282e747dd18a77c3c4221822c58256eef63c898ccc6fc54f172cfa882279a459",
+    "public_sha256": "282e747dd18a77c3c4221822c58256eef63c898ccc6fc54f172cfa882279a459",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817_prs/pr4/AUDIT.md",
+    "original_sha256": "043b8737f26578d488bd0545cb0425a41c638192541325fcbbaf392150fb4ad7",
+    "public_sha256": "043b8737f26578d488bd0545cb0425a41c638192541325fcbbaf392150fb4ad7",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817_prs/pr5/AUDIT.md",
+    "original_sha256": "ec4520e5d0406f393a0f57b18c62db8012ef12032198ce23f2710cdd712afb6a",
+    "public_sha256": "91f44366d86409171f2666e682f5cfe2c88a0af72fb2137702887cf2a08afc15",
+    "privacy_substitution": true
+  },
+  {
+    "path": "integration/20260916/reviews/ep817_prs/fresh_bounded_checks.json",
+    "original_sha256": "49b3af156c22edb4f2f0a294c19c4286c1ef8f7c02d036b834a3670f0b83b7ff",
+    "public_sha256": "49b3af156c22edb4f2f0a294c19c4286c1ef8f7c02d036b834a3670f0b83b7ff",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/REVIEW.md",
+    "original_sha256": "7aac5c92aee79eddcfcfc4487240c11edc9ccb137fb002ca7db9708d3c483a1f",
+    "public_sha256": "7aac5c92aee79eddcfcfc4487240c11edc9ccb137fb002ca7db9708d3c483a1f",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/topic_route.json",
+    "original_sha256": "80e29619adde1d46a9552f6c5fc90169d1ae0b6c307fb7af28820dcd41b67375",
+    "public_sha256": "44d7946d83b114cb513cb8be5970f311f64fb7ad28a5f48cc95f5eca65baa059",
+    "privacy_substitution": true
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/recurrence_review/REVIEW.md",
+    "original_sha256": "3e9003c8c2551aa2bcd70f4954369981ff749d86c938b25a388a872371fe2d12",
+    "public_sha256": "3e9003c8c2551aa2bcd70f4954369981ff749d86c938b25a388a872371fe2d12",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/supplemental/certificates/check_separation_stability.py",
+    "original_sha256": "38adcf33c5477337cb1d35ee17870ccd907cc1da9a6c63371044f140adb0c3a0",
+    "public_sha256": "38adcf33c5477337cb1d35ee17870ccd907cc1da9a6c63371044f140adb0c3a0",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/supplemental_checks/receipt.json",
+    "original_sha256": "834dba0a4a7e97cd1a8b8da3885e38e4936cd64b511b84ee553d58b9a9ca5bbe",
+    "public_sha256": "834dba0a4a7e97cd1a8b8da3885e38e4936cd64b511b84ee553d58b9a9ca5bbe",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/supplemental_checks/manifest.json",
+    "original_sha256": "5ec63c93f13157e83b457839c68103658deb2039f8ff8ebfc2a3690508923f4a",
+    "public_sha256": "7f1c36b827025b592be5923b404a8d2c9b138563351b138ba06df7138b504dba",
+    "privacy_substitution": true
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/recurrence_producer/manifest.json",
+    "original_sha256": "2adec7bff67751f29989a62da14ccee06429339a57da0f92705b269a4a4d7c8a",
+    "public_sha256": "7ff617bc8d2bb52b618b91d65edf660b5f0ca2e57c296778a46ddf6e958ce4fa",
+    "privacy_substitution": true
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/recurrence_producer/receipt.json",
+    "original_sha256": "9b1d814f75662fdba860af1845d7b3003300c9d7842308de39b5e6dd82bfb8a6",
+    "public_sha256": "9b1d814f75662fdba860af1845d7b3003300c9d7842308de39b5e6dd82bfb8a6",
+    "privacy_substitution": false
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/recurrence_auditor/manifest.json",
+    "original_sha256": "9c72b681edf6beb19a34665bac4a26e53d4e7d75bf232f12026a1a93ae764a25",
+    "public_sha256": "b957fec92695e2b11deec9653330183e84af74e925fd61b02e224fffeda43022",
+    "privacy_substitution": true
+  },
+  {
+    "path": "integration/20260916/reviews/ep817/recurrence_auditor/receipt.json",
+    "original_sha256": "bd6e31db8adc936fac13c93e8b16f66a3a77a2422aa7dc3d8f7cee2d2ffb23ad",
+    "public_sha256": "bd6e31db8adc936fac13c93e8b16f66a3a77a2422aa7dc3d8f7cee2d2ffb23ad",
+    "privacy_substitution": false
+  }
+]

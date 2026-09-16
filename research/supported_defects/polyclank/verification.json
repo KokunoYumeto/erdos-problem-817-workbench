@@ -1,0 +1,293 @@
+{
+  "date": "2026-09-15",
+  "external_person_review": false,
+  "failure_history": "See delivery root FAILURE_REVIEW.md; an early slow audit implementation timed out, then completed after exact fibre grouping.",
+  "independent_audit": {
+    "corrupt_records_rejected": [
+      "false numerical image count",
+      "erased present-zero representation",
+      "changed arithmetic generator",
+      "false progression count",
+      "false pair connectivity",
+      "altered supported cut capacity",
+      "zeroed source witness",
+      "missing original graph support"
+    ],
+    "cut_trees": 1152,
+    "deformations": 43,
+    "distinct_deformation_values": 14562,
+    "graphs": 1099,
+    "image_ideal_checks": 23118,
+    "input_sha256": "1b84ffccbcbbcdea71436dcc1416b0894b73247e0384ad2f47415eef129efa9a",
+    "lean_checked": false,
+    "positive_step_APs_checked": 162,
+    "schema": "ep817-supported-defect-independent-audit-v1",
+    "signed_defect_moduli": {
+      "cases": 756,
+      "exact_value_transports": 43706,
+      "positive_AP_transports": 144,
+      "scope": "all signed perturbations in {-1,0,1}^{3r}, r=1,2",
+      "transcript_sha256": "57f0ba9b96920eb8848b608a666ef4cb52f791ed52c28ed5519fe9612c0ed004"
+    },
+    "source_score_values": 40398,
+    "source_sha256": "e18102413ab12818152f634be7e6b7f02cc28add69f64885a773e5c8f214473f",
+    "specialization": {
+      "full_incidence_cases": 12,
+      "transcript_sha256": "1bc87fcc06820237370ed4019018be03151291ae1c4ed39294551ff3d59ce500"
+    },
+    "status": "PASS",
+    "visibility_cases": 8493
+  },
+  "lean_checked": false,
+  "mathematical_scope": "Written proofs, with exact bounded arithmetic certificates. Independent mathematical review pending.",
+  "observation_quotient": {
+    "admitted_cases": 1211,
+    "candidates": 2197,
+    "false_formulas_rejected": [
+      "delete the new relative class",
+      "identify unequal arithmetic marks",
+      "silently merge repeated edge weights",
+      "replace weighted quotient metric by unit mass"
+    ],
+    "orientation_masks_checked": 60585,
+    "quotient_score_values": 41137,
+    "scope": "all labelled simple graphs on 1..5 vertices, the two explicitly specified mark families, retaining only positive distinct edge images",
+    "source_score_values": 41153,
+    "theta_scope": "r=1..12 full relative incidence; original masks and quotient metrics for r<=4",
+    "transcript_sha256": "4621c684d46cde24782a41f8eee306a6db5cc561e5d2b278f93ccde198c81d1c"
+  },
+  "observation_quotient_audit": {
+    "admitted_cases": 1211,
+    "false_records_rejected": [
+      "removed relative quotient direction",
+      "missing marked-graph support",
+      "altered transcript",
+      "unit replacement of doubled fibre metric"
+    ],
+    "lean_checked": false,
+    "orientation_masks_checked": 60585,
+    "producer_receipt_sha256": "198159221f5c4b54e1128b0789e4b522407ccc3c7c03c76571a4868d7c92cf4f",
+    "schema": "ep817-observation-quotient-independent-audit-v1",
+    "source_sha256": "70830c38a483d26646042e21e8f93c08043edaf957cf9e90ef38c6b8c92727bf",
+    "status": "PASS",
+    "theta_full_word_cases": 4,
+    "theta_incidence_cases": 12,
+    "transcript_sha256": "4621c684d46cde24782a41f8eee306a6db5cc561e5d2b278f93ccde198c81d1c"
+  },
+  "producer": {
+    "core": {
+      "bounded_coefficients": 125,
+      "bounded_kernel": [
+        [
+          -2,
+          -2,
+          2
+        ],
+        [
+          -1,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          2,
+          2,
+          -2
+        ]
+      ],
+      "forbidden": 0,
+      "modular_progressions": 342
+    },
+    "general_defect_moduli": {
+      "cases": 756,
+      "exact_value_transports": 43706,
+      "positive_AP_transports": 144,
+      "scope": "all signed perturbations in {-1,0,1}^{3r}, r=1,2",
+      "transcript_sha256": "57f0ba9b96920eb8848b608a666ef4cb52f791ed52c28ed5519fe9612c0ed004"
+    },
+    "general_separation": {
+      "admitted_pattern_instances": 4002,
+      "base_domain": "all positive subsets of [1,8] of size 1..3",
+      "perturbation_domain": "all indexed lists in {0,1,2}^n",
+      "transcript_sha256": "ed66520626713b3b6fa7608cb67efd9aef6d5f74ef59c323cec5a7e74c35d258",
+      "tuple_checks": 0
+    },
+    "graphic_source": {
+      "cut_trees": 1152,
+      "graphs": 1099,
+      "image_ideal_checks": 23118,
+      "records_sha256": "df7b6d81e3b5d459604d1c1365b3dd10fe309b40d271dde5d1efbc8537d6bc67",
+      "root_progression_witnesses": 15147,
+      "scope": "all labelled simple graphs on 1..5 vertices",
+      "source_endpoint_pairs": 1391037,
+      "source_score_values": 40398,
+      "visibility_cases": 8493
+    },
+    "negative_checks": {
+      "count": 8,
+      "rejected": [
+        "erase a present zero coordinate",
+        "equate numerical values and representation mass",
+        "drop the separation inequality",
+        "all perturbed zero circuits remain four-term-free",
+        "use unit Gram for a doubled fibre",
+        "discard specialization class",
+        "source progression freeness survives arbitrary projection",
+        "null terminal image is a nonzero scalar difference"
+      ]
+    },
+    "support_metrics": {
+      "active_zero": "any nonempty word support with zero coefficient",
+      "all_inclusions": 6561,
+      "all_supports": 256,
+      "bottom": "empty word support",
+      "metric_fibre_identities": 960
+    },
+    "theta_specialization": {
+      "parallel_perturbations": [
+        {
+          "L": 3,
+          "paths": 1,
+          "progression": [
+            24,
+            25
+          ],
+          "t": 1,
+          "zero_distinct_values": 7,
+          "zero_fibre_multiplicity": 2
+        },
+        {
+          "L": 5,
+          "paths": 2,
+          "progression": [
+            800,
+            801,
+            802
+          ],
+          "t": 1,
+          "zero_distinct_values": 49,
+          "zero_fibre_multiplicity": 4
+        },
+        {
+          "L": 7,
+          "paths": 3,
+          "progression": [
+            21336,
+            21337,
+            21338,
+            21339
+          ],
+          "t": 1,
+          "zero_distinct_values": 343,
+          "zero_fibre_multiplicity": 8
+        },
+        {
+          "L": 9,
+          "paths": 4,
+          "progression": [
+            521280,
+            521281,
+            521282,
+            521283,
+            521284
+          ],
+          "t": 1,
+          "zero_distinct_values": 2401,
+          "zero_fibre_multiplicity": 16
+        }
+      ],
+      "specialization": [
+        {
+          "old_cycle_rank": 0,
+          "paths": 1,
+          "quotient_gram": "3",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 1
+        },
+        {
+          "old_cycle_rank": 1,
+          "paths": 2,
+          "quotient_gram": "3/2",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 2
+        },
+        {
+          "old_cycle_rank": 2,
+          "paths": 3,
+          "quotient_gram": "1",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 3
+        },
+        {
+          "old_cycle_rank": 3,
+          "paths": 4,
+          "quotient_gram": "3/4",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 4
+        },
+        {
+          "old_cycle_rank": 4,
+          "paths": 5,
+          "quotient_gram": "3/5",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 5
+        },
+        {
+          "old_cycle_rank": 5,
+          "paths": 6,
+          "quotient_gram": "1/2",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 6
+        },
+        {
+          "old_cycle_rank": 6,
+          "paths": 7,
+          "quotient_gram": "3/7",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 7
+        },
+        {
+          "old_cycle_rank": 7,
+          "paths": 8,
+          "quotient_gram": "3/8",
+          "restored_rank": 1,
+          "specialized_kernel_rank": 8
+        }
+      ]
+    }
+  },
+  "replay": {
+    "all_five_evidence_files_byte_identical": true,
+    "auditors_import_producer": false,
+    "command": "python run_checks.py --optimized",
+    "external_dependencies": [],
+    "normal_final_runs_passed": true,
+    "old_large_audits_rerun": false,
+    "optimized_exported_run_passed": true
+  },
+  "schema": "ep817-supported-defects-verification-v1",
+  "sha256": {
+    "certificates/audit_observation_quotient.py": "70830c38a483d26646042e21e8f93c08043edaf957cf9e90ef38c6b8c92727bf",
+    "certificates/audit_supported_defects.py": "e18102413ab12818152f634be7e6b7f02cc28add69f64885a773e5c8f214473f",
+    "certificates/independent_audit.json": "aa455f474fa078e707eba1230bb540403c0e8cab5313b68c4ec291bdbda60ac2",
+    "certificates/observation_quotient_audit.json": "7e5aa35e764ffe87ec3af56440279f31daf7c50a203c5c04b9e244c5fdf3b8a3",
+    "certificates/observation_quotient_receipt.json": "198159221f5c4b54e1128b0789e4b522407ccc3c7c03c76571a4868d7c92cf4f",
+    "certificates/supported_defect_proof.json.gz": "72c5b655f834bfdd513e339029ac51fca78ba56c690f19f5465c6570d4f596dc",
+    "certificates/supported_defect_receipt.json": "89b7aa5ac1506deb278ae4fe8648fc0949ebdca66338c81599a92280a9461233",
+    "certificates/verify_observation_quotient.py": "6761000538264ec244a44507f6225e7e5fb10ade64b7cdcbcd849a369aa95177",
+    "certificates/verify_supported_defects.py": "98fca95bcebcc7095a9ca368f6f93f4003b2697a1f1b20d00a954bf7f85a4398",
+    "notes/graphic-visibility-filtration.md": "2d443b8fed3a39951bedbe233458734993909828a480b78297cac94032df88ca",
+    "notes/supported-defect-universality.md": "3fcd9ccf780ae3fa05ba6691a7246086c52572e0c78729283b014bdedf6b57ea",
+    "run_checks.py": "889a2920423445c085ad6bb41985d08e423d1247462fa4bc4b6f7c6399400de1"
+  },
+  "status": "PASS"
+}

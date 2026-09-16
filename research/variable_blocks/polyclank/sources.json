@@ -1,0 +1,46 @@
+{
+  "attribution": {
+    "current_work": "The Clankers; independent mathematical review pending",
+    "k4_mathematics": "anonymous/deleted Reddit contributor",
+    "lean_finite_upper_bound": "sneed-and-feed"
+  },
+  "entries": [
+    {
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "role": "Actual support and quotient interface; no analytic weight conclusion imported",
+      "source": "Zeta original support reconstruction and internal quotients"
+    },
+    {
+      "commit": "98fd25802a387138053064e11ddd2f6d2007d55b",
+      "path": "research/splitzero_transfer",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "role": "Previous infinite-source and fixed-block work; new verifiers are standalone",
+      "source": "Previous uniform carry cohomology and fixed-block mixed-radix capacity"
+    },
+    {
+      "local_archive": "EP817_SPLITZERO_OUTER_20260914.zip",
+      "role": "Preserved byte-for-byte in EP817 research/splitzero_outer; old audit bindings rechecked, not all old arithmetic rerun",
+      "sha256": "95d5612ed25c8fbe1ae875e523c91b96e5352a3ef2425fd6d13d0090f816203b",
+      "source": "Outer-control contribution"
+    },
+    {
+      "role": "Inspected conventions and benchmark bounds",
+      "source": "Korsky (2026), arXiv:2606.24139v1",
+      "url": "https://arxiv.org/html/2606.24139v1"
+    },
+    {
+      "doi": "10.1016/0012-365X(78)90011-0",
+      "role": "Classical minimum-cycle-mean background; specialized proof included",
+      "source": "Karp (1978), Discrete Mathematics 23(3), 309-311"
+    },
+    {
+      "doi": "10.1145/800133.804326",
+      "role": "Classical ratio-objective context",
+      "source": "Megiddo (1978), STOC, pp. 1-12"
+    }
+  ],
+  "publication_scope": "No new remote write in this execution. Publisher is separately supplied and requires authenticated gh.",
+  "schema": "ep817-variable-block-source-lineage-v1"
+}

@@ -1,0 +1,138 @@
+{
+  "schema": "ep817-supported-defects-claims-v1",
+  "date": "2026-09-15",
+  "claims": [
+    {
+      "id": "SD1",
+      "path": "notes/supported-defect-universality.md",
+      "section": "2",
+      "statement": "Signed separation and the exact represented-progression fibre bijection",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "SD2",
+      "path": "notes/supported-defect-universality.md",
+      "section": "3",
+      "statement": "Complete original integral short-kernel pullback and ternary criterion",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "SD3",
+      "path": "notes/supported-defect-universality.md",
+      "section": "4",
+      "statement": "All-rank defect universality, exact AP/count/multiplicity transforms",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "SD4",
+      "path": "notes/supported-defect-universality.md",
+      "section": "4.2",
+      "statement": "Actual relative H1 cohomology, specified primitives, absolute restriction kernel",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "SD5",
+      "path": "notes/supported-defect-universality.md",
+      "section": "5",
+      "statement": "Original supported quotient refinements and exact weighted source metrics",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "SD6",
+      "path": "notes/supported-defect-universality.md",
+      "section": "6",
+      "statement": "Supported zero terminal action, all-rank perturbation, Tor and first-order detector",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "SD7",
+      "path": "notes/supported-defect-universality.md",
+      "section": "7",
+      "statement": "Exact active-support-density asymptotic in the defined deformation family",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "GV1",
+      "path": "notes/graphic-visibility-filtration.md",
+      "section": "3",
+      "statement": "All-graph integral progression-direction module filtration",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "GV2",
+      "path": "notes/graphic-visibility-filtration.md",
+      "section": "4",
+      "statement": "Exact observed image ideals and source-visibility maximum",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "GV3",
+      "path": "notes/graphic-visibility-filtration.md",
+      "section": "4",
+      "statement": "Infinite supported index diagram and finite cut-partition support map",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    },
+    {
+      "id": "GV4",
+      "path": "notes/graphic-visibility-filtration.md",
+      "section": "5.1",
+      "statement": "Observation-faithful quotient, retained edge masks, relative cycles and metrics",
+      "status": "ordinary mathematical proof; independent review pending",
+      "lean_checked": false
+    }
+  ],
+  "sources": [
+    {
+      "name": "EP817 inherited Core",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "ref": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+      "path": "formal/lean/ErdosProblem817/Core.lean",
+      "blob": "0156b58532ffa31882ba814f985ba1a751cfbd2b",
+      "scope": "read source; directly replayed bounded constants; did not rebuild Lean"
+    },
+    {
+      "name": "Original SplitZero reconstruction and internal quotient",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "ref": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "scope": "read the original support and kernel interfaces, particularly D6-D8; no analytic theorem imported"
+    },
+    {
+      "name": "Gomory and Hu (1961)",
+      "url": "https://doi.org/10.1137/0109047",
+      "scope": "classical cut-equivalent tree theorem; attributed, not a new theorem claim"
+    },
+    {
+      "name": "Gusfield (1990)",
+      "url": "https://doi.org/10.1137/0219009",
+      "scope": "classical cut-tree representation and construction context; no code imported"
+    },
+    {
+      "name": "Hartmann and Wagner (2013)",
+      "url": "https://arxiv.org/abs/1310.0178",
+      "scope": "primary source description of cut-tree basis; source role recorded"
+    },
+    {
+      "name": "Korsky (2026), v1",
+      "url": "https://arxiv.org/html/2606.24139v1",
+      "scope": "problem conventions and prior general bounds; no new deformation proof attributed to it"
+    }
+  ],
+  "credit": {
+    "original_nineteen_construction": "anonymous/deleted Reddit contributor",
+    "Lean_finite_upper_formalization": "sneed-and-feed",
+    "current_research_contribution": "The Clankers"
+  },
+  "no_remote_publication": true
+}

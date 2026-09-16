@@ -1,0 +1,42 @@
+{
+  "K33_distinct_scores": 328,
+  "K33_nonzero_differences": 5298,
+  "K33_orientation_masks": 512,
+  "K4_differences": 200,
+  "auditor_sha256": "e1e3e644a2abf15c2c878313bbc3b21a8662e618077ecffcc56ce5ceeb678c1b",
+  "closure": {
+    "cases": 592,
+    "infeasibility": {
+      "forced-equality": 232,
+      "positive-obstruction": 220
+    },
+    "positive_distinct_models": 140,
+    "strict_derived_steps": {
+      "0": 384,
+      "1": 144,
+      "2": 64
+    }
+  },
+  "lean_checked": false,
+  "mutation_controls_rejected": [
+    "wrong orientation",
+    "missing orbit",
+    "discarded step relation",
+    "false local saturation",
+    "discarded cross covariance",
+    "false integer progression",
+    "unsupported closure premise",
+    "nonpositive realization"
+  ],
+  "orbit_certificates": 99,
+  "orbit_types": {
+    "divided-local": 1,
+    "root-tail": 91,
+    "two-switch": 7
+  },
+  "proof_sha256": "3ff530437c02aad8be9c0e2afc033594208e34bceb9a0d4bc6c66d7a12099b49",
+  "schema": "ep817-defect-closure-independent-audit-v1",
+  "scope": "Finite arithmetic audit; the unrestricted-rank tensor and closure conclusions use the written proofs.",
+  "status": "PASS",
+  "tensor_witness_cases": 35
+}

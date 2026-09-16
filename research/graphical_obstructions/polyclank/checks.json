@@ -1,0 +1,33 @@
+{
+  "auditor_sha256": "9831c0a53131c574bf10f69d5be01c7fe62c707e41c3d0f1dfdd4578f843f684",
+  "date": "2026-09-15",
+  "exclusions": [
+    "No new Lean elaboration.",
+    "No independent human review claimed.",
+    "No general EP817 lower bound from the restricted graph-family law.",
+    "No complete candidate-discovery search or global optimality claim.",
+    "No rerun of every preceding variable-block source audit."
+  ],
+  "independent_audit_sha256": "d44232781d0e515e34a70d064578f31c4ba536e7e9f82760ba6769e2f03a5192",
+  "lean_checked": false,
+  "normal_and_optimized_auditor_byte_identical": true,
+  "normal_and_optimized_producer_byte_identical": true,
+  "producer_sha256": "87c578f2694a263e4ac5ba319f599304541cfddc887435028f088a89a4b0b453",
+  "python_byte_compilation_passed": true,
+  "receipt_sha256": "5b2eceaa9485d6ae6d3bdacc20b51c1a5793f8df672d8daef84bfe470efc3cee",
+  "schema": "ep817-graphical-checks-v1",
+  "scope": {
+    "actual_mask_count": 1024,
+    "complete_lower_canonical_radices": 548,
+    "complete_modular_parameter_pairs": 2724150,
+    "complete_return_rows": 81,
+    "complete_small_collision_packets": 3300,
+    "finite_extension_parameters": 315,
+    "graph_packings": 9044,
+    "graph_terminal_pairs": 10650,
+    "larger_rank_samples": 200,
+    "predecessor_future_potential_records": 8
+  },
+  "status": "PASS",
+  "written_proof_sha256": "1e7dda55215faf90696066ab8690a6136518f343635fefa739e857e8ab933e7f"
+}

@@ -1,0 +1,173 @@
+# Returning graphical obstruction control to the original SplitZero interfaces
+
+Research contribution, 15 September 2026. This is an additive transfer of proved algebraic and combinatorial results from Erdős Problem 817. It uses the original support-reconstruction and internal-quotient conventions. No theta-source relation, zero packet, analytic metric, or arithmetic weight estimate is redefined. Written proofs and exact finite certificates are supplied; no new Lean elaboration is claimed.
+
+## 1. Two original relation complexes and the actual comparison
+
+Fix an oriented finite graph G=(V,E), integer marks t_v, and the original integral map
+
+\[
+\partial:\mathbb Z^E\to\mathbb Z^V,\quad e_{ij}\mapsto e_j-e_i,
+\qquad\ell_t(x)=\sum_vt_vx_v.
+\]
+
+Let Omega={0,1}^E be the actual binary source. For each admitted subfamily S subset Omega, define
+
+\[
+V_S=\mathbb Z[S],\quad X_S=\partial(S),\quad Y_S=\ell_t(X_S),
+\]
+
+\[
+q_S:V_S\to\mathbb Z[X_S],\quad e_\epsilon\mapsto e_{\partial\epsilon},
+\qquad J_S:\mathbb Z[X_S]\to\mathbb Z[Y_S],\quad e_x\mapsto e_{\ell_tx}.
+\]
+
+Write B_S=ker q_S and K_S=ker(J_S q_S). Their inclusion is literal, and
+
+\[
+\boxed{0\to B_S\to K_S\xrightarrow{q_S}\ker J_S\to0.}
+\tag{1}
+\]
+
+Surjectivity follows by lifting each source basis value x to an actual binary word in its fiber. The kernel is exactly B_S. Thus the induced map on the degree-zero cohomologies of [B_S -> V_S] and [K_S -> V_S] has the additional kernel K_S/B_S=ker J_S. Source fibers and the extra observation kernel remain separate.
+
+For S subset T the basis inclusions commute with all maps. These are diagrams over the actual join-semilattice of admitted word supports. Applying the original SplitZero reconstruction sends a boundary to its own supported zero. The nonbottom support {empty binary word} has a one-dimensional value basis e_0. The further amplitude map e_0->0 is explicit; it is not external absence.
+
+The free-word relation complex and the graph-chain complex also have an explicit comparison. Let a_S:Z[S]->Z^E send e_epsilon to epsilon, and let b_S:Z[X_S]->Z^V send e_x to x. Then
+
+\[
+\partial a_S=b_Sq_S.
+\tag{2}
+\]
+
+For the full source Omega, a_Omega maps B_Omega onto ker(partial). To see surjectivity, select a spanning forest. Each nonforest edge gives an integral fundamental cycle with coefficients in {-1,0,1}. Its positive and negative binary parts have the same boundary, so their word difference belongs to B_Omega and augments to that cycle. Subtracting fundamental cycles expresses every integral graph cycle. Consequently
+
+\[
+0\to B_\Omega\cap\ker a_\Omega\to B_\Omega
+\xrightarrow{a_\Omega}\ker\partial\to0.
+\tag{3}
+\]
+
+No equality between these two kernels is asserted. Formula (3) retains the relations among word representatives that the graph amplitude map forgets.
+
+At the graph amplitude level the second observation has its own exact sequence
+
+\[
+0\to\ker\partial\to\ker(\ell_t\partial)
+\xrightarrow{\partial}\ker(\ell_t|_{\operatorname{im}\partial})\to0.
+\tag{4}
+\]
+
+Equations (1)--(4) are the comparison maps between the different source types used in the arithmetic application.
+
+## 2. A generic disjoint-boundary obstruction
+
+If c^1,...,c^r in {-1,0,1}^E have disjoint supports, the same boundary z, and ell_t(z)!=0, choose the positive part of c^h for h in Q and its negative part otherwise. This defines a map
+
+\[
+\{0,1\}^r\longrightarrow\Omega\longrightarrow\mathbb Z
+\]
+
+with value X+|Q|ell_t(z). Thus r+1 distinct progression values have original binary witnesses. This applies to any specified free source, boundary map, and scalar observation, not only graphs. The full proof and exact graph specialization are in Section 3 of `graphical-proof-provider.md`.
+
+For graphs, edge-disjoint paths are disjoint lifts of e_v-e_u. Their original scalar increment is t_v-t_u. For a complete graph on m marked vertices there are m-1 such paths. They generate an m-term progression, explaining the critical (m+1)-term threshold in the complete-graph construction.
+
+## 3. Root-budget prolongation retains the whole original defect
+
+For the complete graph K_m, the actual tournament-score image is
+
+\[
+\Sigma_m=\{\rho-\partial\epsilon:\epsilon\in\Omega\},
+\qquad\rho=(0,1,\ldots,m-1).
+\]
+
+If r is a nonzero integral vector of coordinate sum zero with
+
+\[
+r(U)\le|U|(m-|U|)\quad(U\subseteq V),
+\tag{5}
+\]
+
+the new theorem constructs actual binary words whose m+1 score rows x_0,...,x_m satisfy
+
+\[
+\boxed{x_1-x_0=e_j-e_i,\qquad
+\Delta(x_0,\ldots,x_m)=(0,\ldots,0,r),}
+\tag{6}
+\]
+
+where i maximizes r and j minimizes r. The construction retains r itself and does not divide it by its gcd or replace it by a support label.
+
+The proof constructs an integral endpoint allocation on K_m plus an additional K_(m-2). Its cut inequalities are deduced from (5) by four exact membership cases. The resulting correction is t-s=r+(e_j-e_i), with s_i=0 and s_j=m-1. Reversing the m-1 disjoint j-i paths gives the original root string through s, and appending t gives (6). Section 5 of the proof provider contains all cut bounds, the integral flow construction, and the binary path maps.
+
+Every difference of two actual score points satisfies (5). Therefore a scalar collision ell_t(r)=0 between distinct score classes produces an (m+1)-term progression. The original source defect r is nonzero, while its receiving scalar defect is zero; the nonzero scalar increment t_j-t_i makes the resulting progression nonconstant.
+
+This is a constructive obstruction map, not a declaration that the original cohomology class is absent. It uses the exact additional kernel in (1) and (4) to produce the forbidden arithmetic witness.
+
+## 4. A supportwise cohomology equivalence forced by admissibility
+
+Assume the complete-graph marks are distinct, its positive edge weights are distinct, and its binary numerical image has no nonconstant (m+1)-AP. The previous theorem proves that ell_t is injective on the full boundary image X_Omega. It follows on every admitted word support S that J_S is a bijection on its actual value bases.
+
+Consequently
+
+\[
+\boxed{B_S=K_S\quad\text{for every }S\subseteq\Omega,}
+\tag{7}
+\]
+
+and the maps induced by J_S give a natural isomorphism of the two quotient diagrams in (1). The inverse sends e_y to the unique original e_x with ell_t(x)=y. On reconstructed totals the map preserves the original support, its coefficient zero, and global absence; the scalar semiring is the inherited G(Z). This is a genuine diagram/cohomology statement for the specified finite binary source, proved uniformly for every graph order m.
+
+At the integral edge-coordinate level the corresponding bounded statement is
+
+\[
+\ker(\ell_t\partial)\cap\{-1,0,1\}^E
+=\ker\partial\cap\{-1,0,1\}^E.
+\tag{8}
+\]
+
+The full linear kernel in (4) retains its additional m-2 rational dimensions. At the doubled value source, further collisions can also occur. The new ten-generator example has 3081 doubled score classes and 2103 numerical ternary classes; the additional free-value kernel has dimension 978. Its addition square is retained in the proof provider. Thus (7) is not extended without proof to a higher coefficient box, tensor observation, or the original infinite theta source.
+
+## 5. An all-rank obstruction with its quantitative return
+
+At the critical progression length m+1, every admissible complete-graph projection is score-injective by (6). There are at least m! transitive score classes. Therefore every canonical radix for such a block is at least m!, even when its ruler changes at every level. With n_m=binom(m,2), this gives the exact lower rate (m!)^(1/n_m).
+
+A prime p>m and marks (0,1,p,...,p^(m-2)) give a valid modular construction in base p^(m-1), hence upper rate p^(2/m). Bertrand's bound p<=2m and the elementary lower estimate log(m!)>=m log m-m+1 show that the optimum Xi_m throughout this complete critical source family satisfies
+
+\[
+\boxed{\lim_{m\to\infty}\frac{m\log\Xi_m}{\log m}=2.}
+\tag{9}
+\]
+
+This is a matching leading asymptotic for a specified unbounded-rank family. It does not bound the unrestricted Erdős 817 rate from below. Its implication is that further large-rank improvement must alter the critical source geometry, rather than attempt to collapse these particular score classes: their collapse has the explicit forbidden packet (6).
+
+For the metric calculation extend the displayed free integral presentations to real coefficients; their free basis quotients and specified maps are retained. The source metric stays equally explicit. For the orthonormal binary-word basis, if eta(x) is the number of words with boundary x, the first quotient metric is diag(1/eta(x)). If mu(y)=sum_(ell_t x=y)eta(x), the original minimum-norm quotient metric at the numerical image is diag(1/mu(y)). The sections are the actual averages in each word fiber. These formulas follow by completing the square in each finite fiber and commute with the original quotient maps.
+
+For the new base-1651 block the largest multiplicity is 24, so its t-level tensor return to unit value coordinates has norm 24^(t/2). No uniform arithmetic gain is inferred after omitting this factor. On smaller supports the same formulas use their own retained fiber counts.
+
+## 6. Exact affine failure loci and the successful replacement
+
+The old successful ruler (0,1,5,22) lies on the obstruction hyperplane c=5b-3a for prefixes (0,a,b,c). Every valid appended mark z gives a six-term progression; for 0<a<b, b!=2a and z>2c the ten edge weights are automatically distinct. Its source defects are 0,r,-r,0 with r=(1,3,-5,1,0), so the appended coordinate never changes the obstructing observation ell_t(r)=3a-5b+c.
+
+For the replacement prefix (0,4,7,41), retain the complete affine packet (r,v) of old subset sums minus the r selected endpoints of new edges. Its projection is (r,v)->rz+v. The whole packet width in v is 178. All constant-r fibers avoid six-term progressions, so the exact second-difference bound proves safety at every z>356. The remaining 315 values are completely classified, with all masks retained. The admitted value z=257 gives the stronger modular construction at base 1651.
+
+The generic affine-packet comparison is also reusable: for finite C subset Z^2 of second-coordinate width W, the evaluation (r,v)->rz+v is injective and preserves and reflects all k-APs at every integer z>2W. A failure below that bound retains a nonzero coefficient equation z Delta r+Delta v=0. No parameter is replaced by its asymptotic class without the displayed inverse and finite remainder domain.
+
+## 7. Canonical monotone dual and finite obstruction compiler
+
+The second proof provider, `monotone-obstruction-dual.md`, constructs the exact future value
+
+\[
+F_u(R)=\inf_{p\text{ safe from }R}P(p)/u^{N(p)}.
+\]
+
+For u<=lambda_k it lies in [1/2,1], is inclusion-monotone, and H_u=2F_u is the greatest bounded Bellman subsolution. For u>lambda_k it vanishes at every support, through explicitly represented positive-cost paths. A finite path with 2P<u^N, followed by the retained zero reset, produces an actual modular-safe block of rate below u. The general pattern-matrix version retains reset cost R_L and coefficient interval [1,R_L].
+
+The false state remains active throughout this limiting calculation. A zero coefficient in the future-value limit has its supported-zero meaning, not a missing source label. Finite graph closure and finite source packets are tools to control that problem, not claims that the arithmetic inequalities over all blocks have already been evaluated.
+
+## 8. Verification, provenance, and scope
+
+The complete proof providers and standalone verifier/auditor are included in this same workbench directory. The 3300 complete root-budget packets are checked against actual binary masks in two separate implementations. Another 200 higher-rank instances calibrate the general cut construction. The applied modular and affine records have complete stated domains; every omitted larger rank or parameter is covered only where a written theorem supplies it.
+
+The original source interface is `workbenches/splitzero-tandem/tex/support_diagrams.tex` at Zeta revision 42df8a2de002d5fc7090641fac46ea11be05fa71. The current research source and all inherited analytic scopes remain unchanged. The original EP817 k=4 contributor and sneed-and-feed retain their distinct credits. No private identity material is included.
+
+The present toolset supplies no GitHub write action. This directory is a tested additive publication payload; it has not been represented as a merged or independently Lean-certified contribution. The generic algebraic/cohomological results are separate from the specific finite record at base 1651.

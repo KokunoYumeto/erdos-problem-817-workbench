@@ -1,0 +1,82 @@
+[
+  {
+    "id": "GO1",
+    "lean_checked": false,
+    "proof": "Section 3",
+    "scope": "All finite free integral sources; every support and subset choice retained.",
+    "statement": "Disjoint signed source lifts with one common observed nonzero boundary produce an explicit arithmetic progression.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO2",
+    "lean_checked": false,
+    "proof": "Theorem 5.2; all four cut cases and integral flow.",
+    "scope": "Every m>=2; no finite enumeration premise.",
+    "statement": "Every nonzero sum-zero integer cut-budget direction has a tournament packet of length m+1 with first difference e_j-e_i and sole terminal second defect r.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO3",
+    "lean_checked": false,
+    "proof": "Theorem 5.3",
+    "scope": "All distinct real marks; original EP generator cardinality additionally uses distinct positive integral distances.",
+    "statement": "Critical (m+1)-AP-freeness of a complete-graph scalar image forces injectivity on all tournament score values.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO4",
+    "lean_checked": false,
+    "proof": "Section 6",
+    "scope": "All rulers and infinite changing-ruler/radix schedules in the stated critical source class. Not the unrestricted EP lower bound.",
+    "statement": "Critical complete-graph canonical capacity satisfies log(Xi_m)=(2+o(1))log(m)/m.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO5",
+    "lean_checked": false,
+    "proof": "Section 7",
+    "scope": "Entire stated integer parameter family.",
+    "statement": "The parameter family c=5b-3a, 0<a<b, b!=2a, z>2c has an actual six-term subset-sum progression for every z.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO6",
+    "lean_checked": false,
+    "proof": "Section 8 and complete finite fibers",
+    "scope": "Integer image freeness and distinctness. A modular certificate is an additional check.",
+    "statement": "The distances of (0,4,7,41,z) are six-admissible for all z>356; every z=42,...,356 is separately classified.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO7",
+    "lean_checked": false,
+    "proof": "Sections 1 and 9; full finite modular and returning-column data",
+    "scope": "Explicit global upper; fixed-block canonical lower only.",
+    "statement": "lambda_6 <= 1651^(1/10), with exact optimum 1651^(1/10) for all canonical mixed-radix schedules repeating the stated ten-generator block.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "GO8",
+    "lean_checked": false,
+    "proof": "Section 10",
+    "scope": "Original counted mask basis and specified metric; no free Euclidean substitution.",
+    "statement": "The actual word quotient has Gram diag(1/mu); new block tensor return norm is 24^(t/2); doubled value comparison has additional kernel dimension 978.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "BD1",
+    "lean_checked": false,
+    "proof": "monotone-obstruction-dual.md",
+    "scope": "All actual canonical levels at fixed k; does not evaluate lambda_k.",
+    "statement": "The future-path infimum yields the greatest bounded monotone Bellman subsolution, in [1,2] below the original rate and identically zero strictly above it.",
+    "status": "written proof; independent mathematical review pending"
+  },
+  {
+    "id": "SZ1",
+    "lean_checked": false,
+    "proof": "Zeta notes/splitzero-return.md",
+    "scope": "Original G(Z) reconstruction, explicit coefficient extension for metric identities; no theta analytic estimate.",
+    "statement": "The graphical word, boundary-value, and numerical-value quotients commute in the original support diagram; critical rigidity gives a natural first-level quotient equivalence without deleting full scalar or higher-addition kernels.",
+    "status": "written proof; independent mathematical review pending"
+  }
+]

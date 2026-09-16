@@ -1,0 +1,68 @@
+{
+  "claims": [
+    {
+      "id": "ABI-A",
+      "proof": "notes/all-block-image-capacity.md, Sections 5--8",
+      "scope": "all ranks, no attained-block assertion",
+      "statement": "For every fixed k>=3 and q>=5, lambda_k=lim_n min_A |H_q(A)|^(1/n)=inf_A |H_q(A)|^(1/|A|), A literal k-admissible positive distinct blocks."
+    },
+    {
+      "id": "ABI-B",
+      "proof": "notes/all-block-image-capacity.md, Sections 2--4",
+      "scope": "arbitrary block sizes and mixed schedules",
+      "statement": "All D subset [0,2b-2] and finite integer tails Y have the exact two-state count/run transfer; original receiving kernel has disjoint two-element fibres."
+    },
+    {
+      "id": "ABI-C",
+      "proof": "notes/all-block-image-capacity.md, Section 4",
+      "scope": "homogeneous block/base; does not delete levels of a prescribed mixed schedule",
+      "statement": "For fixed A,b>S(A), local q-valued evaluation is either injective at every length or has a witness by q-1 levels."
+    },
+    {
+      "id": "ABI-D",
+      "proof": "notes/all-block-image-capacity.md, Section 9.1",
+      "scope": "all prefixes of the specified infinite schedule",
+      "statement": "The stated sparse five-admissible schedule has N_m/139^m between half c^ell and twice c^(ell-1), c=2245/3197, and the exact polynomial-loss exponent."
+    },
+    {
+      "id": "ABI-E",
+      "proof": "notes/splitzero-receiving-map.md, Sections 3--4",
+      "scope": "general matrix pattern; finite tests at selected radii are calibrations, not a universal enumeration",
+      "statement": "For binary-rigid integer L with zero row sums and maximum positive row coefficient sum h>=1, lambda_L=inf_A |H_(2h+1)(A)|^(1/|A|)."
+    }
+  ],
+  "date": "2026-09-16",
+  "evidence": "ordinary written proofs and exact finite replay; mathematical review pending",
+  "excluded_claims": [
+    "complete solution of Problem 817",
+    "new best numerical upper rate",
+    "new Lean verification",
+    "finite attainment of global infimum",
+    "fixed-block exponential-loss theorem applied to all nonstationary schedules",
+    "a finite count proving an unbounded theorem"
+  ],
+  "lean_checked": false,
+  "schema": "ep817-all-block-image-claims-v1",
+  "sources": [
+    {
+      "commit": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "role": "read branch state; original project conventions and attribution"
+    },
+    {
+      "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "commit": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "role": "read equations D6--D8; original quotient and additional receiving kernel"
+    },
+    {
+      "role": "inspected original definitions, k=3 equivalence and general bounds; no imported capacity theorem",
+      "source": "https://arxiv.org/html/2606.24139v1"
+    },
+    {
+      "role": "abstract/source entry only, classical additive-model context; no rectification theorem imported",
+      "source": "https://arxiv.org/abs/math/0403338"
+    }
+  ]
+}

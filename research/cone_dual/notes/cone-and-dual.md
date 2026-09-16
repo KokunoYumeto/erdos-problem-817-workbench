@@ -10,7 +10,7 @@ The original arithmetic remains a finite set A of distinct positive integers, it
  H_q(A)=\left\{\sum_{a\in A}c_a a:0\le c_a<q\right\}.
 \]
 
-A is k-admissible when H_2(A) contains no nonconstant ordered k-term arithmetic progression. Numerical images and original word multiplicities have different explicit quotient maps throughout.
+A is k-admissible when H_2(A) contains no nonconstant ordered k-term arithmetic progression. Throughout, k is an integer with k>=3, and g_k(n)=min{max A: |A|=n, A is k-admissible} for n>=1. Numerical images and original word multiplicities have different explicit quotient maps throughout.
 
 ## 1. Results and the precise remaining quantifier
 
@@ -693,7 +693,7 @@ The comparison is not a discarded source. Retain the original maps
  \{0,1,2,3,4\}^4\xrightarrow{\Phi_B}[0,60].
 \]
 
-The identity on [0,60] is an exact numerical-value bijection, but its two receiving word-fibre measures differ. Their maximum original multiplicities are respectively 19 and 20. With orthonormal word coordinates, the quotient Grams are diag(1/mu_A(y)) and diag(1/mu_B(y)). The finite certificate retains both complete histograms.
+The identity on [0,60] is an exact numerical-value bijection, but its two receiving word-fibre measures differ. Their maximum original multiplicities are respectively 19 and 20. With orthonormal word coordinates, the quotient Grams are diag(1/mu_A(y)) and diag(1/mu_B(y)). The producer and independent auditor recompute both complete histograms from the retained original weights; the serialized certificate records their peak multiplicities.
 
 Thus no test based only on M and |A| can decide binary modular admissibility. The same pair remains an obstruction even after adding S(A), because that sum also agrees. The binary source-to-value quotient or another equivalent arithmetic certificate must remain attached to each level. The all-rank inequalities in Sections 5--6 explicitly range over the actual admissible pairs.
 
@@ -713,7 +713,7 @@ The original cost satisfies
  2S(C)+1=(2S(A)+1)(2S(B)+1).
 \]
 
-Minimizing that cost at fixed rank is submultiplicative. For a fixed block length l, write n=ql+r with r<l and use repeated composition. Dividing its logarithm by n proves convergence to the infimum of the fixed-length root costs. The comparisons
+Define F_k(n)=min{2S(A)+1: |A|=n, A is k-admissible}. Minimizing that cost at fixed rank is submultiplicative. For a fixed block length l, write n=ql+r with r<l and use repeated composition. Dividing its logarithm by n proves convergence to the infimum of the fixed-length root costs. The comparisons
 
 \[
  2g_k(n)+1\le F_k(n)\le2n g_k(n)+1

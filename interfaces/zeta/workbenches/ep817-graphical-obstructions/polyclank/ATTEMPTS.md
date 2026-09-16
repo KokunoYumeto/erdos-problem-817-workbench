@@ -1,0 +1,14 @@
+# Obstruction-led research record
+
+The objective was to use a failed arithmetic bound to identify structure that could yield general theorems, rather than only extend the previous finite controller enumeration.
+
+1. The actual old three- and six-generator blocks were recognized as complete-graph distance sets. The boundary map and scalar observation were written before any graph equivalence was used. This exposed edge-disjoint path increments and tournament-score fibers.
+2. Appending a mark to `(0,1,5,22)` failed. The literal witnesses gave the parameter relation `3a-5b+c=0`, with zero coefficient on the appended mark. The full affine witness was then proved for every admitted appended mark. A finite search returning no improvement was not treated as that proof.
+3. The prefix was changed to `(0,4,7,41)`. Its exact affine fibers establish safety for every appended mark greater than 356, with all 315 smaller candidates classified separately. The mark 257 and base 1651 gave the new record. Earlier base 1663 was superseded, not reported as the final bound. Candidate discovery is not an exhaustive global search; candidate validity and the fixed-block smaller-canonical-base theorem are independently certified.
+4. First-level source collisions were investigated instead of assuming projection injectivity. All small score-difference directions admitted an explicit long source packet. The general result was then proved by the four cut cases, integral orientation allocation, and edge-disjoint reversals. The old first-level-injective but AP-containing example remains as a regression showing that the converse fails at the next coefficient level.
+5. The rigidity theorem forced all critical score classes to survive, giving the all-rank factorial lower bound. The explicit prime family supplies a matching leading coefficient. This establishes a limitation of the complete-graph source family, not of the whole problem.
+6. The compact dual was refined by taking the infimum over actual future paths. This gives its greatest bounded monotone subsolution and a reset-cost collapse dichotomy. A failing single trial coefficient remains distinguished from a negative arithmetic cycle. The new empty-support self-edge is an unavoidable obstruction to the preceding numerical upper threshold.
+
+Exploratory ruler and extra-generator searches were bounded or stopped after supplying candidates. No optimality outside the proved domain is claimed from them. The finite all-rank samples, full low-rank source packets, general proofs, and independent arithmetic audit each have their own scope in the claim and check inventories.
+
+No process continues after delivery. Original source modules, full kernels, nonzero supported fibers, and metric changes are retained. No RH conclusion, new Lean status, or unobserved external reviewer is attributed to this work.

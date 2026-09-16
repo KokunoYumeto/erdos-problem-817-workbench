@@ -1,0 +1,36 @@
+{
+  "corrupt_records_rejected": [
+    "false numerical image count",
+    "erased present-zero representation",
+    "changed arithmetic generator",
+    "false progression count",
+    "false pair connectivity",
+    "altered supported cut capacity",
+    "zeroed source witness",
+    "missing original graph support"
+  ],
+  "cut_trees": 1152,
+  "deformations": 43,
+  "distinct_deformation_values": 14562,
+  "graphs": 1099,
+  "image_ideal_checks": 23118,
+  "input_sha256": "1b84ffccbcbbcdea71436dcc1416b0894b73247e0384ad2f47415eef129efa9a",
+  "lean_checked": false,
+  "positive_step_APs_checked": 162,
+  "schema": "ep817-supported-defect-independent-audit-v1",
+  "signed_defect_moduli": {
+    "cases": 756,
+    "exact_value_transports": 43706,
+    "positive_AP_transports": 144,
+    "scope": "all signed perturbations in {-1,0,1}^{3r}, r=1,2",
+    "transcript_sha256": "57f0ba9b96920eb8848b608a666ef4cb52f791ed52c28ed5519fe9612c0ed004"
+  },
+  "source_score_values": 40398,
+  "source_sha256": "e18102413ab12818152f634be7e6b7f02cc28add69f64885a773e5c8f214473f",
+  "specialization": {
+    "full_incidence_cases": 12,
+    "transcript_sha256": "1bc87fcc06820237370ed4019018be03151291ae1c4ed39294551ff3d59ce500"
+  },
+  "status": "PASS",
+  "visibility_cases": 8493
+}

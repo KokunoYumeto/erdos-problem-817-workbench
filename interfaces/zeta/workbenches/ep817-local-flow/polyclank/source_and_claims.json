@@ -1,0 +1,103 @@
+{
+  "attribution": {
+    "lean_upper_extension": "sneed-and-feed",
+    "new_contribution": "The Clankers; no global priority claim",
+    "original_k4_proof": "anonymous/deleted Reddit contributor"
+  },
+  "checked_files": {
+    "README.md": "591c0b640711b0b727849bbbe816f8ab5c11ac001907720b3c5fd13fb58335bf",
+    "certificates/audit_local_flow.py": "af11967f92e09feedfd63a6370b951e95e7925a4983addb91fc48583b1520ed6",
+    "certificates/independent_audit.json": "39957c2cc8520932481e543b0e7c50a976309b531a130a5b5370bc17dc3f402c",
+    "certificates/local_flow_receipt.json": "025d12e35b29d9ba8402278d0778818f282f6d79a2014af5f6419f6094cd46b3",
+    "certificates/verify_local_flow.py": "7e838ee47947b9fa06bcdbe16e11f7a9396532da85c84bd4c47bea49c0660c71",
+    "notes/local-flow-and-switching.md": "ca5fd72aa03b61c38632c27715af2a88dd0bb09146f1d1ca453cf4bfd6b72571",
+    "notes/splitzero-receiving-map.md": "71a9acbd555be4ce076ff9b873d6d7fe74c48172b30d4b1df0afe07b14e7f729",
+    "tools/local_flow.py": "1f5a29b2fbd7311df033e646cb315a333f226a06d3410c64ea6c50fc69c625e6"
+  },
+  "claims": [
+    {
+      "id": "LF1",
+      "proof_location": "Sections 1,4.1",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Exact integral nine-pattern/seven-count comparison and zero-loop kernel",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF2",
+      "proof_location": "Section 2",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Complete closed feasible cone, ten primitive rays and integer flow decomposition",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF3",
+      "proof_location": "Section 3",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Explicit two-potential alternative with actual finite symmetric counterexamples",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF4",
+      "proof_location": "Section 4",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "All-arity arithmetic path substitution and exact finite endpoint correction",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF5",
+      "proof_location": "Sections 4.1\u20134.3",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Positive lift, full original-current metric and section defect",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF6",
+      "proof_location": "Section 5.1",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Exact minimum for all infinite schedules in the two-block arithmetic dictionary",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF7",
+      "proof_location": "Section 5.2",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Quantitative switching stability, including separate limit and liminf criteria",
+      "status": "written proof; finite inputs checked"
+    },
+    {
+      "id": "LF8",
+      "proof_location": "Section 6",
+      "source": "notes/local-flow-and-switching.md",
+      "statement": "Saturated-residue obstruction for arbitrary mixtures and faithful re-encodings",
+      "status": "written proof; finite inputs checked"
+    }
+  ],
+  "date": "2026-09-16",
+  "delivery_corroborration": {
+    "domain": "all binary level words of lengths 1 through 10",
+    "proof": "Section 5.2",
+    "stability_word_cases": 2046
+  },
+  "ep817_observed_main": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+  "evidence": "Ordinary mathematical proofs plus exact finite certificates; independent mathematical review pending.",
+  "lean_checked": false,
+  "limitations": [
+    "The complete symmetric-tail cone is larger than actual admissible H5 images.",
+    "No rank cutoff or new global exponential upper record is proved.",
+    "No current-metric result replaces an original word or theta metric."
+  ],
+  "predecessor": {
+    "archive": "EP817_SEVEN_OBSERVABLE_20260916.zip",
+    "sha256": "11e2080a0135b04016723ea6929a93479d0540e519c5458d22728531d68019dd"
+  },
+  "prior_check_scope": "The predecessor archive identity and selected inherited input interfaces were inspected. The full predecessor numerical suite was not rerun.",
+  "remote_write_performed": false,
+  "schema": "ep817-local-flow-source-and-claims-v1",
+  "zeta_inspected_source": {
+    "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+    "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+    "ref": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+    "repository": "KokunoYumeto/zeta-function-research-reader",
+    "scope": "Equations D6\u2013D8 only; not new analytic verification."
+  }
+}

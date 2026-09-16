@@ -1,0 +1,109 @@
+{
+  "claims": [
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R1",
+      "proof": "notes/recurrence-control.md#2-a-gap-theorem-for-the-complete-infinite-family",
+      "scope": "Every positive integral sequence satisfying the displayed literal gap budget, all ranks and lengths",
+      "title": "Uniform positive-gap (2^r+1)-AP exclusion"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R2",
+      "proof": "notes/recurrence-control.md#3-exact-extremizers-inside-the-gap-family",
+      "scope": "Coordinatewise least positive integral sequence, longest progression exactly 2^min(r,n), rate root rho_r",
+      "title": "Exact extremizer in the specified gap family"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R3",
+      "proof": "notes/recurrence-control.md#4-full-integral-saturation-by-short-original-relations",
+      "scope": "All n>=1, r>=2; support at most three and coefficients <=2; quotient Z",
+      "title": "Saturated original integral short kernel"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R4",
+      "proof": "notes/recurrence-control.md#5-a-uniform-infinite-inverse-with-its-delay-dependence-proved",
+      "scope": "All Hilbert coefficient spaces; upper norm (r-1)^2/2; sharp Pell norm and lower bounds require a nonzero space",
+      "title": "Uniform infinite inverse and evaluated tail"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R5",
+      "proof": "notes/recurrence-control.md#7-a-complete-five-state-carry-computation-for-every-word-length",
+      "scope": "All finite coefficient words in [-2,2] with Pell scalar value zero; terminal kernel is retained",
+      "title": "Five-element actual scalar-zero carry alphabet"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R5u",
+      "proof": "notes/recurrence-control.md#72-an-explicit-scalar-observation-carrier-for-every-delay",
+      "scope": "All r>=2, coefficient alphabets [-M,M], and all word lengths; full coefficient cutoff C_r(M) with original terminal kernel",
+      "title": "Explicit all-delay scalar-observation carrier"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R5c",
+      "proof": "notes/recurrence-control.md#71-exact-four-term-progression-counts",
+      "scope": "Positive numerical four-AP counts at every Pell prefix length",
+      "title": "Exact rational four-progression count"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R6",
+      "proof": "notes/recurrence-control.md#8-the-faster-delay-obstruction-seven-actual-subset-sums",
+      "scope": "Six distinct actual positive generators; all longer-delay recurrences with strictly increasing positive seeds",
+      "title": "Seven-term supported relation motif"
+    },
+    {
+      "evidence": "Full written proof; related exact bounded checks in the recorded receipts",
+      "id": "R6p",
+      "proof": "notes/recurrence-control.md#81-equal-difference-packing-for-arbitrary-progression-length",
+      "scope": "Disjoint actual motif supports; s copies force 6s+1 AP terms",
+      "title": "Equal-difference motif packing"
+    }
+  ],
+  "date": "2026-09-15",
+  "ep817_base": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+  "exclusions": [
+    "No improved global bound for lambda_5 or lambda_6",
+    "No all-rank extremal lower estimate",
+    "No new Lean elaboration",
+    "No validation of unevaluated Zeta arithmetic moments",
+    "No human or peer review claimed"
+  ],
+  "lean_checked": false,
+  "schema": "ep817-recurrence-claims-v1",
+  "sources": [
+    {
+      "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "ref": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "scope": "Read equations D6-D8 and exact surrounding proofs; original support/quotient interface; no new Lean replay"
+    },
+    {
+      "author": "Samuel Korsky",
+      "ref": "arXiv:2606.24139v1",
+      "scope": "Read general bounds, ternary observation and source-construction context; no theorem imported for new gap/inverse proofs",
+      "title": "Arithmetic Progression-Free Subset-Sum Sets",
+      "url": "https://arxiv.org/html/2606.24139v1"
+    },
+    {
+      "authors": [
+        "Christiane Frougny",
+        "Edita Pelantova"
+      ],
+      "ref": "arXiv:1512.04234v3",
+      "scope": "Abstract and metadata inspected for prior Pisot automaton methodology; no uninspected theorem body used",
+      "title": "Two applications of the spectrum of numbers",
+      "url": "https://arxiv.org/abs/1512.04234v3"
+    },
+    {
+      "file": "EP817_SUPPORTED_DEFECT_20260915.zip",
+      "role": "User-delivered predecessor, retained unchanged in history; not a new replay of predecessor claims"
+    }
+  ],
+  "status": "ordinary proofs; independent mathematical review pending"
+}

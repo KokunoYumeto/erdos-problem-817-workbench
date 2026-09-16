@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "ZETA-SUPPORT",
+      "inspection": "read source",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "use": "support reconstruction, internal quotient, representative kernel"
+    },
+    {
+      "blob": "a91ac9650db201dbdf3f9b8f312632c2dc1e5b16",
+      "commit": "42df8a2de002d5fc7090641fac46ea11be05fa71",
+      "id": "ZETA-METRIC",
+      "inspection": "relevant source excerpt read; no arithmetic endpoint theorem imported",
+      "path": "workbenches/splitzero-tandem/tex/tau_chain.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "use": "TC7\u2013TC8b original finite Gram and section identities"
+    },
+    {
+      "blob": "7dc2c6a19f41ba47c276a78d7cd9a6f551474237",
+      "commit": "98fd25802a387138053064e11ddd2f6d2007d55b",
+      "id": "EP817-SX",
+      "inspection": "relevant proof sections read; main interfaces reconstructed here",
+      "path": "research/splitzero_transfer/notes/splitzero-infinite-carry-control.md",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "use": "fixed-block infinite carry, metric-return, and controller predecessors"
+    },
+    {
+      "id": "KORSKY",
+      "inspection": "HTML source inspected",
+      "url": "https://arxiv.org/html/2606.24139v1",
+      "use": "general-k definitions and literature benchmarks"
+    },
+    {
+      "id": "BOROSH-TREYBIG",
+      "inspection": "publisher abstract and bibliographic metadata only",
+      "url": "https://epubs.siam.org/doi/10.1137/0613029",
+      "use": "related bounded integer-solution literature, not a proof dependency"
+    }
+  ]
+}

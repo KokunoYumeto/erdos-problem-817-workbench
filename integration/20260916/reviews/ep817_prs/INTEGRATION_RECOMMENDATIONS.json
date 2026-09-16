@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-16",
+  "repository": "KokunoYumeto/erdos-problem-817-workbench",
+  "audit_scope": "Read-only exact-head proof/code/receipt review with reduced fresh tests; no Lean, remote writes or Git scans",
+  "prs": [
+    {
+      "number": 2,
+      "head": "612020848e4bbec5f5a723a64c5fdc85636b5e83",
+      "recommendation": "merge_as_research_contribution",
+      "proof_verdict": "proved as written",
+      "report": "AUDIT_PR2_PR3.md",
+      "new_files": 3,
+      "deletions": 0,
+      "blocking_findings": [],
+      "caveat": "New lower-bound mathematics is not Lean formalized; original full finite receipt not wholly rerun"
+    },
+    {
+      "number": 3,
+      "head": "a4ac40a60a91a45ab364f882904e07039b7ede27",
+      "recommendation": "merge_as_research_contribution",
+      "proof_verdict": "proved as written",
+      "report": "AUDIT_PR2_PR3.md",
+      "new_files": 4,
+      "deletions": 0,
+      "blocking_findings": [],
+      "caveat": "General rate existence is not its numerical evaluation; no full historical search or Lean run repeated"
+    },
+    {
+      "number": 4,
+      "head": "74ba7dcc4bd623b3555046feb6d45ccac38417a3",
+      "recommendation": "merge_as_research_contribution_after_live_check_review",
+      "proof_verdict": "proved as written",
+      "report": "pr4/AUDIT.md",
+      "blocking_findings": [],
+      "caveats": ["Fixed rank theorem holds for same-block canonical schedules, not block-changing schedules", "Complete rank-five arithmetic audit not locally rerun; live successful Actions record authenticated", "Latest mergeable_state was unstable, so resolve live checks before merge", "Nonblocking hardening: retire one-off write-enabled computation workflow or separate publisher permissions"]
+    },
+    {
+      "number": 5,
+      "head": "7641825de1bee9c57f5edef5d334abb7c21af663",
+      "recommendation": "merge_as_research_contribution_with_small_documentation_corrections_and_predecessor",
+      "proof_verdict": "correct only after a stated restriction",
+      "report": "pr5/AUDIT.md",
+      "new_files": 8,
+      "deletions": 0,
+      "blocking_findings": [],
+      "required_predecessor": "research/seven_observable/notes/seven-observable-capacity.md, especially Section10 (not assumed supplied by PR4)",
+      "documentation_corrections": [
+        "State k is an integer >=3 and define g_k(n) locally near the opening definitions; also define F_k(n) before its Section9 use.",
+        "At line696 replace claim that serialized certificate retains full histograms: producer and independent auditor recompute both complete histograms from retained original weights; serialized certificate records peak multiplicities."
+      ],
+      "caveat": "Finite rational potential theorem retains the universal arithmetic-block quantifier, and switching example is not a new global numerical record or new Lean result"
+    }
+  ],
+  "fresh_pr2_pr3_receipt_sha256": "49b3af156c22edb4f2f0a294c19c4286c1ef8f7c02d036b834a3670f0b83b7ff",
+  "zeta_relevant": [
+    {"pr": 4, "loci": "outer-support-control Sections2–3 and6", "edge": "Finite support quotients, source-metric section corrections, tensor return costs and exact return-primitive viability"},
+    {"pr": 5, "loci": "cone-and-dual positive-lift kernel/defect cocycle and original-word fibre metrics", "edge": "Exact rank-three lift kernel and section-dependent cocycle, distinct from supported zero-loop quotient; retained arithmetic labels and fibre measures"}
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "attribution": {
+    "finite_upper_Lean_extension": "sneed-and-feed",
+    "original_k4_mathematics": "anonymous/deleted Reddit contributor",
+    "present_continuation": "The Clankers"
+  },
+  "claims": [
+    {
+      "id": "SO01",
+      "sections": "2",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "Every finite D in [0,(q-1)(b-1)] and every finite numerical tail has the exact 2^(q-2)-coordinate translated-union transfer, with original affine residue maps.",
+      "title": "Universal raw carrier"
+    },
+    {
+      "id": "SO02",
+      "sections": "3\u20134",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "Centrally symmetric sources admit d_q reflection-orbit coordinates; d_5=7, with an exact intertwining of the original raw and folded matrices.",
+      "title": "Reflection and exact dimension"
+    },
+    {
+      "id": "SO03",
+      "sections": "4.3",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "The actual five-admissible concatenation matrix has determinant 1228800, so a universal linear tail-state realization requires at least seven coordinates.",
+      "title": "Sharp admissible linear realization"
+    },
+    {
+      "id": "SO04",
+      "sections": "2.1",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "Raw moments through degree p have the specified (p+1)2^(q-2)-dimensional carrier with every original residue offset retained.",
+      "title": "All moments"
+    },
+    {
+      "id": "SO05",
+      "sections": "5",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "At a canonical q-ary radix cut, every numerical pair fibre has at most q-1 elements; its complete augmented simplex resolution has the explicit cone homotopy.",
+      "title": "Uniform integral fibre resolution"
+    },
+    {
+      "id": "SO06",
+      "sections": "5.1",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "On the stated unit face metrics, the bounded differential and norm-one homotopy extend to countable Hilbert direct sums and retain their contraction identities.",
+      "title": "Countable Hilbert extension"
+    },
+    {
+      "id": "SO07",
+      "sections": "6\u20136.1",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "For every homogeneous block, rho^m <= N_m <= C_D rho^m, C_D <= q-1. The actual full carrier norm equals the numerical image count; peripheral eigenvalues are semisimple.",
+      "title": "Uniform leading spectral control"
+    },
+    {
+      "id": "SO08",
+      "sections": "6.2",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "For W>0, the pth raw moment has growth rho*b^p; the variance bounds retain the displayed W,b,rho,C_D constants.",
+      "title": "Moment and variance scale"
+    },
+    {
+      "id": "SO09",
+      "sections": "6.3",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "The explicit factorial-stage bases 3 and 5 give all-prefix three-admissibility and image-count lower/upper exponential limits 3 and 5.",
+      "title": "Nonstationary limiting distinction"
+    },
+    {
+      "id": "SO10",
+      "sections": "7,10",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "For every k>=3, lambda_k equals the infimum of rho(M_5(A,b))^(1/|A|) over canonical modular-k-safe pairs. The outer block family remains unbounded.",
+      "title": "Global seven-matrix variational identity"
+    },
+    {
+      "id": "SO11",
+      "sections": "8.1\u20138.2",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "The {3,10}/19 carrier has an observed irreducible quartic Perron root. The {7,10}/19 carrier retains the specified interior eigenvalue-13 Jordan chain and double pole.",
+      "title": "Concrete quartic and nilpotent observations"
+    },
+    {
+      "id": "SO12",
+      "sections": "9",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "For the actual repeated blocks, the least faithful integer and prime moduli are bounded by the stated ternary/fifth-arity spectral quantities; matching radii give the exact asymptotic cost in this specified class.",
+      "title": "Faithful residue reencoding bound"
+    },
+    {
+      "id": "SO13",
+      "sections": "5.2,11",
+      "source": "notes/seven-observable-capacity.md",
+      "statement": "Set-object observations, pair-to-value relations, original word multiplicities, and further congruence kernels remain distinct, with the displayed maps and quotient metrics.",
+      "title": "Original observation kernels and masses"
+    }
+  ],
+  "date": "2026-09-16",
+  "external_human_review_claimed": false,
+  "lean_checked": false,
+  "not_established": [
+    "A complete resolution of general Erdos Problem 817",
+    "A new best unrestricted numerical rate",
+    "A cutoff on original block rank for the global infimum",
+    "Equality of the arity-three or arity-four global cardinality infimum with lambda_k for general k",
+    "A finite replacement of the original theta cohomology",
+    "Original-word metric bounds inferred from the unit distinct-pair metric"
+  ],
+  "proof_status": "ordinary mathematical proofs, submitted for independent mathematical review",
+  "publication": {
+    "ep817_main_observed": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+    "observed_main_is_not_full_source_review": true,
+    "remote_write_performed": false,
+    "zeta_main_observed": "1efd53337561d8f67cf0ac1d119acdaa222644c3"
+  },
+  "schema": "ep817-seven-observable-claims-v1",
+  "source_records": [
+    {
+      "kind": "previous_complete_artifact",
+      "name": "EP817_ALL_BLOCK_IMAGE_20260916.zip",
+      "sha256": "487609ddf1eff0aa435eb362093d137b2446d8e56ebffa09b175e2f67d7ab322",
+      "use": "finite-image capacity interface, prime-avoidance predecessor, original attribution; critical interface re-proved in Section 10"
+    },
+    {
+      "git_blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "kind": "GitHub_source",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "revision": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "use": "D6\u2013D8 original support quotient and additional observation kernel"
+    },
+    {
+      "author": "Samuel Korsky",
+      "edition": "arXiv:2606.24139v1",
+      "kind": "inspected_primary_source",
+      "title": "Arithmetic progression-free subset-sum sets",
+      "url": "https://arxiv.org/html/2606.24139v1",
+      "use": "original definitions, three-term injectivity and benchmark general bounds"
+    },
+    {
+      "authors": [
+        "Christiane Frougny",
+        "Edita Pelantova"
+      ],
+      "edition": "arXiv:1512.04234v3",
+      "kind": "source_entry_inspected",
+      "title": "Two applications of the spectrum of numbers",
+      "url": "https://arxiv.org/abs/1512.04234",
+      "use": "finite-state arithmetic context, no theorem imported"
+    },
+    {
+      "authors": [
+        "Ben Green",
+        "Imre Ruzsa"
+      ],
+      "edition": "2006 journal article / arXiv:math/0403338",
+      "kind": "source_entry_inspected",
+      "title": "Sets with small sumset and rectification",
+      "url": "https://arxiv.org/abs/math/0403338",
+      "use": "finite additive modelling context, not an assumed proof"
+    }
+  ]
+}

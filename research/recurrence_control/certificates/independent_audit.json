@@ -1,0 +1,45 @@
+{
+  "all_delay_algebraic_carrier": {
+    "coefficient_alphabet": [
+      -2,
+      2
+    ],
+    "delays": [
+      2,
+      6
+    ],
+    "max_word_length": 6,
+    "prefix_remainders": 3589,
+    "scalar_zero_words": 687,
+    "words_screened": 97655
+  },
+  "arithmetic": {
+    "direct_integer_ap_counts": 33,
+    "direct_pell_max_n": 11,
+    "gap_cases": 2186
+  },
+  "auditor_sha256": "aeab5fa065bbd16755a74b1ffbae49c80a373b156322e9631d8350567d39d7c2",
+  "lean_checked": false,
+  "matrices": {
+    "delays": [
+      2,
+      8
+    ],
+    "full_relation_matrix_cases": 175,
+    "max_length": 25
+  },
+  "method": "Separate program; complete edge re-enumeration, exact observation, direct pair counts and matrix checks.",
+  "mutations_rejected": [
+    "missing_edge",
+    "zero_terminal",
+    "bad_carrier",
+    "repeated_motif",
+    "erase_alias",
+    "bad_gf",
+    "bad_count",
+    "bad_primitive"
+  ],
+  "receipt_sha256": "a7d9e5c9c3d0588eae7ce34dc9e8bc944b4a0160d682135802db5fdaa4009f48",
+  "schema": "ep817-recurrence-independent-audit-v1",
+  "status": "PASS"
+}

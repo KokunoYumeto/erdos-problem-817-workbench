@@ -1,0 +1,40 @@
+{
+  "K33_differences": 5298,
+  "K33_types": {
+    "integral-packets": 94,
+    "saturation": 3,
+    "second-closure": 2
+  },
+  "canonical_domains": {
+    "2": {
+      "cases": 1585,
+      "maximum_size": 5,
+      "universe_max": 12
+    },
+    "3": {
+      "cases": 385,
+      "maximum_size": 4,
+      "universe_max": 10
+    }
+  },
+  "clique_complete_differences": 3300,
+  "clique_larger_rank_samples": 84,
+  "clique_root_steps": 15020,
+  "compressed_sha256": "005d477ec20de0edcd22d68805e8afe6ad031088006def473633bf0d78123fde",
+  "lean_checked": false,
+  "prism_differences": 4994,
+  "prism_orbits": 255,
+  "prism_packet_lengths": {
+    "1": 4,
+    "2": 39,
+    "3": 202,
+    "4": 10
+  },
+  "schema": "ep817-canonical-isolation-producer-summary-v1",
+  "source_hashes": {
+    "build_certificate.py": "cfecb7e64bb6f30e638fdb54f514b5fc59502cd95f6a2cbb2b533e4ebf33d13d",
+    "exact_source.py": "65ff1371cadf0a4d3586ec2edf6fbe15effb8c8419c864be061ce99103c20ebf"
+  },
+  "status": "PASS",
+  "uncompressed_sha256": "8d98146443b2ec414a3d64b3465e87a90b41fb38acbf2ba0219109cfdea4f9c2"
+}

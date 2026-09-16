@@ -1,0 +1,130 @@
+{
+  "claims": [
+    {
+      "dependencies": [],
+      "id": "SZ-OUT-01",
+      "lean_checked": false,
+      "location": "Sections 2\u20133",
+      "source": "notes/outer-support-control.md",
+      "statement": "Support-indexed fiber complex and scalar-kernel exact sequence",
+      "status": "written proof"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-01"
+      ],
+      "id": "SZ-OUT-02",
+      "lean_checked": false,
+      "location": "Section 3",
+      "source": "notes/outer-support-control.md",
+      "statement": "Exact minimum sections, support enlargement boundary, and tensor metric cost",
+      "status": "written proof"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-01"
+      ],
+      "id": "SZ-OUT-03",
+      "lean_checked": false,
+      "location": "Section 4",
+      "source": "notes/outer-support-control.md",
+      "statement": "Complete affine signature preserves all finite language Freiman-2 relations",
+      "status": "written proof"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-03"
+      ],
+      "id": "SZ-OUT-04",
+      "lean_checked": false,
+      "location": "Section 5",
+      "source": "notes/outer-support-control.md",
+      "statement": "Every affine pattern has a coordinatewise smaller bounded realization and inverse code",
+      "status": "written proof"
+    },
+    {
+      "dependencies": [],
+      "id": "SZ-OUT-05",
+      "lean_checked": false,
+      "location": "Section 6",
+      "source": "notes/outer-support-control.md",
+      "statement": "Exact infinite-extension kernel of the controller from original return primitives",
+      "status": "written proof"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-05"
+      ],
+      "id": "SZ-OUT-06",
+      "lean_checked": false,
+      "location": "Section 7",
+      "source": "notes/outer-support-control.md",
+      "statement": "Every fixed (k,n) global canonical mixed-radix capacity is attained and computable",
+      "status": "written proof"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-06"
+      ],
+      "id": "SZ-OUT-07",
+      "lean_checked": false,
+      "location": "Section 8",
+      "source": "notes/outer-support-control.md",
+      "statement": "Exact capacities at k=5,6 through four generators",
+      "status": "written cutoff plus complete finite certificates"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-05",
+        "SZ-OUT-06"
+      ],
+      "id": "SZ-OUT-08",
+      "lean_checked": false,
+      "location": "Section 8",
+      "source": "notes/outer-support-control.md",
+      "statement": "Gamma_(5,5)=65^(1/5) and Gamma_(6,5)=47^(1/5)",
+      "status": "written cutoff plus independently audited complete finite certificates"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-07",
+        "SZ-OUT-08"
+      ],
+      "id": "SZ-OUT-09",
+      "lean_checked": false,
+      "location": "Section 8",
+      "source": "notes/outer-support-control.md",
+      "statement": "No fixed canonical block with at most five generators improves the retained six-generator rates",
+      "status": "exact consequence"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-06"
+      ],
+      "id": "SZ-OUT-10",
+      "lean_checked": false,
+      "location": "Section 9",
+      "source": "notes/outer-support-control.md",
+      "statement": "Unrestricted lambda_k equals inf_n Gamma_(k,n)",
+      "status": "written reconstruction of predecessor receiver"
+    },
+    {
+      "dependencies": [
+        "SZ-OUT-01"
+      ],
+      "id": "SZ-OUT-11",
+      "lean_checked": false,
+      "location": "Section 10",
+      "source": "notes/outer-support-control.md",
+      "statement": "Original one-step relation sequence and exact positive chain-deficit identity",
+      "status": "written proof"
+    }
+  ],
+  "open_target": {
+    "id": "SZ-OUT-OPEN",
+    "not_assumed_by_any_claim": true,
+    "statement": "Uniform lower control over unbounded n sufficient to evaluate inf_n Gamma_(k,n) for general k",
+    "status": "not established"
+  },
+  "schema": "ep817-splitzero-outer-claims-v1"
+}

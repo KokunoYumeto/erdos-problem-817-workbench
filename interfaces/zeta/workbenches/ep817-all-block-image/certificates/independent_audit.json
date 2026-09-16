@@ -1,0 +1,17 @@
+{
+  "auditor_sha256": "6d562fc5c778e35e9b9d94bff0eeb16b604614af753c17681889c6e9854c7a00",
+  "complete_residue_replay": {
+    "alphabets": 1364,
+    "automaton_length_counts": 9548,
+    "joins": 5456,
+    "transcript_sha256": "7a615c36ec806fbd0d32e11f3c54ad8e4786a32bf6778adb155c6f3520035501"
+  },
+  "lean_checked": false,
+  "prime_records": 191,
+  "receipt_sha256": "0909172da6dd2646727d130d9e54df802f3dce7aae4bb3952efc37478a6b9d1c",
+  "rejected_mutations": 8,
+  "schema": "ep817-all-block-image-independent-audit-v1",
+  "scope": "separate finite implementation; no external reviewer or theorem-prover claim",
+  "sparse_prefixes_rechecked": 11,
+  "status": "PASS"
+}

@@ -1,0 +1,47 @@
+{
+  "claims": [
+    {
+      "id": "VB-RESET",
+      "proof": "notes/variable-block-control.md#3-a-supported-zero-level-is-a-universal-reset",
+      "statement": "The present digit level (2,empty) resets every safe AP carry support and retains its positive radix cost.",
+      "status": "written proof"
+    },
+    {
+      "id": "VB-FINITE",
+      "proof": "notes/variable-block-control.md#4-a-rank-dependent-finite-cutoff-even-when-all-blocks-vary",
+      "statement": "For every k>=3 and block-size cap r, all changing-block canonical schedules have an exact finite optimization using b<=2*3^n per nonempty rank n.",
+      "status": "written proof"
+    },
+    {
+      "id": "VB-SYMMETRY",
+      "proof": "notes/variable-block-control.md#5-exact-symmetry-transport-and-the-finite-controller",
+      "statement": "Carry complement and row reversal give an invertible encoding of invariant supports; nonzero orbit count is (3^d+3^ceil(d/2)+1+3^floor(d/2))/4-1.",
+      "status": "written proof with exact calibration"
+    },
+    {
+      "id": "VB-CLASSIFY",
+      "proof": "notes/variable-block-control.md#6-exact-evaluations-for-variable-blocks-of-sizes-at-most-four",
+      "statement": "For k=5,6, all changing-block schedules with max block size r have rates sqrt(8) at r=1, sqrt(5) at r=2,3, and 23^(1/4) at r=4.",
+      "status": "written cutoff plus full-domain independent exact audits"
+    },
+    {
+      "id": "SZ-MATRIX",
+      "proof": "notes/supported-reset-generalization.md",
+      "statement": "Every translation-invariant integer matrix has an explicit binary obstruction or a binary-rigid all-rank family with a present-zero reset and finite bounded-rank optimization.",
+      "status": "written proof; finite matrix calibrations do not certify all inputs"
+    },
+    {
+      "id": "VB-DUAL",
+      "proof": "notes/compact-global-dual.md#2-exact-compact-dual-theorem",
+      "statement": "For every k>=3, lambda_k is exactly the largest u in [1,3] admitting H in [1,2] on the full finite invariant safe-support set with b H(T)>=u^|A| H(R) for every actual safe level.",
+      "status": "written all-rank proof; feasible maximum not numerically evaluated"
+    },
+    {
+      "id": "SZ-DUAL",
+      "proof": "notes/compact-global-dual.md#4-return-to-the-general-linear-pattern-source",
+      "statement": "For a binary-rigid matrix, the compact dual retains the original reset interval [1,R_L] and all original word-fiber metrics.",
+      "status": "written proof"
+    }
+  ],
+  "schema": "ep817-variable-block-claims-v1"
+}

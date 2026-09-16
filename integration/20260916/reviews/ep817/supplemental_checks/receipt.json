@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "coefficient_domain": "Z; integer powers, no floats",
+  "separation_counterexample": {
+    "Q": 3,
+    "P": [
+      0,
+      3
+    ],
+    "L": 7,
+    "R": [
+      0,
+      1
+    ],
+    "actual_incidence": 1,
+    "claimed_sum": 0
+  },
+  "corrected_separation": "L>3Q ensures every cross-component distance exceeds Q",
+  "finite_separation_cases": 10795,
+  "scope": "Q=0..6, all nonempty P in [0,Q], all R containing0, L=3Q+1; all binary schedules length1..10",
+  "stability_words": 2046,
+  "non_claims": [
+    "Finite tests do not substitute for the universal written separation or run-factorization proofs."
+  ]
+}

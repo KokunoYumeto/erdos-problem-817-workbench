@@ -1,0 +1,24 @@
+{
+  "auditor_sha256": "af11967f92e09feedfd63a6370b951e95e7925a4983addb91fc48583b1520ed6",
+  "corrupted_certificates_rejected": 8,
+  "domains": {
+    "complete_symmetric_digit_cases": 722,
+    "direct_saturated_macro_images": 16,
+    "direct_switched_generator_images": 62,
+    "dual_actual_counterexamples": 1197,
+    "dual_nonnegative_rows": 990,
+    "edge_paths": 11352,
+    "joins": 3610,
+    "switch_words": 2046
+  },
+  "lean_checked": false,
+  "method": "Direct output windows, original-set interpolation, rational matrix ranks, determinant evaluations, full balanced-pattern enumeration; no producer imports.",
+  "receipt_sha256": "025d12e35b29d9ba8402278d0778818f282f6d79a2014af5f6419f6094cd46b3",
+  "schema": "ep817-local-flow-independent-audit-v1",
+  "static": {
+    "independent_simple_cycles": 19,
+    "integral_flow_cube_cases": 1089,
+    "matrices_checked": 9
+  },
+  "status": "PASS"
+}

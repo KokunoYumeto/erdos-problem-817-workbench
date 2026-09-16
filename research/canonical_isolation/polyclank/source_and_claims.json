@@ -1,0 +1,106 @@
+{
+  "claims": [
+    {
+      "evidence": "all-rank-written-proof",
+      "id": "CI1",
+      "locator": "notes/canonical-isolation.md#3-integral-clique-packets-and-the-all-rank-proof",
+      "statement": "All complete-graph score sources are universally (m+1)-isolating; <=floor(m\u00b2/4) original integral root steps."
+    },
+    {
+      "evidence": "written-proof-and-complete-finite-certificate",
+      "id": "CI2P",
+      "locator": "notes/canonical-isolation.md#41-the-triangular-prism",
+      "statement": "Triangular-prism source universally five-isolating; 4994 differences, 255 complete orbit certificates."
+    },
+    {
+      "evidence": "written-proof-and-complete-finite-certificate",
+      "id": "CI2B",
+      "locator": "notes/canonical-isolation.md#42-k33-three-first-round-torsion-classes",
+      "statement": "K3,3 universal five-isolation under arbitrary rational observations; retain 94 integral, 3 torsion, 2 second-round classes."
+    },
+    {
+      "evidence": "written-proof-using-classical-conformal-decomposition",
+      "id": "CI3",
+      "locator": "notes/canonical-isolation.md#6-canonical-q-ary-arithmetic-components",
+      "statement": "Canonical finest q-ary numerical factor partition equals components of supports of bounded Graver elements."
+    },
+    {
+      "evidence": "written-corollary",
+      "id": "CI4",
+      "locator": "notes/canonical-isolation.md#62-certified-cores-are-whole-canonical-components",
+      "statement": "Certified critical clique/cubic cores are whole canonical binary components; exact disjointness and canonical remainder."
+    },
+    {
+      "evidence": "complete-finite-moment-identity-and-written-bound",
+      "id": "CI5",
+      "locator": "notes/canonical-isolation.md#7-exact-prism-moments-original-multiplicities-and-finite-bounds",
+      "statement": "Exact prism covariance and corresponding pure-prism finite lower bound."
+    },
+    {
+      "evidence": "elementary-written-proof-and-bounded-calibration",
+      "id": "CI6",
+      "locator": "notes/canonical-isolation.md#61-exact-arity-filtration-and-a-finite-full-primitive-description",
+      "statement": "Explicit arity filtration, one-row primitive l1 bound 2max(A)-1, and complete merging by q=max(A)+1."
+    },
+    {
+      "evidence": "exact-finite-example",
+      "id": "CI7",
+      "locator": "notes/canonical-isolation.md#8-the-actual-ternary-merger-and-its-additional-kernel",
+      "statement": "Admissible seven-generator example has binary split but ternary addition 417->333, extra kernel84."
+    }
+  ],
+  "date": "2026-09-16",
+  "environment": {
+    "implementation": "CPython",
+    "python": "3.13.5",
+    "system": "Linux"
+  },
+  "lean_checked": false,
+  "priority_claim": false,
+  "schema": "ep817-canonical-isolation-claims-v1",
+  "sources": [
+    {
+      "locator": "EP817_DEFECT_CLOSURE_20260915.zip",
+      "name": "Immediate preceding delivery",
+      "role": "Previous source closure and K4/K3,3 isolation; preserved unchanged; not all old checks rerun"
+    },
+    {
+      "commit": "23c0110c95b5a2036bdc04a1f352b6e5e27742c8",
+      "name": "EP817 main",
+      "repository": "KokunoYumeto/erdos-problem-817-workbench",
+      "role": "Observed upstream base; no inherited source modified"
+    },
+    {
+      "blob": "d3493f891291ee6e94dbf2c77649f7d85d240df2",
+      "commit": "58626a62cd5648e8ae7450fb54d4a4aab2330981",
+      "name": "Original SplitZero support quotient",
+      "path": "workbenches/splitzero-tandem/tex/support_diagrams.tex",
+      "repository": "KokunoYumeto/zeta-function-research-reader",
+      "scope": "D6-D8 reread; original quotient and receiving kernel"
+    },
+    {
+      "identifier": "10.1007/s00454-023-00571-4",
+      "name": "Kolesnik & Sanchez 2024",
+      "role": "Classical orientation cut criterion",
+      "scope": "Primary HTML Corollary4.2 inspected"
+    },
+    {
+      "identifier": "arXiv:2410.00656v1",
+      "name": "Onn 2024",
+      "role": "Established Graver definition; no oracle theorem imported",
+      "scope": "Primary HTML Section1.3 inspected"
+    },
+    {
+      "identifier": "10.4171/093",
+      "name": "Onn 2010",
+      "role": "Literature context, not unread proof input",
+      "scope": "Publisher abstract and metadata only"
+    },
+    {
+      "identifier": "arXiv:2606.24139v1",
+      "name": "Korsky 2026",
+      "role": "Problem context, no new benchmark improvement claimed",
+      "scope": "Primary HTML conventions/general bounds"
+    }
+  ]
+}

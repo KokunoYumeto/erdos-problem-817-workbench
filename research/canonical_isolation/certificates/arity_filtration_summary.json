@@ -1,0 +1,21 @@
+{
+  "arity_comparisons": 1050,
+  "data_sha256": "03cb790a233034455eae0ffb21e6883d0b0b2eb53716c109c44279d193d61528",
+  "domain": {
+    "distinct_positive_weights": [
+      1,
+      8
+    ],
+    "sizes": [
+      2,
+      4
+    ]
+  },
+  "lean_checked": false,
+  "method": "Full bounded one-row kernel enumeration; direct conformal-subvector checks; literal alternating words; independent image-cardinality factor splitting.",
+  "schema": "ep817-arity-filtration-v1",
+  "sets": 154,
+  "signed_graver_elements": 4180,
+  "source_sha256": "551d6cba8a0b2b2a49f05dd7a04fa654a47ba61c9449d55c51dcc68ac09f0917",
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "all_rejected_controller_transfers": 1449,
+  "all_safe_controller_transfers": 1059,
+  "attainment_period": [
+    [
+      5,
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "auditor_sha256": "b4c115a0703865cf8afd5e5c4f96cd320804d9baec71b12620cc387e0e3896c5",
+  "k": 6,
+  "literal_labels": 66,
+  "nonzero_source_labeled_columns": 7760,
+  "plain_receipt_sha256": "b11b29d37736c2374ebcc673ad3729ff02bba8543247dfa7202503c2fdd11379",
+  "producer_sha256": "c719c6adc09d8aa7173c07b7d031b3941e53815d78e2c1cf786ef36aeeb6754b",
+  "rank": 2,
+  "receipt_file_sha256": "0446d0878151b3633ee401a2cacfac4b5d9b624e38852dd5ae3fbed98134cb23",
+  "safe_supports": 38,
+  "scope": "Independent exact full-domain, fibre, column, support, potential and periodic-attainment replay; no external human review or Lean claim.",
+  "status": "PASS",
+  "target": {
+    "base": 5,
+    "root": 2
+  },
+  "valid_source_carries": 5280
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "claim_id": "supplemental_checks",
+  "repository": {
+    "commit": "unavailable: immutable delivered archives, no Git invocation",
+    "dirty": false
+  },
+  "command": [
+    "C:\\Users\\LOCAL_USER\\miniconda3\\python.exe",
+    "-B",
+    "C:\\Users\\LOCAL_USER\\Documents\\Erdos Strauss and related\\private_review\\program_updates_20260916\\reviews\\ep817\\supplemental\\certificates\\check_separation_stability.py",
+    "--output",
+    "C:\\Users\\LOCAL_USER\\Documents\\Erdos Strauss and related\\private_review\\program_updates_20260916\\reviews\\ep817\\supplemental_checks\\receipt.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.13.9"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26200-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Replay delivered finite certificate at its explicitly recorded domains; independently audit written proofs separately.",
+    "coefficient_domain": "Exact integers and rational arithmetic",
+    "conventions": "Original delivered coefficient arity, generator weights, radices and word order retained",
+    "inputs": [
+      "reviews\\ep817\\supplemental\\certificates\\check_separation_stability.py"
+    ],
+    "bounds": {
+      "wall_seconds": 180,
+      "working_set_bytes": 5000000000,
+      "mathematical_scope": "Full default script domain, no quick option"
+    },
+    "non_claims": [
+      "Finite replay does not prove universal theorem, novelty, Lean verification, or complete Erd\u0151s 817 solution."
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-09-16T20:13:51.631886+00:00",
+    "runtime_seconds": 1.2988622999982908,
+    "exit_status": 0,
+    "status": "completed",
+    "peak_working_set_bytes": 16723968,
+    "watch_interval_seconds": 0.1,
+    "children": "Reviewed scripts create none; sole direct process is the complete worker tree."
+  },
+  "outputs": [
+    {
+      "path": "reviews\\ep817\\supplemental_checks\\receipt.json",
+      "sha256": "834dba0a4a7e97cd1a8b8da3885e38e4936cd64b511b84ee553d58b9a9ca5bbe"
+    },
+    {
+      "path": "reviews\\ep817\\supplemental_checks\\stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reviews\\ep817\\supplemental_checks\\stdout.txt",
+      "sha256": "6f65e031ba4aa0e19c2ffa4a9bfa4b5ed54480f96c00d58568a304140a7f7916"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Input bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "Exit zero",
+      "passed": true
+    },
+    {
+      "name": "Expected result exists",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "residual_risks": [
+    "Working-set ceiling is polled every 100ms, not OS-enforced reservation. No virtual-memory ceiling.",
+    "v1 compatibility manifest; extra input_hashes supplement its provenance.",
+    "Certificate content is checked by independent script, not by this runner."
+  ],
+  "input_hashes_before": {
+    "reviews\\ep817\\supplemental\\certificates\\check_separation_stability.py": "38adcf33c5477337cb1d35ee17870ccd907cc1da9a6c63371044f140adb0c3a0"
+  },
+  "input_hashes_after": {
+    "reviews\\ep817\\supplemental\\certificates\\check_separation_stability.py": "38adcf33c5477337cb1d35ee17870ccd907cc1da9a6c63371044f140adb0c3a0"
+  }
+}

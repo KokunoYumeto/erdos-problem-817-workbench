@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "claim_id": "recurrence_producer",
+  "repository": {
+    "commit": "unavailable: immutable delivered archives, no Git invocation",
+    "dirty": false
+  },
+  "command": [
+    "C:\\Users\\LOCAL_USER\\miniconda3\\python.exe",
+    "-B",
+    "C:\\Users\\LOCAL_USER\\Documents\\Erdos Strauss and related\\private_review\\program_updates_20260916\\intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\verify_recurrence_control.py",
+    "--output",
+    "C:\\Users\\LOCAL_USER\\Documents\\Erdos Strauss and related\\private_review\\program_updates_20260916\\reviews\\ep817\\recurrence_producer\\receipt.json"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "CPython",
+        "version": "3.13.9"
+      }
+    ],
+    "hardware": "Windows-11-10.0.26200-SP0"
+  },
+  "mathematics": {
+    "assertion_tested": "Replay delivered finite certificate at its explicitly recorded domains; independently audit written proofs separately.",
+    "coefficient_domain": "Exact integers and rational arithmetic",
+    "conventions": "Original delivered coefficient arity, generator weights, radices and word order retained",
+    "inputs": [
+      "intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\audit_recurrence_control.py",
+      "intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\verify_recurrence_control.py"
+    ],
+    "bounds": {
+      "wall_seconds": 180,
+      "working_set_bytes": 5000000000,
+      "mathematical_scope": "Full default script domain, no quick option"
+    },
+    "non_claims": [
+      "Finite replay does not prove universal theorem, novelty, Lean verification, or complete Erd\u0151s 817 solution."
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-09-16T20:10:55.424632+00:00",
+    "runtime_seconds": 1.3893305000092369,
+    "exit_status": 0,
+    "status": "completed",
+    "peak_working_set_bytes": 23175168,
+    "watch_interval_seconds": 0.1,
+    "children": "Reviewed scripts create none; sole direct process is the complete worker tree."
+  },
+  "outputs": [
+    {
+      "path": "reviews\\ep817\\recurrence_producer\\receipt.json",
+      "sha256": "9b1d814f75662fdba860af1845d7b3003300c9d7842308de39b5e6dd82bfb8a6"
+    },
+    {
+      "path": "reviews\\ep817\\recurrence_producer\\stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reviews\\ep817\\recurrence_producer\\stdout.txt",
+      "sha256": "b350551f2ccceaa69f034688ae91a7b99d96b7b4bb5af691bf91a382da211117"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Input bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "Exit zero",
+      "passed": true
+    },
+    {
+      "name": "Expected result exists",
+      "passed": true
+    }
+  ],
+  "result": "completed",
+  "residual_risks": [
+    "Working-set ceiling is polled every 100ms, not OS-enforced reservation. No virtual-memory ceiling.",
+    "v1 compatibility manifest; extra input_hashes supplement its provenance.",
+    "Certificate content is checked by independent script, not by this runner."
+  ],
+  "input_hashes_before": {
+    "intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\audit_recurrence_control.py": "aeab5fa065bbd16755a74b1ffbae49c80a373b156322e9631d8350567d39d7c2",
+    "intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\verify_recurrence_control.py": "762980a7e2ff3834d4b72fdda9689a8ee49c9291a69a80a78ed70d7a1a720152"
+  },
+  "input_hashes_after": {
+    "intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\audit_recurrence_control.py": "aeab5fa065bbd16755a74b1ffbae49c80a373b156322e9631d8350567d39d7c2",
+    "intake\\ep817_recurrence\\EP817_RECURRENCE_CONTROL_20260915\\payloads\\ep817\\research\\recurrence_control\\certificates\\verify_recurrence_control.py": "762980a7e2ff3834d4b72fdda9689a8ee49c9291a69a80a78ed70d7a1a720152"
+  }
+}
