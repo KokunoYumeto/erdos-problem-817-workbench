@@ -1,0 +1,147 @@
+{
+  "schema": "ep817-local-integration-v1",
+  "recorded_utc": "2026-09-18T23:19:23.090753+00:00",
+  "source_revision": "EP817_CONTINUATION_20260917",
+  "results": [
+    {
+      "id": "EP817-RP-1",
+      "status": "accepted",
+      "statement": "For every individually modular-5/6-free canonical block of rank 1,2,3,4, the ternary residue counts are at least 3,5,13,23; every bound is sharp.",
+      "proof": {
+        "path": "research/residue_composition/notes/residue-and-composition.md",
+        "locator": "Theorem 1; sections 2.1-2.3"
+      },
+      "evidence": [
+        "research/residue_composition/integration_20260919/VERIFICATION.json"
+      ],
+      "dependency": "Kneser stabilizer theorem, attributed to Martin Kneser and Matt DeVos (2013).",
+      "scope": "All heights and radices; complete 490-block exceptional certificate."
+    },
+    {
+      "id": "EP817-RP-2",
+      "status": "accepted",
+      "statement": "|H5(A_w)| >= 3^m1 5^m2 13^m3 23^m4 gamma_k^N_ge5 with original generator counts.",
+      "proof": {
+        "path": "research/residue_composition/notes/residue-and-composition.md",
+        "locator": "Section 3, (3.1)-(3.8)"
+      },
+      "scope": "Individually modular-safe block presentations; no rank cutoff inferred."
+    },
+    {
+      "id": "EP817-CP-1",
+      "status": "accepted",
+      "statement": "E_m(p)-log(q-1)/m <= C_q(p) <= E_m(p), continuous convex profile and an attaining infinite schedule for every profile.",
+      "proof": {
+        "path": "research/residue_composition/notes/residue-and-composition.md",
+        "locator": "Theorem 2; (4.1)-(4.5)"
+      },
+      "domain_clarification": "Integer coefficient arity q>=2, fixed finite nonempty dictionary."
+    },
+    {
+      "id": "EP817-CP-2",
+      "status": "accepted",
+      "statement": "Exact fifth-image minima at every A/B composition are (5.7)-(5.9), with original finite attainers (5.15)-(5.16).",
+      "proof": {
+        "path": "research/residue_composition/notes/residue-and-composition.md",
+        "locator": "Theorem 3, sections 5.1-5.2"
+      },
+      "evidence": [
+        "research/residue_composition/integration_20260919/VERIFICATION.json",
+        "research/residue_composition/integration_20260919/VERIFICATION.json"
+      ],
+      "scope": "All nonnegative s,t; certificate replays every length through 18 and 961 attainer pairs."
+    },
+    {
+      "id": "EP817-CP-3",
+      "status": "accepted",
+      "statement": "Exact limiting A/B frequency spectrum (6.1)-(6.2), including nonperiodic attainment and no attaining finite period at each rational B-frequency strictly between 1/2 and 1.",
+      "proof": {
+        "path": "research/residue_composition/notes/residue-and-composition.md",
+        "locator": "Theorem 4; (6.3)-(6.6)"
+      },
+      "scope": "Original radix-ten dictionary A=(10,{1,3}), B=(10,{2,4}); no improved global record."
+    },
+    {
+      "id": "EP817-SZ-1",
+      "status": "accepted_new_proof",
+      "statement": "The two explicit supported cochain complexes have H0=original value/residue groups; their receiving kernel is B'_S/B_S -> ker(pi_S), [c] -> q_S(c), integrally and naturally.",
+      "proof": {
+        "path": "research/residue_composition/integration_20260919/EXACT_SUPPORTED_METRIC_RETURN.tex",
+        "locator": "E1-E8; Theorem 1"
+      },
+      "receiver": "Original Split-Zero support diagrams D6-D8; fibre-labelled zero retained."
+    },
+    {
+      "id": "EP817-SZ-2",
+      "status": "accepted_new_proof",
+      "statement": "Original integral residue-section determinant loss equals sum_r log(mu_bar_S(r)/mu_S(d_S(r))) with every original word multiplicity.",
+      "proof": {
+        "path": "research/residue_composition/integration_20260919/EXACT_SUPPORTED_METRIC_RETURN.tex",
+        "locator": "E9-E12; Theorem 2"
+      },
+      "evidence": [
+        "research/residue_composition/integration_20260919/UNIVERSAL_INTERFACE_CHECKS.json"
+      ],
+      "receiver": "Finite supported quotient metrics and boundary Pythagoras."
+    },
+    {
+      "id": "EP817-SZ-3",
+      "status": "accepted_new_proof",
+      "statement": "The source-change section defect K_ST has exact norm E14 and typed cocycle K_SU=i_TU K_ST+K_TU i_bar_ST; integral representative defect has exact E16 norm.",
+      "proof": {
+        "path": "research/residue_composition/integration_20260919/EXACT_SUPPORTED_METRIC_RETURN.tex",
+        "locator": "E13-E16; Proposition 3"
+      },
+      "receiver": "Original inclusion diagrams; varying multiplicity metrics retained."
+    },
+    {
+      "id": "EP817-SZ-4",
+      "status": "accepted_new_proof",
+      "statement": "Both seven-state count matrices act on every finite numerical tail by the literal residue-fibre bijections E19-E20; no sample-tail extrapolation.",
+      "proof": {
+        "path": "research/residue_composition/integration_20260919/EXACT_SUPPORTED_METRIC_RETURN.tex",
+        "locator": "E17-E23"
+      },
+      "evidence": [
+        "research/residue_composition/integration_20260919/UNIVERSAL_INTERFACE_CHECKS.json",
+        "research/residue_composition/integration_20260919/verify_universal_interface.py"
+      ],
+      "scope": "All 14 rows and 140 original residue fibres; all inverse shifts retained."
+    },
+    {
+      "id": "EP817-SZ-5",
+      "status": "accepted_complete_proof",
+      "statement": "Contracting the active empty radix maps the rank-289 original value module onto rank 177 and has the explicit integral fibre-difference kernel of rank 112.",
+      "proof": {
+        "path": "research/residue_composition/integration_20260919/EXACT_SUPPORTED_METRIC_RETURN.tex",
+        "locator": "E24 and its integral kernel proof"
+      },
+      "evidence": [
+        "research/residue_composition/integration_20260919/UNIVERSAL_INTERFACE_CHECKS.json"
+      ]
+    }
+  ],
+  "accepted_nodes": 10,
+  "unchanged": [
+    "Integrated upstream 29-note collection at dbd0a93f2cf935103e88e5c2b2b71fe85ae7537b.",
+    "Original L>3Q separation correction and inherited cone-dual scope.",
+    "All 22 supplied files, original PDF, mathematical/formalization credits.",
+    "Published Split-Zero signed analytic estimates and their exact source metrics."
+  ],
+  "remaining_mathematics": [
+    {
+      "id": "EP817-HIGHER-RANK",
+      "status": "not_established_here",
+      "target": "Uniform higher-rank residue prices strong enough for the unrestricted cost problem."
+    },
+    {
+      "id": "SZ-ANALYTIC-RECEIVER",
+      "status": "no_new_analytic_value",
+      "target": "Actual signed eight-matrix spectral profile and complementary analytic CPQ returns.",
+      "boundary": "This finite EP817 source supplies explicit supported algebra/metric examples; it does not evaluate the original theta allocation coefficients."
+    }
+  ],
+  "status": "ordinary_proofs_independently_reviewed_and_exact_certificates_replayed",
+  "original_source_lineage": "SOURCE_LINEAGE.json",
+  "verification": "VERIFICATION.json"
+}

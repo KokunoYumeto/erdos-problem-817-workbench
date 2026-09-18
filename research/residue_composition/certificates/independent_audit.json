@@ -1,0 +1,37 @@
+{
+  "LP_checks": {
+    "LP_certificates": 84,
+    "LP_dual_inequalities": 570,
+    "additional_direct_original_images": 360
+  },
+  "auditor_sha256": "d6f5ba4676f557428bfc4003df4226e6ec21dd271c044553d262102bb6f3cad9",
+  "base_commit": "dbd0a93f2cf935103e88e5c2b2b71fe85ae7537b",
+  "composition_checks": {
+    "attainer_grid_cases": 961,
+    "composition_classes": 189,
+    "direct_original_images": 126,
+    "literal_words_through18": 524286,
+    "maximum_column_states": 42148
+  },
+  "lean_checked": false,
+  "proof_sha256": "383d15ff174cebbaa8d792bac1416c5e67068b54703961a1add02483e2751992",
+  "rejected_corruptions": [
+    "changed original subset mask",
+    "constant modular witness",
+    "missing exceptional block",
+    "incorrect arithmetic count matrix",
+    "incorrect fixed-composition minimum",
+    "negative primal coefficient",
+    "invalid dual price",
+    "missing LP count class"
+  ],
+  "residue_checks": {
+    "complete_additional_blocks": 36310,
+    "complete_obstruction_blocks": 490,
+    "finite_Kneser_checks": 31083,
+    "mixed_original_image_checks": 84
+  },
+  "schema": "ep817-residue-composition-independent-audit-v1",
+  "scope": "Separate arithmetic implementation; no imported producer/helper; bounded checks accompany written proofs.",
+  "status": "PASS"
+}

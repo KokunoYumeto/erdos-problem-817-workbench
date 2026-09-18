@@ -1,0 +1,440 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=27mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\title{The EP817 residue source in the original supported quotient:
+exact cochain maps, metric losses, and arithmetic transitions}
+\author{The Clankers}
+\date{19 September 2026}
+\begin{document}
+\maketitle
+
+This note integrates the supplied \emph{Residue prices, constrained composition,
+and nonperiodic optimal schedules} of 17 September 2026
+\cite{continuation}.  Its full proof, original LaTeX, and exact certificates
+are preserved without alteration in the accompanying source subtree.
+The maps below implement the internal quotient and receiving-kernel construction
+of the original Split-Zero support diagram, equations (D6)--(D8)
+\cite{support}.  All word multiplicities, actual integer values, moduli,
+support labels, and Euclidean word metrics are retained.  In the
+composition results the coefficient arity is an integer \(q\geq2\);
+the applications at \(q=3,5\) therefore have the original cut constant \(q-1\).
+
+\section{The actual source and its two cochain complexes}
+
+Let \(A\) be a fixed nonempty finite set of distinct positive integers and
+let \(b>\sum_{a\in A}a\) be the original radix.  Set
+\[
+ \Omega=\{0,1,2\}^{A},\qquad
+ v(c)=\sum_{a\in A}c_a a,\qquad
+ \bar v(c)=v(c)\bmod b .
+ \tag{E1}
+\]
+For every \(S\subseteq\Omega\) use the actual images
+\[
+ X_S=v(S)\subset\Z,\quad R_S=\bar v(S)\subset\Z/b\Z,\quad
+ V_S=\Z[S],\quad E_S=\Z[X_S],\quad \bar E_S=\Z[R_S].
+ \tag{E2}
+\]
+Here square brackets denote free abelian groups on the indicated distinct
+bases, including a basis vector \(e_0\) whenever the image contains zero.
+The maps on these displayed bases are
+\[
+ q_S(e_c)=e_{v(c)},\qquad
+ \pi_S(e_x)=e_{x\bmod b},\qquad p_S=\pi_Sq_S.
+ \tag{E3}
+\]
+All three have their stated codomains by (E2), and both \(q_S,p_S\) are
+surjective.  Their kernels are
+\[
+ B_S=\ker q_S,\qquad B'_S=\ker p_S,\qquad B_S\subseteq B'_S .
+ \tag{E4}
+\]
+For an empty image its free group is zero and the same formulas apply.
+
+Define two complexes concentrated in degrees \(-1,0\):
+\[
+ C_S=[\,B_S\overset{\iota_S}{\longrightarrow}V_S\,],\qquad
+ D_S=[\,B'_S\overset{\iota'_S}{\longrightarrow}V_S\,].
+ \tag{E5}
+\]
+The map \(f_S:C_S\to D_S\) is inclusion in degree \(-1\) and identity
+in degree zero.  It is a cochain map because
+\(\iota'_S(B_S\hookrightarrow B'_S)=\iota_S\).
+
+\begin{theorem}[The exact receiving kernel in the original complexes]
+The maps in (E3) induce the isomorphisms and exact sequence
+\[
+ \begin{gathered}
+ H^0(C_S)\overset{\sim}{\longrightarrow}E_S,\quad[c]\longmapsto q_Sc,
+ \qquad
+ H^0(D_S)\overset{\sim}{\longrightarrow}\bar E_S,\quad[c]\longmapsto p_Sc,\\
+ H^{-1}(C_S)=H^{-1}(D_S)=0,\qquad H^0(f_S)=\pi_S,\\
+ 0\longrightarrow B_S\longrightarrow B'_S
+       \overset{q_S}{\longrightarrow}\ker\pi_S\longrightarrow0,\qquad
+ B'_S/B_S\overset{\sim}{\longrightarrow}\ker H^0(f_S),
+       \quad[c]\longmapsto q_Sc .
+ \end{gathered}
+ \tag{E6}
+\]
+\end{theorem}
+\begin{proof}
+Injectivity of the two differentials gives the degree-\(-1\) statements.
+Their degree-zero cohomologies are \(V_S/B_S\) and \(V_S/B'_S\).
+The maps \(q_S,p_S\) are onto with exactly those kernels, proving the two
+displayed isomorphisms.  Their commutative square is (E3), so their induced
+degree-zero map is precisely \(\pi_S\).
+
+If \(c\in B'_S\), then \(\pi_Sq_Sc=p_Sc=0\), so the third map of the
+sequence has the asserted codomain.  Its kernel is exactly \(B_S\).
+To prove its surjectivity without an unspecified lift, order the original
+coefficient words lexicographically using the increasing order on \(A\).
+For each \(x\in X_S\), let \(c_x\) be the first word in \(S\) with value
+\(x\).  An element \(h=\sum_xh_xe_x\in\ker\pi_S\) is the image under
+\(q_S\) of \(\sum_xh_xe_{c_x}\); that lift belongs to \(B'_S\) because
+its \(p_S\)-image is \(\pi_Sh=0\).  This proves the exact sequence and
+the final isomorphism.
+\end{proof}
+
+For \(S\subseteq T\), use basis inclusions in each of \(V,E,\bar E\).
+The squares with \(q\) and \(\pi\) commute on every basis vector.
+Consequently \(B_S\to B_T\) and \(B'_S\to B'_T\) are the restrictions
+of \(V_S\to V_T\), and the complexes and (E6) form actual diagrams.
+Use the join-semilattice
+\[
+ L=\{\bot\}\sqcup\mathcal P(\Omega),\qquad S\vee T=S\cup T,
+ \tag{E7}
+\]
+with a distinct bottom \(\bot\) and zero fibre there.  The label
+\(\varnothing\in\mathcal P(\Omega)\) remains distinct from \(\bot\),
+despite its zero amplitude group.  Over each displayed integral diagram
+the split carrier consists of \((S,x)\), with addition by transport to
+\(S\cup T\), supported scalar multiplication \(r^\bullet(S,x)=(S,rx)\),
+and \(\tau(S,x)=(\bot,0)\).  These are the original operations
+of \cite[(D2)]{support}.  Commutativity of the above squares proves
+that the reconstructed \(q,\pi,f\) are split-linear.
+
+In particular the all-label zero-amplitude preimage of the reconstructed
+\(\pi\) is
+\[
+ \coprod_{S\in L}\ker\pi_S .
+ \tag{E8}
+\]
+The preimage of its global zero contains only the bottom fibre, since its
+label map is identity.  The exact comparison is the inclusion of that
+bottom fibre into (E8); (E6) specifies each nonbottom fibre of (E8).
+A supported boundary \((S,c)\) goes to \((S,0)\) at the same label.
+Also the residue-amplitude map
+\(\bar E_S\to\Z/b\Z,\ \sum_rz_re_r\mapsto\sum_rz_rr\) is integral linear;
+it sends the present vector \(e_0\) to zero.  These statements require no
+map from \(\C\) or \(\mathbb Q\) to the finite group.
+
+\section{Original masses and an evaluated determinant loss}
+
+For the metric statements extend the preceding groups and maps to \(\C\).
+Place the orthonormal metric on the original word basis of \(\C[S]\).
+Define the positive masses only on their actual images:
+\[
+ \mu_S(x)=|\{c\in S:v(c)=x\}|,\qquad
+ \bar\mu_S(r)=\sum_{\substack{x\in X_S\\x\bmod b=r}}\mu_S(x).
+ \tag{E9}
+\]
+No zero-mass value is inserted into an inverse diagonal matrix.
+
+\begin{theorem}[Exact integral-section loss]
+The quotient metric on \(E_S\otimes\C\), the residue quotient metric,
+and the unique minimum-norm right inverse of \(\pi_S\) are respectively
+\[
+ G_{E,S}=\operatorname{diag}_{x\in X_S}\frac1{\mu_S(x)},\quad
+ G_{\bar E,S}=\operatorname{diag}_{r\in R_S}\frac1{\bar\mu_S(r)},\quad
+ s_S(e_r)=\sum_{x\bmod b=r}\frac{\mu_S(x)}{\bar\mu_S(r)}e_x .
+ \tag{E10}
+\]
+Let \(d_S(r)\) be the least actual integer value in the residue fibre
+and let \(\sigma_S(e_r)=e_{d_S(r)}\).  Put \(K_S=\sigma_S-s_S\).
+Then
+\[
+ \begin{gathered}
+ \pi_SK_S=0,\qquad
+ \sigma_S^*G_{E,S}\sigma_S
+   =G_{\bar E,S}+K_S^*G_{E,S}K_S,\\
+ K_S^*G_{E,S}K_S
+   =\operatorname{diag}_{r\in R_S}
+       \left(\frac1{\mu_S(d_S(r))}-\frac1{\bar\mu_S(r)}\right),\\
+ \log\frac{\det(\sigma_S^*G_{E,S}\sigma_S)}{\det G_{\bar E,S}}
+   =\sum_{r\in R_S}\log\frac{\bar\mu_S(r)}{\mu_S(d_S(r))}.
+ \end{gathered}
+ \tag{E11}
+\]
+Every determinant is in the displayed original residue basis.  Empty
+determinants are one.
+\end{theorem}
+\begin{proof}
+For a fixed \(x\), minimizing \(\sum_{v(c)=x}|z_c|^2\) subject to
+\(\sum_{v(c)=x}z_c=u_x\) gives the unique solution
+\(z_c=u_x/\mu_S(x)\) and cost \(|u_x|^2/\mu_S(x)\), by completing
+the sum of squared deviations.  Different value fibres are disjoint.
+This proves \(G_{E,S}\).
+
+Within residue \(r\), write \(u_x=\mu_S(x)t/\bar\mu_S(r)+h_x\)
+where \(\sum_{x\bmod b=r}h_x=0\).  Direct expansion gives
+\[
+ \sum_{x\bmod b=r}\frac{|u_x|^2}{\mu_S(x)}
+ =\frac{|t|^2}{\bar\mu_S(r)}
+  +\sum_{x\bmod b=r}\frac{|h_x|^2}{\mu_S(x)} .
+ \tag{E12}
+\]
+The cross term is zero because its coefficient is
+\(\sum_xh_x=0\).  The displayed cost is uniquely minimized by \(h=0\).
+This proves the last two parts of (E10), as well as orthogonality of
+\(\operatorname{im}s_S\) to \(\ker\pi_S\).  Both \(s_S\) and
+\(\sigma_S\) are right inverses, so \(K_S\) has image in that kernel.
+Substituting \(h=K_St\) in (E12) proves the first identity in (E11).
+Columns for different residues have disjoint value support.
+The squared norm of \(\sigma_Se_r\) is
+\(1/\mu_S(d_S(r))\), while that of \(s_Se_r\) is
+\(1/\bar\mu_S(r)\).  This proves the diagonal formula, and taking
+the quotient of the diagonal determinants proves the final formula.
+\end{proof}
+
+Thus the squared generalized singular values of the actual integral
+section relative to the attained quotient metric are
+\(\bar\mu_S(r)/\mu_S(d_S(r))\).  Formula (E11) evaluates its full loss,
+including every original representation multiplicity.
+
+\section{Source enlargement has an exact metric boundary}
+
+Write \(i_{ST}:E_S\otimes\C\to E_T\otimes\C\) and
+\(\bar i_{ST}:\bar E_S\otimes\C\to\bar E_T\otimes\C\) for the original
+basis inclusions when \(S\subseteq T\).  Extend \(\mu_S(x)\) by zero
+for \(x\in X_T\setminus X_S\).  The minimum-norm section defect is the
+map with its stated source and target
+\[
+ K_{ST}=i_{ST}s_S-s_T\bar i_{ST}:
+    \bar E_S\otimes\C\longrightarrow\ker\pi_T.
+ \tag{E13}
+\]
+\begin{proposition}[Full source-change norm and its composition law]
+For every \(r\in R_S\),
+\[
+ \begin{split}
+ K_{ST}e_r
+   &=\sum_{\substack{x\in X_T\\x\bmod b=r}}
+      \left(\frac{\mu_S(x)}{\bar\mu_S(r)}
+           -\frac{\mu_T(x)}{\bar\mu_T(r)}\right)e_x,\\
+ \|K_{ST}e_r\|_{G_{E,T}}^2
+   &=\frac{1}{\bar\mu_S(r)^2}
+        \sum_{x\bmod b=r}\frac{\mu_S(x)^2}{\mu_T(x)}
+        -\frac1{\bar\mu_T(r)},\\
+ 0\leq\|K_{ST}e_r\|_{G_{E,T}}^2
+   &\leq\frac1{\bar\mu_S(r)}-\frac1{\bar\mu_T(r)}.
+ \end{split}
+ \tag{E14}
+\]
+The columns for distinct residues are orthogonal in \(G_{E,T}\).  For
+\(S\subseteq T\subseteq U\) the exact typed composition identity is
+\[
+ K_{SU}=i_{TU}K_{ST}+K_{TU}\bar i_{ST}.
+ \tag{E15}
+\]
+\end{proposition}
+\begin{proof}
+The two right-inverse identities and the commutative square give
+\(\pi_TK_{ST}=\bar i_{ST}-\bar i_{ST}=0\).
+Insertion of (E10) gives the first formula.  In the \(G_{E,T}\) norm,
+expansion of its square has cross term
+\(-2/\bar\mu_T(r)\) and last term \(1/\bar\mu_T(r)\), yielding the
+second formula.  Nonnegativity follows either from this norm or
+Cauchy--Schwarz.  Since \(S\subseteq T\) gives
+\(0\leq\mu_S(x)\leq\mu_T(x)\), one has
+\(\sum_x\mu_S(x)^2/\mu_T(x)\leq\bar\mu_S(r)\), giving the upper bound.
+The disjoint residue supports prove column orthogonality.  Finally,
+\[
+ i_{TU}(i_{ST}s_S-s_T\bar i_{ST})
+ +(i_{TU}s_T-s_U\bar i_{TU})\bar i_{ST}
+ =i_{SU}s_S-s_U\bar i_{SU},
+ \]
+which is (E15), with all domains as in (E13).
+\end{proof}
+
+The integral sections have the parallel defect
+\[
+ i_{ST}\sigma_Se_r-\sigma_T\bar i_{ST}e_r
+     =e_{d_S(r)}-e_{d_T(r)}\in\ker\pi_T .
+ \tag{E16}
+\]
+Its squared \(G_{E,T}\)-norm is zero if the representatives coincide,
+and otherwise is \(1/\mu_T(d_S(r))+1/\mu_T(d_T(r))\), because those
+are two different original basis vectors.  The same addition and
+subtraction proves its version of (E15).
+
+\section{A universal derivation of the seven arithmetic matrices}
+
+The composition source retains
+\[
+ A=(10,\{1,3\}),\quad B=(10,\{2,4\}),\quad
+ D_A=H_5(\{1,3\})=[0,16],\quad
+ D_B=H_5(\{2,4\})=2[0,12].
+ \tag{E17}
+\]
+For \(A\), the intervals \([3j,3j+4]\), \(0\leq j\leq4\), overlap
+and fill \([0,16]\).  For \(B\), the original values are
+\(2(i+2j)\) with \(0\leq i,j\leq4\); the intervals
+\([2j,2j+4]\) overlap and fill \([0,12]\).  Thus (E17) is an equality
+of original numerical sets.
+
+Keep the seven source states in their stated order:
+\[
+ \mathcal R=((0),(0,1),(0,2),(0,1,2),(0,3),(0,1,3),(0,1,2,3)).
+ \tag{E18}
+\]
+For any finite \(Y\subset\Z\), put \(f_R(Y)=|Y+R|\).  For
+\(X=A,B\), \(R\in\mathcal R\), and \(j\in\{0,\ldots,9\}\), define
+\[
+ C_{X,R,j}
+  =\left\{\frac{d+r-j}{10}:
+        d\in D_X,\ r\in R,\ d+r\equiv j\pmod {10}\right\}.
+ \tag{E19}
+\]
+If this set is nonempty, write \(m_{X,R,j}=\min C_{X,R,j}\) and
+\(R_{X,R,j}=C_{X,R,j}-m_{X,R,j}\).
+The change of presentation is the explicit bijection
+\[
+ Y+R_{X,R,j}\longrightarrow
+ (D_X+10Y+R)\cap(j+10\Z),\qquad
+ z\longmapsto j+10(m_{X,R,j}+z),
+ \tag{E20}
+\]
+whose inverse is \(t\mapsto(t-j)/10-m_{X,R,j}\).  Each shift and
+residue is retained in \texttt{UNIVERSAL\_INTERFACE\_CHECKS.json}.
+Direct insertion of the finite sets in (E17)--(E19) gives the following
+numbers of residues of each resulting state:
+\[
+ M_A=\begin{pmatrix}
+3&7&0&0&0&0&0\\2&8&0&0&0&0&0\\1&9&0&0&0&0&0\\
+1&9&0&0&0&0&0\\0&10&0&0&0&0&0\\0&10&0&0&0&0&0\\
+0&10&0&0&0&0&0
+\end{pmatrix},
+\quad
+ M_B=\begin{pmatrix}
+0&2&0&3&0&0&0\\0&4&0&6&0&0&0\\0&1&0&4&0&0&0\\
+0&3&0&7&0&0&0\\0&4&0&6&0&0&0\\0&3&0&7&0&0&0\\
+0&2&0&8&0&0&0
+\end{pmatrix}.
+ \tag{E21}
+\]
+For completeness these entries can be obtained without a numerical tail:
+enumerate each of the at most \(25\cdot4\) displayed pairs \((d,r)\),
+place \((d+r-j)/10\) into its residue set in (E19), subtract its recorded
+minimum with inverse (E20), and count the state.  The accompanying
+independent verifier records all \(140\) such original fibres and
+checks each entry of (E21).
+
+The residues in (E20) are disjoint.  Summing their cardinalities proves,
+for \emph{every} finite numerical tail \(Y\), the identities
+\[
+ f(D_X+10Y)=M_Xf(Y),\qquad
+ f(\{0\})=(1,2,2,3,2,3,4)^{\mathsf T}.
+ \tag{E22}
+\]
+The matrices thus describe the exact count observations of the retained
+numerical sets.  They are induced through the original residue partition
+and bijections (E20); no change to coefficient-word amplitudes is involved.
+Multiplication of the displayed integer matrices gives
+\[
+ M_AM_B=(17,18,19,19,20,20,20)^{\mathsf T}(0,2,0,3,0,0,0).
+ \tag{E23}
+\]
+This supplies the universal finite-source input to the supplied
+composition proofs, alongside their exact finite and limiting attainers.
+
+\section{The retained empty radix and its actual kernel}
+
+Retaining the two \(A\)-positions of \(ABA\) gives
+\(\{1,3,100,300\}\).  The distinct local values are
+\([0,16]^2\), and the two evaluations at issue are
+\[
+ e_{x,y}\longmapsto e_{x+100y},\qquad
+ e_{x,y}\longmapsto e_{x+10y}.
+ \tag{E24}
+\]
+The first is a bijection onto a \(289\)-element basis: if its values
+coincide, \(100(y-y')=x'-x\in[-16,16]\), forcing both differences
+to vanish.  The second has image \([0,176]\), because the intervals
+\([10y,10y+16]\), \(0\leq y\leq16\), overlap and have precisely these
+endpoints.  It is therefore an onto map from a free rank-\(289\) group
+to a free rank-\(177\) group, with free kernel rank \(112\).
+An explicit kernel basis chooses for each value \(z\) one pair
+\((x_z,y_z)\) evaluating to \(z\) and uses
+\(e_{x,y}-e_{x_z,y_z}\) for every other pair in that fibre.
+Within each fibre these vectors are independent and span its
+coefficient-sum-zero group, proving the rank calculation integrally.
+
+The first evaluation identifies its basis with the original retained
+image, so composing its inverse with the second evaluation gives the
+exact contraction map between the two value modules.  Formula (E6)
+then gives its corresponding additional receiving kernel.  The mass of
+each local value pair remains the product of the two original local
+word multiplicities.  Applying (E10)--(E12) to the fibres of (E24)
+supplies its original minimum-norm quotient, with no unit-mass
+substitution.
+
+\section{Accepted return and next arithmetic scope}
+
+The preserved paper proves sharp ternary residue prices
+\(3,5,13,23\) for ranks \(1,2,3,4\) of individually modular-five- or
+modular-six-free canonical blocks, at unrestricted height and radix.
+Its classical addition-theorem input is Martin Kneser's stabilizer
+theorem, in the stated form attributed to Matt DeVos's primary proof
+\cite{devos}.  The remaining \(490\) exceptional source blocks have
+explicit original subset-mask witnesses, replayed in this intake.
+The preserved composition paper also gives every fixed-composition
+minimum and the full limiting frequency spectrum in the actual
+radix-ten dictionary.  All supplied credit to the original
+anonymous/deleted contributor and to \texttt{sneed-and-feed}'s distinct
+Lean extension remains in the original paper.
+
+The present note proves the exact finite cochain realization (E6),
+the integral-section determinant loss (E11), the source-change
+boundary and composition law (E14)--(E15), and the universal original
+matrix return (E19)--(E23).  These are usable instances of the retained
+Split-Zero supported quotient, with their full metrics specified.
+The larger-rank modular arithmetic price remains an uncomputed part
+of this EP817 continuation.  The original theta source and its signed
+analytic allocations receive the algebraic construction (E6)--(E16);
+no matrix identifying those analytic sources with the finite residue
+source has been supplied or proved in this intake.  Therefore no
+analytic allocation coefficient or statement about zeta zeros is
+entered in the accepted-result index from this package.
+
+\begin{thebibliography}{9}
+\bibitem{continuation}
+The Clankers, \emph{Residue prices, constrained composition, and nonperiodic
+optimal schedules}, 17 September 2026.  User-supplied
+\texttt{EP817\_CONTINUATION\_20260917}; full source preserved at
+\texttt{research/residue\_composition/}.
+Baseline repository
+\url{https://github.com/KokunoYumeto/erdos-problem-817-workbench},
+revision \texttt{dbd0a93f2cf935103e88e5c2b2b71fe85ae7537b}.
+\bibitem{support}
+KokunoYumeto, \emph{Reconstruction with changes of support index},
+\texttt{workbenches/splitzero-tandem/tex/support\_diagrams.tex},
+equations (D6)--(D8), revision
+\texttt{58626a62cd5648e8ae7450fb54d4a4aab2330981},
+\url{https://github.com/KokunoYumeto/zeta-function-research-reader}.
+The pinned source and the retained local version with (D9)--(D14) were
+read during this integration.
+\bibitem{devos}
+Matt DeVos, \emph{A short proof of Kneser's addition theorem for abelian
+groups}, 2013, \url{https://arxiv.org/abs/1303.3539v1}.
+Role: the classical stabilizer inequality in the preserved residue-price
+proof; the primary statement was checked on 19 September 2026.
+\end{thebibliography}
+\end{document}

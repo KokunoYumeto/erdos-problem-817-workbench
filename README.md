@@ -1,5 +1,26 @@
 # Erdős Problem 817 research workbench
 
+## Residue prices and constrained composition — 19 September 2026
+
+[Read the complete continuation](research/residue_composition/continuation.pdf) ·
+[Full mathematical proofs](research/residue_composition/notes/residue-and-composition.md) ·
+[Exact supported metrics and verification](research/residue_composition/integration_20260919/README.md)
+
+The continuation proves sharp ternary residue counts 3, 5, 13 and 23 for
+individually modular-five- or modular-six-free canonical blocks of ranks one
+through four, at unrestricted heights and radices. It evaluates every finite
+composition and limiting frequency in the original radix-ten two-block
+dictionary, including an interval with an attaining infinite schedule and no
+optimal finite period. The accompanying complete LaTeX proves the original
+supported cochain maps, exact multiplicity-dependent metric losses, and
+source-enlargement boundary identities. Original sources, mathematical credit,
+and all earlier editions are preserved.
+
+The exact finite certificates passed ordinary and optimized independent
+replays. A new complete-domain guard additionally rejects truncation of the
+through-length-18 certificate. These contributions do not claim a new
+unrestricted numerical record or new Lean certification.
+
 ## Cumulative research collection — 16 September 2026
 
 [Read the corrected collection](editions/cumulative_20260916/latex/collected_notes.pdf) · [Twenty-nine-note index](editions/cumulative_20260916/NOTE_INDEX.md) · [LaTeX](editions/cumulative_20260916/latex/collected_notes.tex) · [Complete original delivery](https://github.com/KokunoYumeto/erdos-problem-817-workbench/releases/tag/cumulative-2026-09-16)

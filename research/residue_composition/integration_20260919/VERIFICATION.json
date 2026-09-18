@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "executed_utc": "2026-09-18T23:12:51.504752+00:00",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "modes": [
+    "standard",
+    "optimized"
+  ],
+  "producer_auditor_outputs_identical_between_modes": true,
+  "source_files_unchanged": true,
+  "mathematical_payload_equal_supplied": true,
+  "byte_variation": "Generated evidence has platform path separators and line endings; all mathematical fields agree with the supplied proof payload.",
+  "residue_checks": {
+    "complete_additional_blocks": 36310,
+    "complete_obstruction_blocks": 490,
+    "finite_Kneser_checks": 31083,
+    "mixed_original_image_checks": 84
+  },
+  "composition_checks": {
+    "attainer_grid_cases": 961,
+    "composition_classes": 189,
+    "direct_original_images": 126,
+    "literal_words_through18": 524286,
+    "maximum_column_states": 42148
+  },
+  "LP_checks": {
+    "LP_certificates": 84,
+    "LP_dual_inequalities": 570,
+    "additional_direct_original_images": 360
+  },
+  "complete_domain_guard": "scope_guard.py; original complete certificate passes; deletion of the length-18 record is rejected.",
+  "universal_interface": {
+    "all_rows": 14,
+    "literal_residue_fibres": 140,
+    "weighted_fibres": 58,
+    "active_position_kernel_rank": 112
+  },
+  "supplement_review": "NEW_INTERFACE_REVIEW.md",
+  "lean_run": false,
+  "existing_pdf_rebuilt": false
+}

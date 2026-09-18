@@ -1,0 +1,44 @@
+{
+  "schema": "ep817-residue-composition-claims-v1",
+  "status": "ordinary_proofs_with_finite_certificates; independent_mathematical_review_pending",
+  "lean_checked": false,
+  "claims": [
+    {
+      "id": "RC1",
+      "statement": "Sharp ternary residue lower bounds 3,5,13,23 for canonical modular-k-free ranks 1-4, k=5,6",
+      "location": "Section 2",
+      "dependency_scope": "Classical Kneser theorem and complete finite obstruction data"
+    },
+    {
+      "id": "RC2",
+      "statement": "All-rank generator-profile lower bound and exact restricted small-rank image costs",
+      "location": "Section 3",
+      "dependency_scope": "RC1 and original residue-section injection"
+    },
+    {
+      "id": "RC3",
+      "statement": "Uniform composition LP, continuous convex spectrum, and attaining infinite schedules",
+      "location": "Section 4",
+      "dependency_scope": "Original numerical cut fibres of size at most q-1"
+    },
+    {
+      "id": "RC4",
+      "statement": "Exact radix-ten minimum for every finite pair of letter counts",
+      "location": "Section 5",
+      "dependency_scope": "Replayed original matrices and proved run exchanges; explicit original macro images"
+    },
+    {
+      "id": "RC5",
+      "statement": "Exact all-frequency spectrum, nonperiodic attaining schedules, and strict periodic gap",
+      "location": "Section 6",
+      "dependency_scope": "RC4, direct constructions, and original matrix radius/count comparison"
+    },
+    {
+      "id": "RC6",
+      "statement": "Original value-to-residue and cut quotient kernels, with separate metric sections",
+      "location": "Section 7 and receiving note",
+      "dependency_scope": "Explicit free-module maps and original coefficient multiplicities"
+    }
+  ],
+  "remaining": "No uniform higher-rank price or unrestricted extremal rate is proved; no new global numerical record."
+}

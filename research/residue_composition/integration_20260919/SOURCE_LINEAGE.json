@@ -1,0 +1,92 @@
+{
+  "schema": "ep817-source-lineage-v1",
+  "baseline_commit": "dbd0a93f2cf935103e88e5c2b2b71fe85ae7537b",
+  "supplied_package": "EP817_CONTINUATION_20260917",
+  "original_added_files": [
+    {
+      "path": "interfaces/zeta/workbenches/ep817-residue-composition/notes/receiving-map.md",
+      "bytes": 7943,
+      "sha256": "595bb30498dd75b10bc0d8791dd58ce66ed49c6d4bb0f99d12ccb239d4fa460d"
+    },
+    {
+      "path": "interfaces/zeta/workbenches/ep817-residue-composition/README.md",
+      "bytes": 932,
+      "sha256": "d88b716de40f25fbd0a0663ef13cd89c181bf5a30ae5b4ffdca890a51acde9f8"
+    },
+    {
+      "path": "research/residue_composition/certificates/audit_residue_composition.py",
+      "bytes": 19698,
+      "sha256": "d6f5ba4676f557428bfc4003df4226e6ec21dd271c044553d262102bb6f3cad9"
+    },
+    {
+      "path": "research/residue_composition/certificates/independent_audit.json",
+      "bytes": 1285,
+      "sha256": "d6e4decf1c7d7c7237764f40828ab60f161edce856efc139884f33aa149a81b9"
+    },
+    {
+      "path": "research/residue_composition/certificates/proof_data.json",
+      "bytes": 596953,
+      "sha256": "383d15ff174cebbaa8d792bac1416c5e67068b54703961a1add02483e2751992"
+    },
+    {
+      "path": "research/residue_composition/certificates/verify_residue_composition.py",
+      "bytes": 11933,
+      "sha256": "783985380f934a8a0f530c7d2f0c93c8f2f4293782998cb882bfd87309894769"
+    },
+    {
+      "path": "research/residue_composition/latex/body.tex",
+      "bytes": 35701,
+      "sha256": "973a8231ab4eedd589b640ae6a4b63450b57568ccf09c2d1246b4bec69869f73"
+    },
+    {
+      "path": "research/residue_composition/latex/main.tex",
+      "bytes": 939,
+      "sha256": "72b56b8d72d4ee65959c36fbb555c0eb1b78a28354233b110cb9fb5b788b0873"
+    },
+    {
+      "path": "research/residue_composition/notes/residue-and-composition.md",
+      "bytes": 33859,
+      "sha256": "30d3a19b9673fc2601869eb4a3545a071569733c65c7f1bba95d6e850431ba2c"
+    },
+    {
+      "path": "research/residue_composition/polyclank/claims.json",
+      "bytes": 1878,
+      "sha256": "d752a2b47a73c77c92e9e968c47c9ff1e396263f2d4ec50652712af94680b645"
+    },
+    {
+      "path": "research/residue_composition/README.md",
+      "bytes": 1736,
+      "sha256": "12d941bb134e361acaa434ff24acd69154d26cb65b44cc7344baf98b45862aa6"
+    },
+    {
+      "path": "research/residue_composition/RESEARCH_STATE.md",
+      "bytes": 3102,
+      "sha256": "efa96b0c1fbf54148c243efb96a4a2d071f840c4da9d4cc8275845f189fa7ba2"
+    },
+    {
+      "path": "research/residue_composition/tools/arithmetic.py",
+      "bytes": 10065,
+      "sha256": "820b77589d51bd1f68040a533e717f0439ce69c9a1337e00e56333f02ee5cacc"
+    },
+    {
+      "path": "research/residue_composition/tools/build_reader.py",
+      "bytes": 2321,
+      "sha256": "7b426bb1e794b6ee5e3d06ce165d932bd55c5c57e6657c3cbb728a0515819f15"
+    }
+  ],
+  "supplement": {
+    "intake_sha256": "fabebe11a8f7981313a2b8c277051b9c63fa7f35be976ad9eef5aee6960e3b9d",
+    "public_sha256": "2a5ee2a6564af35e35d39a38c89b2e8cfa748b5bd858af3bc0cd494d07290a19",
+    "only_change": "Bibliography source locator changed from source/research/... to research/... for the repository location; mathematical body and references unchanged."
+  },
+  "scope_guard": {
+    "original_local_guard_sha256": "eaaa9aac794ccd40ef4ecde040b156cc97fb7515bd53bc2a5fa7e866c5cd997e",
+    "public_sha256": "4afa06f11ddf1e6ead4f29b0390fa82725f265ce2ec410b128d57955021a8d0d",
+    "change": "Same finite-domain checks, portable --proof/--output CLI, no workstation paths."
+  },
+  "original_reader": {
+    "path": "research/residue_composition/continuation.pdf",
+    "bytes": 332954,
+    "sha256": "cb113478bb85d3c2e53494d8c7b926f82aa93e4ac578d7f8ea10c433763bd4b4"
+  }
+}

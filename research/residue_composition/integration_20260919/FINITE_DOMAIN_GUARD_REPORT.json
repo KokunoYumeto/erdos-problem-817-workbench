@@ -1,0 +1,30 @@
+{
+  "domain": {
+    "LP_certificates": 84,
+    "composition_classes": 189,
+    "lengths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "literal_words": 524286
+  },
+  "original_sources_modified": false,
+  "status": "PASS",
+  "truncation_rejected": "Expected every length 1 through 18 exactly once in order"
+}
