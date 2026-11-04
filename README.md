@@ -1,5 +1,10 @@
 # Erdős Problem 817 research workbench
 
+A research workbench for Erdős Problem 817: a proof, first posted to `r/LLMmathematics` by a contributor whose account
+was later deleted, that the least `N` for which some `n`-element subset of `[N]` has subset sums free of nonconstant
+four-term arithmetic progressions satisfies `g_4(n)^(1/n) → 19^(1/3)`, with a Lean formalization, exact certificates,
+and later research notes on higher arity.
+
 ## Cumulative research collection — 16 September 2026
 
 [Read the corrected collection](editions/cumulative_20260916/latex/collected_notes.pdf) · [Twenty-nine-note index](editions/cumulative_20260916/NOTE_INDEX.md) · [LaTeX](editions/cumulative_20260916/latex/collected_notes.tex) · [Complete original delivery](https://github.com/KokunoYumeto/erdos-problem-817-workbench/releases/tag/cumulative-2026-09-16)
@@ -26,14 +31,9 @@ Actual words built from BA and BAA attain these values. This refines the finite 
 
 Fresh ordinary and optimized producer and independent-auditor runs reproduce the supplied finite-period results. The publication preserves the existing seven-observation correction L>3Q and repairs formula-conversion errors in the reading edition. [Publication notes](editions/cumulative_20260916/PUBLICATION_NOTES.md) distinguish current proofs and checks from historical receipts and the unmodified source archive. The new finite-period arguments are ordinary proofs with exact finite computation; no new Lean certification is asserted.
 
+[Read the September 16 contributions, full source lineage and integration checks](integration/20260916/README.md).
+
 ## The original k=4 result and its attribution
-
-
-
-## September 16 research update
-
-[Read the new contributions, full source lineage and integration checks](integration/20260916/README.md).
-
 
 This is a focused, reviewable workbench for a proof posted to
 `r/LLMmathematics` by a contributor whose account was later deleted. The proof
